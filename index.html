@@ -143,7 +143,6 @@ code{background:#eef2ff;border-radius:6px;padding:2px 5px}
         </label>
         <label><input id="avoidSeen" type="checkbox" checked/> Vermijd eerder juist beantwoorde vragen</label>
         <label><input id="includeWrong" type="checkbox" checked/> Laat fout beantwoorde vragen adaptief terugkomen</label>
-        <label><input id="shuffleOptions" type="checkbox" checked/> Antwoordopties randomiseren</label>
       </div>
     </div>
     <hr/>
@@ -733,13 +732,13 @@ function startExam(customPool=null){
   const pool=buildPool(customPool);
   if(pool.length<1){alert("Geen vragen gevonden met deze filters.");return}
   const chosen=sample(pool, Math.min(count,pool.length));
-  const shuffleOpt=document.getElementById("shuffleOptions").checked;
+  
   currentExam={
     id:"exam_"+Date.now(),
     started:Date.now(),
     mode:document.getElementById("examMode").value,
     feedback:document.getElementById("feedbackMode").value,
-    questions: chosen.map(q=>prepareQuestion(q,shuffleOpt)),
+    questions: chosen.map(q=>prepareQuestion(q)),
     answers:[],
     finished:false
   };
@@ -750,9 +749,8 @@ function startExam(customPool=null){
   startTimer();
   renderQuestion();
 }
-function prepareQuestion(q,shuffleOpt){
+function prepareQuestion(q){
   let opts=q.options.map((text,i)=>({text,i}));
-  if(shuffleOpt)opts=shuffle(opts);
   return {...q, displayOptions:opts, displayCorrect:opts.findIndex(o=>o.i===q.correct)};
 }
 function startTimer(){
