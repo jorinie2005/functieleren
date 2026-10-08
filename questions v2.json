@@ -6208,5 +6208,2075 @@
       "Taken met veel bewuste controle zijn juist kwetsbaar voor te hoge arousal."
     ],
     "tip": "Voor moeilijke cognitieve taken is gemiddeld arousalniveau vaak beter dan extreme spanning."
+  },
+  {
+    "id": "v2_w8a_001",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Copernicus",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Waarom wordt Copernicus genoemd in de historische aanloop naar de psychologie als wetenschap?",
+    "options": [
+      "Omdat zijn heliocentrische wereldbeeld bijdroeg aan een bredere verschuiving naar natuurwetenschappelijk denken.",
+      "Omdat hij als eerste reactietijden gebruikte om mentale processen te meten.",
+      "Omdat hij de eerste experimentele psychologie-laboratoria oprichtte.",
+      "Omdat hij aantoonde dat gedrag uitsluitend uit stimulus-responskoppelingen bestaat."
+    ],
+    "correct": 0,
+    "explanation": "Copernicus wordt genoemd als onderdeel van de bredere wetenschappelijke revolutie. Zijn idee dat de aarde om de zon draait, droeg bij aan een wereldbeeld waarin natuurlijke verschijnselen wetenschappelijk verklaard konden worden.",
+    "whyWrong": [
+      "",
+      "Reactietijden en mentale chronometrie horen bij Donders.",
+      "Het eerste psychologische laboratorium hoort bij Wundt.",
+      "Stimulus-responspsychologie hoort bij behaviorisme."
+    ],
+    "tip": "Copernicus is geen psycholoog, maar hoort bij de historische verschuiving naar wetenschappelijke verklaringen."
+  },
+  {
+    "id": "v2_w8a_002",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Charles Darwin",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke invloed had Darwin op de ontwikkeling van psychologie?",
+    "options": [
+      "Hij maakte het mogelijk om menselijk gedrag te begrijpen als onderdeel van evolutie en continuïteit met diergedrag.",
+      "Hij introduceerde introspectie als methode om elementaire bewustzijnsinhouden te meten.",
+      "Hij stelde dat mentale processen niet wetenschappelijk onderzocht kunnen worden.",
+      "Hij ontwikkelde de eerste intelligentietest om schoolprestaties te voorspellen."
+    ],
+    "correct": 0,
+    "explanation": "Darwins evolutietheorie maakte het aannemelijk dat gedrag functies kan hebben voor overleving en voortplanting, en dat menselijk gedrag vergelijkend met diergedrag bestudeerd kan worden.",
+    "whyWrong": [
+      "",
+      "Introspectie hoort bij Wundt en structuralisme.",
+      "Dit past eerder bij strikt behaviorisme.",
+      "De eerste bruikbare intelligentietest hoort bij Binet en Simon."
+    ],
+    "tip": "Bij Darwin gaat het om evolutie, natuurlijke selectie en adaptieve functie."
+  },
+  {
+    "id": "v2_w8a_003",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Natuurlijke selectie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een onderzoeker verklaart dat mensen sneller angst leren voor slangen dan voor stopcontacten, omdat slangen in de evolutionaire geschiedenis een terugkerend gevaar vormden. Welke benadering gebruikt hij vooral?",
+    "options": [
+      "Een evolutionaire verklaring, omdat gedrag wordt begrepen vanuit vroegere overlevingswaarde.",
+      "Een structuralistische verklaring, omdat angst wordt ontleed in elementaire gevoelens.",
+      "Een psychoanalytische verklaring, omdat angst wordt herleid tot verdrongen conflicten.",
+      "Een puur empiristische verklaring, omdat alle angst even makkelijk door ervaring ontstaat."
+    ],
+    "correct": 0,
+    "explanation": "De verklaring verwijst naar evolutionaire voorbereiding: sommige stimuli waren historisch belangrijk voor overleving en kunnen daardoor gemakkelijker met gevaar worden geassocieerd.",
+    "whyWrong": [
+      "",
+      "Structuralisme zou de ervaring ontleden, niet de evolutionaire functie verklaren.",
+      "Er wordt niet verwezen naar verdrongen conflicten.",
+      "Een puur empiristische verklaring zou niet goed verklaren waarom sommige associaties makkelijker geleerd worden dan andere."
+    ],
+    "tip": "Als een verklaring verwijst naar overleving of voortplanting, denk aan evolutie."
+  },
+  {
+    "id": "v2_w8a_004",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Binet en Simon",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Waarom worden Binet en Simon belangrijk genoemd in de psychologiegeschiedenis?",
+    "options": [
+      "Zij ontwikkelden een bruikbare intelligentietest en worden gekoppeld aan toegepaste psychologie.",
+      "Zij ontdekten dat zenuwimpulsen een meetbare snelheid hebben.",
+      "Zij introduceerden de theorie dat perceptie altijd meer is dan de som der delen.",
+      "Zij ontwikkelden de twee-factortheorie van emotie."
+    ],
+    "correct": 0,
+    "explanation": "Binet en Simon ontwikkelden een bruikbare intelligentietest. Daarmee lieten zij zien hoe psychologische kennis praktisch toegepast kon worden.",
+    "whyWrong": [
+      "",
+      "Dit hoort bij Helmholtz.",
+      "Dit hoort bij Gestaltpsychologie.",
+      "Dit hoort bij Schachter en Singer."
+    ],
+    "tip": "Binet en Simon horen bij intelligentietesten en toegepaste psychologie."
+  },
+  {
+    "id": "v2_w8a_005",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "David Hume",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke verschuiving wordt aan Hume gekoppeld?",
+    "options": [
+      "Minder nadruk op absolute waarheid en meer aandacht voor hoe de geest werkt.",
+      "Minder nadruk op ervaring en meer nadruk op aangeboren kennis.",
+      "Minder nadruk op observeerbaar gedrag en meer nadruk op vrije associatie.",
+      "Minder nadruk op cognitieve processen en meer nadruk op stimulus-respons."
+    ],
+    "correct": 0,
+    "explanation": "Hume was empirist, maar legde vooral nadruk op het onderzoeken van de werking van de geest: niet alleen wat waar is, maar hoe ideeën en kennis ontstaan.",
+    "whyWrong": [
+      "",
+      "Dit past eerder bij nativisme dan bij Hume.",
+      "Vrije associatie hoort bij psychoanalyse.",
+      "Stimulus-respons hoort bij behaviorisme."
+    ],
+    "tip": "Hume past bij empirisme en bij de vraag hoe de geest werkt."
+  },
+  {
+    "id": "v2_w8a_006",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Dewey en William James",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over Dewey en William James is correct?",
+    "options": [
+      "Zij worden gekoppeld aan het functionalisme, waarin het nut van bewustzijn en gedrag centraal staat.",
+      "Zij worden gekoppeld aan het structuralisme, waarin bewustzijn in elementaire delen wordt ontleed.",
+      "Zij worden gekoppeld aan psychoanalyse, waarin vrije associatie centraal staat.",
+      "Zij worden gekoppeld aan behaviorisme, waarin alle cognities als meetbaar doel worden onderzocht."
+    ],
+    "correct": 0,
+    "explanation": "Dewey en William James worden gekoppeld aan het functionalisme. Deze stroming vraagt vooral waarvoor bewustzijn en gedrag dienen.",
+    "whyWrong": [
+      "",
+      "Structuralisme hoort bij Wundt en Titchener.",
+      "Psychoanalyse hoort bij Freud.",
+      "Behaviorisme richt zich juist op observeerbaar gedrag en was terughoudend over cognities."
+    ],
+    "tip": "Functionalisme stelt de functie- of nutvraag."
+  },
+  {
+    "id": "v2_w8a_007",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Gestaltpsychologen",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke namen horen bij de Gestaltpsychologie?",
+    "options": [
+      "Max Wertheimer, Wolfgang Köhler en Kurt Koffka.",
+      "Wilhelm Wundt, Edward Titchener en Hermann Ebbinghaus.",
+      "John Watson, B.F. Skinner en Edward Thorndike.",
+      "Sigmund Freud, Alfred Binet en Théodore Simon."
+    ],
+    "correct": 0,
+    "explanation": "Wertheimer, Köhler en Koffka zijn bekende namen binnen de Gestaltpsychologie.",
+    "whyWrong": [
+      "",
+      "Wundt en Titchener horen bij structuralisme; Ebbinghaus bij geheugenonderzoek.",
+      "Watson, Skinner en Thorndike horen vooral bij behaviorisme en leerpsychologie.",
+      "Freud hoort bij psychoanalyse; Binet en Simon bij intelligentietesten."
+    ],
+    "tip": "Gestaltpsychologie draait om organisatie en het geheel."
+  },
+  {
+    "id": "v2_w8a_008",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Apparente beweging",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Twee lampjes lichten kort na elkaar op verschillende posities op. Je ziet geen twee losse flitsen, maar één bewegend lampje. Waarom was dit belangrijk voor de Gestaltpsychologie?",
+    "options": [
+      "Omdat het laat zien dat waarneming een georganiseerd geheel kan creëren dat niet letterlijk in de losse stimuli aanwezig is.",
+      "Omdat het bewijst dat alle beweging direct op de retina als echte beweging wordt geregistreerd.",
+      "Omdat het laat zien dat gedrag volledig verklaard kan worden zonder perceptuele organisatie.",
+      "Omdat het bewijst dat introspectie altijd perfecte toegang geeft tot elementaire sensaties."
+    ],
+    "correct": 0,
+    "explanation": "Apparente beweging toont dat perceptie meer is dan de optelsom van losse stimuli. Het brein organiseert opeenvolgende flitsen tot de ervaring van beweging.",
+    "whyWrong": [
+      "",
+      "Er is fysiek geen continu bewegend object op de retina.",
+      "De casus benadrukt juist perceptuele organisatie.",
+      "Het verschijnsel ondermijnt eerder het idee dat ervaring simpel uit losse elementen bestaat."
+    ],
+    "tip": "Apparente beweging is een klassiek voorbeeld van 'het geheel is meer dan de som der delen'."
+  },
+  {
+    "id": "v2_w8a_009",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Logisch positivisme",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Waarom past logisch positivisme goed bij de methodologische voorkeur van behavioristen?",
+    "options": [
+      "Omdat het benadrukt dat wetenschappelijke uitspraken empirisch toetsbaar en observeerbaar moeten zijn.",
+      "Omdat het stelt dat psychologische kennis alleen via vrije associatie kan worden verkregen.",
+      "Omdat het stelt dat introspectieve rapporten altijd objectiever zijn dan gedrag.",
+      "Omdat het beweert dat theorieën niet operationeel gedefinieerd hoeven te worden."
+    ],
+    "correct": 0,
+    "explanation": "Logisch positivisme sluit aan bij de behavioristische nadruk op observeerbaarheid, meetbaarheid en herhaalbaarheid.",
+    "whyWrong": [
+      "",
+      "Vrije associatie hoort bij psychoanalyse.",
+      "Behavioristen vertrouwden juist niet primair op introspectie.",
+      "Operationele definities zijn juist belangrijk binnen deze wetenschappelijke benadering."
+    ],
+    "tip": "Toetsbaar, observeerbaar en operationeel definieerbaar zijn hier sleutelwoorden."
+  },
+  {
+    "id": "v2_w8a_010",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Interview",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Wat is het verschil tussen een gestructureerd en een ongestructureerd interview?",
+    "options": [
+      "Bij een gestructureerd interview liggen vragen vooraf vast; bij een ongestructureerd interview is meer ruimte voor doorvragen.",
+      "Bij een gestructureerd interview wordt gedrag geobserveerd zonder vragen; bij een ongestructureerd interview worden uitsluitend archiefdata gebruikt.",
+      "Een gestructureerd interview is altijd experimenteel; een ongestructureerd interview is altijd correlationeel.",
+      "Een gestructureerd interview voorkomt alle vormen van bias; een ongestructureerd interview is nooit bruikbaar."
+    ],
+    "correct": 0,
+    "explanation": "Een gestructureerd interview gebruikt vooraf vastgelegde vragen. Een ongestructureerd interview laat meer ruimte voor spontane vragen en doorvragen.",
+    "whyWrong": [
+      "",
+      "Beide zijn interviews, geen observatie of archiefonderzoek.",
+      "De interviewstructuur bepaalt niet automatisch het onderzoeksdesign.",
+      "Gestructureerd betekent niet biasvrij en ongestructureerd betekent niet waardeloos."
+    ],
+    "tip": "Bij interviews gaat het om mate van standaardisatie."
+  },
+  {
+    "id": "v2_w8a_011",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Archiefdata",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een onderzoeker gebruikt bestaande politierapporten om te analyseren of agressieve incidenten vaker voorkomen op warme dagen. Welke methode gebruikt hij?",
+    "options": [
+      "Archiefonderzoek, omdat bestaande gegevens worden geanalyseerd die niet speciaal voor dit onderzoek verzameld zijn.",
+      "Naturalistische observatie, omdat de onderzoeker zelf aanwezig is om gedrag direct te noteren.",
+      "Gestandaardiseerde test, omdat alle deelnemers dezelfde psychologische taak maken.",
+      "Interviewonderzoek, omdat deelnemers rechtstreeks naar hun ervaringen worden gevraagd."
+    ],
+    "correct": 0,
+    "explanation": "Bij archiefdata gebruikt de onderzoeker bestaande gegevens, zoals politierapporten, dossiers of databanken.",
+    "whyWrong": [
+      "",
+      "De onderzoeker observeert gedrag niet direct in het moment.",
+      "Er is geen testafname bij deelnemers.",
+      "Er worden geen directe interviews afgenomen."
+    ],
+    "tip": "Archiefdata = data lagen er al."
+  },
+  {
+    "id": "v2_w8a_012",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Kwalitatief onderzoek",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is kenmerkend voor kwalitatief onderzoek?",
+    "options": [
+      "Het richt zich op rijke beschrijving en betekenisvolle thema's in plaats van alleen getalsmatige samenvatting.",
+      "Het vereist altijd manipulatie van een onafhankelijke variabele en random toewijzing.",
+      "Het gebruikt uitsluitend correlatiecoëfficiënten tussen twee numerieke variabelen.",
+      "Het is hetzelfde als een gestandaardiseerde test met vaste scorecriteria."
+    ],
+    "correct": 0,
+    "explanation": "Kwalitatief onderzoek probeert een volledig beeld te krijgen van betekenissen, thema's en relaties, vaak via tekst, interviews of observatiebeschrijvingen.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft experimenteel onderzoek.",
+      "Dit beschrijft correlationeel kwantitatief onderzoek.",
+      "Een gestandaardiseerde test is een andere methode."
+    ],
+    "tip": "Kwalitatief = thematisch en beschrijvend, niet primair cijfers en tabellen."
+  },
+  {
+    "id": "v2_w8a_013",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Confirmatie en falsificatie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak over confirmatie en falsificatie is correct?",
+    "options": [
+      "Confirmatie betekent dat de voorspelling uitkomt; falsificatie betekent dat de voorspelling niet uitkomt en de theorie mogelijk aangepast of verworpen moet worden.",
+      "Confirmatie betekent dat een theorie definitief bewezen is; falsificatie betekent dat het onderzoek nooit goed uitgevoerd kan zijn.",
+      "Confirmatie betekent dat alleen correlationeel onderzoek mogelijk is; falsificatie betekent dat causaliteit is aangetoond.",
+      "Confirmatie en falsificatie betekenen beide dat resultaten altijd gepubliceerd worden."
+    ],
+    "correct": 0,
+    "explanation": "Confirmatie ondersteunt een theorie, maar bewijst die niet definitief. Falsificatie betekent dat een voorspelling niet uitkomt, wat kan wijzen op problemen met de theorie, methode of operationalisering.",
+    "whyWrong": [
+      "",
+      "Confirmatie bewijst een theorie niet definitief en falsificatie kan meerdere oorzaken hebben.",
+      "De begrippen gaan niet over correlationeel versus causaal onderzoek.",
+      "Publicatiebias zorgt er juist voor dat niet-bevestigende resultaten minder zichtbaar kunnen zijn."
+    ],
+    "tip": "Een niet-uitgekomen voorspelling kan aan theorie, meting of steekproef liggen."
+  },
+  {
+    "id": "v2_w8a_014",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Hofstede cultuurdimensies",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke set bevat cultuurdimensies die bij Hofstede passen?",
+    "options": [
+      "Individualisme-collectivisme, machtsafstand, onzekerheidsvermijding en lange- versus kortetermijngerichtheid.",
+      "Iconisch-echoïsch, episodisch-semantisch, procedureel-declaratief en primacy-recency.",
+      "Ventrale-dorsale route, foveaal-perifeer zicht, binoculair-monoculair en additief-subtractief.",
+      "Broca-Wernicke, lemma-lexeem, fonologisch-surface en pragmatisch-semantisch."
+    ],
+    "correct": 0,
+    "explanation": "Hofstede onderscheidde cultuurdimensies zoals individualisme versus collectivisme, machtsafstand, onzekerheidsvermijding en lange- versus kortetermijndenken.",
+    "whyWrong": [
+      "",
+      "Dit zijn geheugenbegrippen.",
+      "Dit zijn waarnemingsbegrippen.",
+      "Dit zijn taalbegrippen."
+    ],
+    "tip": "Hofstede hoort bij sociale en culturele factoren."
+  },
+  {
+    "id": "v2_w8a_015",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Gen-omgevinginteractie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een genetische kwetsbaarheid vergroot de kans op agressief gedrag vooral bij kinderen die ook mishandeling hebben meegemaakt. Welke conclusie past het best?",
+    "options": [
+      "Het effect wijst op interactie tussen biologische aanleg en sociale omgeving.",
+      "Het effect bewijst dat agressie volledig genetisch bepaald is.",
+      "Het effect bewijst dat omgeving de enige oorzaak van agressie is.",
+      "Het effect laat zien dat nature en nurture nooit samen werken."
+    ],
+    "correct": 0,
+    "explanation": "De genetische kwetsbaarheid komt vooral tot uiting onder bepaalde omgevingsomstandigheden. Dit is een voorbeeld van gen-omgevinginteractie.",
+    "whyWrong": [
+      "",
+      "De omgeving speelt ook een rol.",
+      "Biologische aanleg speelt ook een rol.",
+      "De casus toont juist samenwerking tussen nature en nurture."
+    ],
+    "tip": "Bij nature-nurturevragen is interactie vaak het meest genuanceerde antwoord."
+  },
+  {
+    "id": "v2_w8a_016",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Zichtbare spectrum",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Welke golflengten vallen ongeveer binnen het zichtbare spectrum voor mensen?",
+    "options": [
+      "400 tot 700 nanometer.",
+      "40 tot 70 nanometer.",
+      "100 tot 300 nanometer.",
+      "1000 tot 2000 nanometer."
+    ],
+    "correct": 0,
+    "explanation": "Het menselijke zichtbare spectrum ligt ongeveer tussen 400 en 700 nanometer.",
+    "whyWrong": [
+      "",
+      "Dit bereik is te laag voor zichtbaar licht.",
+      "Dit ligt grotendeels buiten zichtbaar licht.",
+      "Dit ligt grotendeels boven het zichtbare spectrum."
+    ],
+    "tip": "Voor tentamens is meestal het bereik 400-700 nm genoeg."
+  },
+  {
+    "id": "v2_w8a_017",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Receptoraantallen retina",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over het aantal receptoren in de retina is correct?",
+    "options": [
+      "Er zijn veel meer staafjes dan kegeltjes; staafjes bevinden zich vooral in de periferie.",
+      "Er zijn veel meer kegeltjes dan staafjes; kegeltjes bevinden zich vooral in de periferie.",
+      "Staafjes en kegeltjes komen ongeveer evenveel voor en hebben dezelfde functie.",
+      "Kegeltjes ontbreken in de fovea en liggen vooral bij de blinde vlek."
+    ],
+    "correct": 0,
+    "explanation": "De retina bevat veel meer staafjes dan kegeltjes. Kegeltjes zijn vooral belangrijk in de fovea; staafjes vooral in de periferie.",
+    "whyWrong": [
+      "",
+      "Deze optie draait de aantallen en verdeling om.",
+      "Staafjes en kegeltjes verschillen sterk in aantal en functie.",
+      "De fovea bevat juist veel kegeltjes; de blinde vlek bevat geen receptoren."
+    ],
+    "tip": "Staafjes zijn talrijk en gevoelig; kegeltjes zijn minder talrijk maar belangrijk voor detail en kleur."
+  },
+  {
+    "id": "v2_w8a_018",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Horizontale, bipolaire en amacriene cellen",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke rol spelen horizontale, bipolaire en amacriene cellen in de retina?",
+    "options": [
+      "Ze verwerken en combineren signalen tussen fotoreceptoren en ganglioncellen.",
+      "Ze vormen de oogzenuw die rechtstreeks naar de visuele cortex loopt.",
+      "Ze detecteren uitsluitend kleur in de fovea en sturen geen informatie door.",
+      "Ze zorgen voor lensaccommodatie bij dichtbij en veraf kijken."
+    ],
+    "correct": 0,
+    "explanation": "Deze interne retinacellen combineren en bewerken signalen voordat informatie via ganglioncellen naar de hersenen wordt doorgestuurd.",
+    "whyWrong": [
+      "",
+      "De oogzenuw wordt gevormd door axonen van ganglioncellen.",
+      "Kleurdetectie begint bij kegeltjes, niet uitsluitend bij deze cellen.",
+      "Lensaccommodatie gebeurt door de lens en ciliaire spier."
+    ],
+    "tip": "De retina is niet alleen een doorgeefluik; er vindt al vroege verwerking plaats."
+  },
+  {
+    "id": "v2_w8a_019",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "V4 en V5/MT",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling tussen visueel gebied en functie is het meest correct?",
+    "options": [
+      "V4 wordt sterk geassocieerd met kleur/vormverwerking; V5/MT met bewegingsverwerking.",
+      "V4 wordt sterk geassocieerd met gehoor; V5/MT met smaak.",
+      "V4 verwerkt uitsluitend taalproductie; V5/MT verwerkt uitsluitend grammatica.",
+      "V4 en V5/MT zijn beide onderdelen van het middenoor."
+    ],
+    "correct": 0,
+    "explanation": "Na V1 zijn verschillende visuele gebieden gespecialiseerd. V4 wordt vaak gekoppeld aan kleur en vorm, terwijl V5/MT sterk betrokken is bij beweging.",
+    "whyWrong": [
+      "",
+      "Gehoor en smaak horen bij andere zintuigsystemen.",
+      "Taalproductie en grammatica zijn geen functies van V4/V5.",
+      "V4 en V5/MT liggen in de visuele cortex, niet in het oor."
+    ],
+    "tip": "V5/MT is belangrijk bij bewegingswaarneming."
+  },
+  {
+    "id": "v2_w8a_020",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Nystagmus",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is een functie van kleine tremorachtige oogbewegingen zoals nystagmus?",
+    "options": [
+      "Ze helpen voorkomen dat receptoren door constante stimulatie snel vermoeid raken.",
+      "Ze zorgen ervoor dat de lens van vorm verandert bij dichtbij kijken.",
+      "Ze veroorzaken de blinde vlek doordat de oogzenuw de retina verlaat.",
+      "Ze maken het mogelijk om geluiden in het horizontale vlak te lokaliseren."
+    ],
+    "correct": 0,
+    "explanation": "Kleine voortdurende oogbewegingen zorgen ervoor dat het beeld niet volledig stil op dezelfde receptoren blijft vallen, waardoor adaptatie of vermoeidheid wordt beperkt.",
+    "whyWrong": [
+      "",
+      "Lensverandering bij dichtbij kijken is accommodatie.",
+      "De blinde vlek ontstaat anatomisch waar de oogzenuw de retina verlaat.",
+      "Geluidslokalisatie gebeurt via auditieve cues zoals ILD en ITD."
+    ],
+    "tip": "Een volledig stilstaand beeld op exact dezelfde receptoren zou perceptueel kunnen vervagen."
+  },
+  {
+    "id": "v2_w8a_021",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Retina-specifiek nabeeld",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Na lang naar een groen vlak te kijken ziet iemand een rood nabeeld. Het nabeeld verdwijnt wanneer hij met het andere oog kijkt. Wat toont dit vooral?",
+    "options": [
+      "Het klassieke kleurnabeeld is retina-specifiek.",
+      "Het nabeeld ontstaat volledig in het taalcentrum.",
+      "Het nabeeld wordt alleen veroorzaakt door lensaccommodatie.",
+      "Het effect bewijst dat kleurwaarneming niet afhankelijk is van receptoren."
+    ],
+    "correct": 0,
+    "explanation": "Als het nabeeld verdwijnt bij gebruik van het andere oog, wijst dat erop dat het effect gekoppeld is aan de eerder gestimuleerde plek op de retina.",
+    "whyWrong": [
+      "",
+      "Het taalcentrum verklaart dit visuele nabeeld niet.",
+      "Lensaccommodatie verklaart geen complementaire kleurervaring.",
+      "Het effect wijst juist op betrokkenheid van visuele receptoren en vroege kleurverwerking."
+    ],
+    "tip": "Retina-specifiek betekent gekoppeld aan oog en retinaplek."
+  },
+  {
+    "id": "v2_w8a_022",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Ishihara-test",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Waarvoor wordt de Ishihara-test gebruikt?",
+    "options": [
+      "Voor het testen van kleurdeficiëntie met stippenpatronen.",
+      "Voor het meten van absolute gehoordrempels met oplopende tonen.",
+      "Voor het onderzoeken van geuradaptatie na langdurige blootstelling.",
+      "Voor het meten van drukgevoeligheid via de tweepuntsdrempel."
+    ],
+    "correct": 0,
+    "explanation": "De Ishihara-test gebruikt gekleurde stippenpatronen om kleurdeficiëntie, vooral rood-groenproblemen, te detecteren.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft psychofysische gehoormeting.",
+      "Dit hoort bij reukadaptatie.",
+      "Dit hoort bij tastwaarneming."
+    ],
+    "tip": "Ishihara = kleurtest met stippen."
+  },
+  {
+    "id": "v2_w8a_023",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Conductiedoofheid en sensorineurale doofheid",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen conductiedoofheid en sensorineurale doofheid is correct?",
+    "options": [
+      "Conductiedoofheid betreft problemen met mechanische geleiding/versterking; sensorineurale doofheid betreft schade waardoor neurale signalen niet goed worden doorgegeven.",
+      "Conductiedoofheid betreft schade aan de visuele cortex; sensorineurale doofheid betreft een niet-sferische lens.",
+      "Conductiedoofheid is hetzelfde als tinnitus; sensorineurale doofheid is hetzelfde als geuradaptatie.",
+      "Conductiedoofheid ontstaat door te veel kegeltjes; sensorineurale doofheid door te weinig staafjes."
+    ],
+    "correct": 0,
+    "explanation": "Conductiedoofheid ontstaat door problemen in buiten- of middenoor, bijvoorbeeld stijve gehoorbeentjes. Sensorineurale doofheid betreft schade in midden- of binnenoor waardoor neurale signalen niet goed worden doorgegeven.",
+    "whyWrong": [
+      "",
+      "Visuele cortex en lens horen bij zicht.",
+      "Tinnitus en geuradaptatie zijn andere verschijnselen.",
+      "Kegeltjes en staafjes horen bij de retina."
+    ],
+    "tip": "Conductie = geleiding; sensorineuraal = sensorische/neuronale schade."
+  },
+  {
+    "id": "v2_w8a_024",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Cochleair implantaat",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Waarom helpt een cochleair implantaat vaak redelijk bij spraak, maar minder goed bij muziek?",
+    "options": [
+      "Omdat spraakinformatie grof elektrisch kan worden doorgegeven, terwijl fijne toonhoogte en melodie minder precies worden gecodeerd.",
+      "Omdat een implantaat alleen het trommelvlies vervangt en geen elektrische signalen doorgeeft.",
+      "Omdat muziek uitsluitend via het vestibulaire systeem wordt verwerkt.",
+      "Omdat spraak geen toonhoogte-informatie bevat en muziek uitsluitend uit woorden bestaat."
+    ],
+    "correct": 0,
+    "explanation": "Een cochleair implantaat zet geluid om in elektrische signalen. Dat kan spraak redelijk ondersteunen, maar fijne toonhoogte en melodische informatie blijven beperkter.",
+    "whyWrong": [
+      "",
+      "Een implantaat geeft juist elektrische signalen door.",
+      "Muziek wordt auditief verwerkt, niet vestibulair.",
+      "Spraak bevat wel prosodie en toonhoogte; muziek bestaat niet uitsluitend uit woorden."
+    ],
+    "tip": "Cochleair implantaat herstelt gehoor niet volledig zoals een natuurlijk oor."
+  },
+  {
+    "id": "v2_w8a_025",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Reukadaptatie",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Je ruikt bij binnenkomst sterk dat er gekookt is, maar na korte tijd merk je de geur nauwelijks nog. Welk proces verklaart dit?",
+    "options": [
+      "Geuradaptatie, omdat de gevoeligheid voor een voortdurende geurprikkel snel afneemt.",
+      "Kakosmie, omdat elke geur permanent als vies wordt ervaren.",
+      "Feromoonverwerking, omdat de geur voortplantingsgedrag uitlokt.",
+      "Crossmodale integratie, omdat gehoor en zicht samen spraak ondersteunen."
+    ],
+    "correct": 0,
+    "explanation": "Bij geuradaptatie neemt de bewuste ervaring van een voortdurende geur snel af, ook al is de geurbron nog aanwezig.",
+    "whyWrong": [
+      "",
+      "Kakosmie is het voortdurend waarnemen van vieze geuren.",
+      "Er is geen partneraantrekking of feromoonfunctie beschreven.",
+      "Crossmodale integratie is samenwerking tussen zintuigen, maar dat is niet de kern hier."
+    ],
+    "tip": "Bij een constante geur die snel minder opvalt: geuradaptatie."
+  },
+  {
+    "id": "v2_w8a_026",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Smaak en reuk",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Iemand met een dichtgeknepen neus herkent ananas veel slechter, maar kan nog wel zoetheid detecteren. Wat laat dit zien?",
+    "options": [
+      "Reuk draagt sterk bij aan voedselherkenning, terwijl basissmaken deels via smaakreceptoren beschikbaar blijven.",
+      "Smaakreceptoren werken alleen als reukreceptoren actief zijn en verdwijnen anders volledig.",
+      "Zoetheid is een geurkwaliteit en wordt niet door smaakreceptoren verwerkt.",
+      "Voedselherkenning berust uitsluitend op visuele informatie en niet op chemische zintuigen."
+    ],
+    "correct": 0,
+    "explanation": "Basissmaken zoals zoet kunnen via smaakreceptoren worden waargenomen, maar het herkennen van specifieke voedingsmiddelen hangt sterk af van reuk.",
+    "whyWrong": [
+      "",
+      "Smaakreceptoren blijven functioneren.",
+      "Zoetheid is een basissmaak.",
+      "Visuele informatie kan bijdragen, maar geur en smaak zijn zeer belangrijk."
+    ],
+    "tip": "Wat dagelijks 'smaak' heet, is vaak een combinatie van smaak en reuk."
+  },
+  {
+    "id": "v2_w8a_027",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Tweepuntsdrempel en homunculus",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Waarom is de tweepuntsdrempel op de vingertoppen kleiner dan op de rug?",
+    "options": [
+      "Omdat vingertoppen meer tactiele precisie en relatief veel representatie in de somatosensorische cortex hebben.",
+      "Omdat de rug geen drukreceptoren bevat en alleen temperatuur kan waarnemen.",
+      "Omdat vingertoppen uitsluitend pijnreceptoren hebben en geen drukreceptoren.",
+      "Omdat de rug via de visuele cortex wordt verwerkt en vingertoppen via de cochlea."
+    ],
+    "correct": 0,
+    "explanation": "Vingertoppen hebben een hogere tactiele resolutie en krijgen relatief veel corticale representatie. Daardoor kunnen twee nabije aanrakingen beter onderscheiden worden.",
+    "whyWrong": [
+      "",
+      "De rug bevat wel drukreceptoren, maar heeft lagere resolutie.",
+      "Vingertoppen hebben ook drukreceptoren.",
+      "Tast wordt verwerkt via somatosensorische systemen, niet via visuele cortex of cochlea."
+    ],
+    "tip": "Kleinere tweepuntsdrempel betekent hogere gevoeligheid."
+  },
+  {
+    "id": "v2_w8a_028",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Pijn en poortcontroletheorie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een sporter merkt tijdens een belangrijke wedstrijd weinig pijn van een blessure, maar voelt na afloop veel pijn. Welke verklaring past het best?",
+    "options": [
+      "Pijnperceptie kan gemoduleerd worden door omstandigheden en aandacht; pijnsignalen hoeven niet één-op-één overeen te komen met schade.",
+      "Pijn is altijd exact even sterk als de actuele weefselschade.",
+      "Pijn kan alleen optreden wanneer iemand bewust naar de pijnlijke plek kijkt.",
+      "Pijn wordt uitsluitend bepaald door temperatuurreceptoren en niet door nociceptie."
+    ],
+    "correct": 0,
+    "explanation": "Pijnervaring hangt niet alleen af van weefselschade. Aandacht, emotie, context en endogene pijnmodulatie kunnen pijn versterken of verminderen.",
+    "whyWrong": [
+      "",
+      "Er is geen perfecte één-op-éénrelatie tussen schade en pijnervaring.",
+      "Pijn kan ook zonder bewuste visuele aandacht optreden.",
+      "Nociceptie is juist belangrijk bij pijn."
+    ],
+    "tip": "Pijn is zowel sensorisch als interpretatief/modulair."
+  },
+  {
+    "id": "v2_w8a_029",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Vestibulair systeem en wagenziekte",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Iemand leest in een rijdende auto. Zijn ogen registreren een relatief stil boek, maar het vestibulaire systeem registreert beweging. Hij wordt misselijk. Wat verklaart dit?",
+    "options": [
+      "Een mismatch tussen visuele en vestibulaire informatie.",
+      "Een falen van de trichromatische kleurentheorie.",
+      "Een verhoogde differentiële drempel voor smaak.",
+      "Een fout in de directe leesroute voor bekende woorden."
+    ],
+    "correct": 0,
+    "explanation": "Wagenziekte kan ontstaan wanneer visuele informatie en vestibulaire informatie elkaar tegenspreken.",
+    "whyWrong": [
+      "",
+      "Kleurwaarneming is niet de kern van wagenziekte.",
+      "Smaakdrempels verklaren deze bewegingsmisselijkheid niet.",
+      "Lezen kan de situatie uitlokken, maar de oorzaak is sensorische mismatch."
+    ],
+    "tip": "Vestibulaire mismatch is belangrijk bij duizeligheid en wagenziekte."
+  },
+  {
+    "id": "v2_w8a_030",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Signaaldetectietheorie",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Een bewaker wil absoluut geen indringer missen en slaat al alarm bij zwakke aanwijzingen. Wat zal waarschijnlijk toenemen?",
+    "options": [
+      "Het aantal hits én het aantal valse alarmen.",
+      "Het aantal misses én het aantal correcte afwijzingen.",
+      "Alleen het aantal correcte afwijzingen.",
+      "Alleen de sensorische gevoeligheid, zonder verandering in responscriterium."
+    ],
+    "correct": 0,
+    "explanation": "Een liberaler responscriterium betekent dat iemand sneller 'ja, signaal aanwezig' zegt. Daardoor worden meer echte signalen gedetecteerd, maar neemt ook het aantal valse alarmen toe.",
+    "whyWrong": [
+      "",
+      "Bij een liberaler criterium nemen misses meestal af, niet toe.",
+      "Correcte afwijzingen nemen niet toe als iemand vaker alarm slaat.",
+      "De casus gaat vooral over criteriumverschuiving, niet noodzakelijk over sensorische gevoeligheid."
+    ],
+    "tip": "In signaaldetectie moet je sensitiviteit en responscriterium uit elkaar houden."
+  },
+  {
+    "id": "v2_w8b_001",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Voetafdrukillusie / licht-van-boven-aanname",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Ronde vormen met schaduw lijken soms bol en soms hol, afhankelijk van waar de schaduw ligt. Welke aanname gebruikt het visuele systeem hierbij vooral?",
+    "options": [
+      "Dat licht meestal van boven komt.",
+      "Dat alle objecten even groot zijn.",
+      "Dat gezichten meestal rechtop staan.",
+      "Dat bewegende objecten altijd dichterbij zijn."
+    ],
+    "correct": 0,
+    "explanation": "Het brein gebruikt vaak de aanname dat licht van boven komt. Daardoor worden schaduwen geïnterpreteerd als aanwijzingen voor diepte en vorm.",
+    "whyWrong": [
+      "",
+      "Grootteconstantie speelt bij andere situaties, maar verklaart deze schaduwinterpretatie niet primair.",
+      "Dat gezichten rechtop staan speelt eerder bij gezichtsverwerking.",
+      "Beweging is hier niet de kern; het gaat om schaduw en lichtbron."
+    ],
+    "tip": "Schaduwillusies tonen dat normale aannames over de wereld soms tot verkeerde diepte-interpretatie leiden."
+  },
+  {
+    "id": "v2_w8b_002",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Kanizsa-driehoek",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Bij drie pacmanachtige figuren zie je een witte driehoek, hoewel de drie zijden van die driehoek niet echt getekend zijn. Welk begrip past hierbij?",
+    "options": [
+      "Subjectieve contouren, omdat het brein ontbrekende grenzen invult.",
+      "Binoculaire dispariteit, omdat twee oogbeelden diepteinformatie opleveren.",
+      "Template matching, omdat de driehoek als exacte sjabloon is opgeslagen.",
+      "Bewegingsparallax, omdat nabije objecten sneller over de retina bewegen."
+    ],
+    "correct": 0,
+    "explanation": "Bij de Kanizsa-driehoek worden contouren waargenomen die fysiek niet aanwezig zijn. Het brein vult de grenzen aan om een samenhangende figuur te vormen.",
+    "whyWrong": [
+      "",
+      "Er is geen verschil tussen twee oogbeelden nodig.",
+      "Het gaat niet om exact vergelijken met een opgeslagen sjabloon.",
+      "Er is geen beweging van de waarnemer of objecten."
+    ],
+    "tip": "Subjectieve contouren zijn lijnen die je ziet, maar die niet fysiek getekend zijn."
+  },
+  {
+    "id": "v2_w8b_003",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "De Graef en scènecontext",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een stofzuiger wordt sneller herkend in een woonkamer dan in een garage. Welke verklaring past het best?",
+    "options": [
+      "Scènecontext activeert verwachtingen over welke objecten waarschijnlijk aanwezig zijn.",
+      "Objectherkenning verloopt volledig zonder invloed van omgeving of context.",
+      "De stofzuiger wordt herkend doordat lage-level randen alle semantische kennis vervangen.",
+      "De woonkamer maakt binoculaire dispariteit groter dan de garage."
+    ],
+    "correct": 0,
+    "explanation": "Context helpt bij objectherkenning doordat bepaalde objecten waarschijnlijker zijn in bepaalde scènes. Een woonkamer maakt een stofzuiger plausibeler dan een garage.",
+    "whyWrong": [
+      "",
+      "Objectherkenning wordt juist beïnvloed door context.",
+      "Randen zijn belangrijk, maar vervangen semantische context niet.",
+      "Het verschil gaat niet om binoculaire dispariteit."
+    ],
+    "tip": "Bij scènecontext gaat het om top-down verwachting vanuit de omgeving."
+  },
+  {
+    "id": "v2_w8b_004",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Bar-model",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke route past bij het model van Bar over snelle top-down voorspellingen?",
+    "options": [
+      "Lage spatiale frequentie gaat snel van V1 naar orbitofrontale cortex en beïnvloedt daarna verwerking in de fusiforme gyrus.",
+      "Hoge spatiale frequentie gaat eerst naar de hippocampus en schakelt daarna V1 uit.",
+      "Lage spatiale frequentie wordt uitsluitend in de retina verwerkt en bereikt nooit hogere cortex.",
+      "Hoge spatiale frequentie veroorzaakt direct articulatie zonder objectherkenning."
+    ],
+    "correct": 0,
+    "explanation": "Volgens Bar kan globale informatie uit lage spatiale frequenties snel verwachtingen activeren via orbitofrontale cortex. Die verwachtingen beïnvloeden latere objectverwerking.",
+    "whyWrong": [
+      "",
+      "Dit is geen juiste route in dit model.",
+      "Lage spatiale frequentie bereikt juist hogere gebieden.",
+      "Hoge spatiale frequentie gaat over details, niet directe articulatie."
+    ],
+    "tip": "Bar-model: snelle globale informatie helpt voorspellen wat je ziet."
+  },
+  {
+    "id": "v2_w8b_005",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Lage en hoge spatiale frequentie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen lage en hoge spatiale frequentie is correct?",
+    "options": [
+      "Lage spatiale frequentie geeft globale, grove informatie; hoge spatiale frequentie geeft fijne details en randen.",
+      "Lage spatiale frequentie geeft fijne letters; hoge spatiale frequentie geeft alleen wazige scènecontext.",
+      "Lage spatiale frequentie codeert kleurverzadiging; hoge spatiale frequentie codeert toonhoogte.",
+      "Lage en hoge spatiale frequentie zijn twee vormen van auditieve lokalisatie."
+    ],
+    "correct": 0,
+    "explanation": "Lage spatiale frequenties bevatten grove informatie over globale vormen en scènecontext. Hoge spatiale frequenties bevatten details zoals randen en fijne structuur.",
+    "whyWrong": [
+      "",
+      "Deze optie draait lage en hoge spatiale frequentie om.",
+      "Toonhoogte hoort bij gehoor; kleurverzadiging is geen kern van dit onderscheid.",
+      "Spatiale frequentie hoort bij visuele verwerking."
+    ],
+    "tip": "Laag = globaal; hoog = detail."
+  },
+  {
+    "id": "v2_w8b_006",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "FFA",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Waarmee wordt de Fusiform Face Area vooral geassocieerd?",
+    "options": [
+      "Gezichtsverwerking.",
+      "Auditieve toonhoogte.",
+      "Smaakadaptatie.",
+      "Letter-klankomzetting."
+    ],
+    "correct": 0,
+    "explanation": "De Fusiform Face Area is een gebied dat sterk betrokken is bij het verwerken van gezichten.",
+    "whyWrong": [
+      "",
+      "Toonhoogte hoort bij auditieve verwerking.",
+      "Smaakadaptatie hoort bij smaak.",
+      "Letter-klankomzetting hoort bij lezen."
+    ],
+    "tip": "FFA is vooral relevant bij gezichtswaarneming en prosopagnosie."
+  },
+  {
+    "id": "v2_w8b_007",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Prosopagnosie",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een patiënt ziet ogen, neus en mond, maar herkent bekende personen niet aan hun gezicht. Stem of kleding helpt wel. Welke stoornis past hierbij?",
+    "options": [
+      "Prosopagnosie.",
+      "Capgras-syndroom.",
+      "Visuele hemineglect.",
+      "Surface dyslexie."
+    ],
+    "correct": 0,
+    "explanation": "Prosopagnosie is een stoornis in gezichtsherkenning. De patiënt kan visuele kenmerken zien, maar herkent de identiteit van gezichten niet goed.",
+    "whyWrong": [
+      "",
+      "Bij Capgras wordt iemand vaak wel herkend, maar voelt niet vertrouwd.",
+      "Hemineglect is een aandachtsstoornis voor één helft van de ruimte.",
+      "Surface dyslexie is een leesstoornis."
+    ],
+    "tip": "Prosopagnosie = gezichten niet herkennen."
+  },
+  {
+    "id": "v2_w8b_008",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Other-race-effect",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat houdt het other-race-effect in?",
+    "options": [
+      "Mensen herkennen gezichten uit de eigen vertrouwde groep gemiddeld beter dan gezichten uit minder vertrouwde groepen.",
+      "Mensen herkennen gezichten uit andere groepen altijd beter omdat ze opvallender zijn.",
+      "Mensen kunnen alleen gezichten herkennen van mensen met dezelfde moedertaal.",
+      "Mensen herkennen gezichten volledig onafhankelijk van ervaring."
+    ],
+    "correct": 0,
+    "explanation": "Het other-race-effect laat zien dat ervaring met bepaalde gezichtstypen herkenning en discriminatie beïnvloedt.",
+    "whyWrong": [
+      "",
+      "Dit is het omgekeerde van het effect.",
+      "Moedertaal is niet de noodzakelijke factor.",
+      "Ervaring speelt juist een rol."
+    ],
+    "tip": "Gezichtsherkenning is gespecialiseerd, maar ook trainbaar en ervaringsgevoelig."
+  },
+  {
+    "id": "v2_w8b_009",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Amblyopie en strabismus",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen amblyopie en strabismus is correct?",
+    "options": [
+      "Amblyopie is een lui oog met verminderde verwerking; strabismus is scheelzien waardoor binoculaire diepte verstoord kan raken.",
+      "Amblyopie is scheelzien; strabismus is het volledig ontbreken van een oogzenuw.",
+      "Amblyopie is bewegingsblindheid; strabismus is gezichtsagnosie.",
+      "Amblyopie en strabismus zijn beide vormen van kleurdeficiëntie."
+    ],
+    "correct": 0,
+    "explanation": "Amblyopie verwijst naar een lui oog waarbij één oog minder goed bijdraagt. Strabismus is scheelzien, wat problemen kan geven met binoculaire diepteverwerking.",
+    "whyWrong": [
+      "",
+      "Deze optie definieert beide begrippen verkeerd.",
+      "Bewegingsblindheid is akinetopsie; gezichtsagnosie is iets anders.",
+      "Ze zijn geen kleurstoornissen."
+    ],
+    "tip": "Beide begrippen zijn belangrijk bij de ontwikkeling van binoculaire dieptewaarneming."
+  },
+  {
+    "id": "v2_w8b_010",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Maanillusie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "De maan lijkt groter aan de horizon dan hoog aan de hemel, terwijl de retinale grootte nauwelijks verandert. Welke verklaring past het best?",
+    "options": [
+      "De maan aan de horizon lijkt verder weg, waardoor dezelfde retinale grootte als groter wordt geïnterpreteerd.",
+      "De maan is fysiek groter wanneer zij dichter bij de horizon staat.",
+      "De fovea vergroot objecten aan de horizon automatisch.",
+      "Binoculaire dispariteit is bij de maan groter aan de horizon dan hoog aan de hemel."
+    ],
+    "correct": 0,
+    "explanation": "Bij de maanillusie speelt geschatte afstand een rol. Als de maan aan de horizon verder lijkt, wordt dezelfde retinale grootte als groter geïnterpreteerd.",
+    "whyWrong": [
+      "",
+      "De fysieke grootte van de maan verandert niet relevant.",
+      "De fovea vergroot horizonobjecten niet automatisch.",
+      "De maan is te ver weg voor bruikbare binoculaire dispariteit."
+    ],
+    "tip": "Groottewaarneming hangt af van retinale grootte én geschatte afstand."
+  },
+  {
+    "id": "v2_w8b_011",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Hollow-mask-illusie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een hol masker wordt toch waargenomen alsof het naar buiten bol staat. Welke aanname speelt hierbij vooral mee?",
+    "options": [
+      "Gezichten zijn normaal gesproken bol naar buiten gericht.",
+      "Licht komt altijd van onderen.",
+      "Objecten met schaduw zijn altijd dichterbij.",
+      "Gezichten worden uitsluitend via lage spatiale frequenties verwerkt."
+    ],
+    "correct": 0,
+    "explanation": "Het brein heeft een sterke verwachting dat gezichten bol zijn. Deze top-down aanname kan de feitelijke holle vorm overheersen.",
+    "whyWrong": [
+      "",
+      "Bij veel schaduwillusies geldt eerder de aanname dat licht van boven komt.",
+      "Schaduw kan diepte suggereren, maar dit is niet de kern van de hollow-mask-illusie.",
+      "Gezichtsverwerking gebruikt zowel globale als detailinformatie."
+    ],
+    "tip": "De hollow-mask-illusie toont hoe sterk top-down aannames over gezichten kunnen zijn."
+  },
+  {
+    "id": "v2_w8b_012",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Efferent copy",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is efferent copy bij bewegingswaarneming?",
+    "options": [
+      "Een kopie van motorische commando's die helpt onderscheid maken tussen zelfbeweging en beweging in de buitenwereld.",
+      "Een extra retinabeeld dat alleen ontstaat wanneer beide ogen verschillende informatie krijgen.",
+      "Een opslag van eerdere objectvormen die wordt gebruikt voor template matching.",
+      "Een signaal dat alleen ontstaat bij vermoeidheid van bewegingsdetectoren."
+    ],
+    "correct": 0,
+    "explanation": "Efferent copy is informatie over eigen bewegingen, bijvoorbeeld oog- of hoofdbewegingen. Het brein gebruikt deze informatie om te bepalen of verandering op de retina door eigen beweging of externe beweging komt.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft eerder binoculaire dispariteit.",
+      "Dit hoort bij template matching, niet efferent copy.",
+      "Vermoeidheid van bewegingsdetectoren hoort bij de waterval-illusie."
+    ],
+    "tip": "Efferent copy helpt verklaren waarom de wereld stabiel lijkt terwijl je ogen bewegen."
+  },
+  {
+    "id": "v2_w8b_013",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Biologische beweging / Johansson",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een paar lichtpuntjes op gewrichten van een lopend persoon zijn genoeg om lopen te herkennen. Wat toont dit aan?",
+    "options": [
+      "Het visuele systeem is gevoelig voor biologische beweging en kan die uit minimale bewegingsinformatie afleiden.",
+      "Objectherkenning vereist altijd volledige contouren en gedetailleerde textuur.",
+      "Gezichten worden alleen herkend wanneer alle gelaatstrekken zichtbaar zijn.",
+      "Beweging kan niet worden waargenomen zonder kleurinformatie."
+    ],
+    "correct": 0,
+    "explanation": "Johansson liet zien dat biologische beweging, zoals lopen, uit minimale dynamische informatie herkend kan worden.",
+    "whyWrong": [
+      "",
+      "De casus toont juist herkenning met minimale contourinformatie.",
+      "Het gaat niet om gezichtsherkenning.",
+      "Beweging kan zonder kleurinformatie herkend worden."
+    ],
+    "tip": "Biologische beweging is herkenbaar uit bewegingspatronen, niet alleen uit objectvorm."
+  },
+  {
+    "id": "v2_w8b_014",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Akinetopsie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is akinetopsie?",
+    "options": [
+      "Een stoornis waarbij beweging niet goed of niet vloeiend wordt waargenomen.",
+      "Een stoornis waarbij gezichten niet bewust herkend worden.",
+      "Een stoornis waarbij bekende personen niet vertrouwd aanvoelen.",
+      "Een stoornis waarbij pseudowoorden niet verklankt kunnen worden."
+    ],
+    "correct": 0,
+    "explanation": "Akinetopsie is bewegingsblindheid. Patiënten kunnen objecten zien, maar beweging niet normaal waarnemen.",
+    "whyWrong": [
+      "",
+      "Dit is prosopagnosie.",
+      "Dit is Capgras-syndroom.",
+      "Dit is fonologische dyslexie."
+    ],
+    "tip": "Akinetopsie wordt vaak gekoppeld aan schade in bewegingsgebied V5/MT."
+  },
+  {
+    "id": "v2_w8b_015",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Spiegelneuronen",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat zijn spiegelneuronen?",
+    "options": [
+      "Neuronen die actief zijn bij het uitvoeren van een handeling en ook bij het zien van dezelfde handeling bij een ander.",
+      "Neuronen die uitsluitend actief zijn wanneer iemand zichzelf in een spiegel herkent.",
+      "Neuronen die alleen visuele contouren maar nooit motorische informatie verwerken.",
+      "Neuronen die alleen reageren op gezichten uit de eigen etnische groep."
+    ],
+    "correct": 0,
+    "explanation": "Spiegelneuronen vormen een koppeling tussen waarneming en actie: ze reageren zowel bij zelf uitvoeren als bij het observeren van vergelijkbare handelingen.",
+    "whyWrong": [
+      "",
+      "De naam betekent niet dat ze alleen bij spiegelherkenning actief zijn.",
+      "Ze verbinden juist perceptuele en motorische aspecten.",
+      "Dat beschrijft niet spiegelneuronen."
+    ],
+    "tip": "Spiegelneuronen zijn belangrijk bij waarneming-actie en mogelijk imitatie."
+  },
+  {
+    "id": "v2_w8b_016",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Ebbinghaus-illusie bij grijpen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een centrale cirkel lijkt groter door kleine omringende cirkels, maar iemands grijpgrootte wordt minder beïnvloed dan zijn verbale grootte-inschatting. Welke conclusie past hierbij?",
+    "options": [
+      "Perceptuele beoordeling en online actiecontrole kunnen verschillend gevoelig zijn voor visuele illusies.",
+      "Alle motorische acties worden altijd sterker beïnvloed door illusies dan bewuste perceptie.",
+      "De illusie toont dat de directe leesroute belangrijker is dan de dorsale route.",
+      "Grijpen kan alleen plaatsvinden wanneer het object eerst verbaal benoemd wordt."
+    ],
+    "correct": 0,
+    "explanation": "Onderzoek met de Ebbinghaus-illusie bij grijpen laat zien dat perceptie en actie niet altijd op dezelfde manier door illusies worden beïnvloed.",
+    "whyWrong": [
+      "",
+      "Dat is te absoluut en niet wat deze bevinding suggereert.",
+      "De directe leesroute hoort bij lezen, niet grijpen.",
+      "Objecten hoeven niet verbaal benoemd te worden voordat je ze grijpt."
+    ],
+    "tip": "Dit onderwerp sluit aan bij de scheiding tussen waarneming voor herkenning en waarneming voor actie."
+  },
+  {
+    "id": "v2_w8b_017",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Planning-control model",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat stelt het planning-control model over grijpen?",
+    "options": [
+      "De planning van een beweging kan gevoeliger zijn voor perceptuele illusies dan de latere online controle van de beweging.",
+      "De online controle van een beweging gebruikt uitsluitend bewuste verbale oordelen.",
+      "Planning en controle zijn exact hetzelfde proces en gebruiken altijd dezelfde informatie.",
+      "Grijpbewegingen worden alleen gestuurd door de ventrale route en nooit door dorsale informatie."
+    ],
+    "correct": 0,
+    "explanation": "Het planning-control model stelt dat vroege planning beïnvloed kan worden door perceptuele interpretatie, terwijl latere controle meer directe visuomotorische informatie gebruikt.",
+    "whyWrong": [
+      "",
+      "Online controle is niet uitsluitend verbaal.",
+      "Planning en controle worden juist onderscheiden.",
+      "Dorsale waar-/actieroutes zijn juist belangrijk bij handelen."
+    ],
+    "tip": "Planning en online controle van actie kunnen verschillend werken."
+  },
+  {
+    "id": "v2_w8b_018",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Mike May",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Mike May kreeg na vroege blindheid op latere leeftijd zicht terug. Hij kon simpele visuele eigenschappen waarnemen, maar had moeite met gezichten, diepte en complexe objecten. Wat toont dit vooral?",
+    "options": [
+      "Vroege visuele ervaring is belangrijk voor de ontwikkeling van complexe waarneming.",
+      "Alle vormen van objectherkenning zijn volledig aangeboren en onafhankelijk van ervaring.",
+      "Zicht herstellen betekent automatisch dat volwassen waarneming volledig normaal wordt.",
+      "Complexe waarneming vereist alleen een intact hoornvlies en geen leerervaring."
+    ],
+    "correct": 0,
+    "explanation": "De casus laat zien dat vroege ervaring belangrijk is voor complexe visuele functies. Basale gewaarwording kan terugkomen, maar interpretatie en herkenning blijven moeilijk.",
+    "whyWrong": [
+      "",
+      "De casus toont juist dat ervaring belangrijk is.",
+      "Zichtterugkeer leidt niet automatisch tot normale waarneming.",
+      "Optisch herstel is niet genoeg voor volledige perceptuele ontwikkeling."
+    ],
+    "tip": "Mike May is belangrijk voor het onderscheid tussen zien en leren waarnemen."
+  },
+  {
+    "id": "v2_w8b_019",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Stratton en prisma-adaptatie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen Stratton en prisma-adaptatie is correct?",
+    "options": [
+      "Stratton onderzocht aanpassing aan omgekeerde beelden; prisma-adaptatie onderzoekt aanpassing aan verschoven visuele input.",
+      "Stratton onderzocht fonologische dyslexie; prisma-adaptatie onderzocht semantische priming.",
+      "Stratton liet zien dat visuele vervorming nooit kan worden gecompenseerd; prisma-adaptatie bevestigt dat.",
+      "Stratton en prisma-adaptatie tonen dat motorische actie geen rol speelt bij visueel leren."
+    ],
+    "correct": 0,
+    "explanation": "Stratton gebruikte lenzen die het beeld omkeerden. Prisma-adaptatie gaat over het leren omgaan met visueel verschoven input.",
+    "whyWrong": [
+      "",
+      "Dit zijn taalonderwerpen, geen visuele adaptatieonderzoeken.",
+      "Aanpassing is juist mogelijk, hoewel niet altijd volledig.",
+      "Actieve interactie speelt juist een belangrijke rol bij adaptatie."
+    ],
+    "tip": "Visuele adaptatie laat zien dat waarneming en actie samen kunnen leren."
+  },
+  {
+    "id": "v2_w8b_020",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Gibson & Walk / visuele klif",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Wat liet het visuele-klifonderzoek van Gibson en Walk vooral zien?",
+    "options": [
+      "Baby's die konden kruipen waren terughoudend om over een schijnbare diepte te kruipen.",
+      "Baby's kunnen pas diepte zien nadat zij leren lezen.",
+      "Dieptewaarneming is volledig afhankelijk van taalontwikkeling.",
+      "Baby's reageren op diepte alleen wanneer beide ogen gesloten zijn."
+    ],
+    "correct": 0,
+    "explanation": "De visuele klif liet zien dat baby's die ervaring hebben met kruipen reageren op schijnbare diepte en niet zomaar over de diepe kant kruipen.",
+    "whyWrong": [
+      "",
+      "Lezen is niet nodig voor dieptewaarneming.",
+      "Dieptewaarneming is niet afhankelijk van taalontwikkeling.",
+      "Diepte zien vereist juist visuele input."
+    ],
+    "tip": "De visuele klif gaat over ontwikkeling van dieptewaarneming."
+  },
+  {
+    "id": "v2_w8b_021",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Onzichtbare gorilla / inattentional blindness",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Deelnemers tellen passes van een basketbalteam en merken een persoon in gorillapak niet op. Wat toont dit vooral?",
+    "options": [
+      "Sterke taakgerichte aandacht kan ertoe leiden dat opvallende maar onverwachte stimuli niet bewust worden opgemerkt.",
+      "Alle opvallende stimuli worden automatisch volledig bewust verwerkt.",
+      "Visuele aandacht werkt alleen wanneer deelnemers niet met een taak bezig zijn.",
+      "De gorilla wordt niet gezien omdat de retina geen bewegende objecten kan verwerken."
+    ],
+    "correct": 0,
+    "explanation": "Het experiment toont inattentional blindness: wanneer aandacht sterk op een taak gericht is, kunnen zelfs opvallende onverwachte stimuli gemist worden.",
+    "whyWrong": [
+      "",
+      "Het experiment laat juist zien dat opvallende stimuli gemist kunnen worden.",
+      "Visuele aandacht werkt ook tijdens taken, maar is beperkt.",
+      "De retina kan bewegende objecten verwerken; het probleem zit in aandacht."
+    ],
+    "tip": "Onverwacht object gemist tijdens taak = inattentional blindness."
+  },
+  {
+    "id": "v2_w8b_022",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Lavie / perceptual load",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat voorspelt de perceptual load-theorie over afleiders?",
+    "options": [
+      "Bij hoge perceptuele belasting van de hoofdtaak blijft minder capaciteit over voor afleiders.",
+      "Bij hoge perceptuele belasting worden afleiders altijd dieper verwerkt dan targets.",
+      "Bij lage perceptuele belasting worden afleiders volledig onmogelijk verwerkt.",
+      "Perceptuele belasting beïnvloedt alleen geheugenconsolidatie en niet aandacht."
+    ],
+    "correct": 0,
+    "explanation": "Als de hoofdtaak veel perceptuele capaciteit vraagt, blijft er minder capaciteit over om irrelevante afleiders te verwerken.",
+    "whyWrong": [
+      "",
+      "Bij hoge load worden afleiders juist vaak minder verwerkt.",
+      "Bij lage load kan er juist capaciteit over zijn voor afleiders.",
+      "Perceptual load gaat juist over aandacht en afleiderverwerking."
+    ],
+    "tip": "Hoge load kan afleiders verminderen; lage load laat ruimte over voor afleiding."
+  },
+  {
+    "id": "v2_w8b_023",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Objectgebonden aandacht",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat betekent objectgebonden aandacht?",
+    "options": [
+      "Aandacht kan gekoppeld zijn aan een object als geheel, niet alleen aan een vaste locatie in de ruimte.",
+      "Aandacht kan alleen worden gericht op één ruimtelijk punt en nooit op objecten.",
+      "Aandacht werkt uitsluitend op semantische categorieën en niet op visuele objecten.",
+      "Aandacht wordt objectgebonden genoemd wanneer zij volledig afwezig is."
+    ],
+    "correct": 0,
+    "explanation": "Objectgebonden aandacht betekent dat aandacht aan een object kan 'kleven', ook wanneer het object beweegt of uit meerdere delen bestaat.",
+    "whyWrong": [
+      "",
+      "Aandacht kan zowel locatie- als objectgebonden zijn.",
+      "Objectgebonden aandacht gaat juist vaak over visuele objecten.",
+      "Objectgebonden aandacht is een vorm van selectie, niet afwezigheid van aandacht."
+    ],
+    "tip": "Vergelijk objectgebonden aandacht met locatiegebonden aandacht."
+  },
+  {
+    "id": "v2_w8b_024",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Bewustzijn",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke omschrijving van bewustzijn is het meest passend?",
+    "options": [
+      "De subjectieve ervaring van interne of externe toestanden, beïnvloed door zintuigen, aandacht en denken.",
+      "De volledige registratie van alle prikkels zonder selectie of interpretatie.",
+      "Een permanent geheugenarchief waarin alle ervaringen exact worden opgeslagen.",
+      "Een reflexmatig proces dat alleen in het ruggenmerg plaatsvindt."
+    ],
+    "correct": 0,
+    "explanation": "Bewustzijn verwijst naar subjectieve ervaring. Het is dynamisch en wordt beïnvloed door zintuiglijke informatie, aandacht, gedachten en interne toestanden.",
+    "whyWrong": [
+      "",
+      "Bewustzijn is selectief en interpretatief, niet volledige registratie.",
+      "Geheugen is geen perfecte permanente opslag.",
+      "Bewustzijn is niet alleen een ruggenmergreflex."
+    ],
+    "tip": "Bewustzijn gaat over wat iemand ervaart, niet over alle informatie die ergens verwerkt wordt."
+  },
+  {
+    "id": "v2_w8b_025",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Onbewust, voorbewust en automatisch",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling is correct?",
+    "options": [
+      "Onbewust: hartslagregulatie; voorbewust: oproepbare herinnering; automatisch: typen na veel oefening.",
+      "Onbewust: actief hoofdrekenen; voorbewust: pupilreflex; automatisch: eerste rijles.",
+      "Onbewust: bewust redeneren; voorbewust: permanente geheugenopslag; automatisch: onbekende taal leren.",
+      "Onbewust, voorbewust en automatisch betekenen allemaal dat informatie nooit gedrag kan beïnvloeden."
+    ],
+    "correct": 0,
+    "explanation": "Onbewuste processen zijn niet direct toegankelijk. Voorbewuste informatie is oproepbaar. Automatische processen verlopen na oefening snel en met weinig bewuste controle.",
+    "whyWrong": [
+      "",
+      "Hoofdrekenen is bewust; pupilreflex is onbewust; eerste rijles is gecontroleerd.",
+      "Deze koppelingen kloppen niet.",
+      "Alle drie kunnen gedrag wel beïnvloeden."
+    ],
+    "tip": "Voorbewust is niet hetzelfde als onbewust: voorbewuste informatie kun je oproepen."
+  },
+  {
+    "id": "v2_w8b_026",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Subliminale perceptie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is subliminale perceptie?",
+    "options": [
+      "Verwerking van stimuli die gedrag of beoordeling beïnvloeden zonder bewust waargenomen te worden.",
+      "Volledige bewuste verwerking van stimuli die langer dan normaal worden getoond.",
+      "Het opslaan van alle zintuiglijke informatie in het langetermijngeheugen.",
+      "Het bewust richten van aandacht op een verwachte locatie."
+    ],
+    "correct": 0,
+    "explanation": "Subliminale perceptie betekent dat een stimulus onder de bewustzijnsdrempel wordt aangeboden, maar toch meetbare invloed kan hebben.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft supraliminale bewuste verwerking.",
+      "Subliminale perceptie betekent niet dat alles in LTG wordt opgeslagen.",
+      "Dit beschrijft endogene aandacht, niet subliminale perceptie."
+    ],
+    "tip": "Subliminaal betekent onder de bewuste waarnemingsdrempel."
+  },
+  {
+    "id": "v2_w8b_027",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Marcel en onbewuste semantische priming",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Wat toont onbewuste semantische priming aan?",
+    "options": [
+      "Een niet-bewust waargenomen prime kan verwerking van een semantisch verwant targetwoord versnellen.",
+      "Een onbewuste prime kan alleen motorische reacties beïnvloeden en nooit betekenisverwerking.",
+      "Semantische priming vereist altijd dat de prime bewust wordt gerapporteerd.",
+      "Een prime heeft alleen effect wanneer target en prime fysiek identiek zijn."
+    ],
+    "correct": 0,
+    "explanation": "Onbewuste semantische priming laat zien dat betekenisverwerking deels kan plaatsvinden zonder bewuste waarneming van de prime.",
+    "whyWrong": [
+      "",
+      "Het effect gaat juist over betekenisverwerking.",
+      "De prime hoeft niet bewust gerapporteerd te worden.",
+      "Semantische priming vereist verwantschap, niet fysieke identiteit."
+    ],
+    "tip": "Tafel kan stoel versnellen, zelfs wanneer tafel niet bewust is gezien."
+  },
+  {
+    "id": "v2_w8b_028",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Blindsight",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een patiënt met schade aan V1 zegt niets te zien in een deel van het gezichtsveld, maar wijst boven kansniveau correct aan waar een stimulus verscheen. Wat toont dit?",
+    "options": [
+      "Bewuste visuele ervaring en onbewuste visuele verwerking kunnen dissociëren.",
+      "De patiënt moet bewust zien, omdat gedrag nooit door onbewuste visuele informatie kan worden beïnvloed.",
+      "V1 is niet betrokken bij bewuste visuele ervaring.",
+      "De patiënt heeft vooral een probleem met taalproductie in plaats van visuele verwerking."
+    ],
+    "correct": 0,
+    "explanation": "Blindsight toont dat visuele informatie gedrag kan beïnvloeden zonder bewuste visuele ervaring.",
+    "whyWrong": [
+      "",
+      "Blindsight laat juist zien dat onbewuste visuele verwerking gedrag kan sturen.",
+      "V1 is juist belangrijk voor bewuste visuele ervaring.",
+      "De casus gaat over visuele verwerking, niet taalproductie."
+    ],
+    "tip": "Blindsight = bewust blind, maar gedrag toont restverwerking."
+  },
+  {
+    "id": "v2_w8b_029",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Split-brain",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is kenmerkend voor split-brain patiënten?",
+    "options": [
+      "Het corpus callosum is doorgesneden, waardoor informatie tussen de hemisferen beperkt wordt uitgewisseld.",
+      "De hippocampus is verwijderd, waardoor vooral procedureel geheugen verdwijnt.",
+      "De primaire visuele cortex is beschadigd, waardoor blindsight ontstaat.",
+      "De fusiform face area is beschadigd, waardoor gezichtsherkenning volledig intact blijft."
+    ],
+    "correct": 0,
+    "explanation": "Bij split-brain patiënten is het corpus callosum doorgesneden. Daardoor kunnen de hersenhelften onder bepaalde omstandigheden relatief onafhankelijk functioneren.",
+    "whyWrong": [
+      "",
+      "Hippocampusverwijdering past bij H.M., maar procedureel geheugen verdween daar niet volledig.",
+      "V1-schade past bij blindsight, niet split-brain.",
+      "FFA-schade kan gezichtsherkenning verstoren."
+    ],
+    "tip": "Split-brain = communicatie tussen hemisferen beperkt."
+  },
+  {
+    "id": "v2_w8b_030",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Slaapstadia en REM",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling tussen slaapstadium en kenmerk is correct?",
+    "options": [
+      "Stadium 2: slaapspoelen en K-complexen; stadium 4: diepe slow-wave sleep; REM: snelle oogbewegingen en relatief actieve hersenen.",
+      "Stadium 2: vooral REM; stadium 4: volledige afwezigheid van hersenactiviteit; REM: alleen deltagolven.",
+      "Stadium 2: slaapwandelen; stadium 4: lexicale beslissing; REM: sensorische drempelmeting.",
+      "Stadium 2, stadium 4 en REM zijn drie namen voor exact dezelfde slaaptoestand."
+    ],
+    "correct": 0,
+    "explanation": "Stadium 2 wordt gekenmerkt door slaapspoelen en K-complexen. Stadium 4 is diepe slow-wave sleep. REM-slaap bevat snelle oogbewegingen en relatief actieve hersenactiviteit.",
+    "whyWrong": [
+      "",
+      "REM is geen stadium 2 en stadium 4 heeft niet nul hersenactiviteit.",
+      "Deze begrippen horen niet bij de slaapstadia.",
+      "De stadia verschillen duidelijk."
+    ],
+    "tip": "Slaapwandelen hoort vooral bij diepe slaap, niet bij REM."
+  },
+  {
+    "id": "v2_w8c_001",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Der Kluge Hans",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een paard lijkt rekensommen te kunnen oplossen, maar blijkt vooral te reageren op subtiele lichaamssignalen van mensen en krijgt daarna aandacht of voedsel. Welke interpretatie past het best?",
+    "options": [
+      "Het gedrag kan worden verklaard door leren op basis van signalen en consequenties, niet door werkelijk rekenbegrip.",
+      "Het paard toont abstract symbolisch denken op hetzelfde niveau als menselijke taal.",
+      "Het gedrag is een voorbeeld van klassieke conditionering waarbij een toon voedsel voorspelt.",
+      "Het paard heeft vooral een stoornis in objectherkenning waardoor het getallen verwart."
+    ],
+    "correct": 0,
+    "explanation": "Der Kluge Hans leek intelligente antwoorden te geven, maar reageerde op subtiele signalen van mensen. Het voorbeeld laat zien hoe belangrijk controle van onbedoelde cues is.",
+    "whyWrong": [
+      "",
+      "Het experiment bewees juist geen mensachtig rekenbegrip.",
+      "Er wordt geen toon-voedselassociatie beschreven.",
+      "Het gaat niet om objectherkenningsstoornissen."
+    ],
+    "tip": "Bij dieronderzoek moet je opletten of gedrag echt het veronderstelde mentale vermogen toont, of verklaard kan worden door subtiele cues."
+  },
+  {
+    "id": "v2_w8c_002",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Onderzoekers bij leervormen",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling tussen onderzoeker en leervorm is correct?",
+    "options": [
+      "Pavlov en Watson: klassieke conditionering; Skinner en Thorndike: operante conditionering; Bandura: observerend leren.",
+      "Pavlov en Skinner: observerend leren; Thorndike en Bandura: klassieke conditionering; Watson: werkgeheugen.",
+      "Pavlov: operante conditionering; Skinner: klassieke conditionering; Bandura: mentale chronometrie.",
+      "Watson: semantische priming; Thorndike: visuele aandacht; Skinner: linguïstische relativiteit."
+    ],
+    "correct": 0,
+    "explanation": "Pavlov en Watson horen bij klassieke conditionering. Skinner en Thorndike horen bij operante conditionering. Bandura hoort bij observerend leren.",
+    "whyWrong": [
+      "",
+      "Deze koppeling verwisselt de onderzoekers en leervormen.",
+      "Pavlov en Skinner zijn hier omgedraaid; Bandura hoort niet bij mentale chronometrie.",
+      "Deze koppelingen horen bij andere onderwerpen."
+    ],
+    "tip": "Bij namen is het belangrijk dat je de bijbehorende leervorm direct herkent."
+  },
+  {
+    "id": "v2_w8c_003",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Skinner-box",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is de functie van een Skinner-box in onderzoek naar leren?",
+    "options": [
+      "Het gecontroleerd bestuderen hoe gedrag verandert door consequenties zoals voedsel of straf.",
+      "Het meten van de snelheid waarmee een neutrale stimulus een OS voorspelt in speekselconditionering.",
+      "Het onderzoeken hoe visuele stimuli via het chiasma opticum naar V1 projecteren.",
+      "Het bepalen of woorden via de directe of indirecte leesroute worden uitgesproken."
+    ],
+    "correct": 0,
+    "explanation": "De Skinner-box wordt gebruikt om operant gedrag te onderzoeken. Een dier kan bijvoorbeeld leren dat hendeldrukken voedsel oplevert.",
+    "whyWrong": [
+      "",
+      "Dit past eerder bij klassieke conditionering.",
+      "Dit hoort bij visuele verwerking.",
+      "Dit hoort bij lezen en dyslexie."
+    ],
+    "tip": "Skinner-boxvragen gaan meestal over gedrag en gevolgen."
+  },
+  {
+    "id": "v2_w8c_004",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Primaire en secundaire bekrachtigers",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een hond leert snel werken voor voedsel, maar niet vanzelf voor geld. Een mens werkt wel voor geld. Welke verklaring past het best?",
+    "options": [
+      "Voedsel is een primaire bekrachtiger; geld is een secundaire bekrachtiger waarvan de waarde aangeleerd is.",
+      "Voedsel is een secundaire bekrachtiger; geld is een primaire bekrachtiger omdat het altijd direct biologisch werkt.",
+      "Voedsel en geld zijn beide primaire bekrachtigers omdat ze gedrag kunnen verhogen.",
+      "Voedsel en geld zijn beide straffen omdat ze gedrag afhankelijk maken van consequenties."
+    ],
+    "correct": 0,
+    "explanation": "Primaire bekrachtigers hebben directe biologische waarde, zoals voedsel. Secundaire bekrachtigers, zoals geld, krijgen hun waarde door leerervaring en sociale betekenis.",
+    "whyWrong": [
+      "",
+      "Deze optie draait de begrippen om.",
+      "Dat beide gedrag kunnen versterken betekent niet dat beide primair zijn.",
+      "Bekrachtigers verhogen gedrag; straffen verlagen gedrag."
+    ],
+    "tip": "Vraag bij primaire bekrachtigers of de stimulus direct in een basisbehoefte voorziet."
+  },
+  {
+    "id": "v2_w8c_005",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Continue en partiële bekrachtiging",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Wat is het verschil tussen continue en partiële bekrachtiging?",
+    "options": [
+      "Bij continue bekrachtiging wordt elke gewenste respons beloond; bij partiële bekrachtiging slechts een deel van de responsen.",
+      "Bij continue bekrachtiging wordt nooit beloond; bij partiële bekrachtiging wordt elke respons beloond.",
+      "Continue bekrachtiging hoort alleen bij klassieke conditionering; partiële bekrachtiging alleen bij geheugen.",
+      "Continue en partiële bekrachtiging zijn twee namen voor negatieve straf."
+    ],
+    "correct": 0,
+    "explanation": "Continue bekrachtiging betekent dat elke respons wordt beloond. Partiële bekrachtiging betekent dat slechts sommige responsen bekrachtigd worden.",
+    "whyWrong": [
+      "",
+      "Deze optie draait de definities om.",
+      "Beide horen bij operante conditionering.",
+      "Negatieve straf is iets prettigs wegnemen waardoor gedrag afneemt."
+    ],
+    "tip": "Continue bekrachtiging dooft vaak sneller uit zodra beloning stopt dan partiële bekrachtiging."
+  },
+  {
+    "id": "v2_w8c_006",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Responsprofielen van bekrachtigingsschema's",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak over responsprofielen van bekrachtigingsschema's is correct?",
+    "options": [
+      "Variabele-verhoudingsschema's leveren vaak hoge en hardnekkige responsactiviteit op; vaste-intervalschema's geven vaak meer reageren vlak voor het bekrachtigingsmoment.",
+      "Vaste-intervalschema's leveren altijd de hoogste constante responsactiviteit op; variabele-verhoudingsschema's doven het snelst uit.",
+      "Continue bekrachtiging maakt gedrag resistenter tegen extinctie dan variabele bekrachtiging.",
+      "Alle bekrachtigingsschema's leiden tot hetzelfde responsprofiel zolang de beloning even aantrekkelijk is."
+    ],
+    "correct": 0,
+    "explanation": "Variabele-verhoudingsschema's, zoals gokken, leiden vaak tot hoge en hardnekkige activiteit. Bij vaste intervallen neemt reageren vaak toe wanneer het bekrachtigingsmoment nadert.",
+    "whyWrong": [
+      "",
+      "Variabele-verhoudingsschema's zijn juist vaak zeer resistent tegen extinctie.",
+      "Continue bekrachtiging dooft vaak sneller uit wanneer beloning stopt.",
+      "Schema's verschillen juist in responsprofiel."
+    ],
+    "tip": "Let niet alleen op de definitie van schema's, maar ook op het gedragspatroon dat ze oproepen."
+  },
+  {
+    "id": "v2_w8c_007",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Contextspecifieke extinctie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een rat leert in context A dat hendeldrukken voedsel oplevert. In context B wordt hendeldrukken niet meer beloond en neemt het gedrag af. Terug in context A drukt de rat weer vaker. Wat laat dit zien?",
+    "options": [
+      "Extinctie kan contextspecifiek zijn; gedrag kan terugkomen in de oorspronkelijke leercontext.",
+      "Extinctie wist het oorspronkelijke leren altijd volledig en overal uit.",
+      "De rat toont stimulusgeneralisatie, omdat context A en B volledig gelijk worden behandeld.",
+      "De rat toont aangeleerde hulpeloosheid, omdat hij geen enkel gedrag meer uitvoert."
+    ],
+    "correct": 0,
+    "explanation": "Extinctie betekent niet dat het oorspronkelijke leren volledig verdwenen is. De context waarin extinctie plaatsvindt kan bepalen of het uitgedoofde gedrag terugkomt.",
+    "whyWrong": [
+      "",
+      "Extinctie wist het oorspronkelijke leren niet noodzakelijk volledig.",
+      "Het gedrag verschilt juist tussen contexten.",
+      "De rat voert juist opnieuw gedrag uit in context A."
+    ],
+    "tip": "Bij terugkeer van gedrag in een andere context: denk aan contextspecifieke extinctie."
+  },
+  {
+    "id": "v2_w8c_008",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Operante S-R, S-G en R-G-relaties",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke koppeling tussen operante relaties is correct?",
+    "options": [
+      "S-R: stimulus-respons; S-G: stimulus-gevolg; R-G: respons-gevolg.",
+      "S-R: stimulus-receptor; S-G: slaap-geheugen; R-G: retina-ganglion.",
+      "S-R: semantiek-respons; S-G: syntaxis-geheugen; R-G: regel-gevolg.",
+      "S-R, S-G en R-G zijn drie namen voor dezelfde klassieke reflex."
+    ],
+    "correct": 0,
+    "explanation": "Bij operant leren kunnen verschillende relaties worden geleerd: tussen stimulus en respons, stimulus en gevolg, en respons en gevolg.",
+    "whyWrong": [
+      "",
+      "Deze koppeling hoort bij andere domeinen en is niet correct.",
+      "Dit zijn geen standaardbetekenissen van S-R, S-G en R-G.",
+      "De relaties zijn niet identiek en horen niet simpelweg bij klassieke reflexen."
+    ],
+    "tip": "Operant gedrag is vaak contextgebonden doordat organismen leren wanneer een respons welk gevolg heeft."
+  },
+  {
+    "id": "v2_w8c_009",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Biologische predispositie bij operant leren",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Waarom leren dieren sommige operante reacties makkelijker dan andere?",
+    "options": [
+      "Omdat reacties die aansluiten bij soortspecifiek natuurlijk gedrag biologisch gemakkelijker te leren zijn.",
+      "Omdat alle reacties bij alle soorten even makkelijk geconditioneerd kunnen worden.",
+      "Omdat operant leren volledig losstaat van motorische mogelijkheden en soortspecifieke neigingen.",
+      "Omdat biologische factoren alleen klassieke conditionering beïnvloeden en nooit operant leren."
+    ],
+    "correct": 0,
+    "explanation": "Ook bij operant leren zijn organismen biologisch voorbereid op sommige gedragingen. Gedrag dat natuurlijker past bij de soort wordt makkelijker aangeleerd.",
+    "whyWrong": [
+      "",
+      "Niet alle reacties zijn even makkelijk te leren.",
+      "Motorische mogelijkheden en natuurlijke neigingen doen er wel toe.",
+      "Biologische restricties kunnen ook operant leren beïnvloeden."
+    ],
+    "tip": "Leren gebeurt niet op een biologisch neutraal systeem."
+  },
+  {
+    "id": "v2_w8c_010",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Stimulusversterking",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is stimulusversterking bij observerend leren?",
+    "options": [
+      "Een object of stimulus wordt aantrekkelijker of opvallender doordat een model ermee omgaat.",
+      "De waarnemer neemt exact dezelfde motorische beweging over als het model.",
+      "Een observator leert vooral welk doel bereikt moet worden, zonder hetzelfde object te gebruiken.",
+      "Een reactie neemt toe doordat een onaangename stimulus verdwijnt."
+    ],
+    "correct": 0,
+    "explanation": "Bij stimulusversterking gaat de aandacht of interesse van de observator meer naar een object omdat een model ermee bezig is.",
+    "whyWrong": [
+      "",
+      "Dat beschrijft imitatie meer dan stimulusversterking.",
+      "Dat past beter bij doelversterking.",
+      "Dat is negatieve bekrachtiging."
+    ],
+    "tip": "Stimulusversterking gaat om interesse in het object; doelversterking gaat om interesse in het doel."
+  },
+  {
+    "id": "v2_w8c_011",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Doelversterking",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een kind ziet een ander kind een doos gebruiken om bij een speeltje op een plank te komen. Later probeert het kind het speeltje ook te pakken, maar gebruikt daarvoor een stoel. Welk leerproces past het best?",
+    "options": [
+      "Doelversterking, omdat vooral het doel aantrekkelijker is geworden en niet per se dezelfde handeling wordt gekopieerd.",
+      "Stimulusversterking, omdat het kind uitsluitend interesse in de doos heeft gekregen.",
+      "Exacte imitatie, omdat het kind dezelfde handeling met hetzelfde object uitvoert.",
+      "Klassieke conditionering, omdat de doos een ongeconditioneerde stimulus is geworden."
+    ],
+    "correct": 0,
+    "explanation": "Bij doelversterking wordt het doel van het modelgedrag aantrekkelijker. De observator hoeft niet exact dezelfde handeling of hetzelfde object te gebruiken.",
+    "whyWrong": [
+      "",
+      "Het kind gebruikt juist niet de doos.",
+      "Er is geen exacte kopie van de handeling.",
+      "De doos is geen ongeconditioneerde stimulus."
+    ],
+    "tip": "Doelversterking is subtieler dan imitatie: het doel wordt overgenomen, niet noodzakelijk de beweging."
+  },
+  {
+    "id": "v2_w8c_012",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Bobo-dollonderzoek",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Kinderen zien een volwassene agressief gedrag vertonen tegenover een pop. Later vertonen zij vergelijkbaar gedrag, vooral wanneer het model daarvoor beloond werd. Welke conclusie past het best?",
+    "options": [
+      "Gedrag kan worden geleerd door observatie, en gevolgen voor het model beïnvloeden de kans op imitatie.",
+      "Kinderen leren agressie alleen wanneer zij zelf direct fysiek beloond worden.",
+      "Agressief gedrag kan alleen via klassieke conditionering ontstaan.",
+      "Observerend leren vereist dat kinderen de instructie verbaal kunnen uitleggen."
+    ],
+    "correct": 0,
+    "explanation": "Het Bobo-dollonderzoek laat zien dat kinderen gedrag kunnen leren door een model te observeren, en dat beloning of straf voor het model imitatie beïnvloedt.",
+    "whyWrong": [
+      "",
+      "Directe eigen beloning is niet noodzakelijk.",
+      "Agressie kan ook via observerend leren ontstaan.",
+      "Observerend leren vereist niet dat het kind de regel verbaal kan formuleren."
+    ],
+    "tip": "Bij Bandura is de consequentie voor het model belangrijk."
+  },
+  {
+    "id": "v2_w8c_013",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Vicariërende straf",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een kind ziet dat een klasgenoot straf krijgt voor door de klas roepen. Daarna roept het zelf minder vaak door de klas. Wat is dit?",
+    "options": [
+      "Vicariërende straf, omdat het kind leert van de straf die een ander krijgt.",
+      "Directe negatieve straf, omdat het kind zelf iets prettigs verliest.",
+      "Stimulusgeneralisatie, omdat de angstrespons zich uitbreidt naar vergelijkbare stimuli.",
+      "Extinctie, omdat een CS herhaaldelijk zonder OS wordt aangeboden."
+    ],
+    "correct": 0,
+    "explanation": "De observator verandert gedrag op basis van de gevolgen voor een model. Omdat het model gestraft wordt en het kind daardoor minder gedrag vertoont, is dit vicariërende straf.",
+    "whyWrong": [
+      "",
+      "Het kind verliest zelf niets prettigs.",
+      "Er is geen klassieke generalisatie van angst.",
+      "Er is geen CS-zonder-OS-procedure."
+    ],
+    "tip": "Vicariërend betekent: via de ervaring van iemand anders."
+  },
+  {
+    "id": "v2_w8c_014",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Observerend leren van angst, smaak en genderrollen",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke combinatie bevat alleen voorbeelden van observerend leren?",
+    "options": [
+      "Een kind wordt bang voor spinnen door paniek van een ouder te zien; een kind probeert groente nadat leeftijdsgenoten het lekker vinden; een kind neemt genderrolgedrag over van modellen.",
+      "Een hond kwijlt bij een toon; een rat drukt op een hendel voor voedsel; een respons keert terug na extinctie.",
+      "Een woord wordt sneller herkend na een verwante prime; een letter wordt beter herkend in een woord; een zin wordt opnieuw geïnterpreteerd na teruglezen.",
+      "Een patiënt kan geen nieuwe herinneringen vormen; een patiënt herkent gezichten niet; een patiënt negeert de linker ruimtehelft."
+    ],
+    "correct": 0,
+    "explanation": "Alle drie voorbeelden in optie A gaan over leren door het gedrag of de reacties van anderen te observeren.",
+    "whyWrong": [
+      "",
+      "Dit zijn klassieke en operante conditionering en spontaan herstel.",
+      "Dit zijn taal- en waarnemingsprocessen.",
+      "Dit zijn neuropsychologische stoornissen."
+    ],
+    "tip": "Observerend leren is breed: niet alleen agressie, maar ook angst, voorkeuren en sociale rollen."
+  },
+  {
+    "id": "v2_w8c_015",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Autobiografisch geheugen",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is autobiografisch geheugen?",
+    "options": [
+      "Geheugen voor persoonlijke gebeurtenissen en ervaringen uit het eigen leven.",
+      "Geheugen voor algemene feiten zonder persoonlijke context.",
+      "Geheugen voor motorische vaardigheden en gewoontes.",
+      "Zeer korte opslag van visuele prikkels na stimuluspresentatie."
+    ],
+    "correct": 0,
+    "explanation": "Autobiografisch geheugen gaat over herinneringen aan persoonlijke ervaringen, vaak met een tijd, plaats en zelfbetrokkenheid.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft semantisch geheugen.",
+      "Dit beschrijft procedureel geheugen.",
+      "Dit beschrijft iconisch geheugen."
+    ],
+    "tip": "Autobiografisch geheugen is sterk verbonden met episodisch geheugen."
+  },
+  {
+    "id": "v2_w8c_016",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Reminiscentiebult",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is de reminiscentiebult?",
+    "options": [
+      "Het verschijnsel dat mensen relatief veel autobiografische herinneringen hebben uit adolescentie en jongvolwassenheid.",
+      "Het verschijnsel dat recente items in een woordenlijst beter worden onthouden.",
+      "Het verschijnsel dat emotionele herinneringen altijd volledig accuraat zijn.",
+      "Het verschijnsel dat jonge kinderen zich alles van vóór hun derde jaar herinneren."
+    ],
+    "correct": 0,
+    "explanation": "De reminiscentiebult verwijst naar een verhoogd aantal autobiografische herinneringen uit de periode rond adolescentie en jongvolwassenheid.",
+    "whyWrong": [
+      "",
+      "Dit is het recency-effect.",
+      "Emotionele herinneringen voelen levendig, maar zijn niet altijd accuraat.",
+      "Voor de eerste levensjaren is vaak sprake van kinderamnesie."
+    ],
+    "tip": "Reminiscentiebult gaat over levensloopherinneringen, niet lijstleren."
+  },
+  {
+    "id": "v2_w8c_017",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Neurale netwerken en geheugen",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Waar ligt informatie volgens neurale-netwerkmodellen van geheugen vooral opgeslagen?",
+    "options": [
+      "In de sterkte van verbindingen tussen eenheden of neuronen.",
+      "In één afzonderlijk neuron dat precies één herinnering bevat.",
+      "In een vaste bibliotheekachtige locatie die losstaat van betekenis.",
+      "Alleen in sensorische receptoren zolang de stimulus aanwezig is."
+    ],
+    "correct": 0,
+    "explanation": "In neurale-netwerkmodellen wordt informatie verdeeld opgeslagen in patronen van verbindingen. Leren verandert de sterkte van verbindingen.",
+    "whyWrong": [
+      "",
+      "Geheugen is meestal niet één herinnering per neuron.",
+      "Geheugen is niet simpelweg adresgebaseerd zoals een bibliotheek.",
+      "Sensorische receptoren houden informatie niet langdurig vast."
+    ],
+    "tip": "Geheugen is verspreid en relationeel georganiseerd."
+  },
+  {
+    "id": "v2_w8c_018",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Catastrofale interferentie",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is catastrofale interferentie in neurale netwerken?",
+    "options": [
+      "Nieuwe informatie overschrijft of verstoort bestaande informatie in een netwerk.",
+      "Oude informatie helpt altijd foutloos bij het leren van nieuwe informatie.",
+      "Herinneringen worden sterker doordat ze bewust worden onderdrukt.",
+      "Informatie wordt beter onthouden doordat ze in een opvallende lijstpositie staat."
+    ],
+    "correct": 0,
+    "explanation": "Catastrofale interferentie betekent dat het leren van nieuwe informatie bestaande kennis in een netwerk ernstig kan verstoren of overschrijven.",
+    "whyWrong": [
+      "",
+      "Oude informatie kan helpen, maar kan ook interfereren.",
+      "Bewuste onderdrukking versterkt herinneringen niet per definitie.",
+      "Dit beschrijft eerder positie- of isolatie-effecten."
+    ],
+    "tip": "Catastrofale interferentie verklaart waarom geleidelijke integratie van nieuwe kennis belangrijk is."
+  },
+  {
+    "id": "v2_w8c_019",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Hippocampus en cortex",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke tweefasenverklaring van geheugenopslag is correct?",
+    "options": [
+      "De hippocampus ondersteunt snelle opslag van nieuwe informatie; de cortex integreert informatie geleidelijker in bestaande kennis.",
+      "De cortex slaat nieuwe herinneringen onmiddellijk op; de hippocampus wist ze daarna om interferentie te voorkomen.",
+      "De hippocampus is alleen nodig voor motorische vaardigheden; de cortex alleen voor reflexen.",
+      "Hippocampus en cortex hebben identieke functies en zijn uitwisselbaar bij geheugenopslag."
+    ],
+    "correct": 0,
+    "explanation": "Nieuwe informatie kan snel via de hippocampus worden opgeslagen en later geleidelijker in corticale kennisnetwerken worden geïntegreerd.",
+    "whyWrong": [
+      "",
+      "De hippocampus wist nieuwe herinneringen niet simpelweg.",
+      "Procedureel motorisch leren is niet de primaire functie van de hippocampus.",
+      "De functies zijn niet identiek."
+    ],
+    "tip": "Slaap en consolidatie worden vaak gekoppeld aan geleidelijke integratie van nieuwe informatie."
+  },
+  {
+    "id": "v2_w8c_020",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Hercoderen",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat betekent hercoderen bij langetermijngeheugen?",
+    "options": [
+      "Informatie wordt opnieuw georganiseerd in codes zoals verbale, zintuiglijke of motorische representaties.",
+      "Informatie wordt alleen tijdelijk in het sensorisch geheugen vastgehouden.",
+      "Informatie wordt gewist zodra zij niet meer actief herhaald wordt.",
+      "Informatie wordt uitsluitend opgeslagen als exacte fotografische kopie."
+    ],
+    "correct": 0,
+    "explanation": "Hercoderen betekent dat informatie wordt omgezet en georganiseerd in verschillende representaties of codes, zoals woorden, beelden, bewegingen of betekenissen.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft sensorisch geheugen, niet hercoderen.",
+      "Dat past eerder bij verval uit kortetermijngeheugen.",
+      "Geheugen is niet simpelweg fotografisch."
+    ],
+    "tip": "Hercoderen verklaart waarom dezelfde informatie via meerdere routes kan worden opgehaald."
+  },
+  {
+    "id": "v2_w8c_021",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Gracieuze degradatie",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat betekent gracieuze degradatie bij geheugen?",
+    "options": [
+      "Een netwerk kan ondanks gedeeltelijke schade nog deels correcte output geven.",
+      "Een herinnering verdwijnt volledig zodra één neuron beschadigd raakt.",
+      "Nieuwe informatie wordt altijd perfect geïntegreerd zonder verlies van oude informatie.",
+      "Alle herinneringen worden op één vaste plaats opgeslagen en daar volledig intact gehouden."
+    ],
+    "correct": 0,
+    "explanation": "Omdat kennis verspreid in netwerken is opgeslagen, hoeft gedeeltelijke schade niet tot volledig verlies van een herinnering te leiden.",
+    "whyWrong": [
+      "",
+      "Verspreide opslag maakt het systeem juist minder kwetsbaar voor schade aan één eenheid.",
+      "Nieuwe informatie kan interfereren met oude informatie.",
+      "Geheugen is niet simpelweg één herinnering op één adres."
+    ],
+    "tip": "Gracieuze degradatie past bij verspreide netwerkopslag."
+  },
+  {
+    "id": "v2_w8c_022",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Flashbulb memories",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over flashbulb memories is correct?",
+    "options": [
+      "Ze kunnen zeer levendig aanvoelen, maar zijn niet noodzakelijk accurater dan andere herinneringen.",
+      "Ze zijn altijd volledig juist omdat emotie geheugenfouten voorkomt.",
+      "Ze ontstaan alleen in sensorisch geheugen en verdwijnen binnen één seconde.",
+      "Ze zijn hetzelfde als procedurele vaardigheden."
+    ],
+    "correct": 0,
+    "explanation": "Flashbulb memories zijn levendige herinneringen aan emotionele of belangrijke gebeurtenissen, maar levendigheid garandeert geen accuraatheid.",
+    "whyWrong": [
+      "",
+      "Emotie kan geheugen versterken, maar voorkomt fouten niet.",
+      "Sensorisch geheugen is zeer kortdurend en verklaart flashbulb memories niet.",
+      "Procedureel geheugen gaat over vaardigheden."
+    ],
+    "tip": "Sterk gevoel van zekerheid betekent niet automatisch dat een herinnering klopt."
+  },
+  {
+    "id": "v2_w8c_023",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "DRM-paradigma",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Deelnemers leren woorden als 'bed', 'rust', 'wakker', 'moe' en denken later dat 'slaap' ook op de lijst stond. Welk mechanisme verklaart dit?",
+    "options": [
+      "Semantische associatie activeert een niet-aangeboden kritisch woord, waardoor een valse herinnering ontstaat.",
+      "Het recency-effect zorgt dat het laatste woord uit de lijst verkeerd wordt vervangen.",
+      "Coderingsspecificiteit zorgt dat een passende cue altijd foutloze herinnering oproept.",
+      "Procedureel geheugen zorgt dat deelnemers de motorische uitspraak van het woord verwarren."
+    ],
+    "correct": 0,
+    "explanation": "In het DRM-paradigma activeert een lijst met semantisch verwante woorden een kritisch niet-aangeboden woord, waardoor deelnemers dat woord soms vals herinneren.",
+    "whyWrong": [
+      "",
+      "Het gaat niet om het laatste item in een lijst.",
+      "Coderingsspecificiteit verbetert ophalen, maar garandeert geen foutloosheid.",
+      "Procedureel geheugen is niet de beste verklaring voor semantische valse herinnering."
+    ],
+    "tip": "DRM = betekenisnetwerk kan valse herkenning veroorzaken."
+  },
+  {
+    "id": "v2_w8c_024",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Suggestibiliteit",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Getuigen schatten een auto-ongeluk ernstiger in wanneer gevraagd wordt hoe hard auto's 'crashten' dan wanneer gevraagd wordt hoe hard ze 'botsten'. Welk geheugenproces speelt vooral?",
+    "options": [
+      "Suggestibiliteit, omdat de formulering van de vraag de herinnering of reconstructie beïnvloedt.",
+      "Primacy-effect, omdat eerste woorden in een lijst beter worden onthouden.",
+      "Procedureel leren, omdat rijvaardigheid onbewust verbeterd wordt.",
+      "Besparingsmethode, omdat herleren sneller gaat dan voor het eerst leren."
+    ],
+    "correct": 0,
+    "explanation": "Suggestieve vraagstelling kan herinneringen beïnvloeden. Woorden zoals 'crashen' kunnen leiden tot hogere snelheidsschattingen dan mildere formuleringen.",
+    "whyWrong": [
+      "",
+      "Het gaat niet om lijstpositie.",
+      "Het gaat niet om motorische vaardigheden.",
+      "Het gaat niet om herleren."
+    ],
+    "tip": "Bij ooggetuigen is de vraagformulering vaak onderdeel van het probleem."
+  },
+  {
+    "id": "v2_w8c_025",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Bijlmerramp en valse herinneringen",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Mensen herinneren zich een tv-fragment van een ramp dat nooit heeft bestaan. Welke conclusie past het best?",
+    "options": [
+      "Herinneringen kunnen overtuigend aanvoelen en toch geconstrueerd of beïnvloed zijn.",
+      "Emotionele gebeurtenissen worden altijd volledig correct opgeslagen.",
+      "Een herinnering is alleen vals wanneer iemand bewust liegt.",
+      "Valse herinneringen komen alleen bij kinderen voor."
+    ],
+    "correct": 0,
+    "explanation": "Valse herinneringen kunnen levendig en overtuigend zijn zonder dat iemand bewust liegt. Emotie en herhaalde suggestie kunnen de zekerheid vergroten zonder accuraatheid te garanderen.",
+    "whyWrong": [
+      "",
+      "Emotie verhoogt niet automatisch accuraatheid.",
+      "Valse herinneringen kunnen oprecht worden ervaren.",
+      "Ook volwassenen kunnen valse herinneringen vormen."
+    ],
+    "tip": "Geheugen is reconstructief, ook bij belangrijke gebeurtenissen."
+  },
+  {
+    "id": "v2_w8c_026",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Vervaltheorie",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat stelt de vervaltheorie van vergeten?",
+    "options": [
+      "Geheugensporen verzwakken of verdwijnen door tijdsverloop en fysiologische verandering.",
+      "Vergeten ontstaat uitsluitend doordat nieuwe informatie oude informatie stoort.",
+      "Vergeten komt alleen voor wanneer iemand actief probeert iets te onderdrukken.",
+      "Vergeten betekent altijd dat informatie nooit is opgeslagen geweest."
+    ],
+    "correct": 0,
+    "explanation": "De vervaltheorie verklaart vergeten als het geleidelijk verzwakken van geheugensporen over tijd. Deze verklaring is beperkt, omdat ophaalcues en interferentie ook belangrijk zijn.",
+    "whyWrong": [
+      "",
+      "Dit is retroactieve interferentie.",
+      "Actieve onderdrukking is niet de enige vorm van vergeten.",
+      "Informatie kan opgeslagen zijn maar moeilijk op te halen."
+    ],
+    "tip": "Verval is één verklaring voor vergeten, maar niet de enige."
+  },
+  {
+    "id": "v2_w8c_027",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Verdrongen herinneringen",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over verdrongen herinneringen is het meest verantwoord?",
+    "options": [
+      "Er is voorzichtigheid nodig, omdat pogingen om verborgen herinneringen op te halen ook valse herinneringen kunnen creëren.",
+      "Teruggevonden herinneringen zijn altijd betrouwbaarder dan spontaan herinnerde gebeurtenissen.",
+      "Hypnose garandeert dat traumatische herinneringen volledig en correct worden opgehaald.",
+      "Valse herinneringen ontstaan alleen wanneer iemand bewust probeert te liegen."
+    ],
+    "correct": 0,
+    "explanation": "Herinneringen kunnen door suggestie, verbeelding en verwachtingen worden beïnvloed. Methoden die gericht zijn op het 'terugvinden' van verborgen herinneringen kunnen daarom riskant zijn.",
+    "whyWrong": [
+      "",
+      "Teruggevonden herinneringen zijn niet automatisch betrouwbaarder.",
+      "Hypnose vergroot niet automatisch de accuraatheid.",
+      "Valse herinneringen kunnen oprecht worden ervaren."
+    ],
+    "tip": "Meer details ophalen betekent niet automatisch dat de details correct zijn."
+  },
+  {
+    "id": "v2_w8c_028",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Amnesiesoorten",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling tussen amnesievorm en betekenis is correct?",
+    "options": [
+      "Retrograde amnesie: oude herinneringen vóór letsel kwijt; anterograde amnesie: nieuwe herinneringen na letsel moeilijk vormen.",
+      "Retrograde amnesie: nieuwe herinneringen moeilijk vormen; anterograde amnesie: oude herinneringen kwijt.",
+      "Retrograde amnesie: geen motorische vaardigheden meer; anterograde amnesie: geen kleurwaarneming meer.",
+      "Retrograde en anterograde amnesie betekenen hetzelfde, maar verschillen in ernst."
+    ],
+    "correct": 0,
+    "explanation": "Retrograde amnesie betreft herinneringen van vóór het letsel. Anterograde amnesie betreft het vormen van nieuwe herinneringen na het letsel.",
+    "whyWrong": [
+      "",
+      "Deze optie draait de begrippen om.",
+      "Motorische vaardigheden en kleurwaarneming zijn niet de definities.",
+      "Het zijn verschillende vormen van geheugenverlies."
+    ],
+    "tip": "Retro wijst terug naar oude herinneringen; antero vooruit naar nieuwe herinneringen."
+  },
+  {
+    "id": "v2_w8c_029",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "Organische en functionele amnesie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Wat is het verschil tussen organische en functionele amnesie?",
+    "options": [
+      "Organische amnesie ontstaat door hersenbeschadiging; functionele amnesie ontstaat door psychologische stress of trauma zonder duidelijke structurele schade.",
+      "Organische amnesie ontstaat door sociale wenselijkheid; functionele amnesie ontstaat door beschadiging van het netvlies.",
+      "Organische amnesie treft alleen motoriek; functionele amnesie treft alleen kleurherkenning.",
+      "Organische en functionele amnesie zijn identiek en worden alleen in verschillende landen anders genoemd."
+    ],
+    "correct": 0,
+    "explanation": "Organische amnesie heeft een lichamelijke/hersenorganische oorzaak. Functionele amnesie wordt meestal gekoppeld aan psychologische stress of trauma.",
+    "whyWrong": [
+      "",
+      "Sociale wenselijkheid hoort bij vragenlijsten; netvliesschade bij zicht.",
+      "Dit zijn geen juiste definities.",
+      "Er is wel degelijk een inhoudelijk onderscheid."
+    ],
+    "tip": "Organisch = hersenschade; functioneel = psychologische oorzaak."
+  },
+  {
+    "id": "v2_w8c_030",
+    "chapter": "Week 5 - Leren en geheugen",
+    "concept": "H.M. en impliciet geheugen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "H.M. kon na zijn operatie geen nieuwe gebeurtenissen bewust onthouden, maar werd wel beter in een motorische taak die hij eerder had geoefend. Wat toont dit aan?",
+    "options": [
+      "Declaratief geheugen en procedureel/impliciet leren kunnen van elkaar gescheiden zijn.",
+      "Alle vormen van langetermijngeheugen zijn afhankelijk van één enkel systeem.",
+      "Procedureel leren vereist altijd bewuste herinnering aan eerdere oefensessies.",
+      "Anterograde amnesie betekent dat motorische vaardigheden altijd volledig verdwijnen."
+    ],
+    "correct": 0,
+    "explanation": "H.M. had ernstige problemen met nieuwe declaratieve herinneringen, maar kon nog procedurele vaardigheden leren. Dit toont dat geheugen uit meerdere systemen bestaat.",
+    "whyWrong": [
+      "",
+      "H.M. toont juist dat geheugen niet één uniform systeem is.",
+      "Procedureel leren kan plaatsvinden zonder bewuste herinnering aan oefening.",
+      "Bij H.M. bleven sommige vormen van motorisch leren mogelijk."
+    ],
+    "tip": "H.M. is een sleutelcasus voor het onderscheid tussen expliciet en impliciet geheugen."
   }
 ]
