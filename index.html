@@ -569,16 +569,16 @@ let fcFlipped = false;
 
 async function loadQuestionsFromServer(){
   try {
-    const response = await fetch("./questions.json", { cache: "no-store" });
+    const response = await fetch("./questions v2.json", { cache: "no-store" });
 
     if (!response.ok) {
-      throw new Error("questions.json niet gevonden of niet bereikbaar.");
+      throw new Error("questions v2.json niet gevonden of niet bereikbaar.");
     }
 
     const serverQuestions = await response.json();
 
     if (!Array.isArray(serverQuestions)) {
-      throw new Error("questions.json moet een JSON-array zijn.");
+      throw new Error("questions v2.json moet een JSON-array zijn.");
     }
 
     questions = serverQuestions;
@@ -586,9 +586,9 @@ async function loadQuestionsFromServer(){
     // Optioneel: ook lokaal opslaan zodat de app sneller werkt en offline deels bruikbaar blijft.
     localStorage.setItem(STORAGE_KEYS.questions, JSON.stringify(questions));
 
-    console.log("Vraagbank geladen uit questions.json:", questions.length, "vragen");
+    console.log("Vraagbank geladen uit questions v2.json:", questions.length, "vragen");
   } catch (error) {
-    console.warn("Kon questions.json niet laden. Probeer localStorage of ingebouwde vragen.", error);
+    console.warn("Kon questions v2.json niet laden. Probeer localStorage of ingebouwde vragen.", error);
 
     const saved = localStorage.getItem(STORAGE_KEYS.questions);
 
