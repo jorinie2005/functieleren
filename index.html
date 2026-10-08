@@ -732,13 +732,14 @@ function startExam(customPool=null){
   const pool=buildPool(customPool);
   if(pool.length<1){alert("Geen vragen gevonden met deze filters.");return}
   const chosen=sample(pool, Math.min(count,pool.length));
+  const shuffleOpt=document.getElementById("shuffleOptions").checked;
   
   currentExam={
     id:"exam_"+Date.now(),
     started:Date.now(),
     mode:document.getElementById("examMode").value,
     feedback:document.getElementById("feedbackMode").value,
-    questions: chosen.map(q=>prepareQuestion(q)),
+    questions: chosen.map(q=>prepareQuestion(q,shuffleOpt)),
     answers:[],
     finished:false
   };
@@ -749,8 +750,9 @@ function startExam(customPool=null){
   startTimer();
   renderQuestion();
 }
-function prepareQuestion(q){
+function prepareQuestion(q,shuffleOpt){
   let opts=q.options.map((text,i)=>({text,i}));
+  if(shuffleOpt)opts=shuffle(opts);
   return {...q, displayOptions:opts, displayCorrect:opts.findIndex(o=>o.i===q.correct)};
 }
 function startTimer(){
