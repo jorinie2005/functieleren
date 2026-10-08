@@ -13798,5 +13798,695 @@
       "Inhibitie werkt op responsvoorbereiding, niet alleen vóór stimuluswaarneming."
     ],
     "tip": "Hoe later het stopsignaal, hoe moeilijker responsinhibitie."
+  },
+  {
+    "id": "v2_w10b_001",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Gevalsstudie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is een belangrijk kenmerk van een gevalsstudie?",
+    "options": [
+      "Eén persoon, groep of gebeurtenis wordt intensief onderzocht om inzicht te krijgen in een breder fenomeen.",
+      "Een onafhankelijke variabele wordt altijd willekeurig gemanipuleerd bij grote groepen deelnemers.",
+      "Twee variabelen worden uitsluitend statistisch met elkaar gecorreleerd zonder inhoudelijke analyse.",
+      "Alle deelnemers vullen dezelfde korte meerkeuzevragenlijst in zonder verdere verdieping."
+    ],
+    "correct": 0,
+    "explanation": "Een gevalsstudie onderzoekt één casus zeer gedetailleerd. Dit kan veel inzicht geven, maar generaliseerbaarheid blijft een aandachtspunt.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft een experiment.",
+      "Dit beschrijft correlationeel onderzoek.",
+      "Dit beschrijft eerder een gestandaardiseerde vragenlijst of test."
+    ],
+    "tip": "Bij gevalsstudies is diepgang sterk, maar generaliseerbaarheid vaak beperkter."
+  },
+  {
+    "id": "v2_w10b_002",
+    "chapter": "Week 1 - Wat is psychologie?",
+    "concept": "Gevalsstudie en generaliseerbaarheid",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een onderzoek naar één patiënt met uitzonderlijke amnesie levert veel kennis op over geheugen, maar de onderzoeker waarschuwt dat niet alles zomaar voor iedereen geldt. Welke methodologische beperking benoemt hij?",
+    "options": [
+      "Beperkte externe validiteit, omdat één casus niet automatisch generaliseerbaar is naar alle mensen.",
+      "Lage interne validiteit, omdat elke gevalsstudie noodzakelijk een experimentele manipulatie mist.",
+      "Publicatiebias, omdat een enkele patiënt altijd alleen positieve resultaten laat zien.",
+      "Sociale wenselijkheid, omdat hersenschade meestal door vragenlijsten wordt veroorzaakt."
+    ],
+    "correct": 0,
+    "explanation": "Een gevalsstudie kan zeer informatief zijn, maar conclusies uit één casus zijn niet automatisch generaliseerbaar naar andere personen of situaties.",
+    "whyWrong": [
+      "",
+      "Een gevalsstudie heeft niet per definitie een interne-validiteitsprobleem in deze zin; de kern is generaliseerbaarheid.",
+      "Publicatiebias gaat over welke studies gepubliceerd worden.",
+      "Sociale wenselijkheid gaat over vertekening in zelfrapportage."
+    ],
+    "tip": "Bij één casus is vooral externe validiteit een belangrijke kritische vraag."
+  },
+  {
+    "id": "v2_w10b_003",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Wet van Weber",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Een proefpersoon merkt bij 800 gram pas verschil vanaf 840 gram. Volgens de wet van Weber, welk vergelijkingsgewicht hoort ongeveer bij een standaard van 1600 gram?",
+    "options": [
+      "1680 gram.",
+      "1640 gram.",
+      "1720 gram.",
+      "1800 gram."
+    ],
+    "correct": 0,
+    "explanation": "De JND bij 800 gram is 40 gram. De Weberfractie is dus 40/800 = 0,05. Bij 1600 gram is de JND 0,05 × 1600 = 80 gram. Het vergelijkingsgewicht is dus 1680 gram.",
+    "whyWrong": [
+      "",
+      "1640 gram houdt het absolute verschil gelijk, maar Weber gaat over relatieve verhouding.",
+      "1720 gram gebruikt een te grote JND.",
+      "1800 gram overschat het verschil sterk."
+    ],
+    "tip": "Weberfractie = JND gedeeld door standaardstimulus."
+  },
+  {
+    "id": "v2_w10b_004",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Sensitiviteit en responscriterium",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Wat is het verschil tussen sensitiviteit en responscriterium in signaaldetectietheorie?",
+    "options": [
+      "Sensitiviteit gaat over onderscheid tussen signaal en ruis; responscriterium gaat over hoe snel iemand 'ja, signaal' zegt.",
+      "Sensitiviteit gaat over bereidheid om ja te zeggen; responscriterium gaat over receptorvermogen om signalen van ruis te scheiden.",
+      "Sensitiviteit en responscriterium betekenen allebei dat iemand veel valse alarmen maakt.",
+      "Sensitiviteit en responscriterium zijn alleen relevant bij smaak en niet bij beslissingen."
+    ],
+    "correct": 0,
+    "explanation": "Sensitiviteit is het vermogen om signaal van ruis te onderscheiden. Responscriterium is de beslisdrempel: hoe voorzichtig of liberaal iemand is met 'ja' zeggen.",
+    "whyWrong": [
+      "",
+      "Deze optie draait de begrippen om.",
+      "Veel valse alarmen kunnen wijzen op een liberaal criterium, niet per se op sensitiviteit.",
+      "Signaaldetectie kan ook bij beslissingen, medische detectie en waarneming worden toegepast."
+    ],
+    "tip": "Sensitiviteit = kunnen onderscheiden; criterium = durven zeggen."
+  },
+  {
+    "id": "v2_w10b_005",
+    "chapter": "Week 2 - Gewaarwording",
+    "concept": "Reuk en smaakinteractie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak over voedselwaarneming is het meest correct?",
+    "options": [
+      "Smaak, reuk, zicht, textuur en temperatuur kunnen samen bepalen hoe voedsel wordt ervaren.",
+      "Voedselervaring wordt uitsluitend bepaald door smaakknoppen op de tong.",
+      "Reuk speelt alleen een rol bij voedselherkenning wanneer iemand niets kan proeven.",
+      "Zicht beïnvloedt voedselervaring niet, omdat smaak een volledig geïsoleerd zintuig is."
+    ],
+    "correct": 0,
+    "explanation": "Voedselwaarneming is multisensorisch. Basissmaken, geur, uiterlijk, textuur en temperatuur dragen allemaal bij aan de totale ervaring.",
+    "whyWrong": [
+      "",
+      "Smaakknoppen zijn belangrijk, maar niet de enige bron.",
+      "Reuk speelt ook bij normale smaakervaring een grote rol.",
+      "Zicht kan verwachtingen over smaak en kwaliteit beïnvloeden."
+    ],
+    "tip": "Bij eten werken meerdere zintuigen tegelijk."
+  },
+  {
+    "id": "v2_w10b_006",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Geonen en configuratie",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Waarom is het volgens de Recognition-by-Components-theorie moeilijker om een object te herkennen wanneer de verbindingspunten tussen onderdelen verborgen zijn?",
+    "options": [
+      "Omdat niet alleen losse geonen, maar ook hun onderlinge configuratie belangrijk is voor herkenning.",
+      "Omdat objectherkenning uitsluitend berust op kleur en niet op vormcomponenten.",
+      "Omdat verborgen verbindingspunten automatisch alle top-down kennis uitschakelen.",
+      "Omdat objectherkenning alleen mogelijk is als het volledige object als foto is opgeslagen."
+    ],
+    "correct": 0,
+    "explanation": "Biedermans theorie stelt dat objecten worden herkend via geonen én hun relaties. Als de configuratie onduidelijk wordt, wordt herkenning moeilijker.",
+    "whyWrong": [
+      "",
+      "Vormcomponenten zijn juist centraal in RBC.",
+      "Top-down kennis wordt niet automatisch uitgeschakeld.",
+      "Dit zou eerder een sterk template-model zijn."
+    ],
+    "tip": "Geonen zonder duidelijke configuratie zijn minder informatief."
+  },
+  {
+    "id": "v2_w10b_007",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Kijkergericht en objectgericht",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat betekent de overgang van kijkergerichte naar objectgerichte representatie?",
+    "options": [
+      "Het visuele systeem gaat van een perspectiefafhankelijk beeld naar een stabielere representatie van het object zelf.",
+      "Het visuele systeem zet een object om in een auditieve representatie zonder visuele kenmerken.",
+      "Het object wordt alleen herkend als het vanuit exact dezelfde kijkhoek wordt gezien.",
+      "De representatie blijft volledig afhankelijk van de huidige retinale grootte en positie."
+    ],
+    "correct": 0,
+    "explanation": "Objectherkenning vereist dat het brein een object als hetzelfde object kan herkennen ondanks veranderingen in kijkhoek, grootte en positie.",
+    "whyWrong": [
+      "",
+      "De representatie blijft visueel/objectgericht, niet puur auditief.",
+      "Herkenning werkt juist ondanks kijkhoekvariatie.",
+      "Een objectgerichte representatie is minder afhankelijk van de exacte retinale projectie."
+    ],
+    "tip": "Objectconstantie vraagt om herkenning ondanks veranderende input."
+  },
+  {
+    "id": "v2_w10b_008",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Bewegende schaduw",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een stilstaand object lijkt omhoog of omlaag te bewegen wanneer alleen de schaduwpositie verandert. Wat toont dit?",
+    "options": [
+      "Schaduw kan als dieptecue worden gebruikt en de waargenomen beweging in diepte beïnvloeden.",
+      "Beweging kan alleen worden waargenomen wanneer een object fysiek van plaats verandert.",
+      "Schaduw heeft geen invloed op objectperceptie omdat alleen contouren meetellen.",
+      "Het effect ontstaat doordat beide ogen verschillende taalverwachtingen hebben."
+    ],
+    "correct": 0,
+    "explanation": "Schaduwen kunnen sterke aanwijzingen geven over positie in de diepte. Een veranderende schaduw kan daardoor beweging in diepte suggereren.",
+    "whyWrong": [
+      "",
+      "Waargenomen beweging kan ook illusoir zijn.",
+      "Schaduw is juist een belangrijke cue voor vorm en diepte.",
+      "Taalverwachtingen tussen ogen zijn geen relevant mechanisme."
+    ],
+    "tip": "Licht en schaduw sturen interpretaties van diepte en beweging."
+  },
+  {
+    "id": "v2_w10b_009",
+    "chapter": "Week 3 - Waarneming",
+    "concept": "Biologische beweging",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat maakt biologische beweging bijzonder?",
+    "options": [
+      "Mensen kunnen uit minimale bewegende punten al patronen zoals lopen of handelen herkennen.",
+      "Biologische beweging vereist altijd volledige kleur- en textuurinformatie.",
+      "Biologische beweging kan alleen worden waargenomen wanneer het object stilstaat.",
+      "Biologische beweging wordt uitsluitend herkend door taalgebieden."
+    ],
+    "correct": 0,
+    "explanation": "Biologische beweging is herkenbaar uit de dynamiek van bewegende punten, bijvoorbeeld lichtpuntjes op gewrichten.",
+    "whyWrong": [
+      "",
+      "Volledige kleur en textuur zijn niet noodzakelijk.",
+      "Biologische beweging gaat juist over beweging.",
+      "Taalgebieden zijn niet de primaire verklaring."
+    ],
+    "tip": "Bij biologische beweging is het bewegingspatroon zelf informatief."
+  },
+  {
+    "id": "v2_w10b_010",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Beroerte en aandachtstekorten",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke aandachtstekorten kunnen na een beroerte optreden?",
+    "options": [
+      "Concentratieproblemen, moeite met verdeelde aandacht en problemen met cognitieve controle.",
+      "Alleen verlies van kleurwaarneming zonder aandachtsproblemen.",
+      "Alleen fonologische dyslexie zonder verdere cognitieve gevolgen.",
+      "Alleen verbetering van multitasking door compensatoire aandacht."
+    ],
+    "correct": 0,
+    "explanation": "Na een beroerte kunnen aandacht en cognitieve controle verstoord zijn. Dit kan leiden tot concentratieproblemen en moeite met meerdere taken.",
+    "whyWrong": [
+      "",
+      "Kleurwaarneming is niet het enige mogelijke gevolg.",
+      "Dyslexie is niet het algemene aandachtsgevolg van beroerte.",
+      "Multitasking verbetert niet automatisch na beroerte."
+    ],
+    "tip": "Aandachtstekorten na hersenschade kunnen breed zijn: focus, verdelen en controle."
+  },
+  {
+    "id": "v2_w10b_011",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Videogames en media-multitasking",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak over ervaring met cognitieve controle is het meest genuanceerd?",
+    "options": [
+      "Bepaalde videogame-ervaring kan samenhangen met betere aandachtscontrole, maar media-multitasking leidt niet automatisch tot betere controle.",
+      "Media-multitasking verbetert altijd alle vormen van aandacht sterker dan videogame-ervaring.",
+      "Ervaring met cognitieve controle kan nooit invloed hebben op dubbeltaakprestaties.",
+      "Videogames verbeteren alleen sensorisch geheugen en hebben geen relatie met aandacht."
+    ],
+    "correct": 0,
+    "explanation": "Niet elke vorm van veel schakelen of multitasken verbetert cognitieve controle. Sommige videogames kunnen bepaalde aandachtsvaardigheden trainen, maar media-multitasking hoeft dat niet te doen.",
+    "whyWrong": [
+      "",
+      "Dit is te absoluut en niet genuanceerd.",
+      "Ervaring kan wel invloed hebben.",
+      "Videogames kunnen ook aandacht en visuele selectie beïnvloeden."
+    ],
+    "tip": "Niet alle 'multitaskingervaring' is goede training."
+  },
+  {
+    "id": "v2_w10b_012",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "ADHD en dopamine",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke verklaring van ADHD sluit aan bij problemen in neurotransmissie?",
+    "options": [
+      "Dopamine kan te snel worden heropgenomen, waardoor remmende controleprocessen minder effectief functioneren.",
+      "Dopamine blijft altijd te lang in de synaptische spleet, waardoor aandacht onbeperkt wordt.",
+      "ADHD ontstaat uitsluitend door beschadiging van V1.",
+      "ADHD is vooral een stoornis in smaakreceptoren."
+    ],
+    "correct": 0,
+    "explanation": "Een dopaminerge verklaring van ADHD legt nadruk op onvoldoende effectieve dopaminewerking, onder andere door te snelle heropname, waardoor remmingscontrole verstoord kan zijn.",
+    "whyWrong": [
+      "",
+      "Deze optie beschrijft niet de besproken verklaring.",
+      "V1-schade hoort bij visuele verwerking.",
+      "Smaakreceptoren zijn niet relevant voor ADHD."
+    ],
+    "tip": "ADHD wordt hier gekoppeld aan remmingscontrole, niet simpelweg aan 'te veel energie'."
+  },
+  {
+    "id": "v2_w10b_013",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "ADHD en diagnose",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een kind met vermoedelijke ADHD gedraagt zich tijdens diagnostiek in een rustige spreekkamer opvallend beheerst, maar thuis en op school zijn de klachten duidelijk. Waarom is diagnose dan lastig?",
+    "options": [
+      "Omdat symptomen contextafhankelijk kunnen worden onderdrukt of minder zichtbaar kunnen zijn.",
+      "Omdat ADHD alleen zichtbaar is tijdens slaap.",
+      "Omdat ADHD uitsluitend met een geheugentest vastgesteld kan worden.",
+      "Omdat rustig gedrag in één context bewijst dat ADHD onmogelijk is."
+    ],
+    "correct": 0,
+    "explanation": "ADHD-symptomen kunnen verschillen per context. Een gestructureerde of autoritaire situatie kan gedrag tijdelijk beter reguleren, waardoor klachten minder zichtbaar zijn.",
+    "whyWrong": [
+      "",
+      "ADHD is niet alleen tijdens slaap zichtbaar.",
+      "ADHD-diagnostiek vraagt breder beeld dan alleen geheugen.",
+      "Eén rustige context sluit ADHD niet uit."
+    ],
+    "tip": "Bij ADHD moet gedrag in meerdere contexten worden bekeken."
+  },
+  {
+    "id": "v2_w10b_014",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Default Mode Network",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over het Default Mode Network is correct?",
+    "options": [
+      "Het is relatief actief in rust en moet tijdens taakuitvoering voldoende worden onderdrukt.",
+      "Het is alleen actief tijdens diepe slaap en nooit tijdens waken.",
+      "Het is een netwerk in de retina dat kleurcontrast verwerkt.",
+      "Het is hetzelfde als de fonologische lus in het werkgeheugen."
+    ],
+    "correct": 0,
+    "explanation": "Het Default Mode Network is vooral actief bij rust of intern gerichte gedachten. Tijdens taakuitvoering moet het vaak worden onderdrukt.",
+    "whyWrong": [
+      "",
+      "Het DMN is juist ook tijdens waken actief.",
+      "Het is geen retinanetwerk.",
+      "De fonologische lus is een werkgeheugencomponent."
+    ],
+    "tip": "Als taakfocus moeilijk is door afdwalende interne activiteit, kan DMN relevant zijn."
+  },
+  {
+    "id": "v2_w10b_015",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Hans Berger en EEG",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Waarom is EEG belangrijk voor slaaponderzoek?",
+    "options": [
+      "EEG maakt verschillende slaapstadia zichtbaar via patronen in elektrische hersenactiviteit.",
+      "EEG meet direct droominhoud woord voor woord.",
+      "EEG meet uitsluitend pupilgrootte tijdens aandachtstaken.",
+      "EEG vervangt de noodzaak om hersenactiviteit te meten."
+    ],
+    "correct": 0,
+    "explanation": "EEG registreert elektrische hersenactiviteit. Verschillende slaapstadia hebben herkenbare EEG-patronen.",
+    "whyWrong": [
+      "",
+      "EEG kan droominhoud niet letterlijk uitlezen.",
+      "Pupilgrootte wordt niet met EEG gemeten.",
+      "EEG is juist een manier om hersenactiviteit te meten."
+    ],
+    "tip": "EEG hoort bij hersengolven en slaapstadia."
+  },
+  {
+    "id": "v2_w10b_016",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "EOG",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Waarom kan EOG nuttig zijn bij slaaponderzoek?",
+    "options": [
+      "Omdat het oogbewegingen meet, wat helpt bij het herkennen van REM-slaap.",
+      "Omdat het direct melatonineconcentraties in bloed meet.",
+      "Omdat het meet hoeveel woorden iemand in slaap produceert.",
+      "Omdat het bepaalt welke herinneringen tijdens slaap accuraat zijn."
+    ],
+    "correct": 0,
+    "explanation": "EOG registreert oogbewegingen. Omdat REM-slaap wordt gekenmerkt door snelle oogbewegingen, is EOG nuttig bij slaaponderzoek.",
+    "whyWrong": [
+      "",
+      "Melatonine wordt niet direct met EOG gemeten.",
+      "EOG meet oogbewegingen, geen woordproductie.",
+      "EOG bepaalt niet de accuraatheid van herinneringen."
+    ],
+    "tip": "EEG meet hersenactiviteit; EOG meet oogbewegingen."
+  },
+  {
+    "id": "v2_w10b_017",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Hobson en activation-synthesis",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke uitspraak past bij activation-synthesis als droomtheorie?",
+    "options": [
+      "Dromen ontstaan doordat de hersenen betekenis proberen te geven aan spontane neurale activiteit tijdens slaap.",
+      "Dromen zijn altijd symbolische wensvervullingen met vaste verborgen betekenissen.",
+      "Dromen zijn uitsluitend exacte replay van gebeurtenissen van dezelfde dag.",
+      "Dromen komen alleen voort uit bewuste planning vlak voor het inslapen."
+    ],
+    "correct": 0,
+    "explanation": "Activation-synthesis ziet dromen als een poging van de hersenen om spontane of chaotische neurale activatie te organiseren tot een verhaal.",
+    "whyWrong": [
+      "",
+      "Dit past eerder bij een Freudiaanse interpretatie.",
+      "Dromen kunnen elementen van ervaringen bevatten, maar zijn niet altijd exacte replay.",
+      "Dromen ontstaan niet uitsluitend uit bewuste planning."
+    ],
+    "tip": "Activation-synthesis = brein maakt verhaal van activiteit."
+  },
+  {
+    "id": "v2_w10b_018",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Walker en slaapconsolidatie",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over slaap en geheugenconsolidatie is correct?",
+    "options": [
+      "Slaap kan bijdragen aan het versterken en integreren van nieuw geleerde informatie.",
+      "Slaap verwijdert nieuw geleerde informatie om interferentie altijd te voorkomen.",
+      "Slaap heeft geen invloed op leren of geheugen.",
+      "Slaap helpt alleen procedureel geheugen en nooit declaratieve kennis."
+    ],
+    "correct": 0,
+    "explanation": "Slaap speelt een rol in consolidatie: nieuwe informatie kan worden versterkt en geïntegreerd met bestaande kennis.",
+    "whyWrong": [
+      "",
+      "Slaap verwijdert informatie niet simpelweg.",
+      "Slaap beïnvloedt leren en geheugen wel.",
+      "Slaap kan meerdere geheugenvormen beïnvloeden."
+    ],
+    "tip": "Slaap is belangrijk na leren, niet alleen vóór leren."
+  },
+  {
+    "id": "v2_w10b_019",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Maquet en slaap",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Waarom is hersenactivatie tijdens slaap relevant voor de functie van slaap?",
+    "options": [
+      "Omdat patronen van hersenactiviteit tijdens slaap kunnen wijzen op verwerking of heractivatie van eerder geleerde informatie.",
+      "Omdat slaap betekent dat de hersenen volledig uitgeschakeld zijn.",
+      "Omdat tijdens slaap alleen spieractiviteit en geen hersenactiviteit meetbaar is.",
+      "Omdat slaapactiviteit aantoont dat geheugenconsolidatie alleen tijdens waken gebeurt."
+    ],
+    "correct": 0,
+    "explanation": "Onderzoek naar hersenactiviteit tijdens slaap ondersteunt het idee dat slaap niet passief is, maar betrokken kan zijn bij verwerking en consolidatie van eerdere ervaringen.",
+    "whyWrong": [
+      "",
+      "De hersenen zijn tijdens slaap actief.",
+      "Er is juist hersenactiviteit meetbaar.",
+      "Slaapactiviteit ondersteunt eerder de rol van slaap in consolidatie."
+    ],
+    "tip": "Slaap is actief voor het brein, ook als het lichaam rust."
+  },
+  {
+    "id": "v2_w10b_020",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Evolutionaire functie van slaap",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke evolutionaire verklaring voor slaap is plausibel?",
+    "options": [
+      "Slaap kan bescherming hebben geboden door activiteit te verminderen op momenten waarop bewegen gevaarlijk of inefficiënt was.",
+      "Slaap ontstond uitsluitend om dromen symbolisch te maken.",
+      "Slaap heeft evolutionair geen enkele mogelijke functie.",
+      "Slaap is alleen nuttig omdat het alle zintuigen permanent uitschakelt."
+    ],
+    "correct": 0,
+    "explanation": "Een evolutionaire verklaring is dat rusten of slapen in bepaalde omstandigheden veiliger of energie-efficiënter was dan actief blijven.",
+    "whyWrong": [
+      "",
+      "Dromen zijn niet de enige mogelijke functie van slaap.",
+      "Slaap heeft meerdere mogelijke functies.",
+      "Zintuigen worden niet permanent uitgeschakeld."
+    ],
+    "tip": "Slaap kan herstel-, consolidatie- én evolutionaire functies hebben."
+  },
+  {
+    "id": "v2_w10b_021",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "REM en non-REM dromen",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak over REM- en non-REM-dromen is correct?",
+    "options": [
+      "Dromen worden vaker gerapporteerd uit REM-slaap, maar kunnen ook in non-REM-slaap voorkomen.",
+      "Dromen komen uitsluitend voor in REM-slaap en nooit in non-REM-slaap.",
+      "Dromen komen uitsluitend voor in stadium 4 en nooit in REM-slaap.",
+      "REM-slaap bevat geen hersenactiviteit en kan daarom geen dromen ondersteunen."
+    ],
+    "correct": 0,
+    "explanation": "REM-slaap is sterk verbonden met levendige dromen, maar droomrapporten kunnen ook uit non-REM-slaap komen.",
+    "whyWrong": [
+      "",
+      "Dromen zijn niet exclusief REM.",
+      "Dromen komen niet uitsluitend in stadium 4 voor.",
+      "REM bevat juist relatief actieve hersenactiviteit."
+    ],
+    "tip": "REM = meeste dromen, niet alle dromen."
+  },
+  {
+    "id": "v2_w10b_022",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Freud en dromen",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke begrippen passen bij Freuds droomtheorie?",
+    "options": [
+      "Verplaatsing, regressie en condensatie.",
+      "Slaapspoelen, K-complexen en delta-activiteit.",
+      "Hits, misses en valse alarmen.",
+      "Fonemen, morfemen en syntaxis."
+    ],
+    "correct": 0,
+    "explanation": "Freud zag dromen als vervormde uitdrukking van verlangens. Begrippen zoals verplaatsing, regressie en condensatie passen bij die interpretatie.",
+    "whyWrong": [
+      "",
+      "Dit zijn slaapstadiumkenmerken.",
+      "Dit zijn signaaldetectietermen.",
+      "Dit zijn taalbegrippen."
+    ],
+    "tip": "Freuds droomtheorie gaat over verborgen betekenis en vervorming."
+  },
+  {
+    "id": "v2_w10b_023",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Evolutionaire droomtheorie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke uitspraak past bij een evolutionaire droomtheorie?",
+    "options": [
+      "Dromen kunnen functioneren als simulatie of voorbereiding op bedreigende situaties.",
+      "Dromen zijn uitsluitend willekeurige hersenruis zonder mogelijke functie.",
+      "Dromen zijn altijd exacte herinneringen aan gebeurtenissen van dezelfde dag.",
+      "Dromen ontstaan alleen wanneer iemand onder hypnose is."
+    ],
+    "correct": 0,
+    "explanation": "Een evolutionaire visie kan dromen zien als een manier om bedreigingen te simuleren en reacties te oefenen.",
+    "whyWrong": [
+      "",
+      "Dit past eerder bij een extreme interpretatie van activation-synthesis, maar sluit functie te sterk uit.",
+      "Dromen zijn niet altijd exacte herinneringen.",
+      "Dromen en hypnose zijn verschillende fenomenen."
+    ],
+    "tip": "Droomtheorieën verschillen in of zij dromen zien als wens, ruis, consolidatie of bedreigingsoefening."
+  },
+  {
+    "id": "v2_w10b_024",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Stanford Hypnotic Suggestibility Scale",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Waarvoor wordt de Stanford Hypnotic Suggestibility Scale gebruikt?",
+    "options": [
+      "Om te meten hoe gevoelig iemand is voor hypnotische suggesties.",
+      "Om te bepalen hoeveel REM-slaap iemand per nacht krijgt.",
+      "Om te meten hoe goed iemand pseudowoorden kan lezen.",
+      "Om te testen of iemand een kleurdeficiëntie heeft."
+    ],
+    "correct": 0,
+    "explanation": "De Stanford Hypnotic Suggestibility Scale meet de mate waarin iemand reageert op hypnotische suggesties.",
+    "whyWrong": [
+      "",
+      "REM-slaap wordt via slaaponderzoek gemeten, bijvoorbeeld met EEG/EOG.",
+      "Pseudowoordlezen hoort bij dyslexieonderzoek.",
+      "Kleurdeficiëntie wordt bijvoorbeeld met Ishihara-achtige testen onderzocht."
+    ],
+    "tip": "Hypnotiseerbaarheid verschilt tussen personen."
+  },
+  {
+    "id": "v2_w10b_025",
+    "chapter": "Week 4 - Aandacht",
+    "concept": "Hypnose en cognitief interview",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Waarom is hypnose problematisch als methode om herinneringen betrouwbaarder te maken?",
+    "options": [
+      "Hypnose kan het aantal gerapporteerde herinneringen verhogen, maar niet garanderen dat ze correct zijn.",
+      "Hypnose vermindert altijd het aantal herinneringen en voorkomt daardoor alle fouten.",
+      "Hypnose maakt herinneringen objectief accurater dan elk ander interviewtype.",
+      "Hypnose wist suggestibiliteit volledig uit."
+    ],
+    "correct": 0,
+    "explanation": "Onder hypnose kunnen mensen meer details rapporteren, maar die details zijn niet automatisch accuraat. Suggestibiliteit blijft een probleem.",
+    "whyWrong": [
+      "",
+      "Hypnose vermindert niet altijd het aantal herinneringen.",
+      "Meer details betekent niet meer betrouwbaarheid.",
+      "Suggestibiliteit kan juist een risico blijven."
+    ],
+    "tip": "Bij geheugen geldt: meer herinneren is niet hetzelfde als correcter herinneren."
+  },
+  {
+    "id": "v2_w10b_026",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Heider en kleurtaal",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Waarom is onderzoek met bevolkingsgroepen met weinig kleurwoorden relevant voor taal en denken?",
+    "options": [
+      "Het onderzoekt of kleurwaarneming vooral door perceptuele eigenschappen of door taalcategorieën wordt gestuurd.",
+      "Het bewijst dat mensen zonder kleurwoorden geen kleuren kunnen zien.",
+      "Het toont dat kleurwaarneming volledig onafhankelijk is van zowel taal als waarneming.",
+      "Het onderzoekt of fonologische dyslexie door kleurwoorden kan worden genezen."
+    ],
+    "correct": 0,
+    "explanation": "Onderzoek naar kleurwoorden test de relatie tussen perceptuele kleurverschillen en taalcategorieën. Het gaat om de vraag hoe sterk taal kleurdenken beïnvloedt.",
+    "whyWrong": [
+      "",
+      "Mensen kunnen kleuren waarnemen zonder voor elke kleur een apart woord te hebben.",
+      "Het onderzoek gaat juist over de mogelijke invloed van taal.",
+      "Dyslexie is niet de kern van dit onderzoek."
+    ],
+    "tip": "Kleurtaalonderzoek hoort bij linguïstische relativiteit."
+  },
+  {
+    "id": "v2_w10b_027",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Berlin & Kay",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is de kern van onderzoek naar basis-kleurtermen zoals dat van Berlin en Kay?",
+    "options": [
+      "Talen verschillen in kleurwoorden, maar vertonen ook patronen in welke basiskleurtermen ontstaan.",
+      "Alle talen hebben exact dezelfde kleurwoorden in exact dezelfde volgorde.",
+      "Kleurtermen zijn volledig willekeurig en hebben geen enkele relatie met perceptuele kleurcategorieën.",
+      "Kleurwoorden bepalen volledig of iemand lichtgolven kan waarnemen."
+    ],
+    "correct": 0,
+    "explanation": "Onderzoek naar basiskleurtermen laat zien dat talen verschillen, maar dat er ook regelmatige patronen bestaan in kleurbenaming.",
+    "whyWrong": [
+      "",
+      "Talen verschillen juist in hun kleurwoordensysteem.",
+      "Kleurtermen zijn niet volledig willekeurig.",
+      "Taal beïnvloedt kleurdenken, maar bepaalt basale lichtwaarneming niet volledig."
+    ],
+    "tip": "Bij kleur en taal is de nuance: taal beïnvloedt, maar biologische waarneming blijft belangrijk."
+  },
+  {
+    "id": "v2_w10b_028",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Wason cijferreekstaak",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Iemand moet ontdekken welke regel achter de reeks '2-4-6' zit. Hij test vooral reeksen die zijn eigen hypothese bevestigen, zoals '8-10-12', maar nauwelijks reeksen die zijn hypothese kunnen weerleggen. Welke denkfout speelt vooral?",
+    "options": [
+      "Confirmatieneiging.",
+      "Hindsight bias.",
+      "Sunk cost fallacy.",
+      "Beschikbaarheidsheuristiek."
+    ],
+    "correct": 0,
+    "explanation": "De persoon zoekt vooral bevestiging van de eigen hypothese en test onvoldoende alternatieven die de hypothese zouden kunnen falsifiëren.",
+    "whyWrong": [
+      "",
+      "Hindsight bias gaat over achteraf voorspelbaarheid overschatten.",
+      "Sunk cost gaat over blijven investeren door eerdere kosten.",
+      "Beschikbaarheid gaat over gemak waarmee voorbeelden herinnerd worden."
+    ],
+    "tip": "Bij Wason-achtige taken is de valkuil vaak bevestiging zoeken in plaats van weerlegging."
+  },
+  {
+    "id": "v2_w10b_029",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Hindsight bias bij experts",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Een ervaren radioloog zegt na het zien van de diagnose dat de afwijking op de scan 'eigenlijk duidelijk zichtbaar' was, terwijl hij die vooraf niet had opgemerkt. Welk verschijnsel past hierbij?",
+    "options": [
+      "Hindsight bias.",
+      "Beschikbaarheidsheuristiek.",
+      "Functionele gefixeerdheid.",
+      "Syntactische priming."
+    ],
+    "correct": 0,
+    "explanation": "Hindsight bias is de neiging om na het kennen van de uitkomst te denken dat die uitkomst vooraf duidelijker of voorspelbaarder was.",
+    "whyWrong": [
+      "",
+      "Beschikbaarheid gaat over inschatting op basis van makkelijk oproepbare voorbeelden.",
+      "Functionele gefixeerdheid gaat over objectgebruik bij probleemoplossen.",
+      "Syntactische priming gaat over hergebruik van zinsstructuur."
+    ],
+    "tip": "Ook experts kunnen achteraf overschatten hoe voorspelbaar een uitkomst was."
+  },
+  {
+    "id": "v2_w10b_030",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Raad voor Kinderbescherming en signaaldetectie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een instantie wil geen enkel risicogeval missen en hanteert daarom een laag criterium om in te grijpen. Wat is een waarschijnlijk gevolg volgens signaaldetectietheorie?",
+    "options": [
+      "Meer terechte detecties, maar ook meer valse alarmen.",
+      "Minder terechte detecties en minder valse alarmen.",
+      "Alleen meer correcte afwijzingen.",
+      "Geen verandering in fouten, omdat criterium alleen bij zintuigen werkt."
+    ],
+    "correct": 0,
+    "explanation": "Een laag criterium betekent sneller 'ja, risico' zeggen. Daardoor worden meer echte risicogevallen gevonden, maar ook meer situaties ten onrechte als risico gezien.",
+    "whyWrong": [
+      "",
+      "Dat past eerder bij een strenger criterium.",
+      "Correcte afwijzingen nemen niet toe als men vaker ingrijpt.",
+      "Signaaldetectie kan ook op beslissingen worden toegepast."
+    ],
+    "tip": "Lage drempel = minder missen, maar meer vals alarm."
   }
 ]
