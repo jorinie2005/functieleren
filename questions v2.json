@@ -5519,5 +5519,694 @@
       "Dit zijn geheugenbegrippen, geen beslisbiases."
     ],
     "tip": "In lange casussen kunnen meerdere biases tegelijk voorkomen."
+  },{
+    "id": "v2_w7_001",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Definitie van emotie",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Welke omschrijving van emotie is het meest volledig?",
+    "options": [
+      "Een reactie op een stimulus met cognitieve evaluatie, lichamelijke reactie en subjectieve ervaring.",
+      "Een lichamelijke reflex die ontstaat zonder beoordeling, gevoel of context.",
+      "Een langdurige persoonlijkheidstrek die niet door situaties wordt beïnvloed.",
+      "Een bewuste gedachte zonder lichamelijke of affectieve component."
+    ],
+    "correct": 0,
+    "explanation": "Een emotie bestaat uit meerdere componenten: beoordeling van de situatie, lichamelijke reacties en de subjectieve ervaring van een gevoel.",
+    "whyWrong": [
+      "",
+      "Emoties bevatten vaak lichamelijke reacties, maar zijn niet alleen reflexen.",
+      "Een persoonlijkheidstrek is stabieler en algemener dan een emotie.",
+      "Emoties zijn niet alleen gedachten; lichamelijke en subjectieve componenten horen erbij."
+    ],
+    "tip": "Bij emotievragen helpt het om steeds te zoeken naar drie onderdelen: beoordeling, lichaam en gevoel."
+  },
+  {
+    "id": "v2_w7_002",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Componenten van emotie",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een student ziet een tentamenuitslag, denkt dat dit belangrijk is voor haar studievoortgang, merkt dat haar hartslag stijgt en voelt opluchting. Welke combinatie van emotiecomponenten is aanwezig?",
+    "options": [
+      "Cognitieve evaluatie, fysiologische reactie en subjectieve ervaring.",
+      "Sensorische registratie, fonologische encoding en procedureel leren.",
+      "Stimulusgeneralisatie, bekrachtiging en extinctie.",
+      "Primacy-effect, recency-effect en reconstructie."
+    ],
+    "correct": 0,
+    "explanation": "De gedachte over het belang van de uitslag is evaluatie. De hartslagstijging is fysiologisch. Opluchting voelen is de subjectieve ervaring.",
+    "whyWrong": [
+      "",
+      "Dit zijn begrippen uit taal, gewaarwording en geheugen.",
+      "Dit zijn leerprocessen, geen emotiecomponenten.",
+      "Dit zijn geheugenbegrippen."
+    ],
+    "tip": "Een casus met emotie bevat vaak tegelijk interpretatie, lichaamsreactie en gevoel."
+  },
+  {
+    "id": "v2_w7_003",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Valentie en arousal",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is het verschil tussen valentie en arousal?",
+    "options": [
+      "Valentie gaat over positief versus negatief; arousal gaat over mate van activatie of opwinding.",
+      "Valentie gaat over intensiteit van lichamelijke activatie; arousal gaat over positief versus negatief.",
+      "Valentie gaat over aangeboren emoties; arousal gaat over aangeleerde emoties.",
+      "Valentie gaat over gezichtsuitdrukking; arousal gaat over culturele uitingsregels."
+    ],
+    "correct": 0,
+    "explanation": "Valentie geeft aan of een emotie aangenaam of onaangenaam is. Arousal geeft aan hoe activerend of opwindend de emotionele toestand is.",
+    "whyWrong": [
+      "",
+      "Deze optie draait valentie en arousal om.",
+      "Het onderscheid gaat niet over aangeboren versus aangeleerd.",
+      "Gezichtsuitdrukking en uitingsregels zijn andere emotieaspecten."
+    ],
+    "tip": "Een emotie kan dezelfde valentie maar andere arousal hebben, bijvoorbeeld kalme tevredenheid versus intense vreugde."
+  },
+  {
+    "id": "v2_w7_004",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Primaire en secundaire emoties",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen primaire en secundaire emoties is correct?",
+    "options": [
+      "Primaire emoties zijn basaler en relatief universeel; secundaire emoties zijn complexer en sterker afhankelijk van zelfbewustzijn en sociale normen.",
+      "Primaire emoties zijn altijd positief; secundaire emoties zijn altijd negatief.",
+      "Primaire emoties ontstaan alleen door cultuur; secundaire emoties zijn volledig biologisch vastgelegd.",
+      "Primaire emoties zijn subjectieve gevoelens; secundaire emoties zijn uitsluitend lichamelijke reacties."
+    ],
+    "correct": 0,
+    "explanation": "Primaire emoties worden gezien als basisemoties met relatief universele expressies. Secundaire emoties, zoals schaamte of schuld, zijn complexer en hangen sterker samen met zelfbewustzijn en sociale context.",
+    "whyWrong": [
+      "",
+      "Primaire emoties kunnen positief of negatief zijn.",
+      "Deze optie draait biologische en culturele nadruk om.",
+      "Beide typen emoties kunnen subjectieve en lichamelijke componenten hebben."
+    ],
+    "tip": "Schuld, schaamte en trots zijn typische voorbeelden van complexere secundaire emoties."
+  },
+  {
+    "id": "v2_w7_005",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Ekman's basisemoties",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke set bevat alleen basisemoties zoals onderscheiden door Ekman?",
+    "options": [
+      "Blijheid, verdriet, angst, woede, verrassing en walging.",
+      "Schuld, schaamte, trots, spijt, opluchting en jaloezie.",
+      "Motivatie, arousal, valentie, behoefte, drift en doelgerichtheid.",
+      "Liefde, nostalgie, frustratie, verveling, dankbaarheid en hoop."
+    ],
+    "correct": 0,
+    "explanation": "Ekman's basisemoties zijn onder andere blijheid, verdriet, angst, woede, verrassing en walging. Emoties zoals schuld, schaamte en trots zijn complexer en worden meestal als secundair gezien.",
+    "whyWrong": [
+      "",
+      "Dit zijn vooral secundaire of zelfbewuste emoties.",
+      "Dit zijn motivatie- en emotiedimensiebegrippen, geen basisemoties.",
+      "Dit zijn complexere affectieve toestanden, maar niet Ekman's klassieke set basisemoties."
+    ],
+    "tip": "Let bij deze vraag op valkuilen zoals schuld, schaamte en trots."
+  },
+  {
+    "id": "v2_w7_006",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Culturele uitingsregels",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Twee mensen ervaren evenveel boosheid, maar de één toont die sterk en de ander onderdrukt de expressie omdat dat in zijn sociale context gepaster is. Welk begrip verklaart dit verschil het best?",
+    "options": [
+      "Culturele uitingsregels.",
+      "Primaire emotiedifferentiatie.",
+      "Fysiologische arousal zonder interpretatie.",
+      "Automatische gezichtsfeedback."
+    ],
+    "correct": 0,
+    "explanation": "Culturele uitingsregels bepalen wanneer, hoe sterk en tegenover wie emoties sociaal gepast worden getoond.",
+    "whyWrong": [
+      "",
+      "Het gaat niet om het onderscheiden van primaire emoties, maar om expressie.",
+      "De casus gaat juist over sociale regulatie van expressie.",
+      "Gezichtsfeedback gaat over invloed van gezichtsspieren op gevoel, niet primair over culturele normen."
+    ],
+    "tip": "Maak onderscheid tussen emotie ervaren en emotie tonen."
+  },
+  {
+    "id": "v2_w7_007",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Echte en nepglimlach",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat onderscheidt een echte glimlach doorgaans van een sociale of geforceerde glimlach?",
+    "options": [
+      "Bij een echte glimlach zijn vaak ook spieren rond de ogen betrokken, niet alleen de mond.",
+      "Bij een echte glimlach zijn alleen de lippen betrokken en blijven de ogen volledig neutraal.",
+      "Een echte glimlach is altijd cultureel aangeleerd en heeft geen lichamelijke component.",
+      "Een nepglimlach gebruikt altijd meer oogspieren dan een echte glimlach."
+    ],
+    "correct": 0,
+    "explanation": "Een echte glimlach betrekt meestal niet alleen de mond, maar ook spieren rond de ogen. Een sociale glimlach kan vooral met de mond worden geproduceerd.",
+    "whyWrong": [
+      "",
+      "De ogen zijn juist belangrijk bij een echte glimlach.",
+      "Gezichtsuitdrukkingen hebben ook lichamelijke componenten.",
+      "Dit draait het onderscheid om."
+    ],
+    "tip": "Bij vragen over echte glimlach: let op de spieren rond de ogen."
+  },
+  {
+    "id": "v2_w7_008",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "James-Langetheorie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke volgorde past bij de James-Langetheorie?",
+    "options": [
+      "Stimulus → lichamelijke reactie → emotionele ervaring.",
+      "Stimulus → emotionele ervaring en lichamelijke reactie tegelijk.",
+      "Stimulus → cognitieve beoordeling → emotie zonder lichamelijke feedback.",
+      "Stimulus → contextlabel → arousal → reflexmatige respons."
+    ],
+    "correct": 0,
+    "explanation": "De James-Langetheorie stelt dat lichamelijke reacties voorafgaan aan de bewuste emotionele ervaring. Je voelt een emotie doordat je lichamelijke verandering waarneemt.",
+    "whyWrong": [
+      "",
+      "Dit past bij Cannon-Bard.",
+      "Cognitieve beoordeling is vooral belangrijk bij Lazarus.",
+      "Dit beschrijft de twee-factortheorie niet correct, omdat arousal daar voorafgaat aan labeling."
+    ],
+    "tip": "Bij James-Lange komt het lichaam vóór het gevoel."
+  },
+  {
+    "id": "v2_w7_009",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Cannon-Bardtheorie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke uitspraak past bij de Cannon-Bardtheorie?",
+    "options": [
+      "Lichamelijke reactie en emotionele ervaring ontstaan ongeveer gelijktijdig na de stimulus.",
+      "De emotionele ervaring ontstaat pas nadat iemand zijn lichamelijke reactie bewust waarneemt.",
+      "Een emotie kan alleen ontstaan nadat de stimulus expliciet verbaal is benoemd.",
+      "De context bepaalt volledig welke emotie ontstaat, terwijl lichamelijke arousal geen rol speelt."
+    ],
+    "correct": 0,
+    "explanation": "Cannon-Bard stelt dat lichamelijke arousal en de subjectieve emotionele ervaring parallel ontstaan.",
+    "whyWrong": [
+      "",
+      "Dit past bij James-Lange.",
+      "Verbale benoeming is geen noodzakelijke voorwaarde in deze theorie.",
+      "Context speelt vooral een rol in cognitieve beoordeling en twee-factortheorie, maar arousal is niet irrelevant."
+    ],
+    "tip": "Cannon-Bard = lichaam en gevoel tegelijk."
+  },
+  {
+    "id": "v2_w7_010",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Lazarus' cognitieve beoordelingstheorie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat stelt de cognitieve beoordelingstheorie van Lazarus?",
+    "options": [
+      "Emoties ontstaan doordat een stimulus eerst wordt beoordeeld op betekenis voor doelen, welzijn of bedreiging.",
+      "Emoties ontstaan uitsluitend door lichamelijke feedback zonder cognitieve interpretatie.",
+      "Emoties ontstaan uitsluitend doordat gezichtsspieren een bepaalde houding aannemen.",
+      "Emoties ontstaan alleen wanneer dezelfde arousal later verkeerd wordt toegeschreven."
+    ],
+    "correct": 0,
+    "explanation": "Volgens Lazarus is cognitieve beoordeling van de situatie essentieel voor het ontstaan van emotie.",
+    "whyWrong": [
+      "",
+      "Dit past sterker bij James-Lange.",
+      "Dit hoort bij de gezichtsfeedbackhypothese.",
+      "Dit hoort bij misattributie van arousal binnen de twee-factortheorie."
+    ],
+    "tip": "Bij Lazarus staat betekenisgeving centraal."
+  },
+  {
+    "id": "v2_w7_011",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Emotietheorieën vergelijken",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen James-Lange, Cannon-Bard en Lazarus is correct?",
+    "options": [
+      "James-Lange: lichaam eerst; Cannon-Bard: lichaam en gevoel tegelijk; Lazarus: cognitieve beoordeling eerst.",
+      "James-Lange: beoordeling eerst; Cannon-Bard: contextlabel eerst; Lazarus: lichaam en gevoel tegelijk.",
+      "James-Lange: geen lichamelijke reactie; Cannon-Bard: alleen gezichtsfeedback; Lazarus: geen cognitieve component.",
+      "James-Lange, Cannon-Bard en Lazarus stellen alle drie exact dezelfde volgorde voor."
+    ],
+    "correct": 0,
+    "explanation": "De drie theorieën verschillen vooral in de volgorde van lichamelijke reactie, subjectieve emotie en cognitieve beoordeling.",
+    "whyWrong": [
+      "",
+      "Deze optie verwisselt de theorieën.",
+      "Alle drie worden verkeerd beschreven.",
+      "De theorieën verschillen juist in volgorde en nadruk."
+    ],
+    "tip": "Bij emotietheorieën is volgorde vaak de kern van de vraag."
+  },
+  {
+    "id": "v2_w7_012",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Twee-factortheorie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat stelt de twee-factortheorie van Schachter en Singer?",
+    "options": [
+      "Emotie ontstaat uit fysiologische arousal plus een cognitieve interpretatie van die arousal.",
+      "Emotie ontstaat uitsluitend uit aangeboren gezichtsuitdrukkingen.",
+      "Emotie ontstaat alleen wanneer lichamelijke reactie en emotionele ervaring precies gelijktijdig optreden.",
+      "Emotie ontstaat doordat elke stimulus automatisch één vaste emotie oproept."
+    ],
+    "correct": 0,
+    "explanation": "De twee-factortheorie stelt dat lichamelijke arousal op zichzelf nog geen specifieke emotie bepaalt. De context en interpretatie geven de arousal betekenis.",
+    "whyWrong": [
+      "",
+      "Gezichtsuitdrukkingen kunnen emotie beïnvloeden, maar zijn niet de kern van deze theorie.",
+      "Dit past eerder bij Cannon-Bard.",
+      "De theorie stelt juist dat dezelfde arousal verschillend gelabeld kan worden."
+    ],
+    "tip": "Twee factoren: arousal en interpretatie."
+  },
+  {
+    "id": "v2_w7_013",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Misattributie van arousal",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Na hard traplopen ontmoet iemand een aantrekkelijke persoon. Hij schrijft zijn hartkloppingen toe aan romantische aantrekkingskracht. Welk begrip past het best?",
+    "options": [
+      "Misattributie van arousal.",
+      "Cognitieve herbeoordeling.",
+      "Expressieve onderdrukking.",
+      "Culturele uitingsregel."
+    ],
+    "correct": 0,
+    "explanation": "Bij misattributie van arousal wordt lichamelijke opwinding aan de verkeerde oorzaak toegeschreven. Hier komt de arousal door traplopen, maar wordt geïnterpreteerd als aantrekkingskracht.",
+    "whyWrong": [
+      "",
+      "Herbeoordeling is het bewust anders interpreteren van een situatie om emotie te reguleren.",
+      "Onderdrukking gaat over het verbergen van emotionele expressie.",
+      "Culturele uitingsregels gaan over sociale normen voor emotie-uiting."
+    ],
+    "tip": "Als dezelfde lichamelijke activatie verkeerd wordt gelabeld, denk aan misattributie."
+  },
+  {
+    "id": "v2_w7_014",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Gezichtsfeedbackhypothese",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat stelt de gezichtsfeedbackhypothese?",
+    "options": [
+      "Gezichtsspieractiviteit kan de subjectieve emotionele ervaring beïnvloeden.",
+      "Gezichtsuitdrukkingen zijn altijd uitsluitend het gevolg van emoties en hebben nooit terugkoppeling.",
+      "Gezichtsuitdrukkingen bepalen volledig welke emotie iemand heeft, ongeacht context.",
+      "Gezichtsspieren beïnvloeden alleen spraakproductie en nooit emotionele ervaring."
+    ],
+    "correct": 0,
+    "explanation": "De gezichtsfeedbackhypothese stelt dat het aannemen van een bepaalde gezichtsuitdrukking emotionele ervaring kan versterken of verzwakken.",
+    "whyWrong": [
+      "",
+      "De hypothese stelt juist dat expressie ook terug kan werken op gevoel.",
+      "Dit is te sterk; context en cognitie blijven belangrijk.",
+      "Gezichtsspieren zijn relevant voor spraak, maar kunnen ook emotionele ervaring beïnvloeden."
+    ],
+    "tip": "Gezichtsfeedback betekent: expressie is niet alleen gevolg, maar kan ook oorzaak zijn."
+  },
+  {
+    "id": "v2_w7_015",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Strack-stiftexperiment",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "In het stiftexperiment moesten deelnemers een stift zo vasthouden dat glimlachspieren wel of niet werden geactiveerd. Wat werd hiermee onderzocht?",
+    "options": [
+      "Of gezichtsspieractiviteit invloed kan hebben op gerapporteerd plezier of emotionele beoordeling.",
+      "Of mensen beter woorden herkennen wanneer zij een stift vasthouden tijdens lezen.",
+      "Of motorische belasting de fonologische lus volledig uitschakelt.",
+      "Of gezichtsuitdrukkingen alleen cultureel en nooit lichamelijk bepaald zijn."
+    ],
+    "correct": 0,
+    "explanation": "Het stiftexperiment onderzocht of het activeren of blokkeren van bepaalde gezichtsspieren invloed heeft op emotionele ervaring, bijvoorbeeld hoe grappig cartoons worden gevonden.",
+    "whyWrong": [
+      "",
+      "Het experiment ging niet primair over woordherkenning.",
+      "De fonologische lus was niet de kern van het experiment.",
+      "Het experiment gaat juist over lichamelijke feedback van expressie."
+    ],
+    "tip": "Bij het stiftexperiment staat spieractiviteit in het gezicht centraal."
+  },
+  {
+    "id": "v2_w7_016",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Polygraaf",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Waarom is een polygraaf geen directe leugendetector?",
+    "options": [
+      "Omdat hij fysiologische arousal meet, en die kan door liegen maar ook door angst, stress of spanning ontstaan.",
+      "Omdat hij alleen bewuste gedachten meet en geen lichamelijke reacties registreert.",
+      "Omdat liegen nooit gepaard kan gaan met lichamelijke veranderingen.",
+      "Omdat fysiologische reacties altijd exact aangeven welke emotie iemand ervaart."
+    ],
+    "correct": 0,
+    "explanation": "Een polygraaf meet lichamelijke reacties zoals hartslag of huidgeleiding. Zulke reacties zijn niet uniek voor liegen, waardoor de interpretatie onzeker blijft.",
+    "whyWrong": [
+      "",
+      "Een polygraaf meet juist lichamelijke reacties.",
+      "Liegen kan wel lichamelijke reacties oproepen.",
+      "Fysiologische reacties zijn niet specifiek genoeg om één emotie of waarheidstoestand exact af te leiden."
+    ],
+    "tip": "Arousal meten is niet hetzelfde als liegen meten."
+  },
+  {
+    "id": "v2_w7_017",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Amygdala",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke functie wordt vooral aan de amygdala gekoppeld?",
+    "options": [
+      "Snelle detectie en verwerking van emotioneel relevante prikkels, vooral mogelijke bedreiging.",
+      "Opslag van letter-klankregels voor het lezen van pseudowoorden.",
+      "Mechanische versterking van geluidstrillingen in het middenoor.",
+      "Het regelen van de lensvorm voor scherpstellen op afstand."
+    ],
+    "correct": 0,
+    "explanation": "De amygdala is sterk betrokken bij emotionele verwerking, vooral bij snelle detectie van bedreigende of affectief belangrijke stimuli.",
+    "whyWrong": [
+      "",
+      "Dit hoort bij lezen en fonologische verwerking.",
+      "Dit is de functie van gehoorbeentjes.",
+      "Dit is accommodatie door lens/ciliaire spier."
+    ],
+    "tip": "Bij dreiging, angst en snelle emotionele reactie is de amygdala vaak relevant."
+  },
+  {
+    "id": "v2_w7_018",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Snelle en trage route naar de amygdala",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen de snelle en trage route naar de amygdala is correct?",
+    "options": [
+      "De snelle route is grover en loopt directer via thalamus naar amygdala; de trage route verloopt via cortex en is nauwkeuriger.",
+      "De snelle route verloopt via cortex en is semantisch nauwkeurig; de trage route loopt direct via thalamus en is bewust talig.",
+      "De snelle route is verantwoordelijk voor bewuste herbeoordeling; de trage route veroorzaakt reflexen zonder input.",
+      "De snelle en trage route verschillen alleen in naam en verwerken identieke informatie op hetzelfde moment."
+    ],
+    "correct": 0,
+    "explanation": "De snelle route maakt snelle, grove emotionele reacties mogelijk. De trage route via de cortex geeft nauwkeurigere analyse van de stimulus.",
+    "whyWrong": [
+      "",
+      "Deze optie draait snelle en trage route om.",
+      "Herbeoordeling is een vorm van emotieregulatie, niet de snelle route zelf.",
+      "De routes verschillen in snelheid, nauwkeurigheid en verwerking."
+    ],
+    "tip": "Eerst snel alarm, daarna preciezere analyse."
+  },
+  {
+    "id": "v2_w7_019",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Capgras-syndroom",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is het Capgras-syndroom?",
+    "options": [
+      "Een stoornis waarbij iemand een bekende persoon visueel herkent, maar geen normaal gevoel van vertrouwdheid ervaart.",
+      "Een stoornis waarbij gezichten niet visueel herkend kunnen worden, maar emotionele vertrouwdheid intact blijft.",
+      "Een stoornis waarbij spraakproductie moeizaam is terwijl taalbegrip relatief intact blijft.",
+      "Een stoornis waarbij nieuwe declaratieve herinneringen niet meer gevormd kunnen worden."
+    ],
+    "correct": 0,
+    "explanation": "Bij Capgras is de bewuste herkenning van een bekende persoon vaak intact, maar de automatische emotionele vertrouwdheidsreactie ontbreekt. Daardoor kan iemand denken dat de persoon een dubbelganger is.",
+    "whyWrong": [
+      "",
+      "Dit past eerder bij prosopagnosie met impliciete herkenning.",
+      "Dit beschrijft Broca-afasie.",
+      "Dit beschrijft anterograde amnesie."
+    ],
+    "tip": "Capgras is interessant omdat herkenning en emotionele vertrouwdheid kunnen dissociëren."
+  },
+  {
+    "id": "v2_w7_020",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Emotieregulatie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is emotieregulatie?",
+    "options": [
+      "Het beïnvloeden van emotionele reacties door bijvoorbeeld aandacht, interpretatie of expressie te veranderen.",
+      "Het volledig uitschakelen van emoties door alle lichamelijke reacties te blokkeren.",
+      "Het automatisch sterker maken van elke emotie door herhaling.",
+      "Het opslaan van emotionele gebeurtenissen als exacte en onveranderlijke herinneringen."
+    ],
+    "correct": 0,
+    "explanation": "Emotieregulatie omvat strategieën waarmee iemand de intensiteit, duur of uiting van emoties beïnvloedt, bijvoorbeeld door herbeoordeling, aandacht richten of onderdrukking.",
+    "whyWrong": [
+      "",
+      "Emotieregulatie hoeft emoties niet volledig uit te schakelen.",
+      "Regulatie kan emoties versterken of verzwakken, maar niet altijd automatisch versterken.",
+      "Emotionele herinneringen zijn niet per se exact of onveranderlijk."
+    ],
+    "tip": "Emotieregulatie kan vóór, tijdens of na een emotionele reactie plaatsvinden."
+  },
+  {
+    "id": "v2_w7_021",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Cognitieve herbeoordeling",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een student ziet kritiek eerst als persoonlijke aanval, maar besluit het te zien als concrete informatie om zijn verslag te verbeteren. Daarna voelt hij minder boosheid. Welke strategie gebruikt hij?",
+    "options": [
+      "Cognitieve herbeoordeling, omdat de betekenis van de situatie wordt veranderd.",
+      "Expressieve onderdrukking, omdat de uiterlijke reactie wordt geremd zonder de interpretatie te veranderen.",
+      "Misattributie van arousal, omdat lichamelijke activatie aan een verkeerde bron wordt toegeschreven.",
+      "Culturele uitingsregel, omdat de student alleen doet alsof hij minder boos is."
+    ],
+    "correct": 0,
+    "explanation": "Bij cognitieve herbeoordeling verandert iemand de interpretatie van een situatie. Daardoor verandert de emotionele reactie.",
+    "whyWrong": [
+      "",
+      "Onderdrukking gaat vooral over het verbergen van expressie, niet het veranderen van betekenis.",
+      "Misattributie gaat over arousal aan de verkeerde oorzaak toeschrijven.",
+      "De casus gaat niet alleen over sociale expressienormen."
+    ],
+    "tip": "Herbeoordeling verandert wat de situatie betekent."
+  },
+  {
+    "id": "v2_w7_022",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Expressieve onderdrukking",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Iemand is boos tijdens een gesprek, maar probeert zijn gezichtsuitdrukking en stem volledig neutraal te houden. De interpretatie van de situatie verandert niet. Welke strategie is dit?",
+    "options": [
+      "Expressieve onderdrukking.",
+      "Cognitieve herbeoordeling.",
+      "Affectieve priming.",
+      "Misattributie van arousal."
+    ],
+    "correct": 0,
+    "explanation": "Expressieve onderdrukking betekent dat iemand de zichtbare of hoorbare uiting van een emotie probeert te remmen, zonder noodzakelijk de betekenis van de situatie te veranderen.",
+    "whyWrong": [
+      "",
+      "Herbeoordeling zou betekenen dat de situatie anders geïnterpreteerd wordt.",
+      "Affectieve priming gaat over beïnvloeding door voorafgaande emotionele stimuli.",
+      "Misattributie gaat over arousal verkeerd toeschrijven."
+    ],
+    "tip": "Onderdrukking verandert vooral expressie; herbeoordeling verandert betekenis."
+  },
+  {
+    "id": "v2_w7_023",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Motivatie",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Wat is motivatie?",
+    "options": [
+      "Een proces dat richting, intensiteit en volharding van gedrag beïnvloedt.",
+      "Een kortdurende sensorische opslag van visuele informatie.",
+      "Een methode om correlaties tussen twee variabelen te berekenen.",
+      "Een stoornis waarbij taalbegrip verstoord is."
+    ],
+    "correct": 0,
+    "explanation": "Motivatie verklaart waarom iemand bepaald gedrag begint, hoe sterk dat gedrag wordt uitgevoerd en hoe lang iemand ermee doorgaat.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft iconisch geheugen.",
+      "Dit hoort bij correlationeel onderzoek.",
+      "Dit beschrijft eerder Wernicke-afasie."
+    ],
+    "tip": "Motivatie gaat over richting, energie en volhouden van gedrag."
+  },
+  {
+    "id": "v2_w7_024",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Homeostase en drifttheorie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen homeostase en drifttheorie is correct?",
+    "options": [
+      "Homeostase is lichamelijk evenwicht; drifttheorie stelt dat verstoring daarvan motivatie oproept om het evenwicht te herstellen.",
+      "Homeostase is het zoeken naar maximale opwinding; drifttheorie stelt dat mensen altijd meer arousal willen.",
+      "Homeostase is een vorm van extrinsieke motivatie; drifttheorie is een vorm van culturele uitingsregel.",
+      "Homeostase en drifttheorie betekenen dat sociale doelen belangrijker zijn dan biologische behoeften."
+    ],
+    "correct": 0,
+    "explanation": "Homeostase verwijst naar lichamelijke balans. Wanneer die balans verstoord raakt, ontstaat volgens de drifttheorie een interne spanning die gedrag motiveert.",
+    "whyWrong": [
+      "",
+      "Maximale arousal zoeken past niet bij homeostase of drifttheorie.",
+      "Dit koppelt de begrippen verkeerd aan andere domeinen.",
+      "Drifttheorie gaat juist sterk over biologische behoeften."
+    ],
+    "tip": "Honger, dorst en kou zijn typische voorbeelden voor drifttheorie."
+  },
+  {
+    "id": "v2_w7_025",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Maslow",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is het basisidee van Maslows behoeftehiërarchie?",
+    "options": [
+      "Menselijke behoeften zijn hiërarchisch geordend, van basale lichamelijke behoeften tot zelfactualisatie.",
+      "Alle motivatie komt uitsluitend voort uit externe beloning en straf.",
+      "Mensen streven altijd naar maximale arousal, ongeacht de taak.",
+      "Zelfactualisatie moet volledig bereikt zijn voordat fysiologische behoeften relevant worden."
+    ],
+    "correct": 0,
+    "explanation": "Maslow stelde een hiërarchie van behoeften voor, waarbij basale behoeften onderaan staan en hogere behoeften zoals waardering en zelfactualisatie hoger in de piramide staan.",
+    "whyWrong": [
+      "",
+      "Dit past eerder bij een sterk behavioristische visie.",
+      "Arousal theory gaat over optimaal activatieniveau, niet Maslows hiërarchie.",
+      "Dit draait de hiërarchie om."
+    ],
+    "tip": "Bij Maslow staan fysiologische behoeften onderaan en zelfactualisatie bovenaan."
+  },
+  {
+    "id": "v2_w7_026",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Intrinsieke en extrinsieke motivatie",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Wat is het verschil tussen intrinsieke en extrinsieke motivatie?",
+    "options": [
+      "Intrinsieke motivatie komt uit interesse of voldoening in de activiteit zelf; extrinsieke motivatie komt door een extern doel of gevolg.",
+      "Intrinsieke motivatie ontstaat alleen door geld; extrinsieke motivatie ontstaat alleen door plezier in de taak.",
+      "Intrinsieke motivatie is altijd biologisch; extrinsieke motivatie is altijd aangeboren.",
+      "Intrinsieke en extrinsieke motivatie zijn identiek, maar worden in andere leeftijden gebruikt."
+    ],
+    "correct": 0,
+    "explanation": "Intrinsieke motivatie betekent dat de activiteit zelf waardevol of leuk is. Extrinsieke motivatie betekent dat de activiteit wordt gedaan vanwege een externe uitkomst, zoals cijfer, geld of status.",
+    "whyWrong": [
+      "",
+      "Deze optie draait intrinsiek en extrinsiek om.",
+      "Het onderscheid gaat niet over biologisch versus aangeboren.",
+      "Het zijn verschillende motivatiebronnen."
+    ],
+    "tip": "Vraag: is de reden in de activiteit zelf of buiten de activiteit?"
+  },
+  {
+    "id": "v2_w7_027",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Overjustificatie-effect",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een kind tekent graag uit zichzelf. Nadat het wekenlang geld krijgt voor elke tekening, tekent het minder wanneer de beloning stopt. Welke verklaring past het best?",
+    "options": [
+      "Het overjustificatie-effect, omdat externe beloning de oorspronkelijke intrinsieke motivatie kan ondermijnen.",
+      "Negatieve bekrachtiging, omdat een onaangename stimulus verdwijnt en tekenen daardoor afneemt.",
+      "Aangeleerde hulpeloosheid, omdat het kind leert dat tekenen geen invloed heeft op uitkomsten.",
+      "Stimulusdiscriminatie, omdat het kind onderscheid leert tussen verschillende tekenmaterialen."
+    ],
+    "correct": 0,
+    "explanation": "Bij het overjustificatie-effect kan een externe beloning ervoor zorgen dat iemand de activiteit minder als intrinsiek leuk ervaart.",
+    "whyWrong": [
+      "",
+      "Negatieve bekrachtiging verhoogt gedrag doordat iets onaangenaams verdwijnt.",
+      "Het kind ervaart niet dat gedrag geen effect heeft; het kreeg juist beloning.",
+      "Het probleem gaat niet om onderscheid tussen stimuli."
+    ],
+    "tip": "Externe beloning kan vooral riskant zijn wanneer iemand de activiteit al leuk vond."
+  },
+  {
+    "id": "v2_w7_028",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Marshmallow-test en zelfcontrole",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat onderzoekt de marshmallow-test vooral?",
+    "options": [
+      "Uitgestelde bevrediging en zelfcontrole.",
+      "Klassieke conditionering van speekselreacties.",
+      "Het effect van gezichtsfeedback op plezier.",
+      "De invloed van context op woordherkenning."
+    ],
+    "correct": 0,
+    "explanation": "De marshmallow-test onderzoekt of kinderen een onmiddellijke beloning kunnen uitstellen om later een grotere beloning te krijgen.",
+    "whyWrong": [
+      "",
+      "Dit past eerder bij Pavlov.",
+      "Dit past bij gezichtsfeedbackonderzoek.",
+      "Dit hoort bij taalperceptie en top-down verwerking."
+    ],
+    "tip": "Zelfcontrole betekent vaak: korte-termijnverleiding weerstaan voor een langetermijndoel."
+  },
+  {
+    "id": "v2_w7_029",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Goalsetting en Yerkes-Dodson",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke combinatie is correct?",
+    "options": [
+      "Specifieke uitdagende doelen kunnen prestatie verbeteren; te hoge arousal kan prestatie op complexe taken juist verslechteren.",
+      "Vage doelen verbeteren prestatie het meest; maximale arousal is altijd optimaal voor moeilijke taken.",
+      "Goalsetting gaat alleen over biologische behoeften; Yerkes-Dodson gaat alleen over externe beloningen.",
+      "Doelen en arousal hebben geen invloed op taakprestatie wanneer iemand gemotiveerd is."
+    ],
+    "correct": 0,
+    "explanation": "Goalsettingtheorie benadrukt specifieke en uitdagende doelen. Yerkes-Dodson stelt dat er een optimaal arousalniveau is; te veel arousal schaadt vooral complexe taken.",
+    "whyWrong": [
+      "",
+      "Vage doelen geven minder richting en maximale arousal is niet altijd optimaal.",
+      "Dit koppelt beide theorieën verkeerd.",
+      "Doelen en arousal beïnvloeden prestaties juist wel."
+    ],
+    "tip": "Sterke prestatie vraagt duidelijke doelen én een passend spanningsniveau."
+  },
+  {
+    "id": "v2_w7_030",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Yerkes-Dodson toepassen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een student is extreem gespannen tijdens een moeilijk statistiektentamen en maakt fouten die hij thuis niet maakte. Welke verklaring past het best?",
+    "options": [
+      "Bij complexe taken kan te hoge arousal werkgeheugen en cognitieve controle verstoren.",
+      "Bij complexe taken geldt dat hoe hoger de arousal, hoe beter de prestatie altijd wordt.",
+      "Bij moeilijke taken speelt arousal geen rol, alleen kennisniveau.",
+      "Hoge arousal verbetert vooral taken die veel bewuste controle en redeneren vereisen."
+    ],
+    "correct": 0,
+    "explanation": "Volgens Yerkes-Dodson is er een optimaal arousalniveau. Bij moeilijke taken kan te veel spanning prestaties verslechteren.",
+    "whyWrong": [
+      "",
+      "Dit is de verkeerde 'meer is altijd beter'-interpretatie.",
+      "Kennis is belangrijk, maar arousal beïnvloedt prestatie ook.",
+      "Taken met veel bewuste controle zijn juist kwetsbaar voor te hoge arousal."
+    ],
+    "tip": "Voor moeilijke cognitieve taken is gemiddeld arousalniveau vaak beter dan extreme spanning."
   }
 ]
