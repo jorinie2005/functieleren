@@ -1084,7 +1084,9 @@ function download(name,text){
 function escapeHtml(x){
   return String(x??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
 }
-init();
+loadQuestionsFromServer().then(() => {
+  init();
+});
 </script>
 </body>
 </html>
