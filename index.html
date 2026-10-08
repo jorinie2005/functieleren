@@ -558,7 +558,7 @@ const STORAGE_KEYS = {
   settings:"fl_settings_v1"
 };
 
-let questions = loadQuestions();
+let questions = [];
 let progress = loadProgress();
 let settings = loadSettings();
 let currentExam = null;
@@ -568,13 +568,45 @@ let fcDeck = [];
 let fcIndex = 0;
 let fcFlipped = false;
 
-function loadQuestions(){
-  const saved = localStorage.getItem(STORAGE_KEYS.questions);
-  if(saved){
-    try{return JSON.parse(saved)}catch(e){}
+async function loadQuestionsFromServer(){
+  try {
+    const response = await fetch("./questions.json", { cache: "no-store" });
+
+    if (!response.ok) {
+      throw new Error("questions.json niet gevonden of niet bereikbaar.");
+    }
+
+    const serverQuestions = await response.json();
+
+    if (!Array.isArray(serverQuestions)) {
+      throw new Error("questions.json moet een JSON-array zijn.");
+    }
+
+    questions = serverQuestions;
+
+    // Optioneel: ook lokaal opslaan zodat de app sneller werkt en offline deels bruikbaar blijft.
+    localStorage.setItem(STORAGE_KEYS.questions, JSON.stringify(questions));
+
+    console.log("Vraagbank geladen uit questions.json:", questions.length, "vragen");
+  } catch (error) {
+    console.warn("Kon questions.json niet laden. Probeer localStorage of ingebouwde vragen.", error);
+
+    const saved = localStorage.getItem(STORAGE_KEYS.questions);
+
+    if (saved) {
+      try {
+        questions = JSON.parse(saved);
+        console.log("Vraagbank geladen uit localStorage:", questions.length, "vragen");
+      } catch (e) {
+        questions = [];
+      }
+    }
+
+    if (!questions.length && typeof BUILTIN_QUESTIONS !== "undefined") {
+      questions = [...BUILTIN_QUESTIONS];
+      console.log("Vraagbank geladen uit ingebouwde vragen:", questions.length, "vragen");
+    }
   }
-  localStorage.setItem(STORAGE_KEYS.questions, JSON.stringify(BUILTIN_QUESTIONS));
-  return [...BUILTIN_QUESTIONS];
 }
 function saveQuestions(){localStorage.setItem(STORAGE_KEYS.questions, JSON.stringify(questions))}
 function loadProgress(){
