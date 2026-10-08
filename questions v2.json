@@ -4139,5 +4139,1385 @@
       "DRM en suggestibiliteit tonen juist dat geheugen feilbaar is; H.M. toont dat geheugen niet één uniform systeem is."
     ],
     "tip": "Deze drie onderwerpen zijn kernvoorbeelden van hoe geheugen meer is dan simpele opslag."
+  },
+  {
+    "id": "v2_w6a_001",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Taal als systeem",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Welke omschrijving past het best bij taal als psychologische functie?",
+    "options": [
+      "Een systeem waarmee mensen betekenissen kunnen communiceren en mentale representaties kunnen structureren.",
+      "Een verzameling reflexmatige klanken die geen verband houden met betekenis of denken.",
+      "Een uitsluitend geschreven systeem dat pas ontstaat wanneer iemand leert lezen.",
+      "Een vorm van geheugen die alleen bestaat uit motorische spreekbewegingen."
+    ],
+    "correct": 0,
+    "explanation": "Taal is een communicatief én cognitief systeem. Het wordt gebruikt om betekenissen over te dragen, maar speelt ook een rol bij denken, redeneren en het organiseren van ervaringen.",
+    "whyWrong": [
+      "",
+      "Taal is niet reflexmatig en klanken zijn juist gekoppeld aan betekenis.",
+      "Taal bestaat ook als gesproken taal en ontstaat vóór leren lezen.",
+      "Spreekmotoriek is onderdeel van taalproductie, maar taal is veel breder."
+    ],
+    "tip": "Taalvragen gaan vaak over meerdere niveaus tegelijk: klank, woord, zin, betekenis en gebruik."
+  },
+  {
+    "id": "v2_w6a_002",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Fonemen",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Wat is een foneem?",
+    "options": [
+      "Een klankeenheid die betekenisverschil kan maken binnen een taal.",
+      "De kleinste betekenisdragende eenheid binnen een woord.",
+      "Een grammaticale regel voor de volgorde van woorden in een zin.",
+      "Een mentale woordrepresentatie met grammaticale informatie maar zonder klankvorm."
+    ],
+    "correct": 0,
+    "explanation": "Een foneem is een betekenisonderscheidende klankeenheid. Het verschil tussen twee fonemen kan verschil maken tussen woorden.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft een morfeem.",
+      "Dit beschrijft syntaxis.",
+      "Dit beschrijft een lemma."
+    ],
+    "tip": "Foneemvragen testen vaak het onderscheid tussen klank, betekenisdeel en grammaticale structuur."
+  },
+  {
+    "id": "v2_w6a_003",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Morfemen",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is een morfeem?",
+    "options": [
+      "De kleinste eenheid in taal die betekenis of grammaticale informatie draagt.",
+      "De kleinste klankeenheid die een betekenisverschil kan veroorzaken.",
+      "Een mentale representatie van een woordvorm tijdens uitspraakplanning.",
+      "Een regel die bepaalt hoe zinnen pragmatisch aan de context worden aangepast."
+    ],
+    "correct": 0,
+    "explanation": "Een morfeem is een betekenisvolle of grammaticaal functionele eenheid, zoals een woordstam, meervoudsuitgang of verkleiningsuitgang.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft een foneem.",
+      "Dit beschrijft eerder een lexeem of woordvorm.",
+      "Dit gaat over pragmatiek, niet morfologie."
+    ],
+    "tip": "Een woord kan uit meerdere morfemen bestaan, zoals een stam plus uitgang."
+  },
+  {
+    "id": "v2_w6a_004",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Syntaxis",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is syntaxis?",
+    "options": [
+      "Het systeem van regels waarmee woorden tot grammaticale zinnen worden gecombineerd.",
+      "Het systeem waarmee losse klanken worden onderscheiden binnen een taal.",
+      "Het proces waarbij betekenisvolle woorddelen aan elkaar worden toegevoegd.",
+      "Het gebruik van taal afgestemd op spreker, luisteraar en sociale context."
+    ],
+    "correct": 0,
+    "explanation": "Syntaxis gaat over zinsbouw: hoe woorden en woordsoorten grammaticaal gecombineerd worden.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft fonologie/fonemen.",
+      "Dit beschrijft morfologie.",
+      "Dit beschrijft pragmatiek."
+    ],
+    "tip": "Als woordvolgorde of zinsstructuur centraal staat, gaat het meestal om syntaxis."
+  },
+  {
+    "id": "v2_w6a_005",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Pragmatiek",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is pragmatiek?",
+    "options": [
+      "Het gebruik van taal afgestemd op context, voorkennis, bedoeling en gesprekspartner.",
+      "Het omzetten van geschreven letters in bijbehorende spraakklanken.",
+      "Het opsplitsen van woorden in lettergrepen, rijmen en fonemen.",
+      "Het activeren van de klankvorm van een woord tijdens spreken."
+    ],
+    "correct": 0,
+    "explanation": "Pragmatiek gaat over passend taalgebruik in context: wat zeg je tegen wie, met welke voorkennis, en met welke bedoeling?",
+    "whyWrong": [
+      "",
+      "Dit beschrijft grafeem-foneemomzetting.",
+      "Dit beschrijft fonologisch bewustzijn.",
+      "Dit hoort bij lexemen en fonologische encoding."
+    ],
+    "tip": "Pragmatiek is niet alleen wat een zin letterlijk betekent, maar hoe die zin in een situatie gebruikt wordt."
+  },
+  {
+    "id": "v2_w6a_006",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Taalontwikkeling",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Welke volgorde van vroege taalontwikkeling is het meest aannemelijk?",
+    "options": [
+      "Brabbelen, eerste woorden, tweewoordzinnen/telegrafische spraak, verdere grammaticale ontwikkeling.",
+      "Volledige grammatica, eerste woorden, brabbelen, klankonderscheid.",
+      "Lezen, schrijven, brabbelen, eerste gesproken woorden.",
+      "Pseudowoorden lezen, telegrafische spraak, brabbelen, eerste klankproductie."
+    ],
+    "correct": 0,
+    "explanation": "Taalontwikkeling begint met vroege klankproductie en brabbelen. Daarna volgen eerste woorden, combinaties van woorden en steeds complexere grammatica.",
+    "whyWrong": [
+      "",
+      "Volledige grammatica komt niet vóór brabbelen en eerste woorden.",
+      "Lezen en schrijven ontwikkelen later dan gesproken taal.",
+      "Pseudowoorden lezen is een schoolse leesvaardigheid, geen vroege taalontwikkelingsfase."
+    ],
+    "tip": "Vroege taalontwikkeling verloopt van klanken naar woorden naar zinnen."
+  },
+  {
+    "id": "v2_w6a_007",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Telegrafische spraak",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een kind zegt 'mama eten' in plaats van 'mama, ik wil eten'. Welk begrip past hierbij?",
+    "options": [
+      "Telegrafische spraak, omdat vooral inhoudswoorden worden gebruikt en grammaticale woorden ontbreken.",
+      "Syntactische priming, omdat het kind een eerder gehoorde zinsstructuur herhaalt.",
+      "Fonologische dyslexie, omdat het kind pseudowoorden niet goed kan lezen.",
+      "Wernicke-afasie, omdat de spraak vloeiend maar semantisch onsamenhangend is."
+    ],
+    "correct": 0,
+    "explanation": "Telegrafische spraak bestaat uit korte uitingen met vooral inhoudswoorden. Grammaticale functiewoorden worden vaak weggelaten.",
+    "whyWrong": [
+      "",
+      "Er is geen herhaling van een specifieke zinsstructuur beschreven.",
+      "Dyslexie gaat over lezen, niet vroege gesproken taal.",
+      "De uiting is niet vloeiend maar betekenisloos; ze is kort en betekenisvol."
+    ],
+    "tip": "Telegrafische spraak lijkt op telegramstijl: korte boodschap, vooral inhoud."
+  },
+  {
+    "id": "v2_w6a_008",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Spraakproductie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke volgorde in spraakproductie is het meest correct?",
+    "options": [
+      "Preverbale boodschap, lemmaselectie, lexeemactivatie, fonologische encoding, articulatie.",
+      "Articulatie, fonologische encoding, lexeemactivatie, lemmaselectie, preverbale boodschap.",
+      "Lexeemactivatie, articulatie, preverbale boodschap, lemmaselectie, syntactische analyse.",
+      "Fonologische encoding, visuele woordherkenning, preverbale boodschap, auditieve segmentatie, articulatie."
+    ],
+    "correct": 0,
+    "explanation": "Spraakproductie begint met wat je wilt zeggen, de preverbale boodschap. Daarna volgt selectie van een lemma, activatie van de woordvorm, klankplanning en uiteindelijk articulatie.",
+    "whyWrong": [
+      "",
+      "Deze optie draait de volgorde om.",
+      "De woordvorm komt niet vóór de boodschap en articulatie komt niet vóór planning.",
+      "Deze optie mengt productie, lezen en spraakperceptie."
+    ],
+    "tip": "Bij spreken ga je van betekenis naar woord naar klank naar beweging."
+  },
+  {
+    "id": "v2_w6a_009",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Lemma en lexeem",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is het juiste onderscheid tussen lemma en lexeem?",
+    "options": [
+      "Een lemma bevat abstracte woord- en grammaticale informatie; een lexeem bevat de woordvorm of klankvorm.",
+      "Een lemma bevat de klankvorm; een lexeem bevat alleen de sociale context van een zin.",
+      "Een lemma is een betekenisloze klank; een lexeem is een grammaticale zinsregel.",
+      "Een lemma is een geschreven letter; een lexeem is een minimale betekenisvolle woordeenheid."
+    ],
+    "correct": 0,
+    "explanation": "Het lemma is de abstracte woordrepresentatie met betekenis en grammaticale informatie. Het lexeem is de vorm van het woord, bijvoorbeeld de klankvorm die je moet produceren.",
+    "whyWrong": [
+      "",
+      "Deze optie verwisselt en vervormt de begrippen.",
+      "Een betekenisloze klank is eerder een foneem; zinsregels horen bij syntaxis.",
+      "Geschreven letters zijn grafemen; minimale betekenisvolle woordeenheden zijn morfemen."
+    ],
+    "tip": "Bij woordvindproblemen is vooral het onderscheid tussen betekenis en woordvorm belangrijk."
+  },
+  {
+    "id": "v2_w6a_010",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Puntje-van-de-tongfenomeen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Iemand weet dat hij het woord bedoelt voor 'apparaat dat aardbevingen meet' en weet zelfs dat het woord met een s begint, maar kan het woord niet produceren. Welke verklaring past het best?",
+    "options": [
+      "Het lemma is geactiveerd, maar het lexeem is tijdelijk niet toegankelijk.",
+      "Het lexeem is volledig geactiveerd, maar de betekenis ontbreekt.",
+      "De articulatie is voltooid, maar de preverbale boodschap ontbreekt.",
+      "De syntaxis is verstoord, waardoor woordbetekenissen niet meer bestaan."
+    ],
+    "correct": 0,
+    "explanation": "Bij het puntje-van-de-tongfenomeen is de betekenis beschikbaar, maar de woordvorm is tijdelijk niet toegankelijk.",
+    "whyWrong": [
+      "",
+      "Als het lexeem volledig beschikbaar was, zou de woordvorm juist gevonden zijn.",
+      "De boodschap is juist aanwezig: de persoon weet wat hij bedoelt.",
+      "Het probleem zit niet primair in syntaxis of algemene betekenis."
+    ],
+    "tip": "Bij tip-of-the-tongue weet je wat je wilt zeggen, maar niet hoe het woord precies klinkt."
+  },
+  {
+    "id": "v2_w6a_011",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Fonologische encoding",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat gebeurt tijdens fonologische encoding in spraakproductie?",
+    "options": [
+      "De klanken en lettergrepen van het gekozen woord worden gepland voor uitspraak.",
+      "De betekenis van de boodschap wordt voor het eerst bepaald.",
+      "De spreker bepaalt uitsluitend de sociale gepastheid van de boodschap.",
+      "De luisteraar verdeelt de spraakstroom in mogelijke woordkandidaten."
+    ],
+    "correct": 0,
+    "explanation": "Fonologische encoding is de stap waarin de klankstructuur van een woord wordt opgehaald en geordend, zodat articulatie mogelijk wordt.",
+    "whyWrong": [
+      "",
+      "De betekenis wordt eerder bepaald in de preverbale boodschap en lemmafase.",
+      "Sociale gepastheid hoort bij pragmatiek.",
+      "Dit beschrijft spraakperceptie en segmentatie, niet spraakproductie."
+    ],
+    "tip": "Fonologische encoding zit tussen woordvormselectie en articulatie."
+  },
+  {
+    "id": "v2_w6a_012",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Spreekfouten",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling tussen spreekfout en omschrijving is correct?",
+    "options": [
+      "Spoonerism: klanken van twee woorden worden verwisseld; klankweglating: een geplande klank ontbreekt; klanktoevoeging: een extra klank verschijnt.",
+      "Spoonerism: betekenis wordt vervangen door een verwant concept; klankweglating: een woord wordt in het verkeerde lettertype gelezen; klanktoevoeging: de spreker stopt met spreken.",
+      "Spoonerism: woordvolgorde wordt pragmatisch aangepast; klankweglating: de spreker gebruikt telegrafische spraak; klanktoevoeging: de luisteraar hoort een McGurk-effect.",
+      "Spoonerism, klankweglating en klanktoevoeging zijn drie vormen van Wernicke-afasie."
+    ],
+    "correct": 0,
+    "explanation": "Spreekfouten kunnen optreden doordat klanken worden verwisseld, weggelaten of toegevoegd. Een spoonerism is specifiek een verwisseling van klanken tussen woorden.",
+    "whyWrong": [
+      "",
+      "Een betekenisvervanging is eerder semantisch, niet spoonerism.",
+      "Deze optie verwart spreekfouten met pragmatiek, kindertaal en audiovisuele perceptie.",
+      "Spreekfouten kunnen normaal voorkomen en zijn niet per definitie Wernicke-afasie."
+    ],
+    "tip": "Spreekfouten laten zien dat spraakproductie uit planbare lagen bestaat."
+  },
+  {
+    "id": "v2_w6a_013",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Syntactische priming",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Na het horen van de zin 'De docent geeft het boek aan de student' gebruikt iemand zelf vaker een vergelijkbare zinsconstructie. Welk begrip past hierbij?",
+    "options": [
+      "Syntactische priming, omdat een eerder gebruikte zinsstructuur de volgende zinsproductie beïnvloedt.",
+      "Semantische priming, omdat een woordbetekenis een verwant woord sneller activeert.",
+      "Fonologische encoding, omdat klanken en lettergrepen voor articulatie worden gepland.",
+      "Pragmatische aanpassing, omdat de spreker zijn taalgebruik afstemt op de sociale context."
+    ],
+    "correct": 0,
+    "explanation": "Syntactische priming betekent dat een recent gehoorde of geproduceerde zinsstructuur de kans vergroot dat je die structuur opnieuw gebruikt.",
+    "whyWrong": [
+      "",
+      "Semantische priming gaat over betekenisverwantschap tussen woorden.",
+      "Fonologische encoding gaat over klankplanning.",
+      "Pragmatiek gaat over passend taalgebruik in context, niet specifiek herhaling van zinsstructuur."
+    ],
+    "tip": "Syntactische priming gaat over zinsvorm, niet woordbetekenis."
+  },
+  {
+    "id": "v2_w6a_014",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Broca-afasie",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een patiënt begrijpt eenvoudige zinnen redelijk goed, maar spreekt langzaam en moeizaam met korte uitingen zoals 'ik... eten... honger'. Welke stoornis past het best?",
+    "options": [
+      "Broca-afasie, omdat vooral spraakproductie verstoord is.",
+      "Wernicke-afasie, omdat vooral taalbegrip verstoord is.",
+      "Fonologische dyslexie, omdat vooral pseudowoorden lezen moeilijk is.",
+      "Pragmatische stoornis, omdat taalgebruik vooral sociaal onaangepast is."
+    ],
+    "correct": 0,
+    "explanation": "Broca-afasie wordt gekenmerkt door moeizame, niet-vloeiende spraakproductie, terwijl taalbegrip relatief beter behouden kan zijn.",
+    "whyWrong": [
+      "",
+      "Wernicke-afasie geeft eerder vloeiende maar inhoudelijk problematische spraak en slecht begrip.",
+      "Dyslexie gaat over lezen.",
+      "De casus gaat over spraakproductie, niet primair sociale taalafstemming."
+    ],
+    "tip": "Bij moeizame, korte spraak met relatief beter begrip: denk aan Broca-afasie."
+  },
+  {
+    "id": "v2_w6a_015",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Wernicke-afasie",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een patiënt spreekt vloeiend en met normale intonatie, maar de inhoud is onsamenhangend en hij begrijpt vragen slecht. Welke stoornis past het best?",
+    "options": [
+      "Wernicke-afasie, omdat taalbegrip en semantische inhoud sterk verstoord zijn.",
+      "Broca-afasie, omdat de spraakproductie traag en grammaticaal arm is.",
+      "Surface dyslexie, omdat uitzonderingswoorden verkeerd uitgesproken worden.",
+      "Syntactische priming, omdat een eerdere zinsstructuur opnieuw wordt gebruikt."
+    ],
+    "correct": 0,
+    "explanation": "Wernicke-afasie wordt gekenmerkt door vloeiende maar inhoudelijk betekenisarme of onsamenhangende spraak, vaak met slecht taalbegrip.",
+    "whyWrong": [
+      "",
+      "Broca-afasie is juist niet-vloeiend en moeizaam.",
+      "Surface dyslexie is een leesstoornis.",
+      "Syntactische priming is een normaal productie-effect, geen afasie."
+    ],
+    "tip": "Bij vloeiend maar betekenisloos spreken en slecht begrip: denk aan Wernicke-afasie."
+  },
+  {
+    "id": "v2_w6a_016",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Broca versus Wernicke",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen Broca- en Wernicke-afasie is correct?",
+    "options": [
+      "Broca-afasie treft vooral spraakproductie; Wernicke-afasie treft vooral taalbegrip en betekenisvolle inhoud.",
+      "Broca-afasie treft vooral taalbegrip; Wernicke-afasie treft vooral motorische articulatie zonder begripsproblemen.",
+      "Broca- en Wernicke-afasie geven beide exact hetzelfde symptoomprofiel maar op verschillende leeftijden.",
+      "Broca-afasie is een leesstoornis; Wernicke-afasie is een geheugenstoornis."
+    ],
+    "correct": 0,
+    "explanation": "Broca-afasie wordt vooral gekenmerkt door problemen met spreken/productie. Wernicke-afasie wordt vooral gekenmerkt door problemen met begrip en betekenisvolle taalinhoud.",
+    "whyWrong": [
+      "",
+      "Deze optie draait de belangrijkste kenmerken om.",
+      "De stoornissen verschillen inhoudelijk duidelijk.",
+      "Afasieën zijn taalstoornissen, maar niet specifiek dyslexie of geheugenverlies."
+    ],
+    "tip": "Let op vloeiendheid én begrip: die twee helpen de afasie te onderscheiden."
+  },
+  {
+    "id": "v2_w6a_017",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Segmentatieprobleem",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is het segmentatieprobleem bij spraakperceptie?",
+    "options": [
+      "Het probleem dat gesproken taal geen duidelijke fysieke grenzen tussen woorden bevat.",
+      "Het probleem dat geschreven taal altijd zonder spaties wordt aangeboden.",
+      "Het probleem dat elke klank in spraak exact even lang duurt.",
+      "Het probleem dat luisteraars alleen volledige zinnen maar geen losse woorden kunnen herkennen."
+    ],
+    "correct": 0,
+    "explanation": "Gesproken taal is een continue stroom waarin woordgrenzen niet altijd duidelijk fysiek gemarkeerd zijn. De luisteraar moet dus bepalen waar woorden beginnen en eindigen.",
+    "whyWrong": [
+      "",
+      "Geschreven taal bevat vaak juist spaties.",
+      "Klanken variëren in duur en context.",
+      "Luisteraars kunnen wel losse woorden herkennen, maar segmentatie is nodig in vloeiende spraak."
+    ],
+    "tip": "Bij spraakperceptie is woordgrensdetectie een belangrijk probleem."
+  },
+  {
+    "id": "v2_w6a_018",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Cohort-hypothese",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat stelt de cohort-hypothese over gesproken woordherkenning?",
+    "options": [
+      "Bij de eerste klanken worden meerdere woordkandidaten geactiveerd, waarna kandidaten afvallen naarmate meer klanken binnenkomen.",
+      "Een gesproken woord wordt pas herkend nadat de volledige zin grammaticaal is geanalyseerd.",
+      "Alle woorden worden uitsluitend herkend via geschreven woordbeelden in het mentale lexicon.",
+      "Luisteraars herkennen woorden alleen op basis van context en gebruiken geen akoestische informatie."
+    ],
+    "correct": 0,
+    "explanation": "Volgens de cohort-hypothese activeren beginklanken een groep mogelijke woorden. Nieuwe klanken sluiten steeds meer kandidaten uit.",
+    "whyWrong": [
+      "",
+      "Woordherkenning kan al beginnen vóór de volledige zin af is.",
+      "Gesproken woordherkenning is niet afhankelijk van geschreven woordbeelden.",
+      "Akoestische informatie is juist essentieel."
+    ],
+    "tip": "Cohortvragen gaan vaak over hoe woordkandidaten geleidelijk worden uitgedund."
+  },
+  {
+    "id": "v2_w6a_019",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Bottom-up en top-down taalperceptie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Je hoort in een ziekenhuiscontext 'pati...' en verwacht sneller 'patiënt' dan 'patio'. Tegelijk sluiten de volgende klanken sommige kandidaten uit. Welke verklaring is het meest volledig?",
+    "options": [
+      "Zowel top-down context als bottom-up klankinformatie beïnvloeden woordherkenning.",
+      "Alleen bottom-up informatie speelt een rol; context kan woordherkenning niet beïnvloeden.",
+      "Alleen top-down informatie speelt een rol; klanken worden pas na herkenning verwerkt.",
+      "Woordherkenning gebeurt pas nadat articulatie van het gehoorde woord is voltooid door de luisteraar."
+    ],
+    "correct": 0,
+    "explanation": "Spraakperceptie gebruikt zowel akoestische informatie uit de binnenkomende klanken als contextuele kennis over wat waarschijnlijk is.",
+    "whyWrong": [
+      "",
+      "Context beïnvloedt woordherkenning wel.",
+      "Klankinformatie is juist een belangrijke basis voor woordherkenning.",
+      "De luisteraar articuleert het woord niet zelf om het te herkennen."
+    ],
+    "tip": "Bij taalperceptie werken bottom-up en top-down vaak tegelijk."
+  },
+  {
+    "id": "v2_w6a_020",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Motherese / parenthese",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Waarom kan overdreven duidelijke, langzame spraak richting baby's taalontwikkeling ondersteunen?",
+    "options": [
+      "Omdat duidelijke intonatie en pauzes kunnen helpen bij het segmenteren van spraak.",
+      "Omdat baby's daardoor onmiddellijk volledige volwassen grammatica ontwikkelen.",
+      "Omdat langzaam spreken alle fonologische verschillen uit de taal verwijdert.",
+      "Omdat baby's gesproken taal pas kunnen waarnemen nadat ze leren lezen."
+    ],
+    "correct": 0,
+    "explanation": "Langzame, duidelijke en melodische spraak kan baby's helpen patronen en woordgrenzen in spraak te ontdekken.",
+    "whyWrong": [
+      "",
+      "Volledige grammatica ontwikkelt geleidelijk.",
+      "Duidelijke spraak verwijdert fonologische verschillen niet; ze maakt ze vaak juist opvallender.",
+      "Spraakperceptie ontstaat vóór lezen."
+    ],
+    "tip": "Bij babytaal gaat het vaak om het makkelijker maken van segmentatie en klankpatronen."
+  },
+  {
+    "id": "v2_w6a_021",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Lezen versus luisteren",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Waarom kan lezen in sommige opzichten makkelijker zijn dan luisteren?",
+    "options": [
+      "Geschreven woorden zijn vaak door spaties gescheiden en de tekst blijft beschikbaar om terug te lezen.",
+      "Gesproken taal bevat altijd duidelijkere woordgrenzen dan geschreven taal.",
+      "Lezen is aangeboren, terwijl luisteren pas door onderwijs ontstaat.",
+      "Bij lezen speelt woordherkenning geen rol, omdat betekenis direct uit zinscontext volgt."
+    ],
+    "correct": 0,
+    "explanation": "Geschreven taal bevat vaak duidelijke woordgrenzen door spaties en kan opnieuw bekeken worden. Gesproken taal is tijdelijk en bevat minder duidelijke grenzen.",
+    "whyWrong": [
+      "",
+      "Gesproken taal heeft juist vaak geen duidelijke fysieke woordgrenzen.",
+      "Luisteren ontwikkelt vroeg; lezen is aangeleerd.",
+      "Woordherkenning speelt juist een grote rol bij lezen."
+    ],
+    "tip": "Bij luisteren is segmentatie vaak moeilijker dan bij lezen."
+  },
+  {
+    "id": "v2_w6a_022",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Fixaties, saccades en regressies bij lezen",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling tussen oogbeweging en functie bij lezen is correct?",
+    "options": [
+      "Fixaties zijn korte stilstanden; saccades zijn snelle sprongen; regressies zijn terugbewegingen naar eerder gelezen tekst.",
+      "Fixaties zijn terugbewegingen; saccades zijn lange perioden van stilstand; regressies zijn automatische klankherhalingen.",
+      "Fixaties zijn innerlijke spraak; saccades zijn woordbetekenissen; regressies zijn fonologische fouten.",
+      "Fixaties, saccades en regressies zijn drie vormen van dyslexie."
+    ],
+    "correct": 0,
+    "explanation": "Tijdens lezen staan de ogen kort stil tijdens fixaties. Tussen fixaties maken ze snelle sprongen, saccades. Regressies zijn terugbewegingen naar eerdere tekst.",
+    "whyWrong": [
+      "",
+      "Deze optie verwisselt de begrippen.",
+      "Dit zijn geen juiste definities van oogbewegingen.",
+      "Het zijn normale oogbewegingen tijdens lezen, geen dyslexietypen."
+    ],
+    "tip": "Veel regressies kunnen wijzen op moeilijkheid of heranalyse van tekst."
+  },
+  {
+    "id": "v2_w6a_023",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Dyslexie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke omschrijving van dyslexie is het meest correct?",
+    "options": [
+      "Een hardnekkig probleem in de automatisering van woordidentificatie en/of spelling, vaak met fonologische problemen.",
+      "Een algemene stoornis waarbij iemand geen gesproken taal meer kan begrijpen.",
+      "Een visuele stoornis waarbij gezichten niet meer herkend worden.",
+      "Een motorische stoornis waarbij articulatie onmogelijk wordt ondanks intact taalbegrip."
+    ],
+    "correct": 0,
+    "explanation": "Dyslexie gaat vooral over problemen met lezen en/of spelling, vaak verbonden met fonologisch bewustzijn en automatisering van woordidentificatie.",
+    "whyWrong": [
+      "",
+      "Dit past eerder bij Wernicke-afasie.",
+      "Dit is prosopagnosie.",
+      "Dit zou eerder een motorisch spraakprobleem beschrijven."
+    ],
+    "tip": "Bij dyslexie gaat het vooral om lezen/spellen, niet om algemene intelligentie of motivatie."
+  },
+  {
+    "id": "v2_w6a_024",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Fonologisch bewustzijn",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is fonologisch bewustzijn?",
+    "options": [
+      "Het bewust kunnen herkennen en manipuleren van klankstructuren zoals lettergrepen, rijm en fonemen.",
+      "Het automatisch herkennen van hele woorden zonder aandacht voor klankstructuur.",
+      "Het vermogen om taalgebruik sociaal passend te maken voor een gesprekspartner.",
+      "Het onthouden van visuele woordvormen zonder klankinformatie."
+    ],
+    "correct": 0,
+    "explanation": "Fonologisch bewustzijn is het bewustzijn van klankstructuren in taal, zoals rijm, lettergrepen en afzonderlijke fonemen. Het is belangrijk voor leren lezen.",
+    "whyWrong": [
+      "",
+      "Dit past eerder bij directe woordherkenning.",
+      "Dit beschrijft pragmatiek.",
+      "Dit beschrijft visuele woordvormkennis, niet fonologisch bewustzijn."
+    ],
+    "tip": "Moeite met pseudowoorden wijst vaak op problemen in fonologische verwerking."
+  },
+  {
+    "id": "v2_w6a_025",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Dual-route-model",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat stelt het dual-route-model van lezen?",
+    "options": [
+      "Lezen kan verlopen via een indirecte letter-klankroute en een directe hele-woordroute.",
+      "Lezen verloopt via één route die voor alle woorden, pseudowoorden en uitzonderingen hetzelfde werkt.",
+      "Lezen verloopt uitsluitend via context, zonder verwerking van letters of klanken.",
+      "Lezen verloopt alleen via hardop articuleren en nooit via visuele woordherkenning."
+    ],
+    "correct": 0,
+    "explanation": "Het dual-route-model onderscheidt een indirecte route voor letter-klankomzetting en een directe route voor snelle herkenning van bekende woorden.",
+    "whyWrong": [
+      "",
+      "Het model stelt juist twee routes voor.",
+      "Letters en klanken spelen wel degelijk een rol.",
+      "Visuele woordherkenning is belangrijk bij de directe route."
+    ],
+    "tip": "Pseudowoorden testen vooral de indirecte route; bekende uitzonderingswoorden testen vooral de directe route."
+  },
+  {
+    "id": "v2_w6a_026",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Fonologische dyslexie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een patiënt leest bekende woorden goed, maar heeft veel moeite met pseudowoorden zoals 'blork'. Welke route is waarschijnlijk verstoord?",
+    "options": [
+      "De indirecte letter-klankroute.",
+      "De directe hele-woordroute.",
+      "De pragmatische contextgebruiksroute.",
+      "De semantische categorisatieroute voor prototypes."
+    ],
+    "correct": 0,
+    "explanation": "Pseudowoorden kun je niet uit het mentale lexicon als bekend woord ophalen. Ze moeten via letter-klankomzetting gelezen worden. Problemen daarmee passen bij fonologische dyslexie.",
+    "whyWrong": [
+      "",
+      "De directe route is vooral belangrijk voor bekende woorden.",
+      "Pragmatiek gaat over taalgebruik in context, niet pseudowoordlezen.",
+      "Prototypecategorisatie verklaart dit leesprofiel niet."
+    ],
+    "tip": "Pseudowoord moeilijk = indirecte route verdacht."
+  },
+  {
+    "id": "v2_w6a_027",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Surface dyslexie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een patiënt kan pseudowoorden redelijk verklanken, maar spreekt onregelmatige bekende woorden uit alsof ze volledig regelmatig gespeld zijn. Welke dyslexievorm past hierbij?",
+    "options": [
+      "Surface dyslexie, omdat de directe route voor bekende woordvormen onvoldoende wordt gebruikt.",
+      "Fonologische dyslexie, omdat letter-klankomzetting volledig is uitgevallen.",
+      "Deep dyslexie, omdat woorden vooral als betekenisverwante alternatieven worden gelezen.",
+      "Broca-afasie, omdat spraakproductie niet-vloeiend en grammaticaal arm is."
+    ],
+    "correct": 0,
+    "explanation": "Bij surface dyslexie valt iemand terug op letter-klankregels en heeft hij moeite met bekende uitzonderingswoorden die niet regelmatig uitgesproken worden.",
+    "whyWrong": [
+      "",
+      "Bij fonologische dyslexie zijn juist pseudowoorden moeilijk.",
+      "Deep dyslexie geeft semantische fouten.",
+      "Broca-afasie is een spraakproductiestoornis, geen specifieke leesroute-stoornis."
+    ],
+    "tip": "Uitzonderingswoorden regulariseren wijst op een probleem met de directe route."
+  },
+  {
+    "id": "v2_w6a_028",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Deep dyslexie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een patiënt ziet het woord 'stoel' maar leest hardop 'tafel'. Welke verklaring past het best?",
+    "options": [
+      "Deep dyslexie, omdat een semantisch verwant woord wordt geproduceerd.",
+      "Surface dyslexie, omdat een onregelmatig woord volgens letter-klankregels wordt gelezen.",
+      "Fonologische dyslexie, omdat pseudowoorden niet verklankt kunnen worden.",
+      "Pragmatische stoornis, omdat de spreker zijn woordkeuze niet aanpast aan de luisteraar."
+    ],
+    "correct": 0,
+    "explanation": "Deep dyslexie wordt gekenmerkt door semantische fouten: het gelezen woord wordt vervangen door een betekenisverwant woord.",
+    "whyWrong": [
+      "",
+      "Surface dyslexie gaat over regularisatie van uitzonderingswoorden.",
+      "Fonologische dyslexie gaat vooral over pseudowoorden.",
+      "Pragmatiek gaat over sociaal passend taalgebruik."
+    ],
+    "tip": "Betekenisverwante leesfout = deep dyslexie."
+  },
+  {
+    "id": "v2_w6a_029",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Mentale lexicon",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is het mentale lexicon?",
+    "options": [
+      "De mentale opslag van bekende woorden, inclusief informatie over vorm, betekenis en gebruik.",
+      "Een lijst met alleen pseudowoorden die via letter-klankregels gelezen moeten worden.",
+      "Een tijdelijk auditief geheugen dat klanken enkele seconden vasthoudt.",
+      "Een systeem dat alleen grammaticale zinsvolgorde opslaat zonder woordbetekenissen."
+    ],
+    "correct": 0,
+    "explanation": "Het mentale lexicon is het mentale woordenboek: het bevat bekende woorden en informatie over hun betekenis, vorm en gebruik.",
+    "whyWrong": [
+      "",
+      "Pseudowoorden staan juist niet als bekende woorden in het lexicon.",
+      "Dit beschrijft echoïsch geheugen.",
+      "Syntactische regels zijn niet hetzelfde als het mentale lexicon."
+    ],
+    "tip": "Bij bekende woorden kan de directe route gebruikmaken van het mentale lexicon."
+  },
+  {
+    "id": "v2_w6a_030",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Frequentie-effect en leeftijd van verwerving",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak over woordherkenning is correct?",
+    "options": [
+      "Hoogfrequente woorden en vroeg verworven woorden worden doorgaans sneller herkend dan laagfrequente of laat verworven woorden.",
+      "Laagfrequente woorden worden altijd sneller herkend, omdat ze meer opvallen dan gewone woorden.",
+      "Leeftijd van verwerving speelt geen rol zodra een woord vaak genoeg in een tekst voorkomt.",
+      "Woordherkenning wordt uitsluitend bepaald door het aantal letters en nooit door ervaring."
+    ],
+    "correct": 0,
+    "explanation": "Woorden die vaak voorkomen of vroeg geleerd zijn, zijn doorgaans sneller toegankelijk in het mentale lexicon.",
+    "whyWrong": [
+      "",
+      "Opvallendheid betekent niet automatisch snellere lexicale toegang.",
+      "Frequentie en leeftijd van verwerving kunnen beide bijdragen.",
+      "Aantal letters kan invloed hebben, maar ervaring en lexicale factoren zijn belangrijk."
+    ],
+    "tip": "Woordherkenning hangt niet alleen af van visuele vorm, maar ook van ervaring met het woord."
+  },
+  {
+    "id": "v2_w6b_001",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Denken",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Welke omschrijving past het best bij denken binnen functieleer?",
+    "options": [
+      "Het manipuleren van mentale representaties om problemen op te lossen, conclusies te trekken of beslissingen te nemen.",
+      "Het registreren van zintuiglijke prikkels zonder interpretatie of verdere verwerking.",
+      "Het tijdelijk vasthouden van auditieve informatie gedurende enkele seconden.",
+      "Het automatisch versterken van gedrag door beloning of straf."
+    ],
+    "correct": 0,
+    "explanation": "Denken omvat processen waarbij mentale representaties worden gebruikt en bewerkt, bijvoorbeeld bij redeneren, probleemoplossen en beslissen.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft eerder gewaarwording.",
+      "Dit beschrijft echoïsch of fonologisch geheugen, niet denken in brede zin.",
+      "Dit beschrijft operante conditionering."
+    ],
+    "tip": "Bij denken gaat het vaak om representaties, regels, strategieën en beslissingen."
+  },
+  {
+    "id": "v2_w6b_002",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Probleemruimte",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is de probleemruimte bij probleemoplossen?",
+    "options": [
+      "De verzameling van begintoestand, doeltoestand, mogelijke stappen en beperkingen waarbinnen een oplossing gezocht wordt.",
+      "De fysieke ruimte waarin een experiment wordt uitgevoerd en waarin controlevariabelen gelijk blijven.",
+      "De hoeveelheid informatie die tijdelijk in het kortetermijngeheugen kan worden opgeslagen.",
+      "De sociale context waarin iemand taalgebruik aanpast aan de gesprekspartner."
+    ],
+    "correct": 0,
+    "explanation": "Een probleemruimte beschrijft waar je begint, wat het doel is, welke acties mogelijk zijn en welke regels of beperkingen gelden.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft een experimentele setting, niet de cognitieve probleemruimte.",
+      "Dit gaat over geheugencapaciteit.",
+      "Dit beschrijft pragmatiek."
+    ],
+    "tip": "Bij probleemoplossen moet je vaak eerst de probleemruimte goed representeren."
+  },
+  {
+    "id": "v2_w6b_003",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Probleemrepresentatie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een student blijft een puzzel oplossen alsof het een rekenprobleem is, terwijl de oplossing vereist dat hij de ruimtelijke indeling anders voorstelt. Waarom loopt hij vast?",
+    "options": [
+      "Hij heeft waarschijnlijk een ongeschikte probleemrepresentatie gekozen, waardoor relevante oplossingsroutes niet zichtbaar worden.",
+      "Hij gebruikt waarschijnlijk een optimaal algoritme, waardoor alternatieve interpretaties overbodig zijn.",
+      "Hij ervaart waarschijnlijk alleen een geheugenprobleem, omdat probleemrepresentatie geen rol speelt bij inzicht.",
+      "Hij gebruikt waarschijnlijk een correcte representatie, omdat elke eerste interpretatie van een probleem meestal optimaal is."
+    ],
+    "correct": 0,
+    "explanation": "De manier waarop iemand een probleem representeert bepaalt welke stappen of oplossingen mogelijk lijken. Een verkeerde representatie kan oplossing blokkeren.",
+    "whyWrong": [
+      "",
+      "Een algoritme kan helpen, maar alleen als het probleem juist is voorgesteld en het algoritme passend is.",
+      "Probleemrepresentatie speelt juist een grote rol bij inzicht.",
+      "Eerste interpretaties kunnen misleidend zijn."
+    ],
+    "tip": "Bij inzichtproblemen is herstructurering van de probleemrepresentatie vaak cruciaal."
+  },
+  {
+    "id": "v2_w6b_004",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Algoritme",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Wat is een algoritme bij probleemoplossen?",
+    "options": [
+      "Een systematische procedure die, mits correct toegepast, gegarandeerd tot een juiste oplossing leidt.",
+      "Een snelle vuistregel die meestal efficiënt is, maar geen correcte oplossing garandeert.",
+      "Een plotseling inzicht nadat een probleem tijdelijk is weggelegd.",
+      "Een mentale blokkade waarbij iemand een object alleen in zijn gebruikelijke functie ziet."
+    ],
+    "correct": 0,
+    "explanation": "Een algoritme is een vaste, systematische methode die een oplossing garandeert als de methode correct wordt toegepast en passend is voor het probleem.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft een heuristiek.",
+      "Dit beschrijft het incubatie-effect of inzicht.",
+      "Dit beschrijft functionele gefixeerdheid."
+    ],
+    "tip": "Algoritmes zijn betrouwbaar maar vaak trager dan heuristieken."
+  },
+  {
+    "id": "v2_w6b_005",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Heuristiek",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Wat is een heuristiek?",
+    "options": [
+      "Een praktische vuistregel die vaak snel werkt, maar geen correcte oplossing garandeert.",
+      "Een vaste stap-voor-stapmethode die altijd tot een correcte oplossing leidt.",
+      "Een biologisch instinct dat volledig onafhankelijk is van ervaring.",
+      "Een vorm van geheugenopslag waarbij nieuwe informatie oude informatie overschrijft."
+    ],
+    "correct": 0,
+    "explanation": "Een heuristiek is een efficiënte strategie die vaak bruikbaar is, maar ook tot fouten of biases kan leiden.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft een algoritme.",
+      "Dit beschrijft eerder instinctmatig gedrag.",
+      "Dit lijkt op interferentie of catastrofale interferentie, niet op heuristieken."
+    ],
+    "tip": "Heuristieken zijn handig, maar niet foutloos."
+  },
+  {
+    "id": "v2_w6b_006",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Algoritme versus heuristiek",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen algoritme en heuristiek is correct?",
+    "options": [
+      "Een algoritme garandeert bij juiste toepassing een oplossing; een heuristiek is sneller maar onzekerder.",
+      "Een heuristiek garandeert altijd een oplossing; een algoritme is vooral gebaseerd op intuïtief gokken.",
+      "Een algoritme is alleen bruikbaar bij sociale beslissingen; een heuristiek alleen bij wiskundige problemen.",
+      "Een algoritme en heuristiek zijn identiek, maar een algoritme wordt gebruikt bij volwassenen en een heuristiek bij kinderen."
+    ],
+    "correct": 0,
+    "explanation": "Algoritmes zijn zekerder maar vaak tijdrovender. Heuristieken besparen tijd en moeite, maar geven geen garantie op juistheid.",
+    "whyWrong": [
+      "",
+      "Deze optie draait de begrippen om.",
+      "Beide kunnen in verschillende probleemtypen voorkomen.",
+      "Het verschil heeft niets met leeftijdscategorieën te maken."
+    ],
+    "tip": "Algoritme = zeker; heuristiek = efficiënt maar riskant."
+  },
+  {
+    "id": "v2_w6b_007",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Analogie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is analogisch probleemoplossen?",
+    "options": [
+      "Een nieuw probleem oplossen door de structuur van een eerder vergelijkbaar probleem toe te passen.",
+      "Een probleem oplossen door alle mogelijke oplossingen systematisch uit te proberen.",
+      "Een probleem oplossen door een object alleen in zijn meest gebruikelijke functie te zien.",
+      "Een probleem oplossen door irrelevante informatie eerst volledig te onderdrukken."
+    ],
+    "correct": 0,
+    "explanation": "Bij analogisch probleemoplossen gebruik je kennis van een eerder probleem om een nieuw probleem met vergelijkbare structuur op te lossen.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft eerder algoritmisch zoeken.",
+      "Dit beschrijft functionele gefixeerdheid, wat probleemoplossen juist kan belemmeren.",
+      "Dit kan bij aandacht horen, maar is geen definitie van analogisch redeneren."
+    ],
+    "tip": "Een analogie werkt vooral wanneer je de onderliggende structuur herkent, niet alleen oppervlakkige gelijkenis."
+  },
+  {
+    "id": "v2_w6b_008",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Functionele gefixeerdheid",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is functionele gefixeerdheid?",
+    "options": [
+      "De neiging om een object vooral te zien in zijn gebruikelijke functie, waardoor alternatieve toepassingen moeilijker zichtbaar worden.",
+      "De neiging om een eerder succesvolle oplossingsstrategie opnieuw te gebruiken, ook wanneer die niet optimaal is.",
+      "De neiging om een probleem beter op te lossen nadat het tijdelijk opzij is gelegd.",
+      "De neiging om vooral bevestigende informatie te zoeken voor een bestaande overtuiging."
+    ],
+    "correct": 0,
+    "explanation": "Functionele gefixeerdheid betekent dat iemand vastzit aan de normale functie van een object en daardoor creatieve oplossingen mist.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft eerder een set-effect.",
+      "Dit beschrijft het incubatie-effect.",
+      "Dit beschrijft confirmatieneiging."
+    ],
+    "tip": "Bij functionele gefixeerdheid gaat het om het gebruik van objecten."
+  },
+  {
+    "id": "v2_w6b_009",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Set-effect",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Wat is het verschil tussen een set-effect en functionele gefixeerdheid?",
+    "options": [
+      "Een set-effect is vasthouden aan een eerdere oplossingsstrategie; functionele gefixeerdheid is vasthouden aan het normale gebruik van een object.",
+      "Een set-effect is het zien van een object in zijn normale functie; functionele gefixeerdheid is het gebruiken van een oude oplossingsstrategie.",
+      "Een set-effect gaat over geheugenverlies; functionele gefixeerdheid gaat over sensorische drempels.",
+      "Een set-effect en functionele gefixeerdheid zijn beide vormen van deductief syllogisme."
+    ],
+    "correct": 0,
+    "explanation": "Bij een set-effect blijf je een eerder gebruikte strategie toepassen. Bij functionele gefixeerdheid blijf je een object zien in zijn conventionele functie.",
+    "whyWrong": [
+      "",
+      "Deze optie draait beide begrippen om.",
+      "Geen van beide begrippen gaat primair over geheugenverlies of sensorische drempels.",
+      "Het zijn probleemoplosbelemmeringen, geen syllogismen."
+    ],
+    "tip": "Set-effect = strategie zit vast; functionele gefixeerdheid = objectfunctie zit vast."
+  },
+  {
+    "id": "v2_w6b_010",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Incubatie-effect",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is het incubatie-effect?",
+    "options": [
+      "Het verschijnsel dat een probleem soms beter wordt opgelost nadat het tijdelijk opzij is gelegd.",
+      "Het verschijnsel dat iemand een eerder genegeerde stimulus later trager verwerkt.",
+      "Het verschijnsel dat een opvallend item in een lijst beter wordt onthouden.",
+      "Het verschijnsel dat een emotie sterker wordt door gezichtsfeedback."
+    ],
+    "correct": 0,
+    "explanation": "Het incubatie-effect betekent dat een pauze of afleiding soms helpt om later tot een oplossing te komen.",
+    "whyWrong": [
+      "",
+      "Dit is negatieve priming.",
+      "Dit is het Von Restorff-effect.",
+      "Dit is gezichtsfeedback."
+    ],
+    "tip": "Incubatie past bij probleemoplossen, vooral wanneer iemand vastzit."
+  },
+  {
+    "id": "v2_w6b_011",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Brainstormen",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Waarom levert groepsbrainstormen niet altijd meer ideeën op dan individueel brainstormen?",
+    "options": [
+      "Omdat productieblokkering, evaluatieangst en meeliftgedrag de opbrengst kunnen verminderen.",
+      "Omdat groepsleden geen toegang hebben tot semantische netwerken wanneer anderen aanwezig zijn.",
+      "Omdat groepsbrainstormen alleen algoritmisch verloopt en individueel brainstormen alleen heuristisch.",
+      "Omdat ideeën alleen ontstaan wanneer er een externe beloning per idee wordt gegeven."
+    ],
+    "correct": 0,
+    "explanation": "Groepen kunnen minder effectief zijn door wachten op je beurt, angst voor beoordeling en minder inspanning omdat anderen ook bijdragen.",
+    "whyWrong": [
+      "",
+      "Semantische netwerken blijven beschikbaar; het probleem ligt in groepsprocessen.",
+      "Brainstormen is niet simpel te verdelen in algoritmisch versus heuristisch op deze manier.",
+      "Externe beloning is niet noodzakelijk voor ideeproductie en kan soms zelfs creativiteit beïnvloeden."
+    ],
+    "tip": "Groepen hebben potentiële voordelen, maar ook procesverliezen."
+  },
+  {
+    "id": "v2_w6b_012",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Deductief redeneren",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Wat is deductief redeneren?",
+    "options": [
+      "Van algemene regels naar een specifieke conclusie redeneren.",
+      "Van losse voorbeelden naar een waarschijnlijke algemene conclusie redeneren.",
+      "Een kans beoordelen op basis van hoe makkelijk voorbeelden uit het geheugen komen.",
+      "Een beslissing achteraf als voorspelbaarder zien dan die vooraf was."
+    ],
+    "correct": 0,
+    "explanation": "Deductief redeneren betekent dat je vanuit algemene premissen een specifieke conclusie afleidt. Bij een geldige vorm en ware premissen moet de conclusie waar zijn.",
+    "whyWrong": [
+      "",
+      "Dit is inductief redeneren.",
+      "Dit is de beschikbaarheidsheuristiek.",
+      "Dit is hindsight bias."
+    ],
+    "tip": "Deductie geeft zekerheid als de redenering geldig is en de premissen waar zijn."
+  },
+  {
+    "id": "v2_w6b_013",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Inductief redeneren",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Wat is inductief redeneren?",
+    "options": [
+      "Van specifieke observaties naar een algemene, waarschijnlijke conclusie redeneren.",
+      "Van een algemene regel naar een noodzakelijke specifieke conclusie redeneren.",
+      "Een respons onderdrukken wanneer een stopsignaal verschijnt.",
+      "Een woord herkennen via de directe hele-woordroute."
+    ],
+    "correct": 0,
+    "explanation": "Inductief redeneren trekt een algemene conclusie op basis van specifieke gevallen. De conclusie kan waarschijnlijk zijn, maar is niet logisch gegarandeerd.",
+    "whyWrong": [
+      "",
+      "Dit is deductief redeneren.",
+      "Dit hoort bij cognitieve controle.",
+      "Dit hoort bij lezen."
+    ],
+    "tip": "Inductie levert waarschijnlijkheid, geen absolute zekerheid."
+  },
+  {
+    "id": "v2_w6b_014",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Syllogismen",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Welke redenering is deductief geldig?",
+    "options": [
+      "Alle psychologen zijn onderzoekers. Noor is psycholoog. Dus Noor is onderzoeker.",
+      "Alle psychologen zijn onderzoekers. Noor is onderzoeker. Dus Noor is psycholoog.",
+      "Sommige psychologen zijn onderzoekers. Noor is psycholoog. Dus Noor is zeker onderzoeker.",
+      "Noor is psycholoog en onderzoeker. Dus alle onderzoekers zijn psychologen."
+    ],
+    "correct": 0,
+    "explanation": "De redenering heeft een geldige vorm: alle A zijn B; X is A; dus X is B.",
+    "whyWrong": [
+      "",
+      "Dit is affirming the consequent: onderzoeker zijn betekent niet automatisch psycholoog zijn.",
+      "Uit 'sommige' volgt niet dat Noor zeker onderzoeker is.",
+      "Van één geval kun je niet geldig concluderen dat alle onderzoekers psychologen zijn."
+    ],
+    "tip": "Bij deductie gaat het om de logische vorm, niet om hoe plausibel de conclusie klinkt."
+  },
+  {
+    "id": "v2_w6b_015",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Voorwaardelijk, categorisch en lineair redeneren",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling tussen redeneervorm en voorbeeld is correct?",
+    "options": [
+      "Voorwaardelijk: als P dan Q; categorisch: alle A zijn B; lineair: A is groter dan B en B groter dan C.",
+      "Voorwaardelijk: alle A zijn B; categorisch: A is groter dan B; lineair: als P dan Q.",
+      "Voorwaardelijk: kans beoordelen op basis van geheugen; categorisch: eerdere kosten meewegen; lineair: achteraf voorspelbaarheid overschatten.",
+      "Voorwaardelijk, categorisch en lineair redeneren zijn drie vormen van operante conditionering."
+    ],
+    "correct": 0,
+    "explanation": "Voorwaardelijk redeneren gebruikt als-danrelaties. Categorisch redeneren gebruikt categorie-relaties zoals alle A zijn B. Lineair redeneren ordent elementen langs een dimensie.",
+    "whyWrong": [
+      "",
+      "Deze optie verwisselt de redeneervormen.",
+      "Dit zijn beslisheuristieken en biases.",
+      "Het zijn redeneervormen, geen leervormen."
+    ],
+    "tip": "Let bij redeneren op de structuur van de premissen."
+  },
+  {
+    "id": "v2_w6b_016",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Mentale modellen",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat stelt de theorie van mentale modellen over redeneren?",
+    "options": [
+      "Mensen redeneren door mogelijke situaties mentaal te construeren, maar overwegen vaak niet alle mogelijke modellen.",
+      "Mensen redeneren altijd door formele logische regels foutloos toe te passen.",
+      "Mensen kunnen alleen redeneren wanneer alle informatie visueel wordt aangeboden.",
+      "Mensen redeneren uitsluitend via bekrachtiging van eerdere motorische reacties."
+    ],
+    "correct": 0,
+    "explanation": "Volgens de theorie van mentale modellen construeren mensen mogelijke situaties. Fouten ontstaan wanneer niet alle relevante modellen worden overwogen.",
+    "whyWrong": [
+      "",
+      "Mensen gebruiken niet altijd foutloze formele logica.",
+      "Redeneren kan ook verbaal of abstract plaatsvinden.",
+      "Dit reduceert redeneren te veel tot operante conditionering."
+    ],
+    "tip": "Mentale modellen verklaren waarom sommige logisch geldige taken toch moeilijk zijn."
+  },
+  {
+    "id": "v2_w6b_017",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Wason selectietaak",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Bij de regel 'als er een klinker op de ene kant staat, staat er een even getal op de andere kant' kiezen veel mensen kaarten die de regel kunnen bevestigen, maar niet de kaarten die de regel kunnen weerleggen. Welke fout speelt hierbij?",
+    "options": [
+      "Confirmatieneiging, omdat vooral naar bevestigend bewijs wordt gezocht.",
+      "Beschikbaarheidsheuristiek, omdat recente voorbeelden makkelijker uit het geheugen komen.",
+      "Sunk cost fallacy, omdat eerdere investeringen blijven meetellen.",
+      "Hindsight bias, omdat de uitkomst achteraf voorspelbaarder lijkt."
+    ],
+    "correct": 0,
+    "explanation": "De Wason selectietaak laat zien dat mensen vaak bevestigend bewijs zoeken in plaats van mogelijke falsificatie. Dat is confirmatieneiging.",
+    "whyWrong": [
+      "",
+      "Er gaat hier niet primair om herinneringsgemak.",
+      "Er is geen eerdere investering beschreven.",
+      "Er is geen achterafbeoordeling van een uitkomst."
+    ],
+    "tip": "Bij regels testen is de vraag vaak: welke kaart kan de regel falsifiëren?"
+  },
+  {
+    "id": "v2_w6b_018",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Confirmatieneiging",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is confirmatieneiging?",
+    "options": [
+      "De neiging om informatie te zoeken, te onthouden of zwaarder te wegen wanneer die bestaande overtuigingen ondersteunt.",
+      "De neiging om kansen te beoordelen op basis van hoe representatief iets lijkt voor een categorie.",
+      "De neiging om door te gaan met een keuze omdat er al veel in is geïnvesteerd.",
+      "De neiging om na afloop te overschatten hoe goed je een uitkomst vooraf had kunnen voorspellen."
+    ],
+    "correct": 0,
+    "explanation": "Confirmatieneiging betekent dat mensen vooral bevestigend bewijs zoeken of accepteren en tegenbewijs minder serieus nemen.",
+    "whyWrong": [
+      "",
+      "Dit is representativiteitsheuristiek.",
+      "Dit is sunk cost fallacy.",
+      "Dit is hindsight bias."
+    ],
+    "tip": "Confirmatieneiging gaat over hoe je informatie selecteert en beoordeelt."
+  },
+  {
+    "id": "v2_w6b_019",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Beschikbaarheidsheuristiek",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is de beschikbaarheidsheuristiek?",
+    "options": [
+      "De neiging om waarschijnlijkheid te beoordelen op basis van hoe gemakkelijk voorbeelden in gedachten komen.",
+      "De neiging om waarschijnlijkheid te beoordelen op basis van hoe sterk iets op een prototype lijkt.",
+      "De neiging om een keuze te blijven volgen vanwege eerdere investeringen.",
+      "De neiging om de formulering van informatie als winst of verlies mee te laten wegen."
+    ],
+    "correct": 0,
+    "explanation": "Bij de beschikbaarheidsheuristiek lijkt iets waarschijnlijker wanneer voorbeelden makkelijk uit het geheugen komen, bijvoorbeeld doordat ze recent of opvallend zijn.",
+    "whyWrong": [
+      "",
+      "Dit is representativiteitsheuristiek.",
+      "Dit is sunk cost fallacy.",
+      "Dit is framing."
+    ],
+    "tip": "Recent, opvallend of emotioneel nieuws maakt voorbeelden beschikbaar."
+  },
+  {
+    "id": "v2_w6b_020",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Beschikbaarheidsheuristiek toepassen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Na meerdere nieuwsberichten over vliegtuigongelukken denkt iemand dat vliegen gevaarlijker is dan autorijden, ondanks statistieken. Welk mechanisme speelt vooral?",
+    "options": [
+      "Beschikbaarheidsheuristiek, omdat recente en opvallende voorbeelden makkelijk uit het geheugen komen.",
+      "Representativiteitsheuristiek, omdat vliegen sterk lijkt op het prototype van een categorie.",
+      "Framing-effect, omdat dezelfde statistiek in winst- en verliesvorm is gepresenteerd.",
+      "Sunk cost fallacy, omdat eerdere investeringen in vliegtickets blijven meetellen."
+    ],
+    "correct": 0,
+    "explanation": "De inschatting wordt beïnvloed doordat vliegtuigongelukken opvallend en recent in het geheugen beschikbaar zijn.",
+    "whyWrong": [
+      "",
+      "Representativiteit gaat over lijken op een categorie of stereotype.",
+      "Er wordt geen gelijke informatie anders geframed.",
+      "Er is geen eerdere investering die de keuze stuurt."
+    ],
+    "tip": "Nieuwsvoorbeelden die makkelijk opkomen wijzen vaak op beschikbaarheid."
+  },
+  {
+    "id": "v2_w6b_021",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Representativiteitsheuristiek",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is de representativiteitsheuristiek?",
+    "options": [
+      "De neiging om waarschijnlijkheid te beoordelen op basis van hoe goed iets past bij een categorie of stereotype.",
+      "De neiging om kansen te beoordelen op basis van hoe makkelijk voorbeelden herinnerd worden.",
+      "De neiging om eerdere kosten mee te laten wegen bij een nieuwe beslissing.",
+      "De neiging om een conclusie achteraf als voorspelbaarder te zien."
+    ],
+    "correct": 0,
+    "explanation": "Bij representativiteit kijk je of een persoon of gebeurtenis lijkt op een typisch voorbeeld van een categorie, soms ten koste van statistische basisinformatie.",
+    "whyWrong": [
+      "",
+      "Dit is beschikbaarheidsheuristiek.",
+      "Dit is sunk cost fallacy.",
+      "Dit is hindsight bias."
+    ],
+    "tip": "Representativiteit gaat vaak samen met het negeren van base rates."
+  },
+  {
+    "id": "v2_w6b_022",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Base-rate neglect",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "In een stad zijn veel meer verpleegkundigen dan chirurgen. Iemand met een witte jas, medische termen en een zelfverzekerde houding wordt toch als chirurg ingeschat. Welke denkfout is het meest waarschijnlijk?",
+    "options": [
+      "Base-rate neglect door representativiteitsheuristiek.",
+      "Beschikbaarheidsheuristiek door recente herinneringen aan chirurgen.",
+      "Hindsight bias door kennis van de uiteindelijke uitkomst.",
+      "Framing-effect door presentatie van dezelfde informatie als winst of verlies."
+    ],
+    "correct": 0,
+    "explanation": "De persoon lijkt representatief voor het stereotype chirurg, maar de basisfrequentie van verpleegkundigen versus chirurgen wordt genegeerd.",
+    "whyWrong": [
+      "",
+      "Er wordt geen recente of opvallende herinnering als bron genoemd.",
+      "Er is geen achterafvoorspelling.",
+      "Er is geen verschil in formulering van identieke informatie."
+    ],
+    "tip": "Als een stereotype de statistische basisfrequentie overschaduwt, denk aan representativiteit."
+  },
+  {
+    "id": "v2_w6b_023",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Framing-effect",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is het framing-effect?",
+    "options": [
+      "Dezelfde informatie leidt tot andere keuzes afhankelijk van hoe zij wordt gepresenteerd.",
+      "Een keuze wordt beïnvloed doordat eerdere investeringen psychologisch blijven meetellen.",
+      "Een kans wordt overschat doordat voorbeelden makkelijk uit het geheugen komen.",
+      "Een conclusie lijkt achteraf voorspelbaarder dan vooraf."
+    ],
+    "correct": 0,
+    "explanation": "Het framing-effect betekent dat de formulering van dezelfde informatie, bijvoorbeeld als winst of verlies, keuzes beïnvloedt.",
+    "whyWrong": [
+      "",
+      "Dit is sunk cost fallacy.",
+      "Dit is beschikbaarheidsheuristiek.",
+      "Dit is hindsight bias."
+    ],
+    "tip": "Framing verandert niet de feiten, maar wel hoe ze psychologisch worden geëvalueerd."
+  },
+  {
+    "id": "v2_w6b_024",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Framing-effect toepassen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een behandeling klinkt aantrekkelijker wanneer wordt gezegd dat 90% van de patiënten overleeft dan wanneer wordt gezegd dat 10% overlijdt. Wat verklaart dit?",
+    "options": [
+      "Framing-effect, omdat statistisch dezelfde informatie anders wordt geëvalueerd afhankelijk van formulering.",
+      "Beschikbaarheidsheuristiek, omdat patiënten recente voorbeelden van behandelingen herinneren.",
+      "Representativiteitsheuristiek, omdat de behandeling lijkt op het stereotype van een goede behandeling.",
+      "Sunk cost fallacy, omdat eerdere investeringen in de behandeling blijven meetellen."
+    ],
+    "correct": 0,
+    "explanation": "90% overleving en 10% overlijden beschrijven dezelfde uitkomst, maar de positieve of negatieve formulering beïnvloedt de keuze.",
+    "whyWrong": [
+      "",
+      "Er gaat hier niet om herinneringsgemak.",
+      "Er gaat hier niet om gelijkenis met een stereotype.",
+      "Er is geen eerdere investering beschreven."
+    ],
+    "tip": "Als dezelfde cijfers anders aanvoelen door formulering, is framing waarschijnlijk."
+  },
+  {
+    "id": "v2_w6b_025",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Sunk cost fallacy",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is de sunk cost fallacy?",
+    "options": [
+      "De neiging om door te gaan met een keuze omdat er al tijd, geld of moeite in is geïnvesteerd.",
+      "De neiging om waarschijnlijkheid te beoordelen op basis van makkelijk oproepbare voorbeelden.",
+      "De neiging om vooral bewijs te zoeken dat een bestaande overtuiging bevestigt.",
+      "De neiging om een uitkomst achteraf als voorspelbaarder te zien dan vooraf."
+    ],
+    "correct": 0,
+    "explanation": "Bij de sunk cost fallacy blijven eerdere investeringen meespelen, hoewel die kosten niet meer teruggedraaid kunnen worden en rationeel niet doorslaggevend zouden moeten zijn.",
+    "whyWrong": [
+      "",
+      "Dit is beschikbaarheidsheuristiek.",
+      "Dit is confirmatieneiging.",
+      "Dit is hindsight bias."
+    ],
+    "tip": "Sunk cost gaat over 'ik heb er al zoveel in gestoken'."
+  },
+  {
+    "id": "v2_w6b_026",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Sunk cost fallacy toepassen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Je kijkt een slechte film af omdat je al een uur hebt gekeken en al voor het ticket hebt betaald. Welke denkfout speelt vooral?",
+    "options": [
+      "Sunk cost fallacy, omdat eerdere investeringen je huidige keuze blijven sturen.",
+      "Hindsight bias, omdat je achteraf denkt dat het einde voorspelbaar was.",
+      "Framing-effect, omdat dezelfde kans anders wordt gepresenteerd.",
+      "Representativiteitsheuristiek, omdat de film lijkt op een typisch slechte film."
+    ],
+    "correct": 0,
+    "explanation": "De tijd en het geld zijn al besteed en kunnen niet worden teruggewonnen. Toch sturen ze je keuze om door te gaan. Dat is sunk cost fallacy.",
+    "whyWrong": [
+      "",
+      "Er is geen achterafvoorspelling beschreven.",
+      "Er is geen alternatieve formulering van dezelfde informatie.",
+      "Het gaat niet primair om stereotypische gelijkenis."
+    ],
+    "tip": "Bij sunk cost moet je kijken of eerdere investeringen onterecht de huidige beslissing beïnvloeden."
+  },
+  {
+    "id": "v2_w6b_027",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Hindsight bias",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is hindsight bias?",
+    "options": [
+      "De neiging om achteraf te overschatten hoe voorspelbaar een uitkomst was.",
+      "De neiging om eerdere investeringen mee te laten wegen in een nieuwe keuze.",
+      "De neiging om kansen te beoordelen op basis van hoe goed iets op een categorie lijkt.",
+      "De neiging om vooral bevestigende informatie te zoeken."
+    ],
+    "correct": 0,
+    "explanation": "Hindsight bias betekent dat mensen, nadat ze de uitkomst kennen, denken dat die uitkomst vooraf duidelijker of voorspelbaarder was dan werkelijk het geval was.",
+    "whyWrong": [
+      "",
+      "Dit is sunk cost fallacy.",
+      "Dit is representativiteitsheuristiek.",
+      "Dit is confirmatieneiging."
+    ],
+    "tip": "Hindsight bias herken je aan 'ik wist het al'."
+  },
+  {
+    "id": "v2_w6b_028",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Biases onderscheiden",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling tussen bias en voorbeeld is correct?",
+    "options": [
+      "Beschikbaarheid: nieuws over vliegtuigongelukken maakt vliegen gevaarlijker lijkend; representativiteit: stille boekenliefhebber wordt als bibliothecaris gezien; hindsight: achteraf denken dat je de uitslag wist.",
+      "Beschikbaarheid: slechte film afkijken door eerdere investering; representativiteit: achteraf voorspelbaarheid overschatten; hindsight: stereotype gebruiken.",
+      "Beschikbaarheid: dezelfde informatie anders presenteren; representativiteit: eerder genegeerde stimulus vertraagt; hindsight: oude kennis stoort nieuwe.",
+      "Beschikbaarheid, representativiteit en hindsight bias verwijzen allemaal naar dezelfde beslisfout."
+    ],
+    "correct": 0,
+    "explanation": "Beschikbaarheid draait om gemak van ophalen uit geheugen. Representativiteit draait om gelijkenis met een categorie of stereotype. Hindsight bias draait om achteraf voorspelbaarheid overschatten.",
+    "whyWrong": [
+      "",
+      "Deze optie verwisselt sunk cost, hindsight en representativiteit.",
+      "Framing, negatieve priming en interferentie worden hier verkeerd gekoppeld.",
+      "Het zijn verschillende denkfouten."
+    ],
+    "tip": "Leer per bias één kernsignaal: geheugenbeschikbaarheid, stereotypegelijkenis, achteraf-weten."
+  },
+  {
+    "id": "v2_w6b_029",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Linguïstische relativiteit",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke uitspraak past het best bij linguïstische relativiteit?",
+    "options": [
+      "Taal kan denken beïnvloeden, bijvoorbeeld bij kleur, tijd of ruimte, maar bepaalt denken niet volledig.",
+      "Taal bepaalt al het denken volledig, waardoor niet-talige cognitie onmogelijk is.",
+      "Taal heeft geen enkele invloed op waarneming, geheugen of categorisatie.",
+      "Taal beïnvloedt alleen articulatie en nooit conceptuele representaties."
+    ],
+    "correct": 0,
+    "explanation": "Linguïstische relativiteit stelt in gematigde vorm dat taal invloed kan hebben op denken, maar denken niet volledig bepaalt.",
+    "whyWrong": [
+      "",
+      "Dit is een te sterke deterministische visie.",
+      "Taal kan wel invloed hebben op categorisatie en interpretatie.",
+      "Taal hangt ook samen met concepten en semantische representaties."
+    ],
+    "tip": "De kern is invloed, niet volledige bepaling."
+  },
+  {
+    "id": "v2_w6b_030",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Denken integratie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een student blijft een slechte cursus volgen omdat hij al veel betaald heeft, zoekt vooral positieve reviews om zijn keuze te verdedigen en zegt na afloop dat hij altijd al wist dat de cursus tegenviel. Welke combinatie is correct?",
+    "options": [
+      "Sunk cost fallacy, confirmatieneiging en hindsight bias.",
+      "Beschikbaarheidsheuristiek, representativiteitsheuristiek en framing-effect.",
+      "Functionele gefixeerdheid, incubatie-effect en analogisch redeneren.",
+      "Proactieve interferentie, retroactieve interferentie en coderingsspecificiteit."
+    ],
+    "correct": 0,
+    "explanation": "Doorgaan door eerdere betaling is sunk cost fallacy. Positieve reviews zoeken is confirmatieneiging. Achteraf zeggen dat je het wist is hindsight bias.",
+    "whyWrong": [
+      "",
+      "Deze biases passen minder goed bij de drie beschreven gedragingen.",
+      "Dit zijn probleemoplosbegrippen, niet de beschreven beslisfouten.",
+      "Dit zijn geheugenbegrippen, geen beslisbiases."
+    ],
+    "tip": "In lange casussen kunnen meerdere biases tegelijk voorkomen."
   }
 ]
