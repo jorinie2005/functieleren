@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Functieleer Oefenomgeving</title>
+<style>
+:root{
+  --bg:#f5f7fb;--card:#fff;--text:#172033;--muted:#64748b;--primary:#2563eb;
+  --primary2:#1d4ed8;--good:#16a34a;--bad:#dc2626;--warn:#f59e0b;
+  --border:#dbe3ef;--soft:#eef4ff;--shadow:0 8px 24px rgba(15,23,42,.08);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+header{background:linear-gradient(135deg,#1e3a8a,#2563eb);color:white;padding:24px}
+header h1{margin:0 0 6px;font-size:28px}
+header p{margin:0;opacity:.92}
+nav{display:flex;gap:8px;flex-wrap:wrap;padding:12px 16px;background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
+nav button,.btn{border:1px solid var(--border);background:white;color:var(--text);padding:9px 12px;border-radius:10px;cursor:pointer;font-weight:600}
+nav button.active,.btn.primary{background:var(--primary);color:white;border-color:var(--primary)}
+.btn.good{background:var(--good);color:white;border-color:var(--good)}
+.btn.bad{background:var(--bad);color:white;border-color:var(--bad)}
+.btn.warn{background:var(--warn);color:white;border-color:var(--warn)}
+main{max-width:1200px;margin:18px auto;padding:0 16px 60px}
+.panel{display:none}
+.panel.active{display:block}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
+.grid{display:grid;gap:14px}
+.grid.two{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.grid.three{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+label{display:block;margin:8px 0;color:var(--text)}
+input,select,textarea{width:100%;padding:9px;border:1px solid var(--border);border-radius:10px;background:white;color:var(--text)}
+textarea{min-height:160px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.small{font-size:13px;color:var(--muted)}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:var(--soft);color:#1e40af;font-size:12px;margin:2px}
+.question-title{font-size:19px;font-weight:750;margin-bottom:12px;line-height:1.45}
+.option{display:block;width:100%;text-align:left;border:1px solid var(--border);background:#fff;border-radius:12px;padding:12px;margin:8px 0;cursor:pointer;line-height:1.4}
+.option:hover{border-color:var(--primary);background:#f8fbff}
+.option.selected{border-color:var(--primary);background:#dbeafe}
+.option.correct{border-color:var(--good);background:#dcfce7}
+.option.wrong{border-color:var(--bad);background:#fee2e2}
+.feedback{border-left:5px solid var(--primary);background:#f8fbff;padding:12px;border-radius:10px;margin-top:12px}
+.feedback.good{border-left-color:var(--good);background:#f0fdf4}
+.feedback.bad{border-left-color:var(--bad);background:#fff1f2}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.progressbar{height:10px;background:#e5e7eb;border-radius:999px;overflow:hidden}
+.progressbar>div{height:100%;background:var(--primary);width:0%}
+.tablewrap{overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{border-bottom:1px solid var(--border);padding:8px;text-align:left;vertical-align:top}
+th{background:#f8fafc}
+.heat-good{color:var(--good);font-weight:800}
+.heat-mid{color:var(--warn);font-weight:800}
+.heat-bad{color:var(--bad);font-weight:800}
+.flashcard{min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:22px;line-height:1.45;background:linear-gradient(135deg,#fff,#eef4ff);border:2px dashed #bfdbfe;border-radius:18px;padding:24px;cursor:pointer}
+.hidden{display:none!important}
+hr{border:0;border-top:1px solid var(--border);margin:16px 0}
+code{background:#eef2ff;border-radius:6px;padding:2px 5px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Functieleer Oefenomgeving</h1>
+  <p>Interactieve toetsomgeving met vraagbank, analyse, flashcards, import/export en adaptieve herhaling.</p>
+</header>
+
+<nav>
+  <button data-tab="dashboard" class="active">Dashboard</button>
+  <button data-tab="exam">Toets maken</button>
+  <button data-tab="flashcards">Flashcards</button>
+  <button data-tab="analysis">Analyse</button>
+  <button data-tab="bank">Vraagbank</button>
+  <button data-tab="import">Import / Export</button>
+  <button data-tab="settings">Instellingen</button>
+</nav>
+
+<main>
+
+<section id="dashboard" class="panel active">
+  <div class="card">
+    <h2>Welkom</h2>
+    <p>Deze omgeving is bedoeld om Functieleer op universitair niveau te oefenen. Je kunt algemene tentamens genereren, hoofdstukken selecteren, feedback direct of achteraf krijgen, flashcards oefenen en voortgang analyseren.</p>
+    <p class="small"><b>Let op:</b> deze versie bevat een startvraagbank. De volledige vraagbank kan later per hoofdstuk worden geïmporteerd via de importfunctie.</p>
+    <div class="grid three">
+      <div class="card"><h3>Vragen in bank</h3><div id="dashQ" style="font-size:32px;font-weight:800"></div></div>
+      <div class="card"><h3>Flashcards</h3><div id="dashF" style="font-size:32px;font-weight:800"></div></div>
+      <div class="card"><h3>Gemaakte toetsen</h3><div id="dashT" style="font-size:32px;font-weight:800"></div></div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Snelle acties</h3>
+    <div class="controls">
+      <button class="btn primary" onclick="quickExam()">Start algemene toets</button>
+      <button class="btn" onclick="showTab('flashcards')">Oefen flashcards</button>
+      <button class="btn" onclick="showTab('analysis');renderAnalysis()">Bekijk analyse</button>
+    </div>
+  </div>
+</section>
+
+<section id="exam" class="panel">
+  <div id="examSetup" class="card">
+    <h2>Toets ontwerpen</h2>
+    <div class="grid two">
+      <div>
+        <label>Aantal vragen
+          <input id="examCount" type="number" value="60" min="1" max="200"/>
+        </label>
+        <label>Feedbackmodus
+          <select id="feedbackMode">
+            <option value="end">Pas op het einde</option>
+            <option value="instant">Meteen goed/fout + uitleg</option>
+          </select>
+        </label>
+        <label>Modus
+          <select id="examMode">
+            <option value="practice">Oefenmodus</option>
+            <option value="exam">Tentamenmodus</option>
+          </select>
+        </label>
+        <label>Timer in minuten
+          <input id="timerMin" type="number" value="90" min="0"/>
+        </label>
+      </div>
+      <div>
+        <label>Moeilijkheid
+          <select id="difficultyFilter">
+            <option value="all">Alles</option>
+            <option value="1">Basis</option>
+            <option value="2">Gemiddeld</option>
+            <option value="3">Moeilijk</option>
+            <option value="4">Zeer moeilijk</option>
+          </select>
+        </label>
+        <label>Vraagtype
+          <select id="typeFilter">
+            <option value="all">Alles</option>
+            <option value="definitie">Definitie</option>
+            <option value="casus">Casus</option>
+            <option value="experiment">Experiment/onderzoeker</option>
+            <option value="toepassing">Toepassing</option>
+            <option value="vergelijking">Vergelijking</option>
+          </select>
+        </label>
+        <label><input id="avoidSeen" type="checkbox" checked/> Vermijd eerder juist beantwoorde vragen</label>
+        <label><input id="includeWrong" type="checkbox" checked/> Laat fout beantwoorde vragen adaptief terugkomen</label>
+        <label><input id="shuffleOptions" type="checkbox" checked/> Antwoordopties randomiseren</label>
+      </div>
+    </div>
+    <hr/>
+    <h3>Hoofdstukken</h3>
+    <div id="chapterChecks" class="grid three"></div>
+    <div class="controls">
+      <button class="btn primary" onclick="startExam()">Start toets</button>
+      <button class="btn" onclick="selectAllChapters(true)">Alles selecteren</button>
+      <button class="btn" onclick="selectAllChapters(false)">Alles uitzetten</button>
+    </div>
+  </div>
+
+  <div id="examRun" class="card hidden">
+    <div class="controls" style="justify-content:space-between">
+      <div><b id="examProgressText"></b> <span class="badge" id="timerBox"></span></div>
+      <button class="btn bad" onclick="abortExam()">Stop toets</button>
+    </div>
+    <div class="progressbar"><div id="examProgressBar"></div></div>
+    <hr/>
+    <div id="questionArea"></div>
+  </div>
+
+  <div id="examResult" class="card hidden"></div>
+</section>
+
+<section id="flashcards" class="panel">
+  <div class="card">
+    <h2>Flashcards</h2>
+    <div class="grid two">
+      <div>
+        <label>Hoofdstuk
+          <select id="fcChapter"></select>
+        </label>
+      </div>
+      <div>
+        <label>Modus
+          <select id="fcMode">
+            <option value="due">Alleen kaarten die aan de beurt zijn</option>
+            <option value="all">Alle kaarten</option>
+            <option value="weak">Alleen zwakke concepten</option>
+            <option value="mnemonics">Alleen tips/ezelsbruggetjes</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="btn primary" onclick="startFlashcards()">Start flashcards</button>
+    </div>
+  </div>
+  <div id="fcRun" class="card hidden">
+    <div class="small" id="fcMeta"></div>
+    <div id="fcCard" class="flashcard" onclick="flipCard()">Klik om om te draaien</div>
+    <div class="controls">
+      <button class="btn bad" onclick="rateCard(0)">Weet ik niet</button>
+      <button class="btn warn" onclick="rateCard(1)">Twijfel</button>
+      <button class="btn good" onclick="rateCard(2)">Weet ik</button>
+    </div>
+  </div>
+</section>
+
+<section id="analysis" class="panel">
+  <div class="card">
+    <h2>Analyse</h2>
+    <p class="small">Analyse wordt opgebouwd over alle toetsen heen. Zwakke stof wordt bepaald op basis van score per concept, aantal pogingen en recente fouten.</p>
+    <div class="controls">
+      <button class="btn primary" onclick="renderAnalysis()">Ververs analyse</button>
+      <button class="btn" onclick="makeWeakExam()">Toets zwakke stof</button>
+      <button class="btn bad" onclick="resetProgress()">Reset voortgang</button>
+    </div>
+  </div>
+  <div id="analysisOut"></div>
+</section>
+
+<section id="bank" class="panel">
+  <div class="card">
+    <h2>Vraagbank bekijken</h2>
+    <div class="grid three">
+      <label>Zoeken
+        <input id="bankSearch" oninput="renderBank()" placeholder="zoek vraag, concept, hoofdstuk..."/>
+      </label>
+      <label>Hoofdstuk
+        <select id="bankChapter" onchange="renderBank()"></select>
+      </label>
+      <label>Concept
+        <input id="bankConcept" oninput="renderBank()" placeholder="bijv. Stroop, Weber, Broca"/>
+      </label>
+    </div>
+  </div>
+  <div id="bankOut" class="card tablewrap"></div>
+</section>
+
+<section id="import" class="panel">
+  <div class="card">
+    <h2>Importeer vragen of flashcards</h2>
+    <p>Ondersteunde formats: JSON, CSV en simpele tekst.</p>
+    <h3>JSON-formaat aanbevolen</h3>
+    <pre class="small">[
+  {
+    "id":"unieke_id",
+    "chapter":"Week 4 - Aandacht",
+    "concept":"Strooptaak",
+    "difficulty":3,
+    "type":"casus",
+    "prompt":"Vraagtekst...",
+    "options":["A...","B...","C...","D..."],
+    "correct":2,
+    "explanation":"Waarom het juiste antwoord klopt...",
+    "whyWrong":["Waarom A fout is","Waarom B fout is","Waarom C fout is","Waarom D fout is"],
+    "tip":"Athena-tip...",
+    "example":"Voorbeeld...",
+    "mnemonic":"Ezelsbrug..."
+  }
+]</pre>
+    <textarea id="importText" placeholder="Plak hier JSON, CSV of simpele tekst..."></textarea>
+    <div class="controls">
+      <button class="btn primary" onclick="importData()">Importeer</button>
+      <button class="btn" onclick="exportQuestions()">Exporteer vraagbank</button>
+      <button class="btn" onclick="exportProgress()">Exporteer voortgang</button>
+      <button class="btn" onclick="importProgress()">Importeer voortgang</button>
+    </div>
+  </div>
+</section>
+
+<section id="settings" class="panel">
+  <div class="card">
+    <h2>Instellingen</h2>
+    <label><input id="settingDetailed" type="checkbox" checked/> Uitgebreide uitleg tonen</label>
+    <label><input id="settingShowWhyWrong" type="checkbox" checked/> Per fout alternatief uitleg tonen</label>
+    <label><input id="settingShowTips" type="checkbox" checked/> Tips, voorbeelden en ezelsbruggetjes tonen</label>
+    <label><input id="settingShuffleQuestions" type="checkbox" checked/> Vraagvolgorde randomiseren</label>
+    <button class="btn primary" onclick="saveSettings()">Instellingen opslaan</button>
+  </div>
+</section>
+
+</main>
+
+<script>
+const BUILTIN_QUESTIONS = [
+{
+ id:"w1_dualisme_01", chapter:"Week 1 - Wat is psychologie?", concept:"Dualisme", difficulty:2, type:"definitie",
+ prompt:"Welke interpretatie van Descartes' dualisme sluit het best aan bij de Athena-uitleg?",
+ options:[
+  "Geest en lichaam zijn twee onderscheiden domeinen die elkaar kunnen beïnvloeden.",
+  "Alle kennis komt uitsluitend uit zintuiglijke ervaring en niet uit aangeboren ideeën.",
+  "Gedrag moet uitsluitend worden verklaard als stimulus-responsketen zonder mentale termen.",
+  "Bewustzijn bestaat uit elementaire sensaties, beelden en gevoelens."
+ ],
+ correct:0,
+ explanation:"Dualisme onderscheidt geest en lichaam. Bij Descartes zijn lichaam en geest niet hetzelfde soort substantie, maar ze beïnvloeden elkaar wel.",
+ whyWrong:[
+  "",
+  "Dit beschrijft empirisme/tabula rasa, niet dualisme.",
+  "Dit past bij behaviorisme, niet bij Descartes' dualisme.",
+  "Dit past bij structuralisme/introspectie, niet bij dualisme."
+ ],
+ tip:"Athena noemt dualisme als filosofische basis vóór de psychologie.",
+ example:"Bij pijn is er een lichamelijke component, maar ook een bewuste ervaring.",
+ mnemonic:"Dualisme = duo = twee: geest en lichaam."
+},
+{
+ id:"w1_correlatie_01", chapter:"Week 1 - Wat is psychologie?", concept:"Correlatie en causaliteit", difficulty:3, type:"casus",
+ prompt:"Een onderzoek vindt dat studenten die meer koffie drinken gemiddeld lager slapen én slechter scoren. Welke conclusie is methodologisch het meest verantwoord?",
+ options:[
+  "Koffie veroorzaakt slechtere tentamenscores, omdat beide variabelen samenhangen.",
+  "Slaaptekort veroorzaakt koffieconsumptie, omdat vermoeide studenten meer koffie nemen.",
+  "Er is samenhang, maar zonder manipulatie of controle kan een confound de relatie verklaren.",
+  "Er is geen informatie bruikbaar, omdat correlationeel onderzoek nooit patronen kan tonen."
+ ],
+ correct:2,
+ explanation:"Correlationeel onderzoek toont samenhang, maar geen causaliteit. Een derde variabele, zoals stress of studiedruk, kan koffiegebruik, slaaptekort en prestatie beïnvloeden.",
+ whyWrong:[
+  "Samenhang is geen bewijs voor oorzaak-gevolg.",
+  "Dit is mogelijk, maar niet bewezen door correlatie alleen.",
+  "",
+  "Correlationeel onderzoek is wél bruikbaar voor verbanden, maar niet voor causale conclusies."
+ ],
+ tip:"Athena-waarschuwing: correlatie zegt niets over causaal verband.",
+ example:"IJsverkoop en haaienaanvallen correleren door warm weer als confound.",
+ mnemonic:"Correlatie = samen bewegen; causaliteit = de één veroorzaakt de ander."
+},
+{
+ id:"w2_ward_01", chapter:"Week 2 - Gewaarwording", concept:"Tien zintuigen volgens Ward", difficulty:2, type:"definitie",
+ prompt:"Waarom telt Ward meer dan de traditionele vijf zintuigen?",
+ options:[
+  "Omdat elk zintuig bewust toegankelijk moet zijn en daarom apart gerapporteerd kan worden.",
+  "Omdat elk zintuig een eigen set receptoren heeft en in een apart hersengebied verwerkt wordt.",
+  "Omdat tast, pijn en temperatuur allemaal via exact dezelfde receptoren verlopen.",
+  "Omdat alleen zintuigen met een duidelijke externe stimulus als apart systeem tellen."
+ ],
+ correct:1,
+ explanation:"Ward hanteert als criterium dat een zintuig eigen receptoren en aparte verwerking heeft. Daarom tellen o.a. pijn, temperatuur, evenwicht, kinesthesie en introceptie apart mee.",
+ whyWrong:[
+  "Bewuste rapportage is niet het criterium.",
+  "",
+  "Deze modaliteiten hebben juist deels verschillende receptoren/verwerking.",
+  "Introceptie betreft interne gewaarwordingen en telt bij Ward ook mee."
+ ],
+ tip:"Athena noemt expliciet 10 zintuigen volgens Ward.",
+ example:"Honger/hartslag/blaas vallen onder introceptie.",
+ mnemonic:"Niet alleen de klassieke 5: denk ook aan pijn, temperatuur, evenwicht, kinesthesie en introceptie."
+},
+{
+ id:"w2_weber_01", chapter:"Week 2 - Gewaarwording", concept:"Wet van Weber", difficulty:3, type:"toepassing",
+ prompt:"Een proefpersoon merkt bij 1000 gram pas verschil vanaf 1050 gram. Welk vergelijkingsgewicht hoort volgens Weber ongeveer bij een standaard van 2000 gram?",
+ options:["2025 gram","2050 gram","2100 gram","2150 gram"],
+ correct:2,
+ explanation:"De Weberfractie is ΔI/I = 50/1000 = 0,05. Bij 2000 gram is de JND dan 0,05 × 2000 = 100 gram. Het vergelijkingsgewicht is dus 2100 gram.",
+ whyWrong:[
+  "2025 gram gebruikt een te kleine JND.",
+  "2050 gram houdt de absolute JND gelijk, maar Weber zegt dat de JND relatief meegroeit.",
+  "",
+  "2150 gram overschat de JND bij een Weberfractie van 5%."
+ ],
+ tip:"Athena: JND is afhankelijk van de grootte van de standaard.",
+ example:"Bij 100 gram en JND 10 gram is de Weberfractie 10%.",
+ mnemonic:"Weber = verhouding blijft constant, niet het absolute verschil."
+},
+{
+ id:"w3_bottomup_01", chapter:"Week 3 - Waarneming", concept:"Bottom-up versus top-down", difficulty:3, type:"casus",
+ prompt:"Je kijkt voor het eerst naar een onbekend abstract schilderij en herkent pas na analyse van lijnen, randen en kleurvlakken een gezicht. Welke verwerking staat hier centraal?",
+ options:[
+  "Top-down verwerking, omdat voorkennis de eerste stap van alle waarneming vormt.",
+  "Bottom-up verwerking, omdat kenmerken vanuit zintuiglijke input worden opgebouwd tot herkenning.",
+  "Late selectie, omdat de betekenis pas na volledige semantische analyse wordt gekozen.",
+  "Attenuatie, omdat irrelevante informatie verzwakt maar niet verwijderd wordt."
+ ],
+ correct:1,
+ explanation:"Bij bottom-up verwerking bouwt het systeem herkenning op vanuit elementaire kenmerken zoals randen, oriëntaties, kleuren en vormen.",
+ whyWrong:[
+  "Top-down is vooral voorkennis/context die interpretatie stuurt.",
+  "",
+  "Late selectie hoort bij aandachtstheorieën, niet primair bij objectherkenning.",
+  "Attenuatie hoort bij selectieve aandacht, vooral cocktailparty-fenomeen."
+ ],
+ tip:"Athena-tip: bottom-up gaat van zintuigen naar hersenen; top-down van voorkennis naar interpretatie.",
+ example:"Eerst kleuren en lijnen zien, daarna de scène herkennen = bottom-up.",
+ mnemonic:"Bottom-up = beneden bij zintuigen beginnen."
+},
+{
+ id:"w3_ventraal_01", chapter:"Week 3 - Waarneming", concept:"Ventrale en dorsale route", difficulty:3, type:"vergelijking",
+ prompt:"Welke koppeling is correct voor de twee visuele routes na V1?",
+ options:[
+  "Ventraal: waar/actie/pariëtaal; dorsaal: wat/object/temporaal.",
+  "Ventraal: wat/object/temporaal; dorsaal: waar/actie/pariëtaal.",
+  "Ventraal: auditieve herkenning/temporaal; dorsaal: motorische planning/frontaal.",
+  "Ventraal: kleurloos nachtzicht; dorsaal: foveale kleurwaarneming."
+ ],
+ correct:1,
+ explanation:"De ventrale route is de wat-route naar de temporale kwab voor objectherkenning. De dorsale route is de waar-/actie-route naar de pariëtale kwab.",
+ whyWrong:[
+  "Deze optie verwisselt ventraal en dorsaal.",
+  "",
+  "De vraag gaat over visuele routes, niet auditieve herkenning.",
+  "Dit verwart visuele routes met functies van staafjes en kegeltjes."
+ ],
+ tip:"Athena benadrukt dat dit vaak terugkomt op het tentamen.",
+ example:"Object herkennen als kopje = ventraal; grijpen/localiseren = dorsaal.",
+ mnemonic:"waT - venTraal - Temporaal. Waar? DOR = daar, PAR = pariëtaal."
+},
+{
+ id:"w4_attenuatie_01", chapter:"Week 4 - Aandacht", concept:"Attenuatietheorie", difficulty:3, type:"casus",
+ prompt:"Tijdens een druk feest volg je één gesprek, maar je merkt toch je eigen naam op in een ander gesprek. Welk aandachtsmodel verklaart dit het best?",
+ options:[
+  "Filtertheorie, omdat genegeerde informatie volledig wordt geblokkeerd.",
+  "Attenuatietheorie, omdat irrelevante informatie verzwakt maar niet volledig verwijderd wordt.",
+  "Feature Integration Theory, omdat kleur en vorm eerst los worden verwerkt.",
+  "Werkgeheugenmodel, omdat de fonologische lus auditieve informatie permanent bewaart."
+ ],
+ correct:1,
+ explanation:"Het cocktailparty-fenomeen past bij attenuatie: niet-gevolgde informatie wordt afgezwakt, maar betekenisvolle stimuli zoals je naam kunnen toch doordringen.",
+ whyWrong:[
+  "Een volledig vroeg filter verklaart moeilijk waarom je naam toch binnendringt.",
+  "",
+  "FIT gaat over visuele kenmerkintegratie, niet primair auditieve selectieve aandacht.",
+  "De fonologische lus bewaart informatie kort, maar verklaart dit selectie-effect niet."
+ ],
+ tip:"Athena noemt het cocktailparty-fenomeen als typische toepassing van attenuatietheorie.",
+ example:"Je praat met één persoon, maar hoort toch je naam elders.",
+ mnemonic:"Attenuatie = zachter zetten, niet uitzetten."
+},
+{
+ id:"w4_stroop_01", chapter:"Week 4 - Aandacht", concept:"Strooptaak", difficulty:3, type:"toepassing",
+ prompt:"Waarom is het moeilijk om bij het woord 'BLAUW' gedrukt in gele inkt 'geel' te zeggen?",
+ options:[
+  "Omdat kleurwaarneming automatisch sneller is dan woordherkenning.",
+  "Omdat lezen automatisch verloopt en interfereert met de gecontroleerde taak om de inktkleur te noemen.",
+  "Omdat de visuele cortex geen kleur en woordvorm tegelijk kan verwerken.",
+  "Omdat de taak vooral het echoïsche geheugen belast en daardoor verval veroorzaakt."
+ ],
+ correct:1,
+ explanation:"Bij ervaren lezers wordt de woordbetekenis automatisch geactiveerd. Die automatische respons interfereert met de gecontroleerde respons: de inktkleur benoemen.",
+ whyWrong:[
+  "Het probleem is juist dat lezen automatisch sterk wordt geactiveerd.",
+  "",
+  "Kleur en woordvorm kunnen wel tegelijk verwerkt worden; het gaat om responsconflict.",
+  "Echoïsch geheugen is auditief en verklaart de Stroopinterferentie niet."
+ ],
+ tip:"Athena: Stroop meet inhibitie van automatische processen.",
+ example:"Bij 'blauw' in gele letters moet je 'geel' zeggen.",
+ mnemonic:"Stroop = Stop het automatische lezen."
+},
+{
+ id:"w5_operant_01", chapter:"Week 5 - Leren en geheugen", concept:"Operante conditionering", difficulty:3, type:"casus",
+ prompt:"Een rat drukt vaker op een hendel nadat daarmee een onaangename schok stopt. Hoe classificeer je dit?",
+ options:[
+  "Positieve bekrachtiging, omdat er gedrag wordt toegevoegd.",
+  "Negatieve bekrachtiging, omdat een aversieve stimulus wordt weggenomen en gedrag toeneemt.",
+  "Positieve straf, omdat de schok onaangenaam is.",
+  "Negatieve straf, omdat het dier een prettige prikkel verliest."
+ ],
+ correct:1,
+ explanation:"Het gedrag neemt toe doordat iets onaangenaams wordt weggenomen. Dat is negatieve bekrachtiging.",
+ whyWrong:[
+  "Positief betekent toevoegen van een stimulus, niet toevoegen van gedrag.",
+  "",
+  "Straf verlaagt gedrag; hier neemt hendeldrukken toe.",
+  "Negatieve straf is het wegnemen van iets prettigs."
+ ],
+ tip:"Athena-waarschuwing: positief = toevoegen, negatief = wegnemen; bekrachtiging = gedrag neemt toe; straf = gedrag neemt af.",
+ example:"Ontsnappingsgedrag is negatieve bekrachtiging.",
+ mnemonic:"Negatief = weg; bekrachtiging = vaker doen."
+},
+{
+ id:"w5_hm_01", chapter:"Week 5 - Leren en geheugen", concept:"H.M. en impliciet geheugen", difficulty:3, type:"experiment",
+ prompt:"H.M. kon na zijn operatie geen nieuwe expliciete herinneringen vormen, maar verbeterde wel op een motorische taak. Wat toont dit vooral aan?",
+ options:[
+  "Het langetermijngeheugen is één uniform systeem dat bij H.M. volledig intact bleef.",
+  "Procedureel/impliciet leren kan gespaard blijven ondanks ernstige anterograde amnesie.",
+  "De fonologische lus is voldoende om vaardigheden permanent op te slaan.",
+  "Retrograde amnesie is altijd ernstiger dan anterograde amnesie."
+ ],
+ correct:1,
+ explanation:"H.M. liet zien dat declaratief/expliciet geheugen en procedureel/impliciet geheugen dissocieerbaar zijn.",
+ whyWrong:[
+  "Het LTG is juist niet unitair; expliciet geheugen was zwaar aangedaan.",
+  "",
+  "De fonologische lus is kortdurende verbale opslag, geen verklaring voor motorisch leren.",
+  "Dit volgt niet uit H.M.; zijn kernprobleem was anterograde amnesie."
+ ],
+ tip:"Athena: H.M. is een klassieke casus over anterograde amnesie en procedureel geheugen.",
+ example:"Ster overtrekken in spiegelbeeld ging op latere dagen beter.",
+ mnemonic:"H.M. = Herinneringen Maken lukt niet, maar motorisch leren wel."
+},
+{
+ id:"w6_lemma_01", chapter:"Week 6 - Taal en denken", concept:"Lemma en lexeem", difficulty:3, type:"definitie",
+ prompt:"Wat gebeurt er bij het puntje-van-de-tongfenomeen volgens de taalproductiestappen?",
+ options:[
+  "Het lexeem is beschikbaar, maar de preverbale boodschap ontbreekt.",
+  "Het lemma is geactiveerd, maar de woordvorm/uitspraak is onvoldoende toegankelijk.",
+  "De fonologische lus is volledig uitgeschakeld, waardoor syntaxis verdwijnt.",
+  "De spreker heeft vooral een semantisch netwerk zonder conceptuele activatie."
+ ],
+ correct:1,
+ explanation:"Bij tip-of-the-tongue weet je vaak wat je bedoelt, maar kun je de klankvorm of woordvorm niet vinden. Het lemma is dus geactiveerd, het lexeem niet goed bereikbaar.",
+ whyWrong:[
+  "Als het lexeem beschikbaar is, kun je de woordvorm juist produceren.",
+  "",
+  "De fonologische lus kan belast zijn, maar syntaxis verdwijnt niet per definitie.",
+  "Conceptuele activatie is juist aanwezig: je weet wat je wilt zeggen."
+ ],
+ tip:"Athena: lemma bevat grammaticale/abstracte woordinformatie; lexeem is de woordvorm.",
+ example:"Je weet dat het een meetinstrument voor aardbevingen is, maar komt niet op 'seismograaf'.",
+ mnemonic:"Lemma = betekenis/grammatica; Lexeem = klankvorm."
+},
+{
+ id:"w6_dyslexie_01", chapter:"Week 6 - Taal en denken", concept:"Dual-route-model en dyslexie", difficulty:4, type:"vergelijking",
+ prompt:"Welke casus past het best bij fonologische dyslexie binnen het dual-route-model?",
+ options:[
+  "Bekende woorden en uitzonderingswoorden lukken, maar pseudowoorden zoals 'blork' leveren problemen op.",
+  "Pseudowoorden lukken goed, maar uitzonderingswoorden worden uitgesproken alsof ze regelmatig zijn.",
+  "Alleen gezichten worden slecht herkend, terwijl lezen intact blijft.",
+  "Woorden worden vloeiend uitgesproken maar de betekenis van zinnen ontbreekt volledig."
+ ],
+ correct:0,
+ explanation:"Fonologische dyslexie wijst op schade/problemen in de indirecte letter-klankroute. Daardoor zijn pseudowoorden moeilijk, terwijl bekende woorden via de directe route nog kunnen lukken.",
+ whyWrong:[
+  "",
+  "Dit past beter bij surface/eidetische dyslexie: directe route beschadigd.",
+  "Dit beschrijft prosopagnosie, geen dyslexie.",
+  "Dit past eerder bij Wernicke-afasie."
+ ],
+ tip:"Athena: dual-route-model = indirecte fonologische route voor nieuwe/pseudowoorden; directe lexicale route voor bekende woorden.",
+ example:"'Blork' lezen vereist hakken en plakken via grafeem-foneemkoppeling.",
+ mnemonic:"Fonologische dyslexie = fonologische route stuk = pseudowoorden lastig."
+},
+{
+ id:"w7_yerkes_01", chapter:"Week 7 - Emotie en motivatie", concept:"Yerkes-Dodson", difficulty:3, type:"toepassing",
+ prompt:"Waarom kan zeer hoge spanning bij een moeilijk tentamen je prestatie verslechteren volgens Yerkes-Dodson?",
+ options:[
+  "Omdat motivatie altijd negatief samenhangt met prestatie.",
+  "Omdat complexe taken meestal een gemiddeld optimaal arousalniveau vereisen.",
+  "Omdat fysiologische arousal alleen bij simpele reflexen voorkomt.",
+  "Omdat prestatiemotivatie uitsluitend door externe beloning ontstaat."
+ ],
+ correct:1,
+ explanation:"De wet van Yerkes-Dodson stelt dat er een optimaal niveau van arousal/motivatie is. Bij moeilijke taken kan te veel spanning cognitieve controle en werkgeheugen verstoren.",
+ whyWrong:[
+  "Motivatie helpt tot een bepaald punt; het verband is niet altijd negatief.",
+  "",
+  "Arousal komt ook voor bij cognitieve en emotionele taken.",
+  "Prestatiemotivatie kan ook intrinsiek of doelgericht zijn."
+ ],
+ tip:"Athena: voor elke taak bestaat een optimaal motivatieniveau.",
+ example:"Een beetje spanning helpt bij focus; paniek bij een complex probleem werkt averechts.",
+ mnemonic:"Yerkes-Dodson = omgekeerde U: te laag slecht, midden best, te hoog slecht."
+}
+];
+
+const STORAGE_KEYS = {
+  questions:"fl_questions_v1",
+  progress:"fl_progress_v1",
+  settings:"fl_settings_v1"
+};
+
+let questions = loadQuestions();
+let progress = loadProgress();
+let settings = loadSettings();
+let currentExam = null;
+let currentIndex = 0;
+let timerInterval = null;
+let fcDeck = [];
+let fcIndex = 0;
+let fcFlipped = false;
+
+function loadQuestions(){
+  const saved = localStorage.getItem(STORAGE_KEYS.questions);
+  if(saved){
+    try{return JSON.parse(saved)}catch(e){}
+  }
+  localStorage.setItem(STORAGE_KEYS.questions, JSON.stringify(BUILTIN_QUESTIONS));
+  return [...BUILTIN_QUESTIONS];
+}
+function saveQuestions(){localStorage.setItem(STORAGE_KEYS.questions, JSON.stringify(questions))}
+function loadProgress(){
+  const base = {attempts:{},history:[],flashcards:{},seenCorrect:{}};
+  const saved = localStorage.getItem(STORAGE_KEYS.progress);
+  if(!saved)return base;
+  try{return Object.assign(base, JSON.parse(saved))}catch(e){return base}
+}
+function saveProgress(){localStorage.setItem(STORAGE_KEYS.progress, JSON.stringify(progress))}
+function loadSettings(){
+  const base = {detailed:true,showWhyWrong:true,showTips:true,shuffleQuestions:true};
+  const saved = localStorage.getItem(STORAGE_KEYS.settings);
+  if(!saved)return base;
+  try{return Object.assign(base, JSON.parse(saved))}catch(e){return base}
+}
+function saveSettings(){
+  settings.detailed=document.getElementById("settingDetailed").checked;
+  settings.showWhyWrong=document.getElementById("settingShowWhyWrong").checked;
+  settings.showTips=document.getElementById("settingShowTips").checked;
+  settings.shuffleQuestions=document.getElementById("settingShuffleQuestions").checked;
+  localStorage.setItem(STORAGE_KEYS.settings, JSON.stringify(settings));
+  alert("Instellingen opgeslagen.");
+}
+
+function chapters(){
+  return [...new Set(questions.map(q=>q.chapter))].sort();
+}
+function concepts(){
+  return [...new Set(questions.map(q=>q.concept))].sort();
+}
+function init(){
+  document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showTab(b.dataset.tab)));
+  renderChapterChecks();
+  renderBankFilters();
+  renderFcFilters();
+  document.getElementById("settingDetailed").checked=settings.detailed;
+  document.getElementById("settingShowWhyWrong").checked=settings.showWhyWrong;
+  document.getElementById("settingShowTips").checked=settings.showTips;
+  document.getElementById("settingShuffleQuestions").checked=settings.shuffleQuestions;
+  renderDashboard();
+  renderBank();
+}
+function showTab(id){
+  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b.dataset.tab===id));
+  document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("active",p.id===id));
+  if(id==="analysis")renderAnalysis();
+  if(id==="bank")renderBank();
+  if(id==="dashboard")renderDashboard();
+}
+function renderDashboard(){
+  document.getElementById("dashQ").textContent=questions.length;
+  document.getElementById("dashF").textContent=questions.filter(q=>q.flashcard || q.mnemonic || q.tip).length;
+  document.getElementById("dashT").textContent=progress.history.length;
+}
+function renderChapterChecks(){
+  const box=document.getElementById("chapterChecks");
+  box.innerHTML="";
+  chapters().forEach(ch=>{
+    const id="ch_"+btoa(unescape(encodeURIComponent(ch))).replaceAll("=","");
+    const div=document.createElement("label");
+    div.innerHTML=`<input type="checkbox" class="chapterBox" value="${escapeHtml(ch)}" checked/> ${escapeHtml(ch)}`;
+    box.appendChild(div);
+  });
+}
+function renderBankFilters(){
+  const sel=document.getElementById("bankChapter");
+  sel.innerHTML=`<option value="all">Alle hoofdstukken</option>`+chapters().map(c=>`<option>${escapeHtml(c)}</option>`).join("");
+}
+function renderFcFilters(){
+  const sel=document.getElementById("fcChapter");
+  sel.innerHTML=`<option value="all">Alle hoofdstukken</option>`+chapters().map(c=>`<option>${escapeHtml(c)}</option>`).join("");
+}
+function selectAllChapters(v){
+  document.querySelectorAll(".chapterBox").forEach(cb=>cb.checked=v);
+}
+function selectedChapters(){
+  return [...document.querySelectorAll(".chapterBox:checked")].map(cb=>cb.value);
+}
+function shuffle(a){
+  const arr=[...a];
+  for(let i=arr.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [arr[i],arr[j]]=[arr[j],arr[i]];
+  }
+  return arr;
+}
+function sample(arr,n){return shuffle(arr).slice(0,n)}
+function quickExam(){
+  showTab("exam");
+  document.getElementById("examCount").value=60;
+  selectAllChapters(true);
+  startExam();
+}
+function makeWeakExam(){
+  showTab("exam");
+  const weak = weakConcepts().map(x=>x.concept);
+  selectAllChapters(true);
+  document.getElementById("examCount").value=30;
+  const pool = questions.filter(q=>weak.includes(q.concept));
+  if(pool.length<1){alert("Nog geen zwakke concepten bekend. Maak eerst een toets.");return}
+  startExam(pool);
+}
+
+function buildPool(customPool=null){
+  if(customPool)return customPool;
+  const chs=selectedChapters();
+  const diff=document.getElementById("difficultyFilter").value;
+  const typ=document.getElementById("typeFilter").value;
+  const avoid=document.getElementById("avoidSeen").checked;
+  const includeWrong=document.getElementById("includeWrong").checked;
+  let pool=questions.filter(q=>chs.includes(q.chapter));
+  if(diff!=="all")pool=pool.filter(q=>String(q.difficulty)===diff);
+  if(typ!=="all")pool=pool.filter(q=>q.type===typ);
+  if(avoid){
+    const wrongIds = Object.keys(progress.attempts).filter(id=>{
+      const a=progress.attempts[id]; return a.wrong>0 && a.correct<a.wrong+1;
+    });
+    pool=pool.filter(q=>!progress.seenCorrect[q.id] || (includeWrong && wrongIds.includes(q.id)));
+  }
+  return pool;
+}
+function startExam(customPool=null){
+  const count=parseInt(document.getElementById("examCount").value||"60",10);
+  const pool=buildPool(customPool);
+  if(pool.length<1){alert("Geen vragen gevonden met deze filters.");return}
+  const chosen=sample(pool, Math.min(count,pool.length));
+  const shuffleOpt=document.getElementById("shuffleOptions").checked;
+  currentExam={
+    id:"exam_"+Date.now(),
+    started:Date.now(),
+    mode:document.getElementById("examMode").value,
+    feedback:document.getElementById("feedbackMode").value,
+    questions: chosen.map(q=>prepareQuestion(q,shuffleOpt)),
+    answers:[],
+    finished:false
+  };
+  currentIndex=0;
+  document.getElementById("examSetup").classList.add("hidden");
+  document.getElementById("examResult").classList.add("hidden");
+  document.getElementById("examRun").classList.remove("hidden");
+  startTimer();
+  renderQuestion();
+}
+function prepareQuestion(q,shuffleOpt){
+  let opts=q.options.map((text,i)=>({text,i}));
+  if(shuffleOpt)opts=shuffle(opts);
+  return {...q, displayOptions:opts, displayCorrect:opts.findIndex(o=>o.i===q.correct)};
+}
+function startTimer(){
+  clearInterval(timerInterval);
+  const min=parseInt(document.getElementById("timerMin").value||"0",10);
+  if(!min){document.getElementById("timerBox").textContent="Geen timer";return}
+  const end=Date.now()+min*60*1000;
+  timerInterval=setInterval(()=>{
+    const left=Math.max(0,end-Date.now());
+    const m=Math.floor(left/60000), s=Math.floor((left%60000)/1000);
+    document.getElementById("timerBox").textContent=`${m}:${String(s).padStart(2,"0")}`;
+    if(left<=0){clearInterval(timerInterval);finishExam()}
+  },500);
+}
+function renderQuestion(){
+  const q=currentExam.questions[currentIndex];
+  const answered=currentExam.answers[currentIndex];
+  document.getElementById("examProgressText").textContent=`Vraag ${currentIndex+1} van ${currentExam.questions.length}`;
+  document.getElementById("examProgressBar").style.width=((currentIndex)/currentExam.questions.length*100)+"%";
+  let html=`<div>
+    <div>
+      <span class="badge">${escapeHtml(q.chapter)}</span>
+      <span class="badge">${escapeHtml(q.concept)}</span>
+      <span class="badge">niveau ${q.difficulty}</span>
+      <span class="badge">${q.type}</span>
+    </div>
+    <div class="question-title">${currentIndex+1}. ${escapeHtml(q.prompt)}</div>`;
+  q.displayOptions.forEach((o,di)=>{
+    let cls="option";
+    if(answered){
+      if(di===q.displayCorrect)cls+=" correct";
+      if(di===answered.selected && !answered.correct)cls+=" wrong";
+    }
+    html+=`<button class="${cls}" onclick="answerQuestion(${di})" ${answered?'disabled':''}>
+      ${String.fromCharCode(65+di)}. ${escapeHtml(o.text)}
+    </button>`;
+  });
+  if(answered && currentExam.feedback==="instant") html+=feedbackHtml(q,answered);
+  html+=`<div class="controls">
+    <button class="btn" onclick="prevQuestion()" ${currentIndex===0?'disabled':''}>Vorige</button>
+    <button class="btn primary" onclick="nextQuestion()">${currentIndex===currentExam.questions.length-1?'Afronden':'Volgende'}</button>
+  </div></div>`;
+  document.getElementById("questionArea").innerHTML=html;
+}
+function answerQuestion(di){
+  if(currentExam.answers[currentIndex])return;
+  const q=currentExam.questions[currentIndex];
+  const correct=di===q.displayCorrect;
+  currentExam.answers[currentIndex]={selected:di,correct,actualIndex:q.displayOptions[di].i};
+  if(currentExam.feedback==="instant") renderQuestion();
+  else {
+    [...document.querySelectorAll(".option")].forEach((b,i)=>b.classList.toggle("selected",i===di));
+  }
+}
+function nextQuestion(){
+  if(!currentExam.answers[currentIndex]){
+    if(!confirm("Je hebt deze vraag nog niet beantwoord. Doorgaan?"))return;
+    currentExam.answers[currentIndex]={selected:null,correct:false,actualIndex:null,blank:true};
+  }
+  if(currentIndex<currentExam.questions.length-1){currentIndex++;renderQuestion()}
+  else finishExam();
+}
+function prevQuestion(){if(currentIndex>0){currentIndex--;renderQuestion()}}
+function abortExam(){
+  if(confirm("Toets stoppen zonder op te slaan?")){
+    clearInterval(timerInterval);
+    currentExam=null;
+    document.getElementById("examRun").classList.add("hidden");
+    document.getElementById("examSetup").classList.remove("hidden");
+  }
+}
+function finishExam(){
+  clearInterval(timerInterval);
+  if(!currentExam || currentExam.finished)return;
+  currentExam.finished=true;
+  const total=currentExam.questions.length;
+  const correct=currentExam.answers.filter(a=>a&&a.correct).length;
+  currentExam.questions.forEach((q,i)=>{
+    const a=currentExam.answers[i]||{correct:false,blank:true};
+    if(!progress.attempts[q.id])progress.attempts[q.id]={correct:0,wrong:0,chapter:q.chapter,concept:q.concept};
+    if(a.correct){progress.attempts[q.id].correct++;progress.seenCorrect[q.id]=true}
+    else progress.attempts[q.id].wrong++;
+  });
+  progress.history.push({
+    id:currentExam.id,date:new Date().toISOString(),total,correct,
+    chapters:[...new Set(currentExam.questions.map(q=>q.chapter))]
+  });
+  saveProgress();
+  document.getElementById("examRun").classList.add("hidden");
+  document.getElementById("examResult").classList.remove("hidden");
+  document.getElementById("examSetup").classList.remove("hidden");
+  renderResult(correct,total);
+}
+function feedbackHtml(q,a){
+  const good=a.correct;
+  let html=`<div class="feedback ${good?'good':'bad'}"><b>${good?'Goed':'Fout'}.</b> `;
+  html+=escapeHtml(q.explanation||"Geen uitleg beschikbaar.");
+  if(settings.showWhyWrong && q.whyWrong){
+    html+=`<hr/><b>Waarom de andere opties niet kloppen:</b><ul>`;
+    q.displayOptions.forEach((o,di)=>{
+      if(di!==q.displayCorrect){
+        const txt=q.whyWrong[o.i] || "Dit alternatief past minder goed bij het concept.";
+        html+=`<li><b>${String.fromCharCode(65+di)}:</b> ${escapeHtml(txt)}</li>`;
+      }
+    });
+    html+=`</ul>`;
+  }
+  if(settings.showTips){
+    if(q.tip)html+=`<p><b>Athena-tip:</b> ${escapeHtml(q.tip)}</p>`;
+    if(q.example)html+=`<p><b>Voorbeeld:</b> ${escapeHtml(q.example)}</p>`;
+    if(q.mnemonic)html+=`<p><b>Ezelsbruggetje:</b> ${escapeHtml(q.mnemonic)}</p>`;
+  }
+  html+=`</div>`;
+  return html;
+}
+function renderResult(correct,total){
+  let html=`<h2>Resultaat</h2><p style="font-size:24px"><b>${correct}/${total}</b> correct (${Math.round(correct/total*100)}%).</p>`;
+  html+=`<h3>Nabespreking</h3>`;
+  currentExam.questions.forEach((q,i)=>{
+    const a=currentExam.answers[i]||{correct:false,blank:true,selected:null};
+    html+=`<div class="card"><b>Vraag ${i+1}: ${a.correct?'✅ goed':'❌ fout'}</b><br>${escapeHtml(q.prompt)}`;
+    if(a.selected!==null){
+      html+=`<p>Jouw antwoord: ${String.fromCharCode(65+a.selected)}. ${escapeHtml(q.displayOptions[a.selected].text)}</p>`;
+    } else html+=`<p>Jouw antwoord: geen antwoord</p>`;
+    html+=`<p>Correct: ${String.fromCharCode(65+q.displayCorrect)}. ${escapeHtml(q.displayOptions[q.displayCorrect].text)}</p>`;
+    html+=feedbackHtml(q,a);
+    html+=`</div>`;
+  });
+  html+=`<div class="controls"><button class="btn primary" onclick="renderAnalysis();showTab('analysis')">Bekijk totaal-analyse</button></div>`;
+  document.getElementById("examResult").innerHTML=html;
+}
+
+function aggregate(){
+  const byConcept={}, byChapter={};
+  Object.values(progress.attempts).forEach(a=>{
+    for(const map of [[byConcept,a.concept],[byChapter,a.chapter]]){
+      if(!map[0][map[1]])map[0][map[1]]={correct:0,wrong:0,total:0};
+      map[0][map[1]].correct+=a.correct;
+      map[0][map[1]].wrong+=a.wrong;
+      map[0][map[1]].total+=a.correct+a.wrong;
+    }
+  });
+  return {byConcept,byChapter};
+}
+function weakConcepts(){
+  const {byConcept}=aggregate();
+  return Object.entries(byConcept).map(([concept,s])=>({
+    concept,acc:s.total? s.correct/s.total:0,total:s.total,correct:s.correct,wrong:s.wrong
+  })).filter(x=>x.total>0 && x.acc<0.75).sort((a,b)=>a.acc-b.acc||b.total-a.total);
+}
+function renderAnalysis(){
+  const out=document.getElementById("analysisOut");
+  const {byConcept,byChapter}=aggregate();
+  const weak=weakConcepts();
+  const testedConcepts=new Set(Object.keys(byConcept));
+  const untested=concepts().filter(c=>!testedConcepts.has(c));
+  let html=`<div class="card"><h3>Score per hoofdstuk</h3>${tableStats(byChapter)}</div>`;
+  html+=`<div class="card"><h3>Zwakke concepten</h3>`;
+  if(!weak.length)html+=`<p>Geen duidelijke zwakke concepten bekend. Maak meer toetsen voor betrouwbaardere analyse.</p>`;
+  else html+=`<ul>`+weak.map(w=>`<li><b>${escapeHtml(w.concept)}</b>: ${Math.round(w.acc*100)}% (${w.correct}/${w.total})</li>`).join("")+`</ul>`;
+  html+=`</div>`;
+  html+=`<div class="card"><h3>Nog niet geteste concepten</h3><p>${untested.length?untested.map(escapeHtml).join(", "):"Alles in de huidige vraagbank is minimaal één keer getest."}</p></div>`;
+  html+=`<div class="card"><h3>Toetshistorie</h3>`;
+  if(!progress.history.length)html+=`<p>Nog geen toetsen gemaakt.</p>`;
+  else html+=`<table><tr><th>Datum</th><th>Score</th><th>Hoofdstukken</th></tr>`+
+    progress.history.slice().reverse().map(h=>`<tr><td>${new Date(h.date).toLocaleString()}</td><td>${h.correct}/${h.total} (${Math.round(h.correct/h.total*100)}%)</td><td>${h.chapters.map(escapeHtml).join(", ")}</td></tr>`).join("")+`</table>`;
+  html+=`</div>`;
+  out.innerHTML=html;
+}
+function tableStats(obj){
+  const rows=Object.entries(obj).sort().map(([k,s])=>{
+    const pct=s.total?Math.round(s.correct/s.total*100):0;
+    const cls=pct>=80?"heat-good":pct>=60?"heat-mid":"heat-bad";
+    return `<tr><td>${escapeHtml(k)}</td><td>${s.correct}/${s.total}</td><td class="${cls}">${pct}%</td></tr>`;
+  }).join("");
+  return rows?`<table><tr><th>Onderdeel</th><th>Correct</th><th>Score</th></tr>${rows}</table>`:"<p>Nog geen data.</p>";
+}
+
+function startFlashcards(){
+  const ch=document.getElementById("fcChapter").value;
+  const mode=document.getElementById("fcMode").value;
+  const weak=new Set(weakConcepts().map(x=>x.concept));
+  const now=Date.now();
+  fcDeck=questions.filter(q=>{
+    if(ch!=="all" && q.chapter!==ch)return false;
+    if(mode==="weak" && !weak.has(q.concept))return false;
+    if(mode==="mnemonics" && !(q.mnemonic||q.tip))return false;
+    if(mode==="due"){
+      const p=progress.flashcards[q.id];
+      if(p && p.nextDue && p.nextDue>now)return false;
+    }
+    return q.flashcard || q.explanation || q.tip || q.mnemonic;
+  });
+  fcDeck=shuffle(fcDeck);
+  fcIndex=0;fcFlipped=false;
+  if(!fcDeck.length){alert("Geen flashcards gevonden met deze filters.");return}
+  document.getElementById("fcRun").classList.remove("hidden");
+  renderFc();
+}
+function renderFc(){
+  const q=fcDeck[fcIndex];
+  document.getElementById("fcMeta").textContent=`${fcIndex+1}/${fcDeck.length} · ${q.chapter} · ${q.concept}`;
+  const front=q.flashcard?.front || q.concept;
+  const back=q.flashcard?.back || `${q.explanation}${q.mnemonic? "\\n\\nEzelsbrug: "+q.mnemonic:""}${q.example? "\\n\\nVoorbeeld: "+q.example:""}`;
+  document.getElementById("fcCard").textContent=fcFlipped?back:front;
+}
+function flipCard(){fcFlipped=!fcFlipped;renderFc()}
+function rateCard(score){
+  const q=fcDeck[fcIndex];
+  const old=progress.flashcards[q.id]||{level:0};
+  const level=score===2?Math.min(6,old.level+1):score===1?Math.max(1,old.level):0;
+  const days=[0,0.02,1,3,7,14,30][level];
+  progress.flashcards[q.id]={level,last:Date.now(),nextDue:Date.now()+days*86400000};
+  saveProgress();
+  fcIndex++;
+  fcFlipped=false;
+  if(fcIndex>=fcDeck.length){
+    document.getElementById("fcCard").textContent="Klaar met deze flashcardsessie.";
+    document.getElementById("fcMeta").textContent="";
+  } else renderFc();
+}
+
+function renderBank(){
+  const s=(document.getElementById("bankSearch")?.value||"").toLowerCase();
+  const ch=document.getElementById("bankChapter")?.value||"all";
+  const c=(document.getElementById("bankConcept")?.value||"").toLowerCase();
+  let list=questions.filter(q=>{
+    const hay=(q.prompt+" "+q.concept+" "+q.chapter).toLowerCase();
+    return (!s||hay.includes(s)) && (ch==="all"||q.chapter===ch) && (!c||q.concept.toLowerCase().includes(c));
+  });
+  let html=`<p><b>${list.length}</b> vragen gevonden.</p><table><tr><th>ID</th><th>Hoofdstuk</th><th>Concept</th><th>Niveau</th><th>Vraag</th></tr>`;
+  html+=list.map(q=>`<tr><td>${escapeHtml(q.id)}</td><td>${escapeHtml(q.chapter)}</td><td>${escapeHtml(q.concept)}</td><td>${q.difficulty}</td><td>${escapeHtml(q.prompt)}</td></tr>`).join("");
+  html+=`</table>`;
+  document.getElementById("bankOut").innerHTML=html;
+}
+
+function importData(){
+  const txt=document.getElementById("importText").value.trim();
+  if(!txt)return alert("Plak eerst data.");
+  let imported=[];
+  try{
+    if(txt.startsWith("[")||txt.startsWith("{")){
+      const parsed=JSON.parse(txt);
+      imported=Array.isArray(parsed)?parsed:[parsed];
+    } else if(txt.includes(",") && txt.split("\\n")[0].toLowerCase().includes("prompt")){
+      imported=parseCSV(txt);
+    } else {
+      imported=parseSimpleText(txt);
+    }
+  }catch(e){alert("Import mislukt: "+e.message);return}
+  const before=questions.length;
+  imported.forEach(q=>{
+    if(!q.id)q.id="custom_"+Date.now()+"_"+Math.random().toString(36).slice(2);
+    if(!q.options || q.options.length!==4)throw new Error("Elke vraag moet exact 4 antwoordopties hebben.");
+    const idx=questions.findIndex(x=>x.id===q.id);
+    if(idx>=0)questions[idx]=q; else questions.push(q);
+  });
+  saveQuestions();
+  renderChapterChecks();renderBankFilters();renderFcFilters();renderDashboard();renderBank();
+  alert(`${questions.length-before} nieuwe vragen geïmporteerd. Totaal: ${questions.length}.`);
+}
+function parseCSV(txt){
+  const lines=txt.split(/\\r?\\n/).filter(Boolean);
+  const headers=splitCSV(lines[0]).map(h=>h.trim());
+  return lines.slice(1).map(line=>{
+    const v=splitCSV(line); const o={};
+    headers.forEach((h,i)=>o[h]=v[i]);
+    return {
+      id:o.id,chapter:o.chapter,concept:o.concept,difficulty:+o.difficulty||2,type:o.type||"definitie",
+      prompt:o.prompt,options:[o.A,o.B,o.C,o.D],correct:"ABCD".indexOf((o.correct||"A").trim().toUpperCase()),
+      explanation:o.explanation||"",whyWrong:[o.whyA||"",o.whyB||"",o.whyC||"",o.whyD||""],
+      tip:o.tip||"",example:o.example||"",mnemonic:o.mnemonic||""
+    };
+  });
+}
+function splitCSV(line){
+  const out=[];let cur="",q=false;
+  for(let i=0;i<line.length;i++){
+    const ch=line[i];
+    if(ch==='"'){q=!q;continue}
+    if(ch===","&&!q){out.push(cur);cur="";continue}
+    cur+=ch;
+  }
+  out.push(cur);return out;
+}
+function parseSimpleText(txt){
+  const blocks=txt.split(/\\n\\s*\\n/).filter(Boolean);
+  return blocks.map((b,i)=>{
+    const get=(name)=>((b.match(new RegExp(name+":\\\\s*([\\\\s\\\\S]*?)(?=\\\\n[A-DCorrectUitlegHoofdstukConceptMoeilijkheidType]+:|$)","i"))||[])[1]||"").trim();
+    return {
+      id:get("ID")||"txt_"+Date.now()+"_"+i,
+      chapter:get("Hoofdstuk")||"Geïmporteerd",
+      concept:get("Concept")||"Onbekend",
+      difficulty:+get("Moeilijkheid")||2,
+      type:get("Type")||"definitie",
+      prompt:get("Vraag"),
+      options:[get("A"),get("B"),get("C"),get("D")],
+      correct:"ABCD".indexOf(get("Correct").toUpperCase()),
+      explanation:get("Uitleg"),
+      whyWrong:["","","",""],
+      tip:get("Tip"),
+      example:get("Voorbeeld"),
+      mnemonic:get("Ezelsbrug")
+    };
+  });
+}
+function exportQuestions(){
+  download("functieleer-vraagbank.json", JSON.stringify(questions,null,2));
+}
+function exportProgress(){
+  download("functieleer-voortgang.json", JSON.stringify(progress,null,2));
+}
+function importProgress(){
+  const txt=document.getElementById("importText").value.trim();
+  try{progress=JSON.parse(txt);saveProgress();alert("Voortgang geïmporteerd.");renderAnalysis();}
+  catch(e){alert("Kon voortgang niet importeren: "+e.message)}
+}
+function resetProgress(){
+  if(confirm("Weet je zeker dat je alle voortgang wilt wissen?")){
+    progress={attempts:{},history:[],flashcards:{},seenCorrect:{}};
+    saveProgress();renderAnalysis();renderDashboard();
+  }
+}
+function download(name,text){
+  const blob=new Blob([text],{type:"application/json"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);a.download=name;a.click();
+}
+function escapeHtml(x){
+  return String(x??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
+}
+init();
+</script>
+</body>
+</html>
