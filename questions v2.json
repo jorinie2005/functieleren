@@ -8278,5 +8278,2075 @@
       "Bij H.M. bleven sommige vormen van motorisch leren mogelijk."
     ],
     "tip": "H.M. is een sleutelcasus voor het onderscheid tussen expliciet en impliciet geheugen."
+  },
+  {
+    "id": "v2_w8d_001",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Taalontwikkeling: klinkers en medeklinkers",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over vroege klankontwikkeling bij baby's is het meest correct?",
+    "options": [
+      "Baby's produceren en onderscheiden eerst relatief algemene klankpatronen; later wordt hun klankproductie sterker afgestemd op de omgevingstaal.",
+      "Baby's beginnen met volledige woorden en ontwikkelen daarna pas klinkers en medeklinkers.",
+      "Baby's kunnen pas klanken onderscheiden nadat ze leren lezen.",
+      "Baby's produceren vanaf de geboorte uitsluitend de fonemen van hun moedertaal."
+    ],
+    "correct": 0,
+    "explanation": "Vroege taalontwikkeling begint met algemene klankproductie en brabbelen. Naarmate baby's meer taalinput horen, raakt hun klankproductie sterker afgestemd op de taalomgeving.",
+    "whyWrong": [
+      "",
+      "Volledige woorden komen pas later dan vroege klankproductie en brabbelen.",
+      "Klankonderscheiding ontstaat ruim vóór leren lezen.",
+      "Vroege brabbelpatronen zijn aanvankelijk breder dan alleen moedertaalspecifieke fonemen."
+    ],
+    "tip": "Bij vroege taalontwikkeling gaat het van algemene klankproductie naar taal-specifieke patronen."
+  },
+  {
+    "id": "v2_w8d_002",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Taalontwikkeling: tijdlijn",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke tijdlijn van taalontwikkeling is het meest passend?",
+    "options": [
+      "Eerst brabbelen, daarna eerste woorden, daarna tweewoordzinnen/telegrafische spraak en vervolgens verdere grammaticale ontwikkeling.",
+      "Eerst volledige grammatica, daarna tweewoordzinnen, daarna brabbelen en pas daarna eerste woorden.",
+      "Eerst lezen, daarna fonemen onderscheiden, daarna brabbelen en pas daarna gesproken taal begrijpen.",
+      "Eerst pragmatische volwassen taal, daarna morfemen, daarna eerste klanken en tot slot woordenschat."
+    ],
+    "correct": 0,
+    "explanation": "Taalontwikkeling verloopt grofweg van vroege klankproductie en brabbelen naar eerste woorden, woordcombinaties en steeds complexere grammaticale structuren.",
+    "whyWrong": [
+      "",
+      "Volledige grammatica ontwikkelt niet vóór brabbelen en eerste woorden.",
+      "Lezen is een aangeleerde vaardigheid die later komt dan gesproken taal.",
+      "Volwassen pragmatiek en grammatica ontstaan niet vóór vroege klank- en woordontwikkeling."
+    ],
+    "tip": "Bij ontwikkelingsvragen is de algemene volgorde belangrijker dan elk exact getal."
+  },
+  {
+    "id": "v2_w8d_003",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Woordenschatontwikkeling",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over woordenschatontwikkeling is het meest correct?",
+    "options": [
+      "Rond de tweede verjaardag neemt de woordenschat sterk toe en beginnen kinderen woorden te combineren.",
+      "Kinderen produceren pas hun eerste woorden nadat zij volledige grammatica beheersen.",
+      "Woordenschatontwikkeling stopt meestal zodra kinderen tweewoordzinnen gebruiken.",
+      "Kinderen leren woorden pas effectief wanneer zij formeel leesonderwijs krijgen."
+    ],
+    "correct": 0,
+    "explanation": "Rond de peuterleeftijd groeit de woordenschat sterk. In die periode ontstaan ook woordcombinaties zoals tweewoordzinnen en telegrafische spraak.",
+    "whyWrong": [
+      "",
+      "Eerste woorden verschijnen vóór volledige grammaticale beheersing.",
+      "Woordenschatontwikkeling gaat juist sterk door.",
+      "Kinderen leren gesproken woorden lang vóór formeel leesonderwijs."
+    ],
+    "tip": "Woordenschatgroei en grammaticale ontwikkeling verlopen deels parallel, maar grammatica is niet vanaf het begin volledig."
+  },
+  {
+    "id": "v2_w8d_004",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Spreektempo",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over spreektempo is het meest correct?",
+    "options": [
+      "Spreektempo wordt beïnvloed door leeftijd, zinsmoeilijkheid en taalplanning.",
+      "Spreektempo is volledig constant en verandert niet door leeftijd of zinscomplexiteit.",
+      "Spreektempo is uitsluitend een motorisch proces en staat los van taalplanning.",
+      "Spreektempo neemt altijd toe wanneer zinnen grammaticaal complexer worden."
+    ],
+    "correct": 0,
+    "explanation": "Spreektempo hangt niet alleen af van motorische uitvoering, maar ook van taalplanning, leeftijd en de complexiteit van wat gezegd moet worden.",
+    "whyWrong": [
+      "",
+      "Spreektempo varieert wel degelijk tussen mensen en situaties.",
+      "Motoriek is belangrijk, maar taalplanning speelt ook mee.",
+      "Moeilijkere zinnen leiden vaak juist tot trager spreken."
+    ],
+    "tip": "Spreektempo is een venster op zowel motoriek als taalplanning."
+  },
+  {
+    "id": "v2_w8d_005",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Spreekfouten: klanktoevoeging en klankweglating",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling tussen spreekfout en voorbeeld is correct?",
+    "options": [
+      "Klanktoevoeging: 'hooghoek' voor 'ooghoek'; klankweglating: 'achtig procent' voor 'tachtig procent'.",
+      "Klanktoevoeging: 'stoel' lezen als 'tafel'; klankweglating: pseudowoorden niet kunnen lezen.",
+      "Klanktoevoeging: een eerdere zinsstructuur opnieuw gebruiken; klankweglating: context aanpassen aan de luisteraar.",
+      "Klanktoevoeging: een bekende persoon als dubbelganger ervaren; klankweglating: een gezicht niet herkennen."
+    ],
+    "correct": 0,
+    "explanation": "Bij klanktoevoeging verschijnt een extra klank, zoals de h in 'hooghoek'. Bij klankweglating ontbreekt een klank, zoals de t in 'achtig procent' wanneer 'tachtig procent' bedoeld is.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft deep dyslexie en fonologische dyslexie, geen spreekfouttypen.",
+      "Dit beschrijft syntactische priming en pragmatiek.",
+      "Dit beschrijft Capgras en prosopagnosie."
+    ],
+    "tip": "Spreekfouten kunnen optreden op klankniveau, woordniveau of zinsstructuurniveau."
+  },
+  {
+    "id": "v2_w8d_006",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Spoonerism",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is een spoonerism?",
+    "options": [
+      "Een spreekfout waarbij klanken van twee woorden worden verwisseld.",
+      "Een leesfout waarbij een woord als semantisch verwant woord wordt gelezen.",
+      "Een grammaticale fout waarbij onderwerp en werkwoord niet overeenkomen.",
+      "Een pragmatische fout waarbij de spreker onvoldoende rekening houdt met de luisteraar."
+    ],
+    "correct": 0,
+    "explanation": "Een spoonerism is een verwisseling van klanken tussen woorden. Het laat zien dat spraakproductie op klankniveau gepland wordt.",
+    "whyWrong": [
+      "",
+      "Dit past bij deep dyslexie.",
+      "Dit is een syntactische of grammaticale fout.",
+      "Dit is een pragmatische fout."
+    ],
+    "tip": "Spoonerisms zijn vooral interessant omdat ze iets laten zien over de volgorde en planning van spraakklanken."
+  },
+  {
+    "id": "v2_w8d_007",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Grammaticale fouten en werkgeheugen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "In de zin 'De sleutel van de kasten die in de gang staan...' maakt iemand sneller een fout in de werkwoordsvorm. Waarom?",
+    "options": [
+      "Omdat de afstand tussen onderwerp en werkwoord de belasting van het werkgeheugen vergroot.",
+      "Omdat de zin geen semantische betekenis heeft en daarom niet syntactisch verwerkt kan worden.",
+      "Omdat alle woorden in de zin als pseudowoorden worden gelezen.",
+      "Omdat de spreker de fonemen van het onderwerp niet kan onderscheiden."
+    ],
+    "correct": 0,
+    "explanation": "Wanneer onderwerp en werkwoord ver uit elkaar staan, moet relevante grammaticale informatie langer actief worden gehouden. Dat verhoogt de kans op fouten.",
+    "whyWrong": [
+      "",
+      "De zin heeft wel betekenis; het probleem zit in grammaticale afhankelijkheid en geheugenbelasting.",
+      "De woorden zijn gewone woorden, geen pseudowoorden.",
+      "Het probleem gaat niet primair om foneemdiscriminatie."
+    ],
+    "tip": "Complexe syntaxis belast het werkgeheugen."
+  },
+  {
+    "id": "v2_w8d_008",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Crossmodale semantische priming",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is crossmodale semantische priming?",
+    "options": [
+      "Een stimulus in één modaliteit beïnvloedt de verwerking van een betekenisverwante stimulus in een andere modaliteit.",
+      "Een stimulus wordt sneller verwerkt wanneer dezelfde fysieke vorm direct opnieuw wordt getoond.",
+      "Een eerder genegeerde stimulus vertraagt latere verwerking wanneer hij target wordt.",
+      "Een woord wordt herkend doordat alle fonemen tegelijk bewust worden uitgesproken."
+    ],
+    "correct": 0,
+    "explanation": "Bij crossmodale semantische priming beïnvloedt bijvoorbeeld een auditief aangeboden woord de verwerking van een visueel aangeboden betekenisverwant woord.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft herhaling of perceptuele priming, niet specifiek crossmodale semantische priming.",
+      "Dit is negatieve priming.",
+      "Woordherkenning vereist niet dat alle fonemen bewust worden uitgesproken."
+    ],
+    "tip": "Crossmodaal betekent dat prime en target via verschillende zintuiglijke modaliteiten worden aangeboden."
+  },
+  {
+    "id": "v2_w8d_009",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Liplezen en spraakperceptie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "In een lawaaiige ruimte versta je iemand beter wanneer je zijn mondbewegingen kunt zien. Welke verklaring past het best?",
+    "options": [
+      "Visuele informatie over articulatie helpt de interpretatie van het auditieve spraaksignaal.",
+      "Liplezen vervangt auditieve informatie volledig, waardoor gehoor overbodig wordt.",
+      "Mondbewegingen zorgen ervoor dat fonemen niet meer hoeven te worden verwerkt.",
+      "Liplezen werkt alleen doordat geschreven woorden worden geactiveerd."
+    ],
+    "correct": 0,
+    "explanation": "Spraakperceptie is vaak multimodaal. Mondbewegingen geven informatie over welke klanken waarschijnlijk worden uitgesproken en helpen vooral bij ruis.",
+    "whyWrong": [
+      "",
+      "Liplezen ondersteunt gehoor, maar vervangt het niet volledig.",
+      "Fonemen blijven relevant.",
+      "Het gaat om visuele articulatie-informatie, niet noodzakelijk geschreven woorden."
+    ],
+    "tip": "Spraakperceptie combineert vaak auditieve en visuele informatie."
+  },
+  {
+    "id": "v2_w8d_010",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Slaap en lexiconintegratie",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Een nieuw geleerd woord voelt direct na het leren nog vreemd, maar wordt na slaap sneller als echt woord verwerkt. Welke verklaring past hierbij?",
+    "options": [
+      "Slaap ondersteunt de integratie van nieuwe woorden in het bestaande mentale lexicon.",
+      "Slaap verwijdert nieuwe woorden uit het lexicon zodat interferentie afneemt.",
+      "Nieuwe woorden kunnen alleen worden opgeslagen als zij vooraf al hoogfrequent waren.",
+      "Woordintegratie gebeurt uitsluitend via bewuste herhaling tijdens het wakker zijn."
+    ],
+    "correct": 0,
+    "explanation": "Nieuwe woorden moeten worden geïntegreerd in bestaande woordkennis. Slaap kan bijdragen aan die consolidatie en integratie.",
+    "whyWrong": [
+      "",
+      "Slaap ondersteunt integratie eerder dan verwijdering.",
+      "Nieuwe woorden zijn per definitie nog niet hoogfrequent voor de persoon.",
+      "Bewuste herhaling helpt, maar slaap speelt ook een rol."
+    ],
+    "tip": "Taalverwerving en geheugenconsolidatie overlappen."
+  },
+  {
+    "id": "v2_w8d_011",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Dyslexiecriteria",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke drie criteria worden vaak gebruikt om dyslexie te typeren?",
+    "options": [
+      "Achterstandscriterium, exclusiecriterium en hardnekkigheidscriterium.",
+      "Primacycriterium, recencycriterium en isolatiecriterium.",
+      "Valentiecriterium, arousalcriterium en expressiecriterium.",
+      "Dispariteitscriterium, convergentiecriterium en interpositiecriterium."
+    ],
+    "correct": 0,
+    "explanation": "Dyslexie wordt vaak gekenmerkt door een duidelijke achterstand, het uitsluiten van andere oorzaken en hardnekkigheid ondanks oefening of ondersteuning.",
+    "whyWrong": [
+      "",
+      "Dit zijn geheugeneffecten.",
+      "Dit zijn emotiedimensies en expressiebegrippen.",
+      "Dit zijn diepteaanwijzingen."
+    ],
+    "tip": "Dyslexie is niet zomaar langzaam lezen; hardnekkigheid en uitsluiting van andere oorzaken zijn belangrijk."
+  },
+  {
+    "id": "v2_w8d_012",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Fasen fonologisch bewustzijn",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke volgorde van ontwikkeling van fonologisch bewustzijn is het meest aannemelijk?",
+    "options": [
+      "Woorden onderscheiden, lettergrepen onderscheiden, rijm herkennen, fonemen onderscheiden.",
+      "Fonemen onderscheiden, rijm herkennen, lettergrepen onderscheiden, woorden onderscheiden.",
+      "Zinsdelen herkennen, syntaxis toepassen, pragmatiek ontwikkelen, fonemen onderscheiden.",
+      "Lezen, spellen, pseudowoorden herkennen, brabbelen."
+    ],
+    "correct": 0,
+    "explanation": "Fonologisch bewustzijn ontwikkelt van grotere naar kleinere klankeenheden: eerst woorden, dan lettergrepen, dan rijm en uiteindelijk fonemen.",
+    "whyWrong": [
+      "",
+      "Deze volgorde begint te fijnmazig en loopt terug naar grovere eenheden.",
+      "Dit zijn hogere taalniveaus, niet de fasen van fonologisch bewustzijn.",
+      "Lezen en spellen komen later en brabbelen hoort bij vroege spraakontwikkeling."
+    ],
+    "tip": "Fonologisch bewustzijn gaat van grof naar fijn."
+  },
+  {
+    "id": "v2_w8d_013",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Grafeem-foneemcorrespondentie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Waarom is lezen in het Engels vaak lastiger te automatiseren dan in talen met transparantere spelling?",
+    "options": [
+      "Omdat de relatie tussen letters en klanken in het Engels minder consistent is.",
+      "Omdat het Engels geen fonemen heeft en daarom alleen visueel gelezen kan worden.",
+      "Omdat transparante talen geen letter-klankkoppelingen gebruiken.",
+      "Omdat onregelmatige spelling uitsluitend via pseudowoorden wordt geleerd."
+    ],
+    "correct": 0,
+    "explanation": "In het Engels is de koppeling tussen geschreven letters en uitgesproken klanken vaak minder voorspelbaar dan in transparantere talen zoals Fins of Italiaans.",
+    "whyWrong": [
+      "",
+      "Het Engels heeft wel fonemen.",
+      "Transparante talen hebben juist consistenter letter-klankkoppelingen.",
+      "Onregelmatige spelling betreft bekende woorden, niet pseudowoorden."
+    ],
+    "tip": "Bij grafeem-foneemcorrespondentie gaat het om hoe betrouwbaar letters klanken voorspellen."
+  },
+  {
+    "id": "v2_w8d_014",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Visual Word Form Area",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Waarmee wordt de Visual Word Form Area vooral geassocieerd?",
+    "options": [
+      "Snelle herkenning van bekende geschreven woordvormen.",
+      "Het plannen van articulatiebewegingen tijdens spreken.",
+      "Het begrijpen van sociale bedoelingen in gesprekken.",
+      "Het detecteren van toonhoogteverschillen in spraak."
+    ],
+    "correct": 0,
+    "explanation": "De Visual Word Form Area wordt geassocieerd met efficiënte verwerking van bekende geschreven woordvormen.",
+    "whyWrong": [
+      "",
+      "Articulatieplanning hoort bij spraakproductie.",
+      "Sociale bedoelingen horen bij pragmatiek.",
+      "Toonhoogteverschillen worden auditief verwerkt."
+    ],
+    "tip": "Bij lezen gaat het niet alleen om letters zien, maar ook om gespecialiseerde woordvormverwerking."
+  },
+  {
+    "id": "v2_w8d_015",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Erfelijkheid en dyslexie",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over dyslexie is het meest verantwoord?",
+    "options": [
+      "Dyslexie heeft een erfelijke component en kan hardnekkig blijven, maar training kan vaardigheden ondersteunen.",
+      "Dyslexie ontstaat uitsluitend door te weinig motivatie om te lezen.",
+      "Dyslexie verdwijnt altijd volledig wanneer iemand ouder wordt.",
+      "Dyslexie is hetzelfde als Wernicke-afasie, omdat beide taalbegrip verstoren."
+    ],
+    "correct": 0,
+    "explanation": "Dyslexie heeft vaak een erfelijke component en is hardnekkig, maar gerichte ondersteuning kan lezen en spelling verbeteren.",
+    "whyWrong": [
+      "",
+      "Dyslexie is geen motivatieprobleem.",
+      "Dyslexie verdwijnt niet altijd volledig.",
+      "Wernicke-afasie is een taalbegripsstoornis, geen ontwikkelingsleesstoornis."
+    ],
+    "tip": "Dyslexie gaat om automatisering van lezen/spellen, niet om intelligentie of inzet."
+  },
+  {
+    "id": "v2_w8d_016",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Wug-test",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Een kind ziet een onbekend dier en hoort: 'Dit is een wug. Nu zijn er twee...' Het kind antwoordt 'wuggen'. Wat toont dit vooral?",
+    "options": [
+      "Het kind past een productieve morfologische regel toe op een nieuw woord.",
+      "Het kind herkent het woord via de directe route omdat 'wug' al in het lexicon staat.",
+      "Het kind gebruikt alleen imitatie zonder grammaticale regelkennis.",
+      "Het kind toont deep dyslexie doordat het een semantisch verwant woord produceert."
+    ],
+    "correct": 0,
+    "explanation": "De wug-test laat zien dat kinderen grammaticale of morfologische regels kunnen toepassen op nieuwe woorden die zij nooit eerder hebben gehoord.",
+    "whyWrong": [
+      "",
+      "'Wug' is nieuw en staat niet al als bekend woord in het lexicon.",
+      "Het antwoord wijst juist op regeltoepassing, niet alleen imitatie.",
+      "Deep dyslexie gaat over semantische leesfouten."
+    ],
+    "tip": "De wug-test toetst productieve grammaticale kennis."
+  },
+  {
+    "id": "v2_w8d_017",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Morfologisch complexe woorden",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat zijn morfologisch complexe woorden?",
+    "options": [
+      "Woorden die uit meerdere betekenisvolle of grammaticale onderdelen bestaan, zoals samenstellingen, afleidingen of vervoegingen.",
+      "Woorden die alleen uit één foneem bestaan en geen betekenis hebben.",
+      "Woorden die uitsluitend via pragmatische context begrepen worden.",
+      "Woorden die alleen tijdens stillezen en nooit tijdens spreken bestaan."
+    ],
+    "correct": 0,
+    "explanation": "Morfologisch complexe woorden bestaan uit meerdere morfemen, zoals woordstammen, voorvoegsels, achtervoegsels of samenstellingsdelen.",
+    "whyWrong": [
+      "",
+      "Een foneem is een klankeenheid, geen morfologisch complex woord.",
+      "Pragmatiek kan betekenis beïnvloeden, maar definieert morfologische complexiteit niet.",
+      "Morfologisch complexe woorden bestaan in gesproken en geschreven taal."
+    ],
+    "tip": "Let bij morfologie op betekenisvolle woorddelen."
+  },
+  {
+    "id": "v2_w8d_018",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Complexe woorden en lexicon",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Waarom hoeven niet alle morfologisch complexe woorden als geheel in het mentale lexicon opgeslagen te zijn?",
+    "options": [
+      "Omdat sommige complexe woorden efficiënt kunnen worden opgebouwd uit bekende morfemen.",
+      "Omdat complexe woorden nooit betekenis hebben en daarom niet opgeslagen worden.",
+      "Omdat het mentale lexicon alleen losse fonemen bevat en geen woorden.",
+      "Omdat samenstellingen uitsluitend via visuele diepteaanwijzingen worden herkend."
+    ],
+    "correct": 0,
+    "explanation": "Sommige complexe woorden kunnen worden geanalyseerd en opgebouwd uit bekende betekenisvolle delen, waardoor volledige opslag als geheel niet altijd nodig is.",
+    "whyWrong": [
+      "",
+      "Complexe woorden kunnen wel degelijk betekenis hebben.",
+      "Het mentale lexicon bevat bekende woorden en woordinformatie, niet alleen fonemen.",
+      "Diepteaanwijzingen spelen geen rol bij morfologische analyse."
+    ],
+    "tip": "Bij complexe woorden is de vraag of ze als geheel worden herkend of uit delen worden opgebouwd."
+  },
+  {
+    "id": "v2_w8d_019",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Syntaxis los van semantiek",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Waarom is een zin als 'kleurloze groene ideeën slapen woedend' relevant voor taalpsychologie?",
+    "options": [
+      "De zin laat zien dat syntactische structuur mogelijk is zonder normale semantische plausibiliteit.",
+      "De zin laat zien dat woorden alleen begrepen worden wanneer ze concrete objecten benoemen.",
+      "De zin bewijst dat semantiek belangrijker is dan grammatica en syntaxis niet bestaat.",
+      "De zin is een voorbeeld van fonologische dyslexie door problemen met pseudowoorden."
+    ],
+    "correct": 0,
+    "explanation": "De zin is grammaticaal gestructureerd, maar semantisch vreemd. Dit laat zien dat syntaxis en semantiek te onderscheiden aspecten van taal zijn.",
+    "whyWrong": [
+      "",
+      "Ook abstracte woorden kunnen betekenis hebben.",
+      "De zin toont juist dat syntaxis bestaat los van normale betekenis.",
+      "Er zijn geen pseudowoorden of leesproblemen beschreven."
+    ],
+    "tip": "Syntaxis gaat over vorm/structuur; semantiek over betekenis."
+  },
+  {
+    "id": "v2_w8d_020",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Intuinzinnen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een lezer interpreteert een zin eerst op een manier die later niet blijkt te kloppen en moet teruglezen om de structuur opnieuw te analyseren. Welk begrip past hierbij?",
+    "options": [
+      "Intuinzin, omdat een aanvankelijke syntactische interpretatie later moet worden herzien.",
+      "Fonologische dyslexie, omdat pseudowoorden niet correct verklankt worden.",
+      "Semantische priming, omdat een verwant woord sneller wordt herkend.",
+      "Telegrafische spraak, omdat grammaticale functiewoorden ontbreken."
+    ],
+    "correct": 0,
+    "explanation": "Een intuinzin leidt de lezer naar een aanvankelijk plausibele maar uiteindelijk verkeerde syntactische interpretatie. Teruglezen of heranalyse is dan nodig.",
+    "whyWrong": [
+      "",
+      "Er zijn geen pseudowoorden of fonologische leesproblemen.",
+      "Er gaat niet om versnelling door betekenisverwantschap.",
+      "Telegrafische spraak hoort bij vroege kindertaal."
+    ],
+    "tip": "Bij intuinzinnen is de eerste interpretatie misleidend."
+  },
+  {
+    "id": "v2_w8d_021",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Inferentie en schema's",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is inferentie bij tekstbegrip?",
+    "options": [
+      "Het afleiden van informatie die niet letterlijk genoemd wordt, op basis van context en bestaande kennis.",
+      "Het exact opslaan van de letterlijke woordvolgorde van elke zin.",
+      "Het verklanken van pseudowoorden via grafeem-foneemregels.",
+      "Het herhalen van een eerder gebruikte syntactische structuur."
+    ],
+    "correct": 0,
+    "explanation": "Bij inferentie vult de lezer of luisteraar informatie aan die niet expliciet in de zin staat, maar wel logisch volgt uit context of voorkennis.",
+    "whyWrong": [
+      "",
+      "Tekstbegrip gaat vaak juist verder dan letterlijke woordvolgorde.",
+      "Dit hoort bij de indirecte leesroute.",
+      "Dit is syntactische priming."
+    ],
+    "tip": "Inferenties maken tekstbegrip rijker, maar kunnen ook fouten veroorzaken."
+  },
+  {
+    "id": "v2_w8d_022",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Bransford & Johnson",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Waarom is onderzoek van Bransford en Johnson naar tekstbegrip belangrijk?",
+    "options": [
+      "Het laat zien dat een passende context of titel sterk helpt bij het begrijpen en onthouden van een tekst.",
+      "Het laat zien dat tekstbegrip volledig onafhankelijk is van voorkennis.",
+      "Het laat zien dat fonemen belangrijker zijn dan betekenis bij het onthouden van verhalen.",
+      "Het laat zien dat geschreven tekst niet in proposities kan worden opgeslagen."
+    ],
+    "correct": 0,
+    "explanation": "Bransford en Johnson lieten zien dat context helpt om ambigue tekst betekenisvol te organiseren. Zonder context is dezelfde tekst moeilijker te begrijpen en te onthouden.",
+    "whyWrong": [
+      "",
+      "Het onderzoek toont juist invloed van voorkennis/context.",
+      "Het gaat om betekenisvolle context, niet vooral fonemen.",
+      "Tekstbegrip kan juist in betekenisstructuren/proposities worden gerepresenteerd."
+    ],
+    "tip": "Bij tekstbegrip kan context bepalen of losse zinnen een samenhangend geheel worden."
+  },
+  {
+    "id": "v2_w8d_023",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Categorieën: regels, prototypes en exemplaren",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen drie manieren van categorisatie is correct?",
+    "options": [
+      "Regels gebruiken definities; prototypes gebruiken typische voorbeelden; exemplaren gebruiken concrete eerder ervaren gevallen.",
+      "Regels gebruiken persoonlijke herinneringen; prototypes gebruiken letter-klankregels; exemplaren gebruiken grammaticale volgorde.",
+      "Regels, prototypes en exemplaren zijn drie termen voor hetzelfde mechanisme.",
+      "Regels werken alleen bij abstracte emoties; prototypes en exemplaren alleen bij motorische reflexen."
+    ],
+    "correct": 0,
+    "explanation": "Categorieën kunnen worden gevormd via expliciete regels, via vergelijking met een typisch voorbeeld of via vergelijking met opgeslagen concrete voorbeelden.",
+    "whyWrong": [
+      "",
+      "Deze optie koppelt de mechanismen aan verkeerde begrippen.",
+      "Het zijn verschillende categorisatiemechanismen.",
+      "Ze zijn niet op deze manier beperkt tot emoties of reflexen."
+    ],
+    "tip": "Bij categorisatievragen moet je herkennen of de casus gaat over definitieregels, typische voorbeelden of eerdere voorbeelden."
+  },
+  {
+    "id": "v2_w8d_024",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Abstracte concepten",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Waarom zijn abstracte concepten zoals 'rechtvaardigheid' moeilijker met een prototypebenadering te verklaren dan concrete concepten zoals 'vogel'?",
+    "options": [
+      "Omdat abstracte concepten minder duidelijke waarneembare typische exemplaren hebben.",
+      "Omdat abstracte concepten geen betekenis kunnen hebben.",
+      "Omdat abstracte concepten uitsluitend uit fonemen bestaan.",
+      "Omdat prototypes alleen bij dieren en nooit bij mensen voorkomen."
+    ],
+    "correct": 0,
+    "explanation": "Bij concrete categorieën is vaak makkelijker een typisch voorbeeld te noemen. Bij abstracte concepten zijn de grenzen en typische voorbeelden vaak minder zichtbaar en minder concreet.",
+    "whyWrong": [
+      "",
+      "Abstracte concepten hebben wel betekenis.",
+      "Concepten bestaan niet uitsluitend uit fonemen.",
+      "Prototypegebruik komt juist bij mensen voor."
+    ],
+    "tip": "Prototypevragen zijn makkelijker bij concrete categorieën dan bij abstracte ideeën."
+  },
+  {
+    "id": "v2_w8d_025",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Embodied cognition",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat stelt embodied cognition over betekenis?",
+    "options": [
+      "Betekenis is deels verbonden met sensorische, motorische en emotionele ervaringen.",
+      "Betekenis wordt uitsluitend opgeslagen als abstracte symbolen zonder lichaamsbetrokkenheid.",
+      "Betekenis ontstaat alleen door syntactische woordvolgorde en nooit door ervaring.",
+      "Betekenis is hetzelfde als articulatie van fonemen."
+    ],
+    "correct": 0,
+    "explanation": "Embodied cognition stelt dat begrippen niet alleen abstract zijn, maar ook verbonden zijn met lichamelijke ervaringen zoals zien, voelen, handelen en emotie.",
+    "whyWrong": [
+      "",
+      "Dit is juist de visie waar embodied cognition tegenin gaat.",
+      "Syntaxis draagt bij aan betekenis, maar ervaring speelt ook een rol.",
+      "Articulatie is spraakmotoriek, geen volledige betekenisrepresentatie."
+    ],
+    "tip": "Bij embodied cognition is betekenis belichaamd: lichaamservaring doet mee."
+  },
+  {
+    "id": "v2_w8d_026",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Proposities",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat zijn proposities in taalbegrip?",
+    "options": [
+      "Abstracte betekenisstructuren die concepten en hun relaties in een zin representeren.",
+      "Losse fonemen die samen de klankvorm van een woord vormen.",
+      "Oogbewegingen waarmee een lezer terugkeert naar een eerder deel van de tekst.",
+      "Bekrachtigingsschema's waarmee grammaticale regels worden aangeleerd."
+    ],
+    "correct": 0,
+    "explanation": "Proposities leggen vast welke concepten in een zin voorkomen en welke relaties daartussen bestaan. Ze representeren de betekenis van een zin.",
+    "whyWrong": [
+      "",
+      "Dit beschrijft fonologische structuur.",
+      "Dit zijn regressies bij lezen.",
+      "Bekrachtigingsschema's horen bij operante conditionering."
+    ],
+    "tip": "Vaak onthoud je de propositie van een zin beter dan de exacte woordvolgorde."
+  },
+  {
+    "id": "v2_w8d_027",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "ACT-R",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke uitspraak past bij de ACT-R-benadering van zinsbetekenis?",
+    "options": [
+      "Zinnen kunnen worden gerepresenteerd als proposities die in declaratief geheugen worden opgeslagen.",
+      "Zinnen worden uitsluitend opgeslagen als exacte visuele woordbeelden.",
+      "Zinnen worden alleen begrepen via motorische articulatie zonder betekenisrepresentatie.",
+      "Zinnen worden niet opgeslagen omdat taalverwerking volledig verdwijnt na begrip."
+    ],
+    "correct": 0,
+    "explanation": "Binnen deze benadering wordt de betekenis van zinnen voorgesteld als propositionele structuren die in declaratief geheugen kunnen worden opgeslagen.",
+    "whyWrong": [
+      "",
+      "Zinsbetekenis is meer dan exacte visuele vorm.",
+      "Articulatie is niet voldoende voor betekenisrepresentatie.",
+      "Begrepen informatie kan wel degelijk in geheugen worden opgeslagen."
+    ],
+    "tip": "Proposities verklaren waarom je vaak de boodschap onthoudt, niet de exacte zin."
+  },
+  {
+    "id": "v2_w8d_028",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Meertaligheid",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over meertaligheid is het meest correct?",
+    "options": [
+      "Woorden uit verschillende talen zijn niet volledig gescheiden opgeslagen en kunnen elkaar beïnvloeden.",
+      "Tweetaligen kunnen altijd één taal volledig uitschakelen zonder enige activatie van de andere taal.",
+      "Meertaligheid betekent dat elke taal in een apart, geïsoleerd lexicon ligt zonder interactie.",
+      "Woorden uit een tweede taal kunnen pas verwerkt worden als de eerste taal volledig vergeten is."
+    ],
+    "correct": 0,
+    "explanation": "Bij meertaligen kunnen woorden uit verschillende talen elkaar beïnvloeden. De lexica zijn dus niet volledig onafhankelijk.",
+    "whyWrong": [
+      "",
+      "De niet-gebruikte taal kan toch deels actief worden.",
+      "Dit is te strikt gescheiden en past niet bij de besproken bevindingen.",
+      "Een tweede taal verwerken vereist niet dat de eerste taal vergeten wordt."
+    ],
+    "tip": "Bij meertaligheid is interactie tussen talen belangrijk."
+  },
+  {
+    "id": "v2_w8d_029",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Dierlijke communicatie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke conclusie over dierlijke communicatie is het meest genuanceerd?",
+    "options": [
+      "Dieren kunnen elementen van symbolisch of communicatief gedrag leren, maar missen menselijke generatieve taal in volle vorm.",
+      "Dieren hebben exact dezelfde taalcapaciteit als mensen, inclusief onbeperkte grammaticale productiviteit.",
+      "Dieren kunnen geen enkel communicatief signaal leren gebruiken.",
+      "Dierlijke communicatie bewijst dat menselijke taal uitsluitend uit operante conditionering bestaat."
+    ],
+    "correct": 0,
+    "explanation": "Dieren kunnen indrukwekkende communicatieve vaardigheden tonen, maar dat betekent niet dat zij menselijke generatieve taal volledig bezitten.",
+    "whyWrong": [
+      "",
+      "Dit overschat dierlijke taalcapaciteit.",
+      "Dieren kunnen wel signalen of symbolen leren gebruiken.",
+      "Menselijke taal is meer dan operante conditionering."
+    ],
+    "tip": "Bij dierlijke communicatie is het onderscheid tussen symbolen gebruiken en generatieve taal belangrijk."
+  },
+  {
+    "id": "v2_w8d_030",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Washoe, Kanzi, Alex en Rico",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Waarom worden Washoe, Kanzi, Alex en Rico vaak besproken in taalpsychologie?",
+    "options": [
+      "Omdat zij voorbeelden zijn van dieren die bepaalde rudimenten van taalachtig gedrag of symbolisch begrip lieten zien.",
+      "Omdat zij aantoonden dat dieren menselijke grammatica volledig beheersen.",
+      "Omdat zij bewezen dat menselijke taal geen aangeboren of cognitieve component heeft.",
+      "Omdat zij laten zien dat lezen bij dieren via dezelfde dual-routeprocessen verloopt als bij mensen."
+    ],
+    "correct": 0,
+    "explanation": "Deze dieren worden besproken omdat zij vormen van symbolisch begrip of communicatie lieten zien. Ze tonen echter geen volledige menselijke generatieve taal.",
+    "whyWrong": [
+      "",
+      "Dat is een te sterke conclusie.",
+      "Hun prestaties zeggen niet dat menselijke taal geen biologische of cognitieve component heeft.",
+      "Het gaat niet om lezen via menselijke leesroutes."
+    ],
+    "tip": "Dierlijke communicatie toont mogelijkheden én grenzen van niet-menselijke taalachtige systemen."
+  },
+  {
+    "id": "v2_w8e_001",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Gestructureerde en ongestructureerde problemen",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is het verschil tussen een gestructureerd en een ongestructureerd probleem?",
+    "options": [
+      "Bij een gestructureerd probleem zijn begin, doel en toegestane stappen relatief duidelijk; bij een ongestructureerd probleem zijn doel of oplossingspad minder duidelijk.",
+      "Bij een gestructureerd probleem bestaat nooit een oplossing; bij een ongestructureerd probleem is altijd één algoritme beschikbaar.",
+      "Een gestructureerd probleem vereist creativiteit; een ongestructureerd probleem vereist alleen automatische reflexen.",
+      "Een gestructureerd probleem gaat altijd over taal; een ongestructureerd probleem altijd over waarneming."
+    ],
+    "correct": 0,
+    "explanation": "Gestructureerde problemen hebben duidelijke begin- en doeltoestanden en regels. Ongestructureerde problemen hebben vaak een minder duidelijk doel of meerdere mogelijke oplossingsroutes.",
+    "whyWrong": [
+      "",
+      "Dit draait het onderscheid om en is te absoluut.",
+      "Creativiteit kan bij beide nodig zijn; reflexen zijn geen definitie van ongestructureerde problemen.",
+      "Het onderscheid hangt niet af van domein zoals taal of waarneming."
+    ],
+    "tip": "Kijk of het probleem duidelijke regels, beginstatus en einddoel heeft."
+  },
+  {
+    "id": "v2_w8e_002",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Toren van Hanoi",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Waarom wordt de Toren van Hanoi vaak gebruikt in onderzoek naar probleemoplossen?",
+    "options": [
+      "Omdat beginstand, doelstand en toegestane zetten duidelijk gedefinieerd zijn.",
+      "Omdat het een probleem is waarbij de oplossing nooit objectief vastgesteld kan worden.",
+      "Omdat het vooral taalbegrip en pragmatiek meet.",
+      "Omdat het uitsluitend via een snelle emotionele reactie wordt opgelost."
+    ],
+    "correct": 0,
+    "explanation": "De Toren van Hanoi is een gestructureerd probleem met duidelijke regels, een duidelijke beginpositie en een duidelijke doelpositie. Daardoor is het geschikt om probleemoplossingsstrategieën te onderzoeken.",
+    "whyWrong": [
+      "",
+      "De oplossing kan juist objectief worden vastgesteld.",
+      "Het is geen primaire taalbegriptaak.",
+      "Het vereist planning en strategie, niet alleen emotionele reactie."
+    ],
+    "tip": "Toren van Hanoi = gestructureerd probleem met duidelijke regels."
+  },
+  {
+    "id": "v2_w8e_003",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "9-stippenprobleem",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Bij het 9-stippenprobleem blijven mensen vaak binnen het denkbeeldige vierkant van stippen tekenen, terwijl de oplossing buiten dat vierkant vereist. Welk probleem speelt vooral?",
+    "options": [
+      "Een zelfopgelegde beperking in de probleemrepresentatie.",
+      "Een verstoring van het semantisch geheugen voor stippen.",
+      "Een tekort aan sensorische transductie van de stippen.",
+      "Een klassieke geconditioneerde angstreactie op lijnen."
+    ],
+    "correct": 0,
+    "explanation": "Het 9-stippenprobleem illustreert dat mensen vaak beperkingen aannemen die niet expliciet in de opdracht staan. Daardoor wordt de juiste oplossingsruimte te klein voorgesteld.",
+    "whyWrong": [
+      "",
+      "Het probleem is niet dat de betekenis van stippen ontbreekt.",
+      "De stippen worden wel gezien; het probleem zit in representatie.",
+      "Er is geen angstconditionering beschreven."
+    ],
+    "tip": "Bij inzichtproblemen zit de oplossing vaak in het herdefiniëren van de probleemruimte."
+  },
+  {
+    "id": "v2_w8e_004",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Discontinue problemen",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat kenmerkt discontinue problemen?",
+    "options": [
+      "De oplossing wordt vaak pas gevonden na een plotselinge herstructurering of inzichtssprong.",
+      "De oplossing wordt altijd gevonden door een reeks kleine, lineaire verbeteringen.",
+      "Ze kunnen alleen worden opgelost met een vaste rekenprocedure.",
+      "Ze hebben geen probleemruimte en geen doeltoestand."
+    ],
+    "correct": 0,
+    "explanation": "Bij discontinue problemen verloopt vooruitgang niet geleidelijk. Men kan lang vastzitten en dan plotseling inzicht krijgen door een andere probleemrepresentatie.",
+    "whyWrong": [
+      "",
+      "Dat past beter bij continue of stapsgewijze problemen.",
+      "Een vaste rekenprocedure past bij algoritmisch oplosbare problemen.",
+      "Ook discontinue problemen hebben meestal een doel, maar de route ernaartoe is niet geleidelijk duidelijk."
+    ],
+    "tip": "Discontinue problemen worden vaak gekoppeld aan inzicht en Aha-Erlebnis."
+  },
+  {
+    "id": "v2_w8e_005",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Köhler en Aha-Erlebnis",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Wat liet Köhlers onderzoek met apen vooral zien?",
+    "options": [
+      "Probleemoplossing kan soms plotseling ontstaan door inzicht in de relaties tussen objecten.",
+      "Alle probleemoplossing ontstaat uitsluitend door directe bekrachtiging van elke tussenstap.",
+      "Apen kunnen alleen leren via imitatie van menselijke spraak.",
+      "Inzicht ontstaat alleen wanneer het probleem volledig algoritmisch is."
+    ],
+    "correct": 0,
+    "explanation": "Köhler onderzocht inzichtelijk probleemoplossen. Apen konden plotseling een oplossing vinden, bijvoorbeeld door objecten op een nieuwe manier te combineren.",
+    "whyWrong": [
+      "",
+      "Zijn bevindingen wijzen juist op meer dan simpele stap-voor-stapbekrachtiging.",
+      "Het ging niet om menselijke spraakimitatie.",
+      "Inzicht is juist belangrijk bij problemen waarbij de oplossing niet direct algoritmisch wordt gevonden."
+    ],
+    "tip": "Köhler hoort bij inzicht, herstructurering en Aha-Erlebnis."
+  },
+  {
+    "id": "v2_w8e_006",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Subdoelanalyse",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is subdoelanalyse bij probleemoplossen?",
+    "options": [
+      "Het opdelen van een einddoel in kleinere tussenstappen die afzonderlijk bereikt kunnen worden.",
+      "Het negeren van alle tussenstappen en alleen wachten op plotseling inzicht.",
+      "Het gebruiken van een object alleen in zijn standaardfunctie.",
+      "Het overschatten van de voorspelbaarheid van een uitkomst achteraf."
+    ],
+    "correct": 0,
+    "explanation": "Subdoelanalyse betekent dat een groot probleem wordt opgesplitst in kleinere, beter hanteerbare doelen.",
+    "whyWrong": [
+      "",
+      "Dat past eerder bij een passieve interpretatie van incubatie, niet subdoelanalyse.",
+      "Dit is functionele gefixeerdheid.",
+      "Dit is hindsight bias."
+    ],
+    "tip": "Subdoelen maken een grote probleemruimte overzichtelijker."
+  },
+  {
+    "id": "v2_w8e_007",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Middel-doelanalyse",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is middel-doelanalyse?",
+    "options": [
+      "Een strategie waarbij je het verschil tussen huidige toestand en doeltoestand verkleint via geschikte tussenstappen.",
+      "Een strategie waarbij je alle mogelijke oplossingen volledig willekeurig probeert.",
+      "Een denkfout waarbij eerdere kosten een huidige beslissing blijven beïnvloeden.",
+      "Een methode waarbij je een onbekend woord uitsluitend via context voorspelt."
+    ],
+    "correct": 0,
+    "explanation": "Bij middel-doelanalyse bepaal je het verschil tussen waar je bent en waar je heen wilt, en kies je stappen die dat verschil verkleinen.",
+    "whyWrong": [
+      "",
+      "Willekeurig proberen is geen middel-doelanalyse.",
+      "Dit is sunk cost fallacy.",
+      "Dit gaat over woordherkenning, niet probleemoplossen."
+    ],
+    "tip": "Middel-doelanalyse is doelgericht verkleinen van afstand tot de oplossing."
+  },
+  {
+    "id": "v2_w8e_008",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Gick & Holyoak",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Waarom is het tumorprobleem van Gick en Holyoak belangrijk?",
+    "options": [
+      "Het laat zien dat mensen een analogie vaak pas gebruiken wanneer ze worden geholpen de structurele overeenkomst te zien.",
+      "Het laat zien dat analogieën automatisch altijd worden toegepast zodra twee verhalen oppervlakkig op elkaar lijken.",
+      "Het bewijst dat algoritmes altijd sneller zijn dan analogieën.",
+      "Het toont dat probleemoplossen uitsluitend via trial-and-errorbekrachtiging verloopt."
+    ],
+    "correct": 0,
+    "explanation": "Gick en Holyoak toonden dat mensen een eerdere oplossing vaak niet spontaan toepassen op een nieuw probleem, tenzij ze de structurele overeenkomst herkennen of erop worden gewezen.",
+    "whyWrong": [
+      "",
+      "Mensen gebruiken analogieën niet altijd spontaan.",
+      "Het onderzoek ging juist over analogisch redeneren, niet de superioriteit van algoritmes.",
+      "Het resultaat wijst op structurele mapping, niet puur trial-and-error."
+    ],
+    "tip": "Bij analogieën is diepe structurele overeenkomst belangrijker dan oppervlakkige gelijkenis."
+  },
+  {
+    "id": "v2_w8e_009",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Duncker kaarsprobleem",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Bij het kaarsprobleem lukt de oplossing vaak pas wanneer iemand de doos niet alleen als container voor punaises ziet, maar ook als platform. Welk begrip verklaart het vastlopen?",
+    "options": [
+      "Functionele gefixeerdheid.",
+      "Beschikbaarheidsheuristiek.",
+      "Retroactieve interferentie.",
+      "Syntactische priming."
+    ],
+    "correct": 0,
+    "explanation": "Functionele gefixeerdheid betekent dat iemand een object alleen in de gebruikelijke functie ziet. De doos moet juist op een nieuwe manier worden gebruikt.",
+    "whyWrong": [
+      "",
+      "Beschikbaarheid gaat over kansinschatting op basis van herinneringsgemak.",
+      "Retroactieve interferentie gaat over geheugen.",
+      "Syntactische priming gaat over hergebruik van zinsstructuren."
+    ],
+    "tip": "Als een object anders gebruikt moet worden dan normaal, is functionele gefixeerdheid vaak relevant."
+  },
+  {
+    "id": "v2_w8e_010",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Silveira en incubatie",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Wat laat onderzoek naar incubatie, zoals het werk van Silveira, vooral zien?",
+    "options": [
+      "Een pauze kan probleemoplossing verbeteren, mogelijk doordat foutieve oplossingsrichtingen worden losgelaten.",
+      "Problemen worden altijd beter opgelost wanneer iemand zonder pauze blijft doorwerken.",
+      "Incubatie werkt alleen wanneer deelnemers het probleem volledig vergeten en nooit terugkeren.",
+      "Een pauze helpt alleen bij sensorische drempeltaken en niet bij probleemoplossen."
+    ],
+    "correct": 0,
+    "explanation": "Incubatieonderzoek laat zien dat een pauze na vastlopen soms helpt. Mogelijk blijven onbewuste processen doorgaan of worden verkeerde strategieën minder dominant.",
+    "whyWrong": [
+      "",
+      "Doorwerken is niet altijd beter.",
+      "Deelnemers moeten juist later weer terugkeren naar het probleem.",
+      "Incubatie is een probleemoplosfenomeen."
+    ],
+    "tip": "Incubatie is vooral relevant wanneer iemand vastzit in een verkeerde aanpak."
+  },
+  {
+    "id": "v2_w8e_011",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Voorwaardelijk redeneren",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is voorwaardelijk redeneren?",
+    "options": [
+      "Redeneren met als-danrelaties, bijvoorbeeld 'als P, dan Q'.",
+      "Redeneren met categorieën, zoals 'alle A zijn B'.",
+      "Redeneren met ordeningen, zoals 'A is groter dan B'.",
+      "Redeneren op basis van hoe makkelijk voorbeelden te herinneren zijn."
+    ],
+    "correct": 0,
+    "explanation": "Voorwaardelijk redeneren gebruikt implicaties, zoals 'als het regent, dan wordt de straat nat'.",
+    "whyWrong": [
+      "",
+      "Dit is categorisch redeneren.",
+      "Dit is lineair redeneren.",
+      "Dit is beschikbaarheidsheuristiek."
+    ],
+    "tip": "Als-dan = voorwaardelijk."
+  },
+  {
+    "id": "v2_w8e_012",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Categorisch redeneren",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is categorisch redeneren?",
+    "options": [
+      "Redeneren over relaties tussen categorieën, zoals 'alle A zijn B'.",
+      "Redeneren over volgordes of rangordes tussen elementen.",
+      "Redeneren vanuit specifieke voorbeelden naar algemene waarschijnlijkheden.",
+      "Redeneren op basis van eerdere investeringen."
+    ],
+    "correct": 0,
+    "explanation": "Categorisch redeneren gebruikt uitspraken over categorieën en hun relaties, zoals alle, sommige of geen leden van een categorie.",
+    "whyWrong": [
+      "",
+      "Dit is lineair redeneren.",
+      "Dit is inductief redeneren.",
+      "Dit is sunk cost fallacy."
+    ],
+    "tip": "Alle A zijn B = categorisch."
+  },
+  {
+    "id": "v2_w8e_013",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Lineair redeneren",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat is lineair redeneren?",
+    "options": [
+      "Redeneren over ordeningen, bijvoorbeeld wie groter, sneller of ouder is dan wie.",
+      "Redeneren met als-danrelaties.",
+      "Redeneren over categorieën zoals alle of sommige.",
+      "Redeneren op basis van opvallende recente voorbeelden."
+    ],
+    "correct": 0,
+    "explanation": "Lineair redeneren gaat over relaties op een schaal of volgorde, zoals groter-kleiner, eerder-later of beter-slechter.",
+    "whyWrong": [
+      "",
+      "Dit is voorwaardelijk redeneren.",
+      "Dit is categorisch redeneren.",
+      "Dit is beschikbaarheidsheuristiek."
+    ],
+    "tip": "Als elementen in een volgorde gezet moeten worden, gaat het om lineair redeneren."
+  },
+  {
+    "id": "v2_w8e_014",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Johnson-Laird en mentale modellen",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat verklaart Johnson-Lairds theorie van mentale modellen vooral?",
+    "options": [
+      "Mensen redeneren door mogelijke situaties mentaal voor te stellen en maken fouten wanneer zij niet alle relevante modellen overwegen.",
+      "Mensen gebruiken altijd formele logica en maken alleen fouten door slechte motivatie.",
+      "Mensen redeneren uitsluitend via taalproductie en nooit via mentale voorstellingen.",
+      "Mensen lossen alle redeneringen op via bekrachtiging van eerdere responsen."
+    ],
+    "correct": 0,
+    "explanation": "Volgens de mentale-modellentheorie construeren mensen mogelijke situaties. Fouten ontstaan wanneer slechts een beperkt aantal modellen wordt overwogen.",
+    "whyWrong": [
+      "",
+      "Mensen volgen formele logica niet altijd perfect.",
+      "Mentale modellen zijn juist voorstellingen van mogelijke situaties.",
+      "Bekrachtiging verklaart niet alle redenering."
+    ],
+    "tip": "Mentale modellen helpen begrijpen waarom logisch geldige conclusies soms toch moeilijk zijn."
+  },
+  {
+    "id": "v2_w8e_015",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Inductief redeneren: generalisatie, covariatie, causaliteit",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke set bevat drie vormen of aspecten van inductief redeneren?",
+    "options": [
+      "Generalisatie, covariatie detecteren en oorzaak-gevolgrelaties afleiden.",
+      "Voorwaardelijk redeneren, categorisch redeneren en lineair redeneren.",
+      "Fonologische encoding, syntactische priming en articulatie.",
+      "Primacy-effect, recency-effect en Von Restorff-effect."
+    ],
+    "correct": 0,
+    "explanation": "Inductief redeneren gaat over algemene conclusies trekken uit observaties, verbanden detecteren en mogelijke causale relaties afleiden.",
+    "whyWrong": [
+      "",
+      "Dit zijn vormen van deductief redeneren.",
+      "Dit zijn taalproductiebegrippen.",
+      "Dit zijn geheugeneffecten."
+    ],
+    "tip": "Inductie = vanuit observaties naar waarschijnlijkheden, patronen of oorzaken."
+  },
+  {
+    "id": "v2_w8e_016",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Subjectief verwacht nut",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat betekent subjectief verwacht nut bij beslissen?",
+    "options": [
+      "Een keuze wordt gebaseerd op de verwachte kans op uitkomsten én de subjectieve waarde van die uitkomsten.",
+      "Een keuze wordt altijd gebaseerd op objectief correcte statistische berekeningen.",
+      "Een keuze wordt uitsluitend bepaald door eerdere investeringen.",
+      "Een keuze wordt alleen gemaakt wanneer alle opties even aantrekkelijk zijn."
+    ],
+    "correct": 0,
+    "explanation": "Subjectief verwacht nut combineert waarschijnlijkheid met persoonlijke waarde. Mensen kiezen dus niet alleen op basis van objectieve kans.",
+    "whyWrong": [
+      "",
+      "Mensen wijken vaak af van objectief optimale berekeningen.",
+      "Dit beschrijft sunk cost fallacy.",
+      "Keuzes kunnen juist moeilijk zijn wanneer opties sterk verschillen."
+    ],
+    "tip": "Bij beslissen tellen zowel kans als waarde mee."
+  },
+  {
+    "id": "v2_w8e_017",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Signaaldetectie bij beslissen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een arts wil geen ziekte missen en verwijst patiënten al bij zwakke aanwijzingen door. Welke uitkomst neemt waarschijnlijk toe?",
+    "options": [
+      "Zowel hits als valse alarmen.",
+      "Zowel misses als correcte afwijzingen.",
+      "Alleen correcte afwijzingen.",
+      "Alleen sensorische gevoeligheid, niet beslisgedrag."
+    ],
+    "correct": 0,
+    "explanation": "Een liberaler criterium leidt tot vaker 'ja, ziekte mogelijk'. Daardoor worden meer echte gevallen gevonden, maar ook meer mensen ten onrechte doorgestuurd.",
+    "whyWrong": [
+      "",
+      "Misses nemen meestal af wanneer iemand sneller doorverwijst.",
+      "Correcte afwijzingen nemen niet toe bij een liberaler criterium.",
+      "De casus gaat juist over responscriterium."
+    ],
+    "tip": "Bij signaaldetectie moet je criterium en sensitiviteit onderscheiden."
+  },
+  {
+    "id": "v2_w8e_018",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Gambler's fallacy",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een roulettewiel komt vijf keer achter elkaar op rood. Iemand denkt dat zwart nu waarschijnlijker is. Welke denkfout is dit?",
+    "options": [
+      "Gambler's fallacy, omdat onafhankelijke toevalsgebeurtenissen ten onrechte als zelfcorrigerend worden gezien.",
+      "Sunk cost fallacy, omdat eerdere investeringen de keuze blijven beïnvloeden.",
+      "Framing-effect, omdat dezelfde informatie anders wordt gepresenteerd.",
+      "Hindsight bias, omdat de uitkomst achteraf voorspelbaarder lijkt."
+    ],
+    "correct": 0,
+    "explanation": "De gambler's fallacy is de foutieve overtuiging dat toevalsreeksen zichzelf op korte termijn moeten compenseren.",
+    "whyWrong": [
+      "",
+      "Er wordt geen eerdere investering gebruikt als reden om door te gaan.",
+      "Er is geen alternatieve framing van dezelfde informatie.",
+      "Er is geen achterafbeoordeling beschreven."
+    ],
+    "tip": "Toeval heeft geen geheugen."
+  },
+  {
+    "id": "v2_w8e_019",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Gemotiveerde scepsis",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is gemotiveerde scepsis?",
+    "options": [
+      "De neiging om ongewenste informatie kritischer te beoordelen dan informatie die de eigen voorkeur ondersteunt.",
+      "De neiging om willekeurige gebeurtenissen als volledig voorspelbaar te zien nadat ze gebeurd zijn.",
+      "De neiging om kans te beoordelen op basis van representativiteit van een voorbeeld.",
+      "De neiging om eerdere kosten rationeel volledig te negeren."
+    ],
+    "correct": 0,
+    "explanation": "Gemotiveerde scepsis betekent dat mensen kritischer omgaan met informatie die hun overtuiging of belang bedreigt dan met informatie die hen goed uitkomt.",
+    "whyWrong": [
+      "",
+      "Dit is hindsight bias.",
+      "Dit is representativiteitsheuristiek.",
+      "Dit is niet sunk cost; bij sunk cost wegen eerdere kosten juist te zwaar."
+    ],
+    "tip": "Gemotiveerde scepsis is selectieve kritiek door motivatie."
+  },
+  {
+    "id": "v2_w8e_020",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Stress en beslissen",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke effecten kan stress op beslissen hebben?",
+    "options": [
+      "Tunnelvisie, automatisme en impulsiviteit.",
+      "Grotere systematische afweging van alle opties en minder impulsiviteit.",
+      "Volledige afwezigheid van automatische reacties.",
+      "Verbetering van complexe besluitvorming door maximale arousal."
+    ],
+    "correct": 0,
+    "explanation": "Stress kan beslissingen verslechteren doordat aandacht vernauwt, automatische reacties dominanter worden en impulsiviteit toeneemt.",
+    "whyWrong": [
+      "",
+      "Stress leidt vaak juist tot minder brede afweging.",
+      "Automatische reacties kunnen juist sterker worden.",
+      "Te hoge arousal kan complexe taken en beslissingen verslechteren."
+    ],
+    "tip": "Koppel stress bij beslissen aan Yerkes-Dodson: te veel arousal kan complexe prestaties schaden."
+  },
+  {
+    "id": "v2_w8e_021",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Dijksterhuis en onbewust denken",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke uitspraak over bewust en onbewust denken is het meest genuanceerd?",
+    "options": [
+      "Bewust denken kan goed zijn voor eenvoudige problemen; bij complexe keuzes kunnen onbewuste associatieve processen soms ook bijdragen.",
+      "Onbewust denken is altijd beter dan bewust redeneren, ongeacht het probleem.",
+      "Bewust denken is altijd nutteloos zodra er meer dan twee alternatieven zijn.",
+      "Onbewust denken bestaat niet en kan gedrag nooit beïnvloeden."
+    ],
+    "correct": 0,
+    "explanation": "Het onderscheid is genuanceerd: bewuste analyse is nuttig, vooral bij overzichtelijke problemen, terwijl onbewuste processen soms bijdragen bij complexe keuzeproblemen. Dat betekent niet dat het onbewuste altijd superieur is.",
+    "whyWrong": [
+      "",
+      "Dit is te sterk en niet genuanceerd.",
+      "Bewust denken kan ook bij complexe problemen nuttig zijn.",
+      "Onbewuste processen kunnen gedrag wel beïnvloeden."
+    ],
+    "tip": "Vermijd absolute conclusies over 'het slimme onbewuste'."
+  },
+  {
+    "id": "v2_w8e_022",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Roberson en kleurtaal",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Wat toont onderzoek naar kleurwoorden en kleuronderscheid, zoals bij Roberson, vooral?",
+    "options": [
+      "Taalcategorieën kunnen kleurdiscriminatie beïnvloeden zonder kleurwaarneming volledig te bepalen.",
+      "Mensen kunnen alleen kleuren zien waarvoor hun taal een afzonderlijk woord heeft.",
+      "Kleurwaarneming wordt uitsluitend cultureel bepaald en niet door receptoren beïnvloed.",
+      "Taal heeft geen enkele invloed op kleurherinnering of kleurdiscriminatie."
+    ],
+    "correct": 0,
+    "explanation": "Onderzoek naar kleurtaal ondersteunt een gematigde vorm van linguïstische relativiteit: taal kan kleuronderscheid beïnvloeden, maar bepaalt kleurwaarneming niet volledig.",
+    "whyWrong": [
+      "",
+      "Ook zonder aparte term kunnen mensen kleurverschillen waarnemen.",
+      "Biologische kleurverwerking blijft belangrijk.",
+      "Taal kan wel invloed hebben op kleurdiscriminatie en categorisatie."
+    ],
+    "tip": "Linguïstische relativiteit betekent invloed, geen volledige bepaling."
+  },
+  {
+    "id": "v2_w8e_023",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Boroditsky en tijdsmetaforen",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Wat laat onderzoek naar taal en tijdsmetaforen zien?",
+    "options": [
+      "De manier waarop een taal tijd ruimtelijk beschrijft, kan beïnvloeden hoe mensen over tijd denken.",
+      "Alle talen beschrijven tijd op exact dezelfde ruimtelijke manier.",
+      "Tijd kan alleen begrepen worden wanneer een taal geen ruimtelijke metaforen gebruikt.",
+      "Tijdsdenken is volledig onafhankelijk van taal en cultuur."
+    ],
+    "correct": 0,
+    "explanation": "Talen verschillen in hoe zij tijd ruimtelijk beschrijven, bijvoorbeeld horizontaal of verticaal. Zulke verschillen kunnen denken over tijd beïnvloeden.",
+    "whyWrong": [
+      "",
+      "Talen verschillen juist in metaforen voor tijd.",
+      "Ruimtelijke metaforen kunnen tijdsdenken juist ondersteunen.",
+      "Onderzoek suggereert dat taal en cultuur tijdsdenken kunnen beïnvloeden."
+    ],
+    "tip": "Tijd is één van de domeinen waarin taal denken kan beïnvloeden."
+  },
+  {
+    "id": "v2_w8e_024",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Levinson en ruimtelijke taal",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Wat toont onderzoek naar ruimtelijke taal, zoals bij Levinson, vooral?",
+    "options": [
+      "Talen verschillen in het gebruik van relatieve of absolute ruimtelijke referenties, en dit kan ruimtelijk denken beïnvloeden.",
+      "Alle mensen gebruiken uitsluitend links en rechts om ruimte te beschrijven.",
+      "Ruimtelijk denken is volledig onafhankelijk van taalsystemen.",
+      "Absolute richtingen zoals noord en zuid kunnen niet in dagelijkse communicatie worden gebruikt."
+    ],
+    "correct": 0,
+    "explanation": "Sommige talen gebruiken vaker relatieve termen zoals links en rechts, terwijl andere talen absolute richtingen gebruiken. Dat kan ruimtelijke aandacht en geheugen beïnvloeden.",
+    "whyWrong": [
+      "",
+      "Niet alle talen gebruiken vooral links en rechts.",
+      "Taal kan ruimtelijk denken beïnvloeden.",
+      "Absolute richtingen kunnen in sommige talen juist veel gebruikt worden."
+    ],
+    "tip": "Ruimtelijke taal is een belangrijk voorbeeld van linguïstische relativiteit."
+  },
+  {
+    "id": "v2_w8e_025",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Taal en denken",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke vergelijking tussen linguïstisch determinisme en linguïstische relativiteit is correct?",
+    "options": [
+      "Determinisme stelt dat taal denken bepaalt; relativiteit stelt dat taal denken beïnvloedt maar niet volledig bepaalt.",
+      "Determinisme stelt dat taal geen invloed heeft; relativiteit stelt dat taal alle waarneming onmogelijk maakt.",
+      "Determinisme en relativiteit zijn twee identieke termen voor taalontwikkeling.",
+      "Determinisme gaat over spraakproductie; relativiteit gaat over fonologische dyslexie."
+    ],
+    "correct": 0,
+    "explanation": "Linguïstisch determinisme is de sterke claim dat taal denken bepaalt. Linguïstische relativiteit is de mildere claim dat taal denken beïnvloedt.",
+    "whyWrong": [
+      "",
+      "Deze optie definieert beide termen verkeerd.",
+      "Ze verschillen inhoudelijk en gaan niet alleen over ontwikkeling.",
+      "Dit koppelt de termen aan verkeerde taalprocessen."
+    ],
+    "tip": "De mildere relativiteitsclaim is beter verdedigbaar dan sterk determinisme."
+  },
+  {
+    "id": "v2_w8e_026",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Biases onderscheiden",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke koppeling tussen denkfout en kernmechanisme is correct?",
+    "options": [
+      "Beschikbaarheid: herinneringsgemak; representativiteit: stereotypegelijkenis; sunk cost: eerdere investering; hindsight: achteraf voorspelbaarheid.",
+      "Beschikbaarheid: eerdere investering; representativiteit: achteraf voorspelbaarheid; sunk cost: stereotypegelijkenis; hindsight: herinneringsgemak.",
+      "Beschikbaarheid: functionele gefixeerdheid; representativiteit: incubatie; sunk cost: analogie; hindsight: deductie.",
+      "Beschikbaarheid, representativiteit, sunk cost en hindsight zijn allemaal vormen van hetzelfde geheugenmodel."
+    ],
+    "correct": 0,
+    "explanation": "De vier biases hebben verschillende mechanismen: beschikbaarheid draait om wat makkelijk in gedachten komt, representativiteit om stereotypegelijkenis, sunk cost om eerdere investeringen en hindsight om achteraf voorspelbaarheid.",
+    "whyWrong": [
+      "",
+      "Deze optie verwisselt de mechanismen.",
+      "Dit koppelt de biases aan probleemoplosbegrippen.",
+      "Het zijn verschillende beslis- en redeneerfouten."
+    ],
+    "tip": "Leer per bias één kernsignaal."
+  },
+  {
+    "id": "v2_w8e_027",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Beschikbaarheid versus representativiteit",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Welke casus is het duidelijkst een voorbeeld van representativiteitsheuristiek en niet beschikbaarheidsheuristiek?",
+    "options": [
+      "Een stille boekenliefhebber wordt als bibliothecaris ingeschat, ondanks dat er veel meer mensen in andere beroepen werken.",
+      "Na nieuws over vliegtuigongelukken overschat iemand de kans om te crashen.",
+      "Iemand blijft een slechte film afkijken omdat hij al betaald heeft.",
+      "Na een voetbalwedstrijd zegt iemand dat hij de uitslag al had zien aankomen."
+    ],
+    "correct": 0,
+    "explanation": "Hier wordt een oordeel gebaseerd op hoe goed iemand past bij een stereotype, terwijl base rates worden genegeerd. Dat is representativiteitsheuristiek.",
+    "whyWrong": [
+      "",
+      "Dit is beschikbaarheidsheuristiek.",
+      "Dit is sunk cost fallacy.",
+      "Dit is hindsight bias."
+    ],
+    "tip": "Representativiteit = lijkt op categorie; beschikbaarheid = komt makkelijk in geheugen."
+  },
+  {
+    "id": "v2_w8e_028",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Beslissen onder risico",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Iemand kiest een loterijticket met kleine winkans maar enorme prijs boven een optie met veel hogere kans op een kleine prijs. Welke verklaring past bij subjectief verwacht nut?",
+    "options": [
+      "De subjectieve waarde van de enorme prijs kan de lage kans psychologisch zwaarder laten wegen.",
+      "Mensen kiezen altijd uitsluitend de optie met de hoogste objectieve kans.",
+      "Subjectief nut speelt geen rol wanneer geldbedragen worden vergeleken.",
+      "Een lage kans wordt altijd volledig genegeerd als de uitkomst aantrekkelijk is."
+    ],
+    "correct": 0,
+    "explanation": "Subjectief verwacht nut combineert kans met de persoonlijke waarde van de uitkomst. Een enorme prijs kan psychologisch aantrekkelijk zijn ondanks lage kans.",
+    "whyWrong": [
+      "",
+      "Mensen kiezen niet altijd de hoogste kans.",
+      "Subjectieve waarde speelt juist een rol bij geldkeuzes.",
+      "Een lage kans wordt niet altijd genegeerd; zij kan juist overschat of aantrekkelijk worden."
+    ],
+    "tip": "Bij beslissen gaat het om kans én waarde."
+  },
+  {
+    "id": "v2_w8e_029",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Stress en tunnelvisie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Onder hoge tijdsdruk let een arts vooral op één opvallend symptoom en mist andere relevante aanwijzingen. Welk stress-effect past hierbij?",
+    "options": [
+      "Tunnelvisie, omdat aandacht vernauwt en minder alternatieven worden overwogen.",
+      "Sunk cost fallacy, omdat eerdere investeringen in een keuze blijven meetellen.",
+      "Framing-effect, omdat dezelfde informatie anders geformuleerd wordt.",
+      "Incubatie-effect, omdat een pauze het probleemoplossen verbetert."
+    ],
+    "correct": 0,
+    "explanation": "Stress kan aandacht vernauwen, waardoor iemand minder breed naar informatie zoekt. Dat kan leiden tot tunnelvisie.",
+    "whyWrong": [
+      "",
+      "Er is geen eerdere investering beschreven.",
+      "Er is geen alternatieve framing van dezelfde informatie.",
+      "Er is juist geen pauze of verbetering na pauze beschreven."
+    ],
+    "tip": "Stress kan beslissen verslechteren door tunnelvisie, automatisme en impulsiviteit."
+  },
+  {
+    "id": "v2_w8e_030",
+    "chapter": "Week 6 - Taal en denken",
+    "concept": "Probleemoplossen samenvatting",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke combinatie koppelt probleemoplosbegrippen correct?",
+    "options": [
+      "Functionele gefixeerdheid: objectfunctie beperkt denken; set-effect: oude strategie blijft dominant; incubatie: pauze helpt na vastlopen.",
+      "Functionele gefixeerdheid: pauze helpt; set-effect: object wordt anders gebruikt; incubatie: eerdere kosten sturen beslissing.",
+      "Functionele gefixeerdheid: stereotypegelijkenis; set-effect: herinneringsgemak; incubatie: achteraf voorspelbaarheid.",
+      "Functionele gefixeerdheid, set-effect en incubatie zijn drie vormen van geheugeninterferentie."
+    ],
+    "correct": 0,
+    "explanation": "Functionele gefixeerdheid gaat over vastzitten aan normale objectfuncties. Set-effect gaat over vasthouden aan eerdere strategieën. Incubatie gaat over verbetering na een pauze.",
+    "whyWrong": [
+      "",
+      "Deze optie verwisselt de begrippen en voegt sunk cost toe.",
+      "Dit zijn beslisheuristieken en biases.",
+      "Het zijn probleemoplosbegrippen, geen geheugeninterferenties."
+    ],
+    "tip": "Probleemoplosfouten gaan vaak over hoe je het probleem of de middelen representeert."
+  },
+  {
+    "id": "v2_w8f_001",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Functies van emoties",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke combinatie beschrijft belangrijke functies van emoties het best?",
+    "options": [
+      "Emoties ondersteunen overleving, sociale communicatie en cognitieve verwerking.",
+      "Emoties verstoren altijd rationeel denken en hebben verder geen functie.",
+      "Emoties dienen uitsluitend om lichamelijke arousal te verhogen.",
+      "Emoties zijn alleen sociale conventies zonder biologische basis."
+    ],
+    "correct": 0,
+    "explanation": "Emoties zijn functioneel: ze bereiden gedrag voor, communiceren informatie aan anderen en beïnvloeden aandacht, geheugen en besluitvorming.",
+    "whyWrong": [
+      "",
+      "Emoties kunnen denken verstoren, maar ook helpen bij prioriteren en beslissen.",
+      "Arousal is één aspect, maar niet de enige functie van emoties.",
+      "Emoties hebben sociale én biologische componenten."
+    ],
+    "tip": "Zie emoties niet alleen als gevoel, maar als systemen die gedrag en informatieverwerking sturen."
+  },
+  {
+    "id": "v2_w8f_002",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Emotie en overleving",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Waarom kan angst functioneel zijn vanuit overlevingsperspectief?",
+    "options": [
+      "Angst richt aandacht op gevaar en bereidt snelle vermijdings- of verdedigingsreacties voor.",
+      "Angst voorkomt dat iemand lichamelijk reageert op bedreigende situaties.",
+      "Angst zorgt ervoor dat alle informatie evenveel aandacht krijgt, ongeacht relevantie.",
+      "Angst is vooral functioneel omdat het alle cognitieve processen uitschakelt."
+    ],
+    "correct": 0,
+    "explanation": "Angst kan adaptief zijn doordat bedreiging snel prioriteit krijgt. Het lichaam en de aandacht worden voorbereid op reageren.",
+    "whyWrong": [
+      "",
+      "Angst gaat vaak juist samen met lichamelijke activatie.",
+      "Angst maakt verwerking juist selectiever richting bedreiging.",
+      "Angst kan cognitie beïnvloeden, maar schakelt die niet volledig uit."
+    ],
+    "tip": "Bij emotiefuncties gaat het vaak om voorbereiding van passend gedrag."
+  },
+  {
+    "id": "v2_w8f_003",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Emotie en sociale communicatie",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Iemand trekt een gezicht van walging wanneer hij bedorven eten ruikt. Anderen zien dit en besluiten het eten niet te proeven. Welke functie van emotie staat hier centraal?",
+    "options": [
+      "Sociale communicatie, omdat de emotionele expressie informatie aan anderen overdraagt.",
+      "Louter subjectieve ervaring, omdat de gezichtsuitdrukking geen functie heeft voor anderen.",
+      "Semantische priming, omdat het woord 'vies' sneller wordt verwerkt.",
+      "Homeostase, omdat de gezichtsuitdrukking direct de lichaamstemperatuur regelt."
+    ],
+    "correct": 0,
+    "explanation": "Emotionele expressies geven sociale informatie. De walgingsexpressie waarschuwt anderen dat iets mogelijk onveilig of onaangenaam is.",
+    "whyWrong": [
+      "",
+      "De expressie heeft juist een communicatieve functie.",
+      "Er is geen woordherkenningsprime beschreven.",
+      "Homeostase kan bij motivatie belangrijk zijn, maar verklaart hier niet de sociale functie."
+    ],
+    "tip": "Gezichtsuitdrukkingen kunnen informatie over gevaar, intentie of toestand communiceren."
+  },
+  {
+    "id": "v2_w8f_004",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Sympathisch en parasympathisch zenuwstelsel",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke koppeling tussen autonoom zenuwstelsel en functie is correct?",
+    "options": [
+      "Sympathisch: activatie bij stress of actie; parasympathisch: rust, herstel en energiebesparing.",
+      "Sympathisch: slaapconsolidatie; parasympathisch: letter-klankomzetting.",
+      "Sympathisch: grammaticale verwerking; parasympathisch: semantische priming.",
+      "Sympathisch: bewuste herinnering; parasympathisch: procedureel geheugen."
+    ],
+    "correct": 0,
+    "explanation": "Het sympathische zenuwstelsel activeert het lichaam bij stress, dreiging of inspanning. Het parasympathische zenuwstelsel ondersteunt rust en herstel.",
+    "whyWrong": [
+      "",
+      "Slaapconsolidatie en letter-klankomzetting horen bij andere domeinen.",
+      "Grammatica en priming zijn taalprocessen.",
+      "Bewuste herinnering en procedureel geheugen zijn geheugensystemen."
+    ],
+    "tip": "Bij stressreacties denk je vaak aan sympathische activatie."
+  },
+  {
+    "id": "v2_w8f_005",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Sympathische lichamelijke reacties",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke set bevat vooral lichamelijke reacties die passen bij sympathische activatie?",
+    "options": [
+      "Hartslag omhoog, bloeddruk omhoog, zweten, droge mond en pupilverwijding.",
+      "Hartslag omlaag, diepe ontspanning, speekseltoename en slaperigheid.",
+      "Verhoogde semantische priming, betere syntaxis en snellere lexeemselectie.",
+      "Sterkere iconische opslag, minder saccades en hogere kleurverzadiging."
+    ],
+    "correct": 0,
+    "explanation": "Sympathische activatie bereidt het lichaam voor op actie. Dat gaat vaak samen met verhoogde hartslag, bloeddruk, zweten, remming van speeksel en pupilverwijding.",
+    "whyWrong": [
+      "",
+      "Dit past eerder bij rust en parasympathische activatie.",
+      "Dit zijn taalprocessen, geen autonome stressreacties.",
+      "Dit zijn visuele/geheugenbegrippen, geen typische sympathische reacties."
+    ],
+    "tip": "Bij stress: hart, zweet, droge mond en alertheid."
+  },
+  {
+    "id": "v2_w8f_006",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Levenson en fysiologische patronen",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke onderzoeksvraag past het best bij onderzoek naar fysiologische patronen van emoties?",
+    "options": [
+      "Hebben verschillende basisemoties verschillende patronen van autonome lichamelijke activiteit?",
+      "Kunnen pseudowoorden beter gelezen worden via directe of indirecte route?",
+      "Worden objecten sneller herkend wanneer ze uit meer geonen bestaan?",
+      "Wordt aandacht trager teruggeleid naar eerder bezochte locaties?"
+    ],
+    "correct": 0,
+    "explanation": "Onderzoek naar fysiologische emotiepatronen onderzoekt of emoties zoals angst, woede of walging samengaan met verschillende lichamelijke responsprofielen.",
+    "whyWrong": [
+      "",
+      "Dit hoort bij lezen en dyslexie.",
+      "Dit hoort bij objectherkenning.",
+      "Dit hoort bij terugkeerinhibitie."
+    ],
+    "tip": "Bij fysiologische emotieonderzoeken gaat het niet alleen om hoeveel arousal er is, maar ook om welk patroon."
+  },
+  {
+    "id": "v2_w8f_007",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Ruggenmergschade en emotie",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Mensen met hoge ruggenmergschade rapporteren soms minder intense emoties, maar niet een volledig verdwijnen van emotie. Welke conclusie past hierbij?",
+    "options": [
+      "Lichamelijke feedback kan emotie-intensiteit beïnvloeden, maar is waarschijnlijk niet de enige basis van emotie.",
+      "Lichamelijke feedback is volledig irrelevant voor emotionele ervaring.",
+      "Emotie bestaat alleen uit lichamelijke feedback en kan zonder die feedback niet voorkomen.",
+      "Ruggenmergschade beïnvloedt uitsluitend taalproductie en niet emotie."
+    ],
+    "correct": 0,
+    "explanation": "Minder lichamelijke feedback kan de intensiteit van emoties verminderen. Tegelijk blijven emoties mogelijk, wat laat zien dat emoties niet uitsluitend uit lichamelijke feedback bestaan.",
+    "whyWrong": [
+      "",
+      "De verminderde intensiteit suggereert juist dat lichamelijke feedback wel invloed kan hebben.",
+      "Dat emoties niet volledig verdwijnen spreekt deze sterke versie tegen.",
+      "De casus gaat over emotionele ervaring, niet taalproductie."
+    ],
+    "tip": "Dit is een nuance bij James-Lange-achtige ideeën: lichaam doet mee, maar verklaart niet alles."
+  },
+  {
+    "id": "v2_w8f_008",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Polygraaf en kritische vragen",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Bij een polygraaftest reageert iemand fysiologisch sterk op een vraag over een specifiek detail van een misdrijf. Waarom is voorzichtigheid nodig bij interpretatie?",
+    "options": [
+      "Omdat fysiologische arousal op herkenning, stress of angst kan wijzen, maar niet rechtstreeks schuld of liegen bewijst.",
+      "Omdat een polygraaf geen lichamelijke activiteit meet.",
+      "Omdat fysiologische reacties altijd exact aangeven of iemand de waarheid spreekt.",
+      "Omdat sterke arousal alleen kan ontstaan wanneer iemand schuldig is."
+    ],
+    "correct": 0,
+    "explanation": "Een polygraaf meet arousal, niet waarheid. Een sterke reactie kan verschillende oorzaken hebben, zoals stress, angst, herkenning of schuld.",
+    "whyWrong": [
+      "",
+      "Een polygraaf meet juist lichamelijke reacties.",
+      "Fysiologische reacties zijn niet uniek voor waarheid of leugen.",
+      "Ook onschuldige mensen kunnen sterk reageren."
+    ],
+    "tip": "Polygraaf = arousalmeter, geen directe waarheidsmeter."
+  },
+  {
+    "id": "v2_w8f_009",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Guilty knowledge test",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is het centrale idee van een guilty knowledge test?",
+    "options": [
+      "Alleen iemand met specifieke kennis van een gebeurtenis zou sterker moeten reageren op relevante details dan op neutrale alternatieven.",
+      "Iemand die liegt vertoont altijd dezelfde unieke fysiologische reactie, ongeacht de vraag.",
+      "Schuld kan direct uit gezichtsuitdrukking worden afgeleid zonder fysiologische meting.",
+      "Onschuldige mensen reageren nooit fysiologisch op bedreigende of stressvolle vragen."
+    ],
+    "correct": 0,
+    "explanation": "Een guilty knowledge test vergelijkt reacties op relevante details met reacties op irrelevante alternatieven. Het idee is dat herkenning van daderkennis fysiologische responsen kan oproepen.",
+    "whyWrong": [
+      "",
+      "Er bestaat geen unieke fysiologische leugenrespons.",
+      "Gezichtsuitdrukking alleen is geen directe schuldmeting.",
+      "Onschuldige mensen kunnen ook fysiologisch reageren op stressvolle vragen."
+    ],
+    "tip": "Guilty knowledge gaat over herkenning van specifieke details, niet over leugen als algemene toestand."
+  },
+  {
+    "id": "v2_w8f_010",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Emotieherkenning bij blinde personen",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Wanneer blind geboren personen vergelijkbare basisgezichtsuitdrukkingen tonen als ziende personen, wat ondersteunt dat vooral?",
+    "options": [
+      "Dat bepaalde emotionele expressies een aangeboren of biologische component hebben.",
+      "Dat emotionele expressies volledig door visuele imitatie worden aangeleerd.",
+      "Dat culturele uitingsregels geen enkele invloed kunnen hebben op emotie-expressie.",
+      "Dat gezichtsuitdrukkingen uitsluitend bewuste beslissingen zijn."
+    ],
+    "correct": 0,
+    "explanation": "Als mensen zonder visuele imitatie vergelijkbare expressies tonen, suggereert dit dat bepaalde basisexpressies niet uitsluitend door leren via observatie ontstaan.",
+    "whyWrong": [
+      "",
+      "Visuele imitatie kan niet de volledige verklaring zijn bij blind geboren personen.",
+      "Culturele regels kunnen expressie nog steeds beïnvloeden.",
+      "Gezichtsuitdrukkingen kunnen deels automatisch zijn."
+    ],
+    "tip": "Universele expressie en culturele uitingsregels kunnen naast elkaar bestaan."
+  },
+  {
+    "id": "v2_w8f_011",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Eigen-etnische groep en emotieherkenning",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Mensen herkennen subtiele emotionele expressies gemiddeld beter bij gezichten uit groepen waarmee zij veel ervaring hebben. Welke verklaring past het best?",
+    "options": [
+      "Ervaring en sociale blootstelling kunnen emotieherkenning verfijnen.",
+      "Emotieherkenning is volledig onafhankelijk van ervaring.",
+      "Emoties van andere groepen bestaan biologisch niet.",
+      "Gezichtsherkenning gebruikt nooit perceptuele expertise."
+    ],
+    "correct": 0,
+    "explanation": "Ervaring met bepaalde gezichten en expressiestijlen kan helpen om subtiele emotionele signalen beter te herkennen.",
+    "whyWrong": [
+      "",
+      "Ervaring kan emotieherkenning wel beïnvloeden.",
+      "Alle groepen ervaren emoties; het probleem gaat om herkenning.",
+      "Gezichtsherkenning is juist gevoelig voor ervaring en expertise."
+    ],
+    "tip": "Bij emotieherkenning spelen zowel universele expressies als ervaring met gezichten een rol."
+  },
+  {
+    "id": "v2_w8f_012",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Matsumoto & Juang",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Studenten uit verschillende culturen ervaren vergelijkbare emoties, maar verschillen in hoe sterk zij negatieve emoties tonen tegenover een persoon met hogere status. Welk begrip past hierbij?",
+    "options": [
+      "Culturele uitingsregels.",
+      "Gezichtsfeedbackhypothese.",
+      "Twee-factortheorie.",
+      "Misattributie van arousal."
+    ],
+    "correct": 0,
+    "explanation": "Culturele uitingsregels bepalen hoe en wanneer emoties sociaal gepast worden geuit, bijvoorbeeld tegenover iemand met hogere status.",
+    "whyWrong": [
+      "",
+      "Gezichtsfeedback gaat over invloed van spieractiviteit op ervaring.",
+      "Twee-factortheorie gaat over arousal plus interpretatie.",
+      "Misattributie gaat over arousal aan de verkeerde oorzaak toeschrijven."
+    ],
+    "tip": "Culturele uitingsregels gaan over expressie, niet noodzakelijk over wat iemand intern voelt."
+  },
+  {
+    "id": "v2_w8f_013",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Kring & Gordon",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke nuance over sekseverschillen in emotie is het meest correct?",
+    "options": [
+      "Er kunnen verschillen zijn in expressie en fysiologische reactie, zonder dat subjectieve emotionele ervaring duidelijk verschilt.",
+      "Als vrouwen emoties expressiever tonen, moeten zij die emoties ook altijd sterker ervaren.",
+      "Mannen hebben geen fysiologische reacties op woede of angst.",
+      "Sekseverschillen in emotie tonen dat culturele factoren geen rol spelen."
+    ],
+    "correct": 0,
+    "explanation": "Onderzoek naar sekseverschillen in emotie maakt onderscheid tussen uiting, fysiologie en subjectieve ervaring. Die hoeven niet allemaal hetzelfde patroon te tonen.",
+    "whyWrong": [
+      "",
+      "Expressie en subjectieve ervaring hoeven niet één-op-één samen te vallen.",
+      "Mannen hebben wel fysiologische emotionele reacties.",
+      "Culturele factoren kunnen juist mede bepalen hoe emoties worden geuit."
+    ],
+    "tip": "Maak onderscheid tussen voelen, tonen en fysiologisch reageren."
+  },
+  {
+    "id": "v2_w8f_014",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Tranel & Damasio",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "Een prosopagnosiepatiënt zegt bekende gezichten niet te herkennen, maar vertoont wel een andere huidgeleidingsreactie op bekende dan onbekende gezichten. Wat toont dit?",
+    "options": [
+      "Bewuste herkenning en onbewuste emotionele herkenningsreacties kunnen van elkaar dissociëren.",
+      "Gezichtsherkenning is volledig intact zodra een fysiologische reactie meetbaar is.",
+      "Emotionele verwerking vereist altijd bewuste identificatie van een gezicht.",
+      "Huidgeleiding meet uitsluitend taalbegrip en niet emotionele respons."
+    ],
+    "correct": 0,
+    "explanation": "Deze bevinding laat zien dat iemand een gezicht niet bewust herkent, maar dat het lichaam toch anders reageert op bekende gezichten.",
+    "whyWrong": [
+      "",
+      "Bewuste gezichtsherkenning is juist verstoord.",
+      "De fysiologische reactie toont dat emotionele verwerking deels zonder bewuste identificatie kan optreden.",
+      "Huidgeleiding wordt gebruikt als maat voor fysiologische/emotionele respons."
+    ],
+    "tip": "Dit lijkt inhoudelijk op Capgras, maar in omgekeerde richting: emotionele reactie kan aanwezig zijn zonder bewuste herkenning."
+  },
+  {
+    "id": "v2_w8f_015",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Gezichtsfeedback: extra evidentie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke bevinding zou het best passen bij de gezichtsfeedbackhypothese?",
+    "options": [
+      "Het blokkeren of veranderen van gezichtsspieractiviteit verandert de intensiteit van gerapporteerde emotie.",
+      "Het veranderen van gezichtsspieractiviteit heeft nooit invloed op emotionele ervaring.",
+      "Emotionele ervaring ontstaat uitsluitend door culturele labels en nooit door lichamelijke feedback.",
+      "Gezichtsfeedback beïnvloedt alleen het herkennen van geschreven woorden."
+    ],
+    "correct": 0,
+    "explanation": "De gezichtsfeedbackhypothese voorspelt dat spieractiviteit in het gezicht terugwerkt op de emotionele ervaring.",
+    "whyWrong": [
+      "",
+      "Dit ontkent precies wat de hypothese voorspelt.",
+      "Culturele labels kunnen meespelen, maar lichamelijke feedback wordt niet uitgesloten.",
+      "Gezichtsfeedback gaat over emotie, niet specifiek woordherkenning."
+    ],
+    "tip": "Onderzoeken met stift, botox of gezichtsspiermanipulatie passen bij gezichtsfeedback."
+  },
+  {
+    "id": "v2_w8f_016",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Emotie beïnvloedt aandacht",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "In een visuele taak wordt een bedreigend gezicht sneller opgemerkt dan een neutraal gezicht, zelfs wanneer deelnemers het niet expliciet zoeken. Wat laat dit vooral zien?",
+    "options": [
+      "Emotioneel relevante stimuli kunnen automatisch aandacht trekken.",
+      "Aandacht is volledig onafhankelijk van emotionele betekenis.",
+      "Bedreigende gezichten worden alleen verwerkt wanneer iemand ze bewust benoemt.",
+      "Emotionele stimuli worden altijd trager verwerkt dan neutrale stimuli."
+    ],
+    "correct": 0,
+    "explanation": "Emotioneel relevante informatie, vooral bedreiging, kan prioriteit krijgen in aandacht en verwerking.",
+    "whyWrong": [
+      "",
+      "Emotie kan aandacht juist sterk beïnvloeden.",
+      "Bewuste benoeming is niet noodzakelijk voor emotionele aandachtsbias.",
+      "Bedreigende stimuli kunnen juist sneller opvallen."
+    ],
+    "tip": "Emotie en aandacht beïnvloeden elkaar sterk."
+  },
+  {
+    "id": "v2_w8f_017",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Dot-probe en emotionele aandacht",
+    "difficulty": 5,
+    "type": "experiment",
+    "prompt": "In een dot-probe taak verschijnt een puntje sneller na bedreigende woorden of gezichten dan na neutrale stimuli. Deelnemers reageren sneller wanneer het puntje op de bedreigingslocatie verschijnt. Wat suggereert dit?",
+    "options": [
+      "Aandacht was automatisch naar de emotioneel bedreigende stimulus getrokken.",
+      "Bedreigende stimuli worden volledig genegeerd vóór enige verwerking.",
+      "De taak meet uitsluitend semantisch langetermijngeheugen.",
+      "Deelnemers tonen vooral een recency-effect voor laatste stimuli."
+    ],
+    "correct": 0,
+    "explanation": "Snellere reacties op probes op de bedreigingslocatie wijzen erop dat aandacht al naar de bedreigende stimulus was verschoven.",
+    "whyWrong": [
+      "",
+      "De reactie suggereert juist verwerking van bedreiging.",
+      "De dot-probe taak meet aandachtsbias, niet alleen semantisch geheugen.",
+      "Er is geen lijstpositie-effect beschreven."
+    ],
+    "tip": "Dot-probe taken meten waar aandacht naartoe is getrokken."
+  },
+  {
+    "id": "v2_w8f_018",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Emotie en perceptie van ambigue stimuli",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Iemand die angstig is, interpreteert een neutraal gezicht sneller als afkeurend of dreigend. Welk proces past hierbij?",
+    "options": [
+      "Emotionele toestand beïnvloedt de interpretatie van ambigue stimuli.",
+      "Perceptie is volledig onafhankelijk van stemming en emotie.",
+      "De persoon heeft een primair probleem met fonologische encoding.",
+      "De interpretatie wordt uitsluitend bepaald door retinale transductie."
+    ],
+    "correct": 0,
+    "explanation": "Emotionele toestand kan beïnvloeden hoe ambigue informatie wordt geïnterpreteerd. Angst kan neutrale signalen dreigender laten lijken.",
+    "whyWrong": [
+      "",
+      "Stemming en emotie kunnen interpretatie juist beïnvloeden.",
+      "Fonologische encoding gaat over klankplanning in spraak.",
+      "Retinale transductie verklaart niet de emotionele interpretatie."
+    ],
+    "tip": "Emotie kleurt waarneming, vooral bij ambigue stimuli."
+  },
+  {
+    "id": "v2_w8f_019",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Stemmingcongruent geheugen",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is stemmingcongruent geheugen?",
+    "options": [
+      "De neiging om herinneringen op te halen die passen bij de huidige emotionele toestand.",
+      "Het beter onthouden van eerste items in een lijst door extra herhaling.",
+      "Het sneller herkennen van een woord na een betekenisverwante prime.",
+      "Het verwarren van een niet-aangeboden woord met woorden uit dezelfde lijst."
+    ],
+    "correct": 0,
+    "explanation": "Stemmingcongruent geheugen betekent dat je stemming bepaalt welke herinneringen gemakkelijker toegankelijk worden.",
+    "whyWrong": [
+      "",
+      "Dit is het primacy-effect.",
+      "Dit is semantische priming.",
+      "Dit is het DRM-effect."
+    ],
+    "tip": "Verdrietige stemming kan verdrietige herinneringen makkelijker oproepbaar maken."
+  },
+  {
+    "id": "v2_w8f_020",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Amygdala en hippocampus",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Hoe kan emotie geheugenconsolidatie beïnvloeden?",
+    "options": [
+      "De amygdala kan geheugenprocessen in de hippocampus beïnvloeden, waardoor emotionele gebeurtenissen sterker worden opgeslagen.",
+      "De hippocampus voorkomt dat emotionele gebeurtenissen ooit worden onthouden.",
+      "De amygdala slaat alle herinneringen zelfstandig op zonder interactie met andere gebieden.",
+      "Emotionele arousal maakt consolidatie altijd onmogelijk."
+    ],
+    "correct": 0,
+    "explanation": "De amygdala speelt een rol bij emotionele relevantie en kan geheugenprocessen in de hippocampus versterken of moduleren.",
+    "whyWrong": [
+      "",
+      "Emotionele gebeurtenissen worden vaak juist beter onthouden.",
+      "De amygdala werkt niet volledig geïsoleerd van andere geheugengebieden.",
+      "Emotionele arousal kan consolidatie soms versterken, al kan extreme stress ook verstoren."
+    ],
+    "tip": "Emotie kan opslag én ophalen van herinneringen beïnvloeden."
+  },
+  {
+    "id": "v2_w8f_021",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Netwerkvisie op emotie",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke uitspraak past bij een moderne netwerkvisie op emotie?",
+    "options": [
+      "Emoties worden ondersteund door netwerken van hersengebieden in plaats van door één uniek gebied per emotie.",
+      "Elke emotie bevindt zich volledig in één specifiek hersengebied, zonder overlap met andere emoties.",
+      "Emoties hebben geen hersenbasis en bestaan alleen uit sociale labels.",
+      "Alle emoties worden uitsluitend verwerkt door de hippocampus."
+    ],
+    "correct": 0,
+    "explanation": "Hoewel sommige gebieden sterk betrokken zijn bij bepaalde emotionele processen, is de moderne visie dat emoties ontstaan uit interacties tussen meerdere hersengebieden.",
+    "whyWrong": [
+      "",
+      "Dit is een te simpele lokalisatievisie.",
+      "Emoties hebben wel een biologische basis.",
+      "De hippocampus is belangrijk voor geheugen, maar emoties zijn niet uitsluitend hippocampaal."
+    ],
+    "tip": "Denk bij emoties in netwerken in plaats van één emotie-één gebied."
+  },
+  {
+    "id": "v2_w8f_022",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Gyrus cinguli / ACC",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Waarom is de gyrus cinguli, met name de ACC, relevant voor emotie en cognitie?",
+    "options": [
+      "Omdat dit gebied betrokken is bij conflict, foutdetectie en de interactie tussen emotionele en cognitieve controleprocessen.",
+      "Omdat dit gebied de primaire smaakreceptoren aanstuurt.",
+      "Omdat dit gebied de lens laat accommoderen bij dichtbij kijken.",
+      "Omdat dit gebied uitsluitend fonemen omzet in morfemen."
+    ],
+    "correct": 0,
+    "explanation": "De ACC is betrokken bij conflictmonitoring en foutdetectie, en speelt daarmee een rol op het snijvlak van emotie, motivatie en cognitieve controle.",
+    "whyWrong": [
+      "",
+      "Smaakreceptoren zitten niet in de gyrus cinguli.",
+      "Accommodatie gebeurt via lens en ciliaire spier.",
+      "Fonemen en morfemen zijn taalbegrippen, maar dit is niet de functie van ACC."
+    ],
+    "tip": "ACC komt terug bij cognitieve controle én bij emotie-cognitie-interactie."
+  },
+  {
+    "id": "v2_w8f_023",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Instincttheorie",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat stelt de instincttheorie van motivatie?",
+    "options": [
+      "Sommige gedragingen worden verklaard vanuit aangeboren, soortspecifieke gedragspatronen.",
+      "Alle motivatie ontstaat uit het herstellen van lichamelijke tekorten.",
+      "Mensen zoeken altijd naar maximale arousal, ongeacht de situatie.",
+      "Gedrag ontstaat uitsluitend door externe beloningen."
+    ],
+    "correct": 0,
+    "explanation": "De instincttheorie verklaart gedrag vanuit aangeboren patronen die niet eerst door individuele ervaring geleerd hoeven te worden.",
+    "whyWrong": [
+      "",
+      "Dit past bij drifttheorie.",
+      "Arousal theory gaat over optimaal, niet maximaal, activatieniveau.",
+      "Dit past bij een sterk operante verklaring."
+    ],
+    "tip": "Instincttheorie = aangeboren gedragspatronen."
+  },
+  {
+    "id": "v2_w8f_024",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Arousal theory",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat stelt arousal theory over motivatie?",
+    "options": [
+      "Mensen streven naar een optimaal niveau van activatie, niet simpelweg naar zo weinig mogelijk spanning.",
+      "Mensen proberen altijd elke vorm van arousal volledig te vermijden.",
+      "Mensen functioneren altijd beter naarmate arousal maximaal wordt.",
+      "Arousal is alleen relevant voor zintuiglijke drempels en niet voor gedrag."
+    ],
+    "correct": 0,
+    "explanation": "Arousal theory stelt dat mensen een optimaal activatieniveau zoeken. Te weinig arousal kan verveling geven; te veel arousal kan prestaties verstoren.",
+    "whyWrong": [
+      "",
+      "Mensen zoeken soms juist stimulatie.",
+      "Maximale arousal is niet altijd optimaal.",
+      "Arousal is relevant voor motivatie, emotie en prestatie."
+    ],
+    "tip": "Arousal theory sluit aan bij de wet van Yerkes-Dodson."
+  },
+  {
+    "id": "v2_w8f_025",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Maslow-kritiek",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke kritiek op Maslows behoeftehiërarchie is het meest terecht?",
+    "options": [
+      "Behoeften volgen niet bij iedereen dezelfde vaste volgorde en verdwijnen niet altijd zodra ze bevredigd zijn.",
+      "Fysiologische behoeften spelen nooit een rol in menselijk gedrag.",
+      "Zelfactualisatie is altijd belangrijker dan honger of veiligheid.",
+      "Maslows theorie stelt dat sociale behoeften biologisch onmogelijk zijn."
+    ],
+    "correct": 0,
+    "explanation": "Een belangrijke kritiek is dat de hiërarchie niet universeel strikt geldt. Mensen kunnen hogere doelen nastreven ondanks onbevredigde lagere behoeften, en behoeften verdwijnen niet altijd na bevrediging.",
+    "whyWrong": [
+      "",
+      "Fysiologische behoeften zijn juist belangrijk.",
+      "Zelfactualisatie staat niet altijd boven directe basisbehoeften.",
+      "Maslow erkent sociale behoeften."
+    ],
+    "tip": "Maslow is nuttig als model, maar niet als starre wet."
+  },
+  {
+    "id": "v2_w8f_026",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Conflicterende motivatie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Iemand moet kiezen tussen studeren en opruimen, vindt beide onaantrekkelijk en gaat daarom scrollen op zijn telefoon. Wat verklaart dit?",
+    "options": [
+      "Een motivatieconflict tussen onaantrekkelijke alternatieven kan uitstelgedrag oproepen.",
+      "Een keuze tussen twee onaantrekkelijke opties is altijd makkelijker dan een keuze tussen twee aantrekkelijke opties.",
+      "Dit is vooral overjustificatie, omdat externe beloning intrinsieke motivatie versterkt.",
+      "Dit is een voorbeeld van homeostase, omdat het lichaam direct een tekort herstelt."
+    ],
+    "correct": 0,
+    "explanation": "Wanneer beide opties inspannend of onaantrekkelijk zijn, kan het moeilijk zijn om te kiezen en kan vermijding of uitstel ontstaan.",
+    "whyWrong": [
+      "",
+      "Keuzes tussen onaantrekkelijke opties zijn vaak juist moeilijker.",
+      "Overjustificatie gaat over externe beloning die intrinsieke motivatie ondermijnt.",
+      "Homeostase gaat over lichamelijk evenwicht."
+    ],
+    "tip": "Motivatieconflict kan leiden tot vermijding van beide opties."
+  },
+  {
+    "id": "v2_w8f_027",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Ego-uitputting",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Wat is ego-uitputting?",
+    "options": [
+      "Het idee dat zelfcontrole tijdelijk afneemt nadat iemand eerder veel zelfcontrole of keuzes heeft moeten uitoefenen.",
+      "Het idee dat motivatie altijd toeneemt naarmate iemand meer beslissingen neemt.",
+      "Het idee dat zelfcontrole uitsluitend biologisch vastligt en niet door situatie verandert.",
+      "Het idee dat impulscontrole alleen voorkomt bij taken zonder beloning."
+    ],
+    "correct": 0,
+    "explanation": "Ego-uitputting houdt in dat zelfcontrole tijdelijk minder beschikbaar kan zijn na eerdere zelfcontrole-inspanning of veel keuzes.",
+    "whyWrong": [
+      "",
+      "Veel keuzes kunnen zelfcontrole juist verminderen.",
+      "Zelfcontrole kan situationeel variëren.",
+      "Impulscontrole komt ook voor bij beloningssituaties."
+    ],
+    "tip": "Bij ego-uitputting gaat het om verminderde zelfcontrole na eerdere inspanning."
+  },
+  {
+    "id": "v2_w8f_028",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Self-Determination Theory",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Wat is het verschil tussen autonome en gecontroleerde motivatie?",
+    "options": [
+      "Autonome motivatie voelt zelfgekozen of passend bij eigen waarden; gecontroleerde motivatie voelt gestuurd door druk, beloning of verplichting.",
+      "Autonome motivatie ontstaat alleen door geld; gecontroleerde motivatie ontstaat alleen door intrinsieke interesse.",
+      "Autonome motivatie is altijd biologisch; gecontroleerde motivatie is altijd genetisch.",
+      "Autonome en gecontroleerde motivatie betekenen hetzelfde, maar worden in verschillende culturen gebruikt."
+    ],
+    "correct": 0,
+    "explanation": "Autonome motivatie betekent dat iemand gedrag als vrijwillig of persoonlijk waardevol ervaart. Gecontroleerde motivatie wordt meer ervaren als druk van buitenaf of verplichting.",
+    "whyWrong": [
+      "",
+      "Deze optie draait de begrippen om.",
+      "Het onderscheid gaat niet over biologisch versus genetisch.",
+      "Het zijn inhoudelijk verschillende motivatievormen."
+    ],
+    "tip": "Autonoom betekent niet altijd puur intrinsiek; ook geïnternaliseerde doelen kunnen autonoom voelen."
+  },
+  {
+    "id": "v2_w8f_029",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Seksuele motivatie en hormonen",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak over seksuele motivatie is het meest genuanceerd?",
+    "options": [
+      "Seksuele motivatie wordt beïnvloed door biologische factoren zoals hormonen, maar ook door cognitieve en sociale factoren.",
+      "Seksuele motivatie wordt bij mensen uitsluitend bepaald door vruchtbaarheidscycli.",
+      "Seksuele motivatie is volledig sociaal aangeleerd en heeft geen biologische component.",
+      "Seksuele motivatie is alleen een vorm van operante bekrachtiging en bevat geen emotionele of cognitieve component."
+    ],
+    "correct": 0,
+    "explanation": "Seksuele motivatie is biopsychosociaal: hormonen spelen een rol, maar ook betekenis, ervaring, context, sociale normen en persoonlijke voorkeur.",
+    "whyWrong": [
+      "",
+      "Menselijke seksuele motivatie is niet uitsluitend gekoppeld aan vruchtbaarheid.",
+      "Biologische factoren spelen wel een rol.",
+      "Operante processen kunnen meespelen, maar verklaren het niet volledig."
+    ],
+    "tip": "Bij seksuele motivatie is een enkelvoudige verklaring meestal te beperkt."
+  },
+  {
+    "id": "v2_w8f_030",
+    "chapter": "Week 7 - Emotie en motivatie",
+    "concept": "Coolidge-effect en seksuele oriëntatie",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke combinatie is correct?",
+    "options": [
+      "Coolidge-effect: hernieuwde seksuele interesse bij introductie van een nieuwe partner; seksuele oriëntatie: beïnvloed door biologische, cognitieve en sociale factoren.",
+      "Coolidge-effect: zelfcontrole bij marshmallow-taak; seksuele oriëntatie: volledig bepaald door één sociale factor.",
+      "Coolidge-effect: dalende arousal bij elke nieuwe partner; seksuele oriëntatie: uitsluitend een bewuste keuze zonder biologische component.",
+      "Coolidge-effect: vermijden van pijnprikkels; seksuele oriëntatie: een vorm van klassieke smaakaversie."
+    ],
+    "correct": 0,
+    "explanation": "Het Coolidge-effect gaat over hernieuwde seksuele activiteit of interesse bij een nieuwe partner. Seksuele oriëntatie wordt het best begrepen als complex en multifactorieel.",
+    "whyWrong": [
+      "",
+      "De marshmallow-taak gaat over zelfcontrole, niet Coolidge-effect.",
+      "Het Coolidge-effect verwijst juist naar hernieuwde interesse; seksuele oriëntatie is niet uitsluitend bewuste keuze.",
+      "Deze optie koppelt beide begrippen aan verkeerde leerprocessen."
+    ],
+    "tip": "Ook bij motivatie is een biopsychosociale benadering vaak het meest genuanceerd."
   }
 ]
