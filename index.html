@@ -3,98 +3,308 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Functieleer Oefenomgeving</title>
+<title>Tentamen Oefenomgeving</title>
 <style>
 :root{
-  --bg:#f5f7fb;--card:#fff;--text:#172033;--muted:#64748b;--primary:#2563eb;
-  --primary2:#1d4ed8;--good:#16a34a;--bad:#dc2626;--warn:#f59e0b;
-  --border:#dbe3ef;--soft:#eef4ff;--shadow:0 8px 24px rgba(15,23,42,.08);
+  color-scheme:light;
+  --bg:#f3f6fa;--card:#fff;--text:#182433;--muted:#65758b;--primary:#275c8c;
+  --primary2:#1e496f;--good:#16805d;--bad:#c44747;--warn:#a96e12;
+  --border:#dce4ed;--soft:#edf3f8;--shadow:0 3px 12px rgba(22,38,56,.055);
+  --radius:14px;--content-width:1160px;--page-gutter:clamp(12px,3vw,24px);
 }
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
-header{background:linear-gradient(135deg,#1e3a8a,#2563eb);color:white;padding:24px}
-header h1{margin:0 0 6px;font-size:28px}
-header p{margin:0;opacity:.92}
-nav{display:flex;gap:8px;flex-wrap:wrap;padding:12px 16px;background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
-nav button,.btn{border:1px solid var(--border);background:white;color:var(--text);padding:9px 12px;border-radius:10px;cursor:pointer;font-weight:600}
+html{scroll-behavior:smooth}
+body{margin:0;min-width:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+header{background:linear-gradient(115deg,#183b5a,#275c8c 68%,#327795);color:white;padding:24px max(var(--page-gutter),calc((100% - var(--content-width))/2))}
+header h1{margin:0 0 5px;font-size:clamp(24px,3vw,32px);letter-spacing:-.035em}
+header p{margin:0;color:#e1ebf4;max-width:680px}
+.header-row{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.header-controls{display:grid;gap:10px;flex:0 1 320px;width:min(100%,320px)}
+.bank-switch{flex:0 0 245px;margin:0;color:white!important}
+.bank-switch b{display:block;margin:0 0 5px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#d8e5ef}
+.bank-switch select{background:#fff;color:var(--text);font-weight:650}
+.sync-control{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px;padding:9px 11px;border:1px solid rgba(255,255,255,.25);border-radius:11px;background:rgba(9,35,57,.22);color:#fff}
+.sync-control p{grid-column:1/-1;margin:0;color:#e1ebf4;font-size:12px;line-height:1.35}
+.sync-control .btn{min-height:38px;padding:7px 10px;background:#fff;color:var(--primary);border-color:#fff;font-size:13px}
+.sync-control .btn:hover{background:#edf4f9}
+.sync-status{min-width:0;overflow-wrap:anywhere;font-size:13px;font-weight:650}
+.sync-control.is-signed-in{background:rgba(10,81,61,.35)}
+.cloud-setup{margin-top:18px;padding:15px;border:1px solid var(--border);border-radius:11px;background:#f8fafc}
+.cloud-setup summary{font-weight:700}
+.cloud-setup textarea{min-height:105px}
+nav{position:sticky;top:0;z-index:20;padding:8px max(var(--page-gutter),calc((100% - var(--content-width))/2));border-bottom:1px solid var(--border);background:rgba(255,255,255,.97);backdrop-filter:blur(12px)}
+nav button,.btn{min-height:44px;border:1px solid transparent;background:transparent;color:#46566a;padding:9px 13px;border-radius:9px;cursor:pointer;font:inherit;font-size:14px;font-weight:650;transition:background .15s,border-color .15s,color .15s,transform .15s;touch-action:manipulation}
+nav button:hover,.btn:hover{background:var(--soft);color:var(--primary);border-color:var(--border)}
 nav button.active,.btn.primary{background:var(--primary);color:white;border-color:var(--primary)}
+nav button.active:hover,.btn.primary:hover{background:var(--primary2);border-color:var(--primary2);color:white}
+.menu-toggle{display:none}
+.menu-icon{display:grid;gap:5px;width:20px;flex:none}
+.menu-icon i{display:block;height:2px;border-radius:2px;background:currentColor;transition:transform .2s ease,opacity .2s ease}
+.menu-current{margin-left:auto;color:var(--primary);font-weight:750}
+.page-menu{display:flex;flex-wrap:wrap;gap:5px}
+.page-menu button{flex:0 0 auto}
+.page-menu button.active{background:var(--soft);border-color:#cbd9e5;color:var(--primary)}
 .btn.good{background:var(--good);color:white;border-color:var(--good)}
 .btn.bad{background:var(--bad);color:white;border-color:var(--bad)}
 .btn.warn{background:var(--warn);color:white;border-color:var(--warn)}
-main{max-width:1200px;margin:18px auto;padding:0 16px 60px}
+button:disabled{opacity:.48;cursor:not-allowed}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #7bb3df;outline-offset:2px}
+main{width:min(100%,calc(var(--content-width) + 2 * var(--page-gutter)));margin:24px auto;padding:0 var(--page-gutter) 64px}
 .panel{display:none}
 .panel.active{display:block}
-.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
-.grid{display:grid;gap:14px}
-.grid.two{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
-.grid.three{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
-label{display:block;margin:8px 0;color:var(--text)}
-input,select,textarea{width:100%;padding:9px;border:1px solid var(--border);border-radius:10px;background:white;color:var(--text)}
-textarea{min-height:160px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:clamp(15px,2.2vw,22px);margin:16px 0;box-shadow:var(--shadow)}
+.card h2,.card h3{line-height:1.3;letter-spacing:-.018em}
+.card h2{margin:0 0 8px;font-size:23px}
+.card h3{margin:0 0 10px;font-size:18px}
+.card > :first-child{margin-top:0}
+.card > :last-child{margin-bottom:0}
+.grid{display:grid;gap:16px}
+.grid.two{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.grid.three{grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))}
+.grid.three>.card{margin:0;padding:17px}
+.grid.three>.card h3{font-size:14px;color:var(--muted);font-weight:650;letter-spacing:0}
+.dashboard-stat{display:flex;min-width:0;min-height:132px;flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;width:100%;text-align:left;color:var(--text);font:inherit;cursor:pointer;touch-action:manipulation}
+.dashboard-stat:hover{border-color:#9ab6ce;transform:translateY(-1px)}
+.dashboard-stat span{color:var(--muted);font-size:14px;font-weight:650}
+.dashboard-stat strong{color:var(--primary);font-size:clamp(26px,4vw,34px);line-height:1.2}
+.dashboard-stat small{color:var(--muted);font-size:12px}
+label{display:block;margin:12px 0;color:var(--text);font-size:14px;font-weight:600}
+input:not([type=checkbox]):not([type=radio]),select,textarea{width:100%;min-height:42px;padding:9px 11px;border:1px solid #cbd6e1;border-radius:9px;background:white;color:var(--text);font:inherit;font-weight:400}
+input[type=checkbox],input[type=radio]{width:16px;height:16px;vertical-align:-3px;accent-color:var(--primary);margin-right:6px}
+textarea{min-height:180px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+label:has(input[type=checkbox]){font-weight:500}
 .small{font-size:13px;color:var(--muted)}
-.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:var(--soft);color:#1e40af;font-size:12px;margin:2px}
-.question-title{font-size:19px;font-weight:750;margin-bottom:12px;line-height:1.45}
-.option{display:block;width:100%;text-align:left;border:1px solid var(--border);background:#fff;border-radius:12px;padding:12px;margin:8px 0;cursor:pointer;line-height:1.4}
-.option:hover{border-color:var(--primary);background:#f8fbff}
-.option.selected{border-color:var(--primary);background:#dbeafe}
-.option.correct{border-color:var(--good);background:#dcfce7}
-.option.wrong{border-color:var(--bad);background:#fee2e2}
-.feedback{border-left:5px solid var(--primary);background:#f8fbff;padding:12px;border-radius:10px;margin-top:12px}
-.feedback.good{border-left-color:var(--good);background:#f0fdf4}
-.feedback.bad{border-left-color:var(--bad);background:#fff1f2}
-.controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-.progressbar{height:10px;background:#e5e7eb;border-radius:999px;overflow:hidden}
-.progressbar>div{height:100%;background:var(--primary);width:0%}
-.tablewrap{overflow:auto}
+.badge{display:inline-block;padding:4px 9px;border-radius:999px;background:var(--soft);color:#274e70;font-size:12px;font-weight:650;margin:2px}
+.question-title{font-size:clamp(19px,2.2vw,22px);font-weight:700;margin:16px 0;line-height:1.5;max-width:850px}
+.option{display:block;width:100%;text-align:left;border:1px solid var(--border);background:#fff;border-radius:10px;padding:13px 15px;margin:9px 0;cursor:pointer;line-height:1.5;color:var(--text);font:inherit;transition:border-color .15s,background .15s}
+.option:hover{border-color:#83a9c8;background:#f7fafc}
+.option.selected{border-color:var(--primary);background:#edf4f9}
+.option.correct{border-color:var(--good);background:#eff8f4}
+.option.wrong{border-color:var(--bad);background:#fcf1f1}
+.feedback{border:1px solid #d8e4ed;border-left:4px solid var(--primary);background:#f6f9fb;padding:15px;border-radius:9px;margin-top:16px}
+.feedback.good{border-left-color:var(--good);background:#f1f8f4}
+.feedback.bad{border-left-color:var(--bad);background:#fbf3f3}
+.controls{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:15px}
+.matching-row{display:grid;grid-template-columns:minmax(180px,.7fr) minmax(260px,1.6fr) minmax(150px,.8fr);align-items:start;gap:12px;padding:13px 0;border-bottom:1px solid var(--border)}
+.matching-row>span:first-child{padding:10px 0}
+.matching-feedback{padding:10px 0;font-size:13px;color:var(--muted);font-weight:500}
+.matching-correct{border-color:var(--good)!important;background:#eff8f4!important}
+.matching-wrong{border-color:var(--bad)!important;background:#fcf1f1!important}
+.matching-mode{display:none}
+.match-board{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.6fr);gap:22px;margin-top:20px}
+.match-column{display:grid;align-content:start;gap:10px}
+.match-column h3{margin:0 0 2px;font-size:14px;color:var(--muted)}
+.matching-tile{width:100%;min-height:54px;padding:12px 14px;border:1px solid var(--border);border-radius:11px;background:#fff;color:var(--text);text-align:left;font:inherit;line-height:1.45;cursor:pointer;box-shadow:0 1px 2px rgba(20,38,56,.04);transition:border-color .15s,background .15s,transform .15s}
+.matching-tile:hover:not(:disabled){border-color:#81a8c7;background:#f4f8fb;transform:translateY(-1px)}
+.matching-tile.is-selected{border:2px solid var(--primary);background:#edf4f9}
+.matching-tile.is-matched{border-color:#9fcfba;background:#eff8f4;color:#28634b}
+.matching-tile.is-wrong{border-color:var(--bad);background:#fcf1f1}
+.matching-tile:disabled{cursor:default;opacity:.78}
+.matching-tile:disabled.is-matched{opacity:1}
+.match-progress{display:flex;align-items:center;gap:10px;margin:14px 0;color:var(--muted);font-size:13px}
+.match-progress .progressbar{flex:1}
+.timeline-list{display:grid;gap:10px;margin:18px 0}
+.timeline-item{display:grid;grid-template-columns:42px minmax(0,1fr) auto;align-items:center;gap:12px;padding:14px;border:1px solid var(--border);border-radius:11px;background:#fff;transition:border-color .15s,background .15s,transform .15s}
+.timeline-item[draggable="true"]{cursor:grab}
+.timeline-item.is-dragging{opacity:.45}
+.timeline-item.is-drop-target{border-color:var(--primary);background:#edf4f9;transform:translateY(-2px)}
+.timeline-position{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--primary);color:#fff;font-weight:750}
+.timeline-content b{display:block;margin:5px 0}
+.timeline-content span{display:block;color:var(--muted);font-size:13px;line-height:1.45}
+.timeline-actions{display:flex;gap:5px}
+.timeline-actions .btn{width:38px;height:38px;padding:4px;font-size:19px}
+.timeline-instructions{padding:12px 14px;border-radius:10px;background:var(--soft);color:#43586c}
+.feedback-recap{margin:0 0 15px;padding:12px;border:1px solid var(--border);border-radius:10px;background:#f8fafc}
+.timeline-solution{padding:10px 0 0 20px}
+.timeline-solution li{padding:5px 0}
+.timeline-item.is-correct{border-color:#9fcfba;background:#f4faf6}
+.timeline-item.is-incorrect{border-color:#e4b3b3;background:#fcf6f6}
+.analysis-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:12px}
+.analysis-metric{display:flex;flex-direction:column;gap:3px;margin:0;padding:16px}
+.analysis-metric>span,.analysis-metric>small{color:var(--muted);font-size:12px}
+.analysis-metric>b{font-size:26px;line-height:1.35;color:var(--primary)}
+.analysis-section-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.analysis-section-heading h3{margin-bottom:3px}
+.analysis-section-heading p{margin:0}
+.analysis-trend{flex:none;padding:5px 9px;border-radius:999px;font-size:13px;font-weight:700;background:#eff8f4;color:var(--good)}
+.analysis-trend.trend-down{background:#fcf1f1;color:var(--bad)}
+.analysis-chart{width:100%;overflow:hidden}
+.analysis-chart svg{display:block;width:100%;height:auto;min-height:150px}
+.analysis-empty{padding:18px;border:1px dashed var(--border);border-radius:9px;color:var(--muted);background:#fafbfd}
+.analysis-chapters{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:12px}
+.analysis-chapter{padding:14px;border:1px solid var(--border);border-radius:10px;background:#fcfdfe}
+.analysis-chapter-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:12px}
+.analysis-chapter-head b{font-size:14px}
+.analysis-chapter-head .small{text-align:right}
+.analysis-bars{display:grid;grid-template-columns:62px minmax(60px,1fr) 46px;gap:9px;align-items:center;margin:7px 0}
+.analysis-bars>b{text-align:right;font-size:12px}
+.analysis-track{height:8px;border-radius:999px;background:#e8edf2;overflow:hidden}
+.analysis-track i{display:block;height:100%;border-radius:inherit;background:#7ca1bd}
+.analysis-practice{padding:5px 8px;margin-top:8px;font-size:12px}
+.analysis-history{padding:18px 21px}
+.progressbar{height:8px;background:#e7edf2;border-radius:999px;overflow:hidden}
+.progressbar>div{height:100%;background:var(--primary);width:0%;transition:width .2s ease}
+.tablewrap{max-width:100%;overflow:auto;border-radius:8px}
 table{width:100%;border-collapse:collapse;font-size:14px}
-th,td{border-bottom:1px solid var(--border);padding:8px;text-align:left;vertical-align:top}
-th{background:#f8fafc}
+th,td{border-bottom:1px solid var(--border);padding:10px 11px;text-align:left;vertical-align:top}
+th{background:#f5f8fa;color:#415367;font-size:12px;letter-spacing:.035em;font-weight:700}
+tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#f8fafc}
+details>summary{cursor:pointer;list-style:none}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"+";display:inline-grid;place-items:center;width:21px;height:21px;margin-right:9px;border:1px solid var(--border);border-radius:6px;color:var(--primary);font-weight:700}
+details[open]>summary::before{content:"−"}
+details[open]>summary{margin-bottom:14px}
 .heat-good{color:var(--good);font-weight:800}
 .heat-mid{color:var(--warn);font-weight:800}
 .heat-bad{color:var(--bad);font-weight:800}
-.flashcard{min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:22px;line-height:1.45;background:linear-gradient(135deg,#fff,#eef4ff);border:2px dashed #bfdbfe;border-radius:18px;padding:24px;cursor:pointer}
+.flashcard{min-height:250px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:clamp(21px,3vw,28px);line-height:1.5;white-space:pre-wrap;overflow-wrap:anywhere;background:linear-gradient(145deg,#fff,#f0f5f9);border:1px solid #d7e2eb;border-radius:var(--radius);padding:32px;cursor:pointer;touch-action:manipulation;box-shadow:inset 0 0 0 5px #f8fafc}
+.card,.grid,.grid>* ,label,.question-title,.option,.feedback,.matching-tile,.timeline-content,.analysis-chapter{min-width:0}
+.question-title,.option,.feedback,.matching-tile,.timeline-content,td,th{overflow-wrap:anywhere}
+.tablewrap{-webkit-overflow-scrolling:touch}
 .hidden{display:none!important}
-hr{border:0;border-top:1px solid var(--border);margin:16px 0}
-code{background:#eef2ff;border-radius:6px;padding:2px 5px}
+hr{border:0;border-top:1px solid var(--border);margin:22px 0}
+code{background:#eef2f6;border-radius:5px;padding:2px 5px}
+pre{max-width:100%;overflow:auto;padding:15px;border:1px solid var(--border);border-radius:9px;background:#f7f9fb;line-height:1.5}
+@media(max-width:640px){
+  header{padding:20px 16px}
+  .header-row{align-items:flex-start;flex-direction:column;gap:14px}
+  .header-controls{flex-basis:auto;width:100%;max-width:420px}
+  .bank-switch{flex-basis:auto;width:100%;max-width:none}
+  nav{padding:7px 10px}
+  .menu-toggle{width:100%;max-width:420px}
+  .page-menu{left:8px;right:8px;width:auto;grid-template-columns:repeat(2,minmax(0,1fr));padding:10px}
+  main{width:100%;margin:14px auto;padding:0 11px 42px}
+  .card{padding:16px;margin:12px 0;border-radius:12px}
+  .grid.two{grid-template-columns:minmax(0,1fr)}
+  .grid.three{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .grid.three>.card{padding:14px}
+  .dashboard-stat{min-height:112px;padding:12px}
+  .dashboard-stat span{font-size:13px}
+  .dashboard-stat small{font-size:11px;line-height:1.35}
+  .controls{align-items:stretch}
+  .controls>.btn{flex:1 1 150px;min-height:44px}
+  .matching-row{grid-template-columns:minmax(0,1fr);gap:3px;padding:12px 0}
+  .matching-row>span:first-child,.matching-feedback{padding:2px 0}
+  .match-board{grid-template-columns:minmax(0,1fr);gap:18px}
+  .matching-tile{min-height:52px}
+  .timeline-item{grid-template-columns:34px minmax(0,1fr);gap:8px;padding:11px}
+  .timeline-actions{grid-column:auto}
+  .timeline-actions .btn{min-width:44px;min-height:44px}
+  .analysis-metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .analysis-metric{padding:12px}
+  .analysis-metric>b{font-size:22px}
+  .analysis-chapters{grid-template-columns:1fr}
+  .analysis-chapter-head{flex-direction:column}
+  .analysis-chapter-head .small{text-align:left}
+  .analysis-bars{grid-template-columns:55px minmax(0,1fr) 42px;gap:6px}
+  .flashcard{min-height:210px;padding:22px}
+  table{min-width:560px;font-size:13px}
+  th,td{padding:8px}
+  .tablewrap{overflow-x:auto}
+  details>summary{line-height:1.5}
+}
+@media(max-width:900px){
+  nav{padding-top:7px;padding-bottom:7px}
+  .menu-toggle{display:flex;align-items:center;gap:12px;width:min(100%,420px);min-height:50px;padding:9px 14px;border:1px solid rgba(255,255,255,.75);border-radius:13px;background:linear-gradient(135deg,#fff,#f4f8fb);box-shadow:0 3px 10px rgba(22,38,56,.09);text-align:left}
+  .menu-toggle:hover{background:#fff;border-color:#a8bfd2;box-shadow:0 5px 14px rgba(22,38,56,.12)}
+  .menu-toggle[aria-expanded="true"]{border-color:#9bb6cc;border-radius:13px 13px 0 0}
+  .menu-toggle[aria-expanded="true"] .menu-icon i:first-child{transform:translateY(7px) rotate(45deg)}
+  .menu-toggle[aria-expanded="true"] .menu-icon i:nth-child(2){opacity:0}
+  .menu-toggle[aria-expanded="true"] .menu-icon i:last-child{transform:translateY(-7px) rotate(-45deg)}
+  .page-menu{position:absolute;top:calc(100% - 1px);left:max(var(--page-gutter),calc((100% - var(--content-width))/2));display:none;width:min(560px,calc(100vw - 2 * var(--page-gutter)));max-height:min(72vh,560px);overflow-y:auto;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;padding:12px;border:1px solid #cbd9e5;border-radius:0 14px 14px 14px;background:rgba(255,255,255,.98);box-shadow:0 16px 34px rgba(22,38,56,.17)}
+  .page-menu.is-open{display:grid}
+  .page-menu button{min-width:0;min-height:46px;text-align:left;overflow-wrap:anywhere}
+  .page-menu button.active{background:linear-gradient(135deg,#edf4f9,#f8fbfd);border-color:#c4d6e5;box-shadow:inset 3px 0 var(--primary)}
+}
+@media(max-width:420px){
+  header{padding:17px 12px}
+  header h1{font-size:24px}
+  main{padding-right:8px;padding-left:8px}
+  .card{padding:13px}
+  .grid.three{grid-template-columns:minmax(0,1fr)}
+  .grid.three>.card{padding:13px}
+  .dashboard-stat{min-height:88px}
+  .controls>.btn{flex-basis:100%}
+  .analysis-section-heading{flex-direction:column}
+  .analysis-bars{grid-template-columns:48px minmax(0,1fr) 38px}
+  .matching-tile{padding:11px 12px}
+  .timeline-item{grid-template-columns:30px minmax(0,1fr);gap:6px;padding:9px}
+  .timeline-position{width:28px;height:28px}
+  .page-menu{grid-template-columns:minmax(0,1fr)}
+  .timeline-actions{justify-content:flex-end}
+}
+@media(max-width:380px){
+  .analysis-metrics{grid-template-columns:minmax(0,1fr)}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
 </style>
 </head>
 <body>
 <header>
-  <h1>Functieleer Oefenomgeving</h1>
-  <p>Interactieve toetsomgeving met vraagbank, analyse, flashcards, import/export en adaptieve herhaling.</p>
+  <div class="header-row">
+    <div>
+      <h1>Tentamen Oefenomgeving</h1>
+      <p>Oefen, herhaal en volg je voortgang voor je geselecteerde vak.</p>
+    </div>
+    <div class="header-controls">
+      <label class="bank-switch">
+        <b>Geselecteerde vraagbank</b>
+        <select id="bankSelector" onchange="switchBank()">
+          <option value="functieleren">Functieleer</option>
+          <option value="geschiedenis">Geschiedenis van de Psychologie</option>
+        </select>
+      </label>
+      <div id="syncControl" class="sync-control" aria-live="polite">
+        <span id="syncStatus" class="sync-status">Voortgang alleen op dit apparaat</span>
+        <button id="syncSignIn" class="btn" type="button" onclick="startGoogleSignIn()">Inloggen</button>
+        <button id="syncSignOut" class="btn hidden" type="button" onclick="signOutOfCloud()">Uitloggen</button>
+        <p>Log in met Google om je voortgang te synchroniseren.</p>
+      </div>
+    </div>
+  </div>
 </header>
 
-<nav>
-  <button data-tab="dashboard" class="active">Dashboard</button>
-  <button data-tab="exam">Toets maken</button>
-  <button data-tab="flashcards">Flashcards</button>
-  <button data-tab="analysis">Analyse</button>
-  <button data-tab="bank">Vraagbank</button>
-  <button data-tab="import">Import / Export</button>
-  <button data-tab="settings">Instellingen</button>
+<nav aria-label="Paginanavigatie">
+  <button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="pageMenu" aria-label="Open paginamenu">
+    <span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span>Pagina's</span>
+    <span id="menuCurrentPage" class="menu-current">Dashboard</span>
+  </button>
+  <div id="pageMenu" class="page-menu" aria-label="Kies een pagina">
+    <button data-tab="dashboard" class="active" aria-current="page">Dashboard</button>
+    <button data-tab="exam">Toets maken</button>
+    <button data-tab="flashcards">Flashcards</button>
+    <button data-tab="matching">Begrippen koppelen</button>
+    <button id="timelineNav" data-tab="timeline" class="hidden">Volgorde oefenen</button>
+    <button data-tab="analysis">Analyse</button>
+    <button data-tab="bank">Vraagbank</button>
+    <button data-tab="import">Import / Export</button>
+    <button data-tab="settings">Instellingen</button>
+  </div>
 </nav>
 
 <main>
 
 <section id="dashboard" class="panel active">
   <div class="card">
-    <h2>Welkom</h2>
-    <p>Deze omgeving is bedoeld om Functieleer op universitair niveau te oefenen. Je kunt algemene tentamens genereren, hoofdstukken selecteren, feedback direct of achteraf krijgen, flashcards oefenen en voortgang analyseren.</p>
-    <p class="small"><b>Let op:</b> deze versie bevat een startvraagbank. De volledige vraagbank kan later per hoofdstuk worden geïmporteerd via de importfunctie.</p>
+    <h2>Dashboard</h2>
     <div class="grid three">
-      <div class="card"><h3>Vragen in bank</h3><div id="dashQ" style="font-size:32px;font-weight:800"></div></div>
-      <div class="card"><h3>Flashcards</h3><div id="dashF" style="font-size:32px;font-weight:800"></div></div>
-      <div class="card"><h3>Gemaakte toetsen</h3><div id="dashT" style="font-size:32px;font-weight:800"></div></div>
+      <div class="card dashboard-stat"><span>Vragen in bank</span><strong id="dashQ"></strong><small>geselecteerde vraagbank</small></div>
+      <button type="button" class="card dashboard-stat" onclick="showTab('flashcards')" aria-label="Open flashcards voor de geselecteerde vraagbank"><span>Flashcards beschikbaar</span><strong id="dashF"></strong><small id="dashFNote">in deze vraagbank · klik om te oefenen</small></button>
+      <div class="card dashboard-stat"><span>Gemaakte toetsen</span><strong id="dashT"></strong><small>voor deze vraagbank</small></div>
     </div>
-  </div>
-  <div class="card">
-    <h3>Snelle acties</h3>
+    <p id="dashSummary" class="small"></p>
     <div class="controls">
       <button class="btn primary" onclick="quickExam()">Start algemene toets</button>
+      <button class="btn" onclick="startMixedReview()">Gemengde herhaalsessie</button>
       <button class="btn" onclick="showTab('flashcards')">Oefen flashcards</button>
+      <button class="btn" onclick="showTab('matching')">Begrippen koppelen</button>
       <button class="btn" onclick="showTab('analysis');renderAnalysis()">Bekijk analyse</button>
     </div>
   </div>
+  <div id="dashMastery"></div>
+  <div id="dashMistakes"></div>
 </section>
 
 <section id="exam" class="panel">
@@ -157,6 +367,7 @@ code{background:#eef2ff;border-radius:6px;padding:2px 5px}
   </div>
 
   <div id="examRun" class="card hidden">
+    <p id="examSessionNote" class="small"></p>
     <div class="controls" style="justify-content:space-between">
       <div><b id="examProgressText"></b> <span class="badge" id="timerBox"></span></div>
       <button class="btn bad" onclick="abortExam()">Stop toets</button>
@@ -204,10 +415,80 @@ code{background:#eef2ff;border-radius:6px;padding:2px 5px}
   </div>
 </section>
 
+<section id="matching" class="panel">
+  <div class="card">
+    <h2>Begrippen koppelen</h2>
+    <p id="matchingInstructions" class="small">Kies een begrip en daarna de bijbehorende uitleg. De omschrijvingen komen uit de geselecteerde vraagbank.</p>
+    <div class="grid two">
+      <label>Hoofdstuk
+        <select id="matchingChapter"></select>
+      </label>
+      <label id="matchingModeWrap" class="matching-mode">Oefening
+        <select id="matchingMode" onchange="updateMatchingInstructions()">
+          <option value="concepts">Begrippen en uitleg</option>
+          <option value="people">Belangrijke personen</option>
+        </select>
+      </label>
+      <label>Aantal koppelingen
+        <select id="matchingCount">
+          <option value="5">5 begrippen</option>
+          <option value="8">8 begrippen</option>
+        </select>
+      </label>
+      <label>Omgaan met fouten
+        <select id="matchingErrorMode">
+          <option value="immediate">Fouten direct tellen</option>
+          <option value="retry">Fouten aan het einde tellen en opnieuw proberen</option>
+        </select>
+      </label>
+    </div>
+    <div class="controls">
+      <button class="btn primary" onclick="startMatching()">Start oefening</button>
+    </div>
+  </div>
+  <div id="matchingRun" class="card hidden">
+    <div class="small" id="matchingMeta"></div>
+    <div class="match-progress"><span id="matchingProgressText"></span><div class="progressbar"><div id="matchingProgressBar"></div></div></div>
+    <div id="matchingPairs"></div>
+    <div class="controls">
+      <button id="matchingAgain" class="btn hidden" onclick="startMatching()">Nieuwe ronde</button>
+    </div>
+    <p id="matchingResult" aria-live="polite"></p>
+  </div>
+</section>
+
+<section id="timeline" class="panel">
+  <div class="card">
+    <h2>Historische volgorde</h2>
+    <p class="small">Zet onderwerpen uit verschillende hoofdstukken in de volgorde waarin ze in de cursus aan bod komen. Je oefent de grote historische lijn, niet jaartallen.</p>
+    <div class="grid two">
+      <label>Aantal onderwerpen
+        <select id="timelineCount">
+        <option value="5">5 onderwerpen</option>
+        <option value="8">8 onderwerpen</option>
+        </select>
+      </label>
+      <div class="timeline-instructions"><b>Zo werkt het</b><br>Sleep de kaarten naar de juiste plek. Op telefoon of tablet kun je ook de pijltjes gebruiken.</div>
+    </div>
+    <div class="controls"><button class="btn primary" onclick="startTimeline()">Start volgorde-oefening</button></div>
+  </div>
+  <div id="timelineRun" class="card hidden">
+    <p id="timelineMeta" class="small"></p>
+    <p class="timeline-instructions">Sleep een kaart omhoog of omlaag om de volgorde aan te passen. De pijltjes doen hetzelfde.</p>
+    <div id="timelineItems"></div>
+    <div class="controls">
+      <button id="timelineCheck" class="btn primary" onclick="checkTimeline()">Controleer volgorde</button>
+      <button id="timelineAgain" class="btn hidden" onclick="startTimeline()">Nieuwe ronde</button>
+    </div>
+    <p id="timelineResult" aria-live="polite"></p>
+    <div id="timelineSolution"></div>
+  </div>
+</section>
+
 <section id="analysis" class="panel">
   <div class="card">
     <h2>Analyse</h2>
-    <p class="small">Analyse wordt opgebouwd over alle toetsen heen. Zwakke stof wordt bepaald op basis van score per concept, aantal pogingen en recente fouten.</p>
+    <p class="small">Bekijk je scoretrend, dekking en resultaten per hoofdstuk voor de geselecteerde vraagbank. Hoofdstukscores worden voorzichtig geïnterpreteerd wanneer er weinig antwoorden zijn.</p>
     <div class="controls">
       <button class="btn primary" onclick="renderAnalysis()">Ververs analyse</button>
       <button class="btn" onclick="makeWeakExam()">Toets zwakke stof</button>
@@ -274,7 +555,28 @@ code{background:#eef2ff;border-radius:6px;padding:2px 5px}
     <label><input id="settingShowWhyWrong" type="checkbox" checked/> Per fout alternatief uitleg tonen</label>
     <label><input id="settingShowTips" type="checkbox" checked/> Tips, voorbeelden en ezelsbruggetjes tonen</label>
     <label><input id="settingShuffleQuestions" type="checkbox" checked/> Vraagvolgorde randomiseren</label>
+    <label><input id="settingConfirmAnswers" type="checkbox" checked/> Antwoord pas controleren na klikken op ‘Controleer & volgende’</label>
     <button class="btn primary" onclick="saveSettings()">Instellingen opslaan</button>
+  </div>
+  <div class="card">
+    <h2>Voortgang synchroniseren</h2>
+    <p class="small">Log in met hetzelfde Google-account op elk apparaat. Je toetsresultaten, open fouten, flashcardplanning en instellingen worden dan in je eigen Firebase-account bewaard.</p>
+    <details class="cloud-setup">
+      <summary>Eenmalig Firebase instellen</summary>
+      <ol class="small">
+        <li>Maak in Firebase een project en voeg een webapp toe.</li>
+        <li>Schakel Google in bij Authentication en maak een Firestore-database.</li>
+        <li>Voeg het domein van deze website toe bij de toegestane domeinen van Authentication.</li>
+        <li>De publieke Firebase-configuratie van jouw webapp staat hieronder al ingevuld.</li>
+        <li>Publiceer de regels uit <code>firestore.rules</code> in Firestore Rules.</li>
+      </ol>
+      <label for="firebaseConfigInput">Firebase webconfiguratie (JSON)</label>
+      <textarea id="firebaseConfigInput" spellcheck="false" placeholder='{"apiKey":"...","authDomain":"...","projectId":"...","appId":"..."}'></textarea>
+      <div class="controls">
+        <button class="btn primary" type="button" onclick="saveFirebaseConfig()">Configuratie opslaan en verbinden</button>
+      </div>
+      <p class="small">De webconfiguratie is geen wachtwoord. Je voortgang wordt per ingelogde Google-gebruiker afgeschermd door de Firestore-regels. Pas deze waarden alleen aan als je een ander Firebase-project gebruikt.</p>
+    </details>
   </div>
 </section>
 
@@ -555,7 +857,16 @@ const BUILTIN_QUESTIONS = [
 const STORAGE_KEYS = {
   questions:"fl_questions_v1",
   progress:"fl_progress_v1",
-  settings:"fl_settings_v1"
+  settings:"fl_settings_v1",
+  firebaseConfig:"fl_firebase_config_v1"
+};
+const DEFAULT_FIREBASE_CONFIG = {
+  apiKey:"AIzaSyCfrWBLCrD7eBWpWwaKuruXAOUYBB80xbM",
+  authDomain:"tentamens-oefenen.firebaseapp.com",
+  projectId:"tentamens-oefenen",
+  storageBucket:"tentamens-oefenen.firebasestorage.app",
+  messagingSenderId:"176184044299",
+  appId:"1:176184044299:web:38f9c496218236a121100e"
 };
 
 let questions = [];
@@ -567,6 +878,27 @@ let timerInterval = null;
 let fcDeck = [];
 let fcIndex = 0;
 let fcFlipped = false;
+let fcBank = "functieleren";
+let matchingDeck = [];
+let matchingAnswers = [];
+let matchingSelections = {term:null,description:null};
+let matchingWrong = new Set();
+let matchingMatched = new Set();
+let matchingAttemptedWrong = new Set();
+let matchingErrorMode = "immediate";
+let matchingRetryStage = false;
+let matchingErrorCount = 0;
+let matchingRoundIndices = [];
+let timelineDeck = [];
+let timelineOrder = [];
+let timelineChecked = false;
+let timelineDragPosition = null;
+let firebaseModules = null;
+let firebaseAuth = null;
+let firestore = null;
+let cloudUser = null;
+let cloudInitPromise = null;
+let cloudSyncTimer = null;
 
 async function loadQuestionsFromServer(){
   try {
@@ -610,14 +942,21 @@ async function loadQuestionsFromServer(){
 }
 function saveQuestions(){localStorage.setItem(STORAGE_KEYS.questions, JSON.stringify(questions))}
 function loadProgress(){
-  const base = {attempts:{},history:[],flashcards:{},seenCorrect:{}};
+  const base = {attempts:{},history:[],flashcards:{},seenCorrect:{},mistakes:{}};
   const saved = localStorage.getItem(STORAGE_KEYS.progress);
   if(!saved)return base;
-  try{return Object.assign(base, JSON.parse(saved))}catch(e){return base}
+  try{
+    const loaded=Object.assign(base, JSON.parse(saved));
+    if(!loaded.mistakes || typeof loaded.mistakes!=="object")loaded.mistakes={};
+    return loaded;
+  }catch(e){return base}
 }
-function saveProgress(){localStorage.setItem(STORAGE_KEYS.progress, JSON.stringify(progress))}
+function saveProgress(){
+  localStorage.setItem(STORAGE_KEYS.progress, JSON.stringify(progress));
+  queueCloudSync();
+}
 function loadSettings(){
-  const base = {detailed:true,showWhyWrong:true,showTips:true,shuffleQuestions:true};
+  const base = {detailed:true,showWhyWrong:true,showTips:true,shuffleQuestions:true,confirmAnswers:true};
   const saved = localStorage.getItem(STORAGE_KEYS.settings);
   if(!saved)return base;
   try{return Object.assign(base, JSON.parse(saved))}catch(e){return base}
@@ -627,30 +966,352 @@ function saveSettings(){
   settings.showWhyWrong=document.getElementById("settingShowWhyWrong").checked;
   settings.showTips=document.getElementById("settingShowTips").checked;
   settings.shuffleQuestions=document.getElementById("settingShuffleQuestions").checked;
+  settings.confirmAnswers=document.getElementById("settingConfirmAnswers").checked;
   localStorage.setItem(STORAGE_KEYS.settings, JSON.stringify(settings));
+  queueCloudSync();
   alert("Instellingen opgeslagen.");
 }
 
+function setCloudStatus(message,isSignedIn=false){
+  const status=document.getElementById("syncStatus");
+  const control=document.getElementById("syncControl");
+  if(status)status.textContent=message;
+  if(control)control.classList.toggle("is-signed-in",isSignedIn);
+}
+function updateCloudSyncControls(){
+  const signedIn=Boolean(cloudUser);
+  const configured=Boolean(localStorage.getItem(STORAGE_KEYS.firebaseConfig)||DEFAULT_FIREBASE_CONFIG);
+  const signInButton=document.getElementById("syncSignIn");
+  signInButton.classList.toggle("hidden",signedIn);
+  signInButton.disabled=false;
+  signInButton.textContent=configured?"Inloggen met Google":"Synchronisatie instellen";
+  document.getElementById("syncSignOut").classList.toggle("hidden",!signedIn);
+  if(signedIn){
+    setCloudStatus(`Ingelogd als ${cloudUser.email||cloudUser.displayName||"Google-gebruiker"}`,true);
+  }else if(!configured){
+    setCloudStatus("Voortgang alleen op dit apparaat");
+  }
+}
+async function loadFirebaseModules(){
+  if(firebaseModules)return firebaseModules;
+  const version="11.10.0";
+  const [app,auth,store]=await Promise.all([
+    import(`https://www.gstatic.com/firebasejs/${version}/firebase-app.js`),
+    import(`https://www.gstatic.com/firebasejs/${version}/firebase-auth.js`),
+    import(`https://www.gstatic.com/firebasejs/${version}/firebase-firestore.js`)
+  ]);
+  firebaseModules={...app,...auth,...store};
+  return firebaseModules;
+}
+async function initializeCloudSync(){
+  if(firebaseAuth&&firestore)return true;
+  if(cloudInitPromise)return cloudInitPromise;
+  const savedConfig=localStorage.getItem(STORAGE_KEYS.firebaseConfig)||JSON.stringify(DEFAULT_FIREBASE_CONFIG);
+  cloudInitPromise=(async()=>{
+    try{
+      const config=JSON.parse(savedConfig);
+      if(!config.apiKey||!config.authDomain||!config.projectId||!config.appId){
+        throw new Error("De Firebase-configuratie mist apiKey, authDomain, projectId of appId.");
+      }
+      const sdk=await loadFirebaseModules();
+      const app=sdk.initializeApp(config,`study-app-${config.projectId}`);
+      firebaseAuth=sdk.getAuth(app);
+      firestore=sdk.getFirestore(app);
+      sdk.onAuthStateChanged(firebaseAuth,user=>handleCloudAuthChange(user),error=>{
+        setCloudStatus(`Firebase-aanmeldfout: ${error.message}`);
+      });
+      setCloudStatus("Firebase ingesteld · log in om voortgang te synchroniseren");
+      updateCloudSyncControls();
+      return true;
+    }catch(error){
+      cloudInitPromise=null;
+      setCloudStatus(`Synchronisatie instellen mislukt: ${error.message}`);
+      updateCloudSyncControls();
+      return false;
+    }
+  })();
+  return cloudInitPromise;
+}
+async function handleCloudAuthChange(user){
+  cloudUser=user;
+  updateCloudSyncControls();
+  if(!user)return;
+  setCloudStatus("Voortgang ophalen…",true);
+  try{
+    const sdk=await loadFirebaseModules();
+    const reference=sdk.doc(firestore,"users",user.uid,"appData","state");
+    const snapshot=await sdk.getDoc(reference);
+    const cloudData=snapshot.exists()?snapshot.data():null;
+    if(cloudData){
+      progress=mergeProgressData(progress,cloudData.progress);
+      settings=Object.assign({},settings,cloudData.settings||{});
+      localStorage.setItem(STORAGE_KEYS.progress,JSON.stringify(progress));
+      localStorage.setItem(STORAGE_KEYS.settings,JSON.stringify(settings));
+      document.getElementById("settingDetailed").checked=settings.detailed;
+      document.getElementById("settingShowWhyWrong").checked=settings.showWhyWrong;
+      document.getElementById("settingShowTips").checked=settings.showTips;
+      document.getElementById("settingShuffleQuestions").checked=settings.shuffleQuestions;
+      document.getElementById("settingConfirmAnswers").checked=settings.confirmAnswers;
+      renderDashboard();
+      renderAnalysis();
+    }
+    setCloudStatus("Voortgang synchroniseren…",true);
+    await writeCloudState();
+  }catch(error){
+    setCloudStatus(`Synchronisatie mislukt: ${error.message}`,true);
+  }
+}
+function mergeProgressData(localData,cloudData){
+  const local=localData||{};
+  const remote=cloudData||{};
+  const attempts={...(remote.attempts||{}),...(local.attempts||{})};
+  Object.keys(remote.attempts||{}).forEach(key=>{
+    const cloudAttempt=remote.attempts[key],localAttempt=local.attempts?.[key];
+    if(localAttempt){
+      attempts[key]={...cloudAttempt,...localAttempt,
+        correct:Math.max(Number(cloudAttempt.correct)||0,Number(localAttempt.correct)||0),
+        wrong:Math.max(Number(cloudAttempt.wrong)||0,Number(localAttempt.wrong)||0)};
+    }
+  });
+  const history=new Map();
+  [...(remote.history||[]),...(local.history||[])].forEach(item=>{
+    if(item?.id)history.set(item.id,item);
+  });
+  const flashcards={...(remote.flashcards||{}),...(local.flashcards||{})};
+  Object.keys(remote.flashcards||{}).forEach(key=>{
+    const remoteCard=remote.flashcards[key],localCard=local.flashcards?.[key];
+    if(remoteCard&&localCard){
+      flashcards[key]=(Number(remoteCard.last)||0)>(Number(localCard.last)||0)?remoteCard:localCard;
+    }
+  });
+  const mistakes={...(remote.mistakes||{}),...(local.mistakes||{})};
+  Object.keys(remote.mistakes||{}).forEach(key=>{
+    const remoteMistake=remote.mistakes[key],localMistake=local.mistakes?.[key];
+    if(remoteMistake&&localMistake&&Number(remoteMistake.lastWrongAt)>Number(localMistake.lastWrongAt)){
+      mistakes[key]=remoteMistake;
+    }
+  });
+  const seenCorrect={...(remote.seenCorrect||{}),...(local.seenCorrect||{})};
+  Object.keys(remote.seenCorrect||{}).forEach(key=>{
+    if(Number(local.seenCorrect?.[key])>Number(remote.seenCorrect[key]))seenCorrect[key]=local.seenCorrect[key];
+  });
+  Object.keys(mistakes).forEach(key=>{
+    const correctAt=Number(seenCorrect[key])||0;
+    const wrongAt=Number(mistakes[key]?.lastWrongAt)||0;
+    if(correctAt>=wrongAt&&correctAt>0)delete mistakes[key];
+  });
+  return {
+    ...remote,...local,
+    attempts,
+    history:[...history.values()].sort((a,b)=>new Date(a.date)-new Date(b.date)),
+    flashcards,
+    seenCorrect,
+    mistakes
+  };
+}
+function queueCloudSync(){
+  if(!cloudUser||!firestore)return;
+  clearTimeout(cloudSyncTimer);
+  cloudSyncTimer=setTimeout(()=>writeCloudState(),700);
+}
+async function writeCloudState(){
+  if(!cloudUser||!firestore)return;
+  try{
+    const sdk=await loadFirebaseModules();
+    const reference=sdk.doc(firestore,"users",cloudUser.uid,"appData","state");
+    await sdk.setDoc(reference,{
+      progress:JSON.parse(JSON.stringify(progress)),
+      settings:JSON.parse(JSON.stringify(settings)),
+      updatedAt:Date.now(),
+      schemaVersion:1
+    });
+    setCloudStatus("Voortgang gesynchroniseerd",true);
+  }catch(error){
+    setCloudStatus(`Synchronisatie mislukt: ${error.message}`,true);
+  }
+}
+async function startGoogleSignIn(){
+  if(!await initializeCloudSync()){
+    if(!localStorage.getItem(STORAGE_KEYS.firebaseConfig)){
+      showTab("settings");
+      document.querySelector(".cloud-setup").open=true;
+      setCloudStatus("Stel eerst Firebase in bij Instellingen");
+    }
+    return;
+  }
+  try{
+    const sdk=await loadFirebaseModules();
+    await sdk.signInWithPopup(firebaseAuth,new sdk.GoogleAuthProvider());
+  }catch(error){
+    setCloudStatus(`Inloggen mislukt: ${error.message}`);
+  }
+}
+async function signOutOfCloud(){
+  if(!firebaseAuth)return;
+  try{
+    await firebaseModules.signOut(firebaseAuth);
+    cloudUser=null;
+    updateCloudSyncControls();
+  }catch(error){
+    setCloudStatus(`Uitloggen mislukt: ${error.message}`,true);
+  }
+}
+async function saveFirebaseConfig(){
+  const input=document.getElementById("firebaseConfigInput").value.trim();
+  try{
+    const config=JSON.parse(input);
+    if(!config.apiKey||!config.authDomain||!config.projectId||!config.appId){
+      throw new Error("Vul minimaal apiKey, authDomain, projectId en appId in.");
+    }
+    localStorage.setItem(STORAGE_KEYS.firebaseConfig,JSON.stringify(config));
+    cloudInitPromise=null;
+    setCloudStatus("Firebase verbinden…");
+    await initializeCloudSync();
+  }catch(error){
+    setCloudStatus(`Configuratie niet opgeslagen: ${error.message}`);
+  }
+}
+
 function chapters(){
-  return [...new Set(questions.map(q=>q.chapter))].sort();
+  return [...new Set(questions.map(q=>q.chapter))].sort(compareChapters);
+}
+const historyChapterNames={
+  "Hoofdstuk 1":"Vroege ideeën over de psyche",
+  "Hoofdstuk 2":"Rationalisme en empirisme",
+  "Hoofdstuk 3":"Hersenen en lokalisatie",
+  "Hoofdstuk 4":"Waarneming en psychofysica",
+  "Hoofdstuk 5":"De opkomst van experimentele psychologie",
+  "Hoofdstuk 6":"Darwin en de evolutietheorie",
+  "Hoofdstuk 7":"Individuele verschillen en meten",
+  "Hoofdstuk 8":"Functionalisme en leren",
+  "Hoofdstuk 9":"Behaviorisme en conditionering",
+  "Hoofdstuk 10":"Suggestie en sociale psychologie",
+  "Hoofdstuk 11":"Freud en de psychoanalyse",
+  "Hoofdstuk 12":"Persoonlijkheid en humanistische psychologie",
+  "Hoofdstuk 13":"Intelligentie en ontwikkeling",
+  "Hoofdstuk 15":"Psychologie in de praktijk",
+  "Hoofdstuk 16":"Klinische psychologie"
+};
+function compareChapters(a,b){
+  const numberA=a.match(/(?:week|hoofdstuk)\s*(\d+)/i);
+  const numberB=b.match(/(?:week|hoofdstuk)\s*(\d+)/i);
+  if(numberA && numberB){
+    const difference=Number(numberA[1])-Number(numberB[1]);
+    if(difference)return difference;
+  }
+  return a.localeCompare(b,"nl",{numeric:true,sensitivity:"base"});
+}
+function chapterLabel(chapter){
+  const name=historyChapterNames[chapter];
+  return name ? `${chapter} – ${name}` : chapter;
 }
 function concepts(){
   return [...new Set(questions.map(q=>q.concept))].sort();
 }
 function init(){
-  document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showTab(b.dataset.tab)));
+  loadQuestionsFromServer().then(() => {
+    const menuToggle=document.getElementById("menuToggle");
+    menuToggle.addEventListener("click",togglePageMenu);
+    document.querySelectorAll("#pageMenu button[data-tab]").forEach(button=>button.addEventListener("click",()=>{
+      showTab(button.dataset.tab);
+      menuToggle.focus();
+    }));
+    document.addEventListener("click",event=>{
+      if(!event.target.closest("nav"))closePageMenu();
+    });
+    document.addEventListener("keydown",event=>{
+      if(event.key==="Escape"&&document.getElementById("pageMenu").classList.contains("is-open")){
+        closePageMenu();
+        menuToggle.focus();
+      }
+    });
+    renderChapterChecks();
+    renderBankFilters();
+    renderFcFilters();
+    renderMatchingFilters();
+    document.getElementById("settingDetailed").checked=settings.detailed;
+    document.getElementById("settingShowWhyWrong").checked=settings.showWhyWrong;
+    document.getElementById("settingShowTips").checked=settings.showTips;
+    document.getElementById("settingShuffleQuestions").checked=settings.shuffleQuestions;
+    document.getElementById("settingConfirmAnswers").checked=settings.confirmAnswers;
+    document.getElementById("firebaseConfigInput").value=localStorage.getItem(STORAGE_KEYS.firebaseConfig)||JSON.stringify(DEFAULT_FIREBASE_CONFIG,null,2);
+    renderDashboard();
+    renderBank();
+    initializeCloudSync();
+  });
+}
+let currentBank = "functieleren";  // Standaard bank
+
+function togglePageMenu(){
+  const menu=document.getElementById("pageMenu");
+  const toggle=document.getElementById("menuToggle");
+  const open=!menu.classList.contains("is-open");
+  menu.classList.toggle("is-open",open);
+  toggle.setAttribute("aria-expanded",String(open));
+  toggle.setAttribute("aria-label",open?"Sluit paginamenu":"Open paginamenu");
+}
+function closePageMenu(){
+  const menu=document.getElementById("pageMenu");
+  const toggle=document.getElementById("menuToggle");
+  if(!menu||!toggle)return;
+  menu.classList.remove("is-open");
+  toggle.setAttribute("aria-expanded","false");
+  toggle.setAttribute("aria-label","Open paginamenu");
+}
+
+function questionProgressKey(map,id,bank=currentBank){
+  const scopedKey=`${bank}::${id}`;
+  if(Object.prototype.hasOwnProperty.call(map,scopedKey))return scopedKey;
+  if(bank==="functieleren" && Object.prototype.hasOwnProperty.call(map,id))return id;
+  return scopedKey;
+}
+function historyForCurrentBank(){
+  return progress.history.filter(h=>(h.bank||"functieleren")===currentBank);
+}
+function currentBankName(){
+  return document.querySelector("#bankSelector option:checked")?.textContent||currentBank;
+}
+async function switchBank(){
+  const selected = document.getElementById("bankSelector").value;
+  currentBank = selected;
+  
+  if(selected === "geschiedenis"){
+    try {
+      const response = await fetch("./geschiedenis_vragen.json", { cache: "no-store" });
+      if (!response.ok) throw new Error("Bestand niet gevonden");
+      const geschiedenisQuestions = await response.json();
+      questions = geschiedenisQuestions;
+      console.log("Geschiedenis-vraagbank geladen:", questions.length, "vragen");
+    } catch(error){
+      alert("Kon geschiedenis_vragen.json niet laden: " + error.message);
+      document.getElementById("bankSelector").value = "functieleren";
+      currentBank = "functieleren";
+      return;
+    }
+  } else {
+    // Terug naar standaard bank
+    await loadQuestionsFromServer();
+  }
+  
+  // Vernieuw de weergave
   renderChapterChecks();
   renderBankFilters();
   renderFcFilters();
-  document.getElementById("settingDetailed").checked=settings.detailed;
-  document.getElementById("settingShowWhyWrong").checked=settings.showWhyWrong;
-  document.getElementById("settingShowTips").checked=settings.showTips;
-  document.getElementById("settingShuffleQuestions").checked=settings.shuffleQuestions;
+  renderMatchingFilters();
   renderDashboard();
   renderBank();
+  renderAnalysis();
 }
 function showTab(id){
-  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b.dataset.tab===id));
+  const pageButton=document.querySelector(`#pageMenu button[data-tab="${id}"]`);
+  document.querySelectorAll("#pageMenu button[data-tab]").forEach(button=>{
+    const active=button.dataset.tab===id;
+    button.classList.toggle("active",active);
+    if(active)button.setAttribute("aria-current","page");
+    else button.removeAttribute("aria-current");
+  });
+  document.getElementById("menuCurrentPage").textContent=pageButton?.textContent.trim()||"Pagina";
+  closePageMenu();
   document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("active",p.id===id));
   if(id==="analysis")renderAnalysis();
   if(id==="bank")renderBank();
@@ -658,8 +1319,146 @@ function showTab(id){
 }
 function renderDashboard(){
   document.getElementById("dashQ").textContent=questions.length;
-  document.getElementById("dashF").textContent=questions.filter(q=>q.flashcard || q.mnemonic || q.tip).length;
-  document.getElementById("dashT").textContent=progress.history.length;
+  const flashcardCount=questions.filter(hasFlashcardContent).length;
+  document.getElementById("dashF").textContent=flashcardCount;
+  document.getElementById("dashFNote").textContent=flashcardCount
+    ?`in ${currentBankName()} · klik om te oefenen`
+    :"geen flashcards beschikbaar in deze vraagbank";
+  document.getElementById("dashT").textContent=historyForCurrentBank().length;
+  const mastery=document.getElementById("dashMastery");
+  if(!mastery)return;
+  const chapterStats=masteryStats(questions,"chapter");
+  const practiced=questions.filter(q=>questionAttempt(q)).length;
+  const accuracyTotals=questions.reduce((totals,q)=>{
+    const attempt=questionAttempt(q);
+    if(attempt){totals.correct+=attempt.correct;totals.total+=attempt.correct+attempt.wrong}
+    return totals;
+  },{correct:0,total:0});
+  const accuracy=accuracyTotals.total?Math.round(accuracyTotals.correct/accuracyTotals.total*100):null;
+  const practicedChapters=chapterStats.filter(stat=>stat.practiced>0).length;
+  document.getElementById("dashSummary").textContent=
+    `${practiced} van ${questions.length} unieke vragen geoefend · ${practicedChapters} van ${chapterStats.length} hoofdstukken gestart${accuracy===null?"":` · ${accuracy}% correct`}`;
+  mastery.innerHTML=`<div class="card">
+    <details>
+      <summary><b>Voortgang per hoofdstuk</b><span class="small"> · ${practicedChapters} van ${chapterStats.length} hoofdstukken gestart</span></summary>
+      <p class="small">Gebaseerd op verschillende vragen geoefend; de score is het aandeel correcte antwoorden.</p>
+      ${renderMasteryTable(chapterStats)}
+    </details>
+  </div>`;
+  renderDashboardMistakes();
+}
+function questionAttempt(question){
+  return progress.attempts[questionProgressKey(progress.attempts,question.id,currentBank)];
+}
+function masteryStats(items,groupBy="concept"){
+  const grouped=new Map();
+  items.forEach(question=>{
+    const key=question[groupBy];
+    if(!grouped.has(key))grouped.set(key,{name:key,questionCount:0,practiced:0,correct:0,total:0});
+    const stat=grouped.get(key);
+    stat.questionCount++;
+    const attempt=questionAttempt(question);
+    if(attempt){
+      stat.practiced++;
+      stat.correct+=attempt.correct;
+      stat.total+=attempt.correct+attempt.wrong;
+    }
+  });
+  return [...grouped.values()].map(stat=>({
+    ...stat,
+    accuracy:stat.total?stat.correct/stat.total:null,
+    status:stat.practiced===0?"Niet geoefend":stat.practiced<3?"Te weinig data":stat.correct/stat.total<0.6?"Extra oefenen":stat.correct/stat.total<0.8?"Bijna beheerst":"Goed op weg"
+  }));
+}
+function masteryClass(stat){
+  if(!stat.practiced)return "";
+  if(stat.practiced<3)return "heat-mid";
+  return stat.accuracy<0.6?"heat-bad":stat.accuracy<0.8?"heat-mid":"heat-good";
+}
+function renderMasteryTable(stats){
+  if(!stats.length)return "<p>Geen hoofdstukken gevonden in deze vraagbank.</p>";
+  const rows=stats.map(stat=>{
+    const percentage=stat.accuracy===null?"—":`${Math.round(stat.accuracy*100)}%`;
+    const coverage=Math.round(stat.practiced/stat.questionCount*100);
+    return `<tr><td>${escapeHtml(chapterLabel(stat.name))}</td><td>${stat.practiced}/${stat.questionCount} (${coverage}%)</td><td>${percentage}</td><td class="${masteryClass(stat)}">${stat.status}</td></tr>`;
+  }).join("");
+  return `<div class="tablewrap"><table><tr><th>Hoofdstuk</th><th>Vragen geoefend</th><th>Correct</th><th>Indicatie</th></tr>${rows}</table></div>`;
+}
+function openMistakes(){
+  const questionById=new Map(questions.map(question=>[question.id,question]));
+  return Object.entries(progress.mistakes||{})
+    .filter(([key,mistake])=>(mistake.bank||key.split("::")[0]||"functieleren")===currentBank&&questionById.has(mistake.id))
+    .map(([,mistake])=>({...mistake,question:questionById.get(mistake.id)}))
+    .sort((a,b)=>b.lastWrongAt-a.lastWrongAt);
+}
+function renderDashboardMistakes(){
+  const target=document.getElementById("dashMistakes");
+  if(!target)return;
+  const mistakes=openMistakes();
+  if(!mistakes.length){
+    target.innerHTML=`<div class="card"><h3>Fouten om opnieuw te oefenen</h3><p class="small">Geen open fouten. Gemiste vragen verschijnen hier na je volgende toets.</p></div>`;
+    return;
+  }
+  const byChapter=new Map();
+  mistakes.forEach(mistake=>byChapter.set(mistake.chapter,(byChapter.get(mistake.chapter)||0)+1));
+  const chapterCounts=[...byChapter.entries()].sort((a,b)=>compareChapters(a[0],b[0]));
+  target.innerHTML=`<div class="card">
+    <details>
+      <summary><b>${mistakes.length} open ${mistakes.length===1?"fout":"fouten"} om te herhalen</b><span class="small"> · ${chapterCounts.slice(0,3).map(([chapter,count])=>`${escapeHtml(chapterLabel(chapter))} (${count})`).join(", ")}</span></summary>
+      <label>Herhaal open fouten per hoofdstuk
+        <select id="mistakeChapter">
+          <option value="all">Alle open fouten herhalen (${mistakes.length})</option>
+          ${chapterCounts.map(([chapter,count])=>`<option value="${escapeHtml(chapter)}">${escapeHtml(chapterLabel(chapter))} (${count})</option>`).join("")}
+        </select>
+      </label>
+      <button class="btn primary" onclick="startMistakeReview()">Herhaal open fouten</button>
+      <p class="small">Een fout blijft open tot je die vraag in een toets goed beantwoordt.</p>
+    </details>
+  </div>`;
+}
+function startMistakeReview(){
+  const selectedChapter=document.getElementById("mistakeChapter")?.value||"all";
+  const pool=openMistakes()
+    .filter(mistake=>selectedChapter==="all"||mistake.chapter===selectedChapter)
+    .map(mistake=>mistake.question);
+  if(!pool.length){alert("Geen open fouten gevonden voor deze selectie.");return}
+  showTab("exam");
+  document.getElementById("examCount").value=pool.length;
+  selectAllChapters(true);
+  startExam(pool);
+}
+function startMixedReview(){
+  if(!questions.length){alert("Er zijn geen vragen beschikbaar in deze vraagbank.");return}
+  const count=Math.min(20,questions.length);
+  const errorQuestions=openMistakes().map(mistake=>mistake.question);
+  const errorIds=new Set(errorQuestions.map(question=>question.id));
+  const selectedErrors=sample(errorQuestions,Math.min(Math.ceil(count/2),errorQuestions.length));
+  const selectedIds=new Set(selectedErrors.map(question=>question.id));
+  const lessPracticed=questions.filter(question=>!errorIds.has(question.id))
+    .sort((a,b)=>{
+      const attemptA=questionAttempt(a),attemptB=questionAttempt(b);
+      const practicedA=attemptA?1:0,practicedB=attemptB?1:0;
+      if(practicedA!==practicedB)return practicedA-practicedB;
+      const totalA=attemptA?attemptA.correct+attemptA.wrong:0;
+      const totalB=attemptB?attemptB.correct+attemptB.wrong:0;
+      if(totalA!==totalB)return totalA-totalB;
+      const accuracyA=totalA?attemptA.correct/totalA:1;
+      const accuracyB=totalB?attemptB.correct/totalB:1;
+      return accuracyA-accuracyB;
+    });
+  const selectedLessPracticed=lessPracticed.slice(0,count-selectedErrors.length);
+  const remainingErrors=errorQuestions.filter(question=>!selectedIds.has(question.id));
+  const additionalErrors=sample(remainingErrors,count-selectedErrors.length-selectedLessPracticed.length);
+  const pool=shuffle([...selectedErrors,...selectedLessPracticed,...additionalErrors]);
+  if(!pool.length){alert("Er zijn geen vragen beschikbaar voor een herhaalsessie.");return}
+  const selectedErrorIds=new Set([...selectedErrors,...additionalErrors].map(question=>question.id));
+  const lessPracticedCount=pool.length-selectedErrorIds.size;
+  const selectedErrorCount=selectedErrorIds.size;
+  document.getElementById("examCount").value=pool.length;
+  selectAllChapters(true);
+  showTab("exam");
+  startExam(pool);
+  document.getElementById("examSessionNote").textContent=`Gemengde herhaalsessie: ${selectedErrorCount} ${selectedErrorCount===1?"open fout":"open fouten"} en ${lessPracticedCount} ${lessPracticedCount===1?"minder geoefende vraag":"minder geoefende vragen"}.`;
 }
 function renderChapterChecks(){
   const box=document.getElementById("chapterChecks");
@@ -667,17 +1466,36 @@ function renderChapterChecks(){
   chapters().forEach(ch=>{
     const id="ch_"+btoa(unescape(encodeURIComponent(ch))).replaceAll("=","");
     const div=document.createElement("label");
-    div.innerHTML=`<input type="checkbox" class="chapterBox" value="${escapeHtml(ch)}" checked/> ${escapeHtml(ch)}`;
+    div.innerHTML=`<input type="checkbox" class="chapterBox" value="${escapeHtml(ch)}" checked/> ${escapeHtml(chapterLabel(ch))}`;
     box.appendChild(div);
   });
 }
 function renderBankFilters(){
   const sel=document.getElementById("bankChapter");
-  sel.innerHTML=`<option value="all">Alle hoofdstukken</option>`+chapters().map(c=>`<option>${escapeHtml(c)}</option>`).join("");
+  sel.innerHTML=`<option value="all">Alle hoofdstukken</option>`+chapters().map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(chapterLabel(c))}</option>`).join("");
 }
 function renderFcFilters(){
   const sel=document.getElementById("fcChapter");
-  sel.innerHTML=`<option value="all">Alle hoofdstukken</option>`+chapters().map(c=>`<option>${escapeHtml(c)}</option>`).join("");
+  sel.innerHTML=`<option value="all">Alle hoofdstukken</option>`+chapters().map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(chapterLabel(c))}</option>`).join("");
+}
+function renderMatchingFilters(){
+  const sel=document.getElementById("matchingChapter");
+  sel.innerHTML=`<option value="all">Alle hoofdstukken</option>`+chapters().map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(chapterLabel(c))}</option>`).join("");
+  document.getElementById("timelineNav").classList.toggle("hidden",currentBank!=="geschiedenis");
+  if(currentBank!=="geschiedenis"&&document.getElementById("timeline").classList.contains("active"))showTab("dashboard");
+  const modeWrap=document.getElementById("matchingModeWrap");
+  const modeSelect=document.getElementById("matchingMode");
+  if(modeWrap)modeWrap.style.display=currentBank==="geschiedenis"?"block":"none";
+  if(modeSelect && currentBank!=="geschiedenis")modeSelect.value="concepts";
+  updateMatchingInstructions();
+}
+function updateMatchingInstructions(){
+  const instructions=document.getElementById("matchingInstructions");
+  if(!instructions)return;
+  const people=currentBank==="geschiedenis"&&document.getElementById("matchingMode").value==="people";
+  instructions.textContent=people
+    ?"Koppel iedere persoon aan de juiste bijdrage. Namen van personen worden in de omschrijvingen verborgen, zodat de koppeling niet wordt weggegeven."
+    :"Klik een begrip aan en daarna de bijbehorende uitleg. Kies eerst links en daarna rechts; correcte koppelingen blijven zichtbaar gemarkeerd.";
 }
 function selectAllChapters(v){
   document.querySelectorAll(".chapterBox").forEach(cb=>cb.checked=v);
@@ -694,6 +1512,267 @@ function shuffle(a){
   return arr;
 }
 function sample(arr,n){return shuffle(arr).slice(0,n)}
+const historyFigureNames=[
+  "Fechner en Weber","Fechner en Stevens","Fritsch en Hitzig","Freud en Breuer","Binet en Simon","Gall en Flourens","Hippocrates","Aristoteles","Münsterberg","Hollingworth","Ebbinghaus","McClelland","Mischel","Harrower","Hathaway","McKinley","Puységur","Delboeuf","Thorndike","Calkins","Leibniz","Helmholtz","Avicenna","Festinger","Molyneux","Socrates","Alhazen","Descartes","Locke","Gall","Flourens","Broca","Wernicke","Penfield","H.M.","Lashley","Willis","Bouillaud","Fritsch","Hebb","Ferrier","Kant","Fechner","Weber","Hume","Müller","Gibson","Stevens","Wundt","Titchener","Külpe","Donders","Cattell","Darwin","Lamarck","Wallace","Malthus","Galton","Pearson","Burt","James","Hall","Pavlov","Watson","Tolman","Skinner","Chomsky","Hull","Mesmer","Braid","Charcot","Bernheim","Le Bon","Binet","Simon","Féré","Triplett","Asch","Allport","Milgram","Zimbardo","Loftus","Freud","Breuer","Jung","Murray","Maslow","Rogers","Seligman","Stern","Marston","Taylor","Gilbreth","Gilbreths","Albee","Shakow","Meehl","Goddard","Terman","Wechsler","Piaget","Bruner","Vygotsky","Spearman","Eysenck","Wolpe","Beck","Ellis","Gassner","Esdaile","De Faria","Plato"
+];
+function historyFigureForQuestion(question){
+  if(currentBank!=="geschiedenis"||!question.concept)return null;
+  const concept=question.concept.trim();
+  return [...new Set(historyFigureNames)]
+    .sort((a,b)=>b.length-a.length)
+    .find(name=>concept===name||concept.startsWith(`${name}:`)||concept.startsWith(`${name} `))||null;
+}
+function hideHistoricalNames(text){
+  const names=[...new Set(historyFigureNames)].sort((a,b)=>b.length-a.length);
+  const escapedNames=names.map(name=>name.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"));
+  const namePattern=new RegExp(`(^|[^\\p{L}\\p{N}])(${escapedNames.join("|")})(?=$|[^\\p{L}\\p{N}])`,"giu");
+  return text.replace(namePattern,"$1[persoon]");
+}
+function matchingTextKey(text){
+  return text.normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim();
+}
+function matchingItemsForRound(chapter,mode){
+  const candidates=shuffle(questions.filter(q=>(chapter==="all"||q.chapter===chapter)&&q.concept&&q.explanation?.trim()));
+  if(mode!=="people"){
+    const byConcept=new Map();
+    candidates.forEach(q=>{
+      if(!byConcept.has(q.concept))byConcept.set(q.concept,[]);
+      byConcept.get(q.concept).push(q);
+    });
+    const items=[...byConcept.entries()].map(([concept,examples])=>{
+      const question=examples.sort((a,b)=>b.explanation.trim().length-a.explanation.trim().length)[0];
+      return {term:concept,description:question.explanation.trim(),chapter:question.chapter,concept};
+    });
+    const explanationCounts=new Map();
+    items.forEach(item=>{
+      const key=matchingTextKey(item.description);
+      explanationCounts.set(key,(explanationCounts.get(key)||0)+1);
+    });
+    return items.filter(item=>matchingTextKey(item.description).length>=20&&explanationCounts.get(matchingTextKey(item.description))===1);
+  }
+  const figures=new Map();
+  candidates.forEach(q=>{
+    const person=historyFigureForQuestion(q);
+    if(!person)return;
+    if(!figures.has(person))figures.set(person,[]);
+    const description=hideHistoricalNames(q.explanation.trim());
+    if(matchingTextKey(description).length>=20)figures.get(person).push({term:person,description,chapter:q.chapter,concept:q.concept});
+  });
+  const items=[...figures.entries()].map(([person,examples])=>{
+    examples.sort((a,b)=>matchingTextKey(b.description).length-matchingTextKey(a.description).length);
+    return examples[0];
+  });
+  const explanationPeople=new Map();
+  items.forEach(item=>{
+    const key=matchingTextKey(item.description);
+    if(!explanationPeople.has(key))explanationPeople.set(key,new Set());
+    explanationPeople.get(key).add(item.term);
+  });
+  return items.filter(item=>explanationPeople.get(matchingTextKey(item.description)).size===1);
+}
+function startMatching(){
+  const chapter=document.getElementById("matchingChapter").value;
+  const count=Number(document.getElementById("matchingCount").value);
+  const mode=currentBank==="geschiedenis"?document.getElementById("matchingMode").value:"concepts";
+  const available=matchingItemsForRound(chapter,mode);
+  if(available.length<2){
+    alert(mode==="people"
+      ?"Er zijn te weinig verschillende personen met uitleg beschikbaar voor deze selectie."
+      :"Er zijn te weinig begrippen met uitleg beschikbaar voor deze selectie.");
+    return;
+  }
+  matchingDeck=sample(available,Math.min(count,available.length));
+  matchingRoundIndices=matchingDeck.map((_,index)=>index);
+  matchingAnswers=shuffle(matchingRoundIndices);
+  matchingSelections={term:null,description:null};
+  matchingWrong=new Set();
+  matchingMatched=new Set();
+  matchingAttemptedWrong=new Set();
+  matchingErrorMode=document.getElementById("matchingErrorMode").value;
+  matchingRetryStage=false;
+  matchingErrorCount=0;
+  const label=mode==="people"?"personen":"begrippen";
+  document.getElementById("matchingMeta").textContent=`${chapter==="all"?"Alle hoofdstukken":chapterLabel(chapter)} · ${matchingDeck.length} ${label}`;
+  document.getElementById("matchingResult").textContent="";
+  document.getElementById("matchingProgressText").textContent=`0 van ${matchingDeck.length} gekoppeld`;
+  document.getElementById("matchingProgressBar").style.width="0%";
+  document.getElementById("matchingAgain").classList.add("hidden");
+  document.getElementById("matchingRun").classList.remove("hidden");
+  renderMatchingBoard();
+}
+function renderMatchingBoard(){
+  const mode=currentBank==="geschiedenis"?document.getElementById("matchingMode").value:"concepts";
+  const termLabel=mode==="people"?"Personen":"Begrippen";
+  document.getElementById("matchingPairs").innerHTML=`<div class="match-board">
+    <div class="match-column"><h3>${termLabel} · kies eerst links</h3>
+      ${matchingRoundIndices.map(index=>matchingTile("term",index,matchingDeck[index].term)).join("")}
+    </div>
+    <div class="match-column"><h3>Bijdragen en uitleg · kies daarna rechts</h3>
+      ${matchingAnswers.map(index=>matchingTile("description",index,matchingDeck[index].description)).join("")}
+    </div>
+  </div>`;
+}
+function matchingTile(side,index,text){
+  const selected=matchingSelections[side]===index;
+  const matched=matchingMatched.has(index)||(side==="term"&&matchingErrorMode==="retry"&&!matchingRetryStage&&matchingAttemptedWrong.has(index));
+  const wrong=matchingWrong.has(`${side}:${index}`);
+  const classes=["matching-tile",selected?"is-selected":"",matched?"is-matched":"",wrong?"is-wrong":""].filter(Boolean).join(" ");
+  return `<button type="button" class="${classes}" onclick="selectMatchingTile('${side}',${index})" ${matched?"disabled":""} aria-pressed="${selected}">${escapeHtml(text)}</button>`;
+}
+function updateMatchingProgress(){
+  const completed=matchingRetryStage?matchingMatched.size:matchingMatched.size+matchingAttemptedWrong.size;
+  const total=matchingRetryStage?matchingRoundIndices.length:matchingDeck.length;
+  const label=matchingRetryStage?"herkansing":"eerste ronde";
+  document.getElementById("matchingProgressText").textContent=`${completed} van ${total} ${label==="herkansing"?"opnieuw gekoppeld":"behandeld"}`;
+  document.getElementById("matchingProgressBar").style.width=`${total?completed/total*100:0}%`;
+}
+function finishMatchingRound(){
+  const mode=currentBank==="geschiedenis"?document.getElementById("matchingMode").value:"concepts";
+  const label=mode==="people"?"personen":"begrippen";
+  document.getElementById("matchingAgain").classList.remove("hidden");
+  if(matchingErrorMode==="retry"&&matchingAttemptedWrong.size){
+    document.getElementById("matchingResult").textContent=`Herkansing afgerond. ${matchingErrorCount} ${matchingErrorCount===1?"fout gemaakt":"fouten gemaakt"}; alle ${matchingAttemptedWrong.size} gemiste koppelingen zijn nu juist.`;
+  }else{
+    document.getElementById("matchingResult").textContent=matchingErrorCount
+      ?`Ronde afgerond: ${matchingDeck.length} ${label} gekoppeld met ${matchingErrorCount} ${matchingErrorCount===1?"fout":"fouten"}.`
+      :`Alles goed gekoppeld! Je hebt ${matchingDeck.length} ${label} geoefend.`;
+  }
+}
+function advanceMatchingRoundIfComplete(){
+  if(matchingRetryStage){
+    if(matchingMatched.size===matchingRoundIndices.length)finishMatchingRound();
+    return;
+  }
+  if(matchingErrorMode==="retry"&&matchingMatched.size+matchingAttemptedWrong.size===matchingDeck.length){
+    if(matchingAttemptedWrong.size){
+      matchingRetryStage=true;
+      matchingRoundIndices=[...matchingAttemptedWrong];
+      matchingAnswers=shuffle(matchingRoundIndices);
+      matchingMatched=new Set();
+      matchingSelections={term:null,description:null};
+      document.getElementById("matchingResult").textContent=`Eerste ronde klaar. Probeer nu de ${matchingRoundIndices.length} gemiste ${matchingRoundIndices.length===1?"koppeling":"koppelingen"} opnieuw.`;
+      updateMatchingProgress();
+      renderMatchingBoard();
+    }else{
+      finishMatchingRound();
+    }
+    return;
+  }
+  if(matchingErrorMode==="immediate"&&matchingMatched.size===matchingDeck.length)finishMatchingRound();
+}
+function selectMatchingTile(side,index){
+  if(matchingMatched.has(index))return;
+  if(side==="term"&&matchingErrorMode==="retry"&&!matchingRetryStage&&matchingAttemptedWrong.has(index))return;
+  if(matchingWrong.size){
+    matchingWrong=new Set();
+    matchingSelections={term:null,description:null};
+  }
+  matchingSelections[side]=matchingSelections[side]===index?null:index;
+  if(matchingSelections.term!==null&&matchingSelections.description!==null){
+    if(matchingSelections.term===matchingSelections.description){
+      matchingMatched.add(matchingSelections.term);
+      matchingSelections={term:null,description:null};
+      updateMatchingProgress();
+      advanceMatchingRoundIfComplete();
+    }else{
+      matchingErrorCount++;
+      if(matchingErrorMode==="retry"&&!matchingRetryStage){
+        matchingAttemptedWrong.add(matchingSelections.term);
+        matchingSelections={term:null,description:null};
+        document.getElementById("matchingResult").textContent="Antwoord opgeslagen. Ga verder met de andere koppelingen; je krijgt aan het einde nog een kans.";
+        updateMatchingProgress();
+        advanceMatchingRoundIfComplete();
+      }else{
+        matchingWrong=new Set([`term:${matchingSelections.term}`,`description:${matchingSelections.description}`]);
+        document.getElementById("matchingResult").textContent=`Deze combinatie klopt niet. Probeer opnieuw. Fouten: ${matchingErrorCount}.`;
+      }
+    }
+  }
+  renderMatchingBoard();
+}
+function startTimeline(){
+  const available=chapters().filter(chapter=>questions.some(question=>question.chapter===chapter&&question.concept&&question.explanation?.trim()));
+  const count=Math.min(Number(document.getElementById("timelineCount").value),available.length);
+  if(count<2){alert("Er zijn te weinig hoofdstukken met onderwerpen beschikbaar.");return}
+  const selectedChapters=sample(available,count).sort(compareChapters);
+  timelineDeck=selectedChapters.map(chapter=>{
+    const candidates=shuffle(questions.filter(question=>question.chapter===chapter&&question.concept&&question.explanation?.trim()));
+    const question=candidates[0];
+    return {chapter,concept:question.concept,explanation:question.explanation};
+  });
+  timelineOrder=shuffle(timelineDeck.map((_,index)=>index));
+  timelineChecked=false;
+  document.getElementById("timelineMeta").textContent=`${timelineDeck.length} onderwerpen · zet de brede ontwikkeling van het vak in volgorde`;
+  document.getElementById("timelineResult").textContent="";
+  document.getElementById("timelineSolution").innerHTML="";
+  document.getElementById("timelineCheck").classList.remove("hidden");
+  document.getElementById("timelineAgain").classList.add("hidden");
+  document.getElementById("timelineRun").classList.remove("hidden");
+  renderTimelineItems();
+}
+function renderTimelineItems(){
+  document.getElementById("timelineItems").innerHTML=`<div class="timeline-list">
+    ${timelineOrder.map((deckIndex,position)=>{
+      const item=timelineDeck[deckIndex];
+      const correct=timelineChecked&&deckIndex===position;
+      const classes=["timeline-item",timelineChecked?(correct?"is-correct":"is-incorrect"):"",timelineDragPosition===position?"is-dragging":""].filter(Boolean).join(" ");
+      const result=timelineChecked?`<span class="badge">${correct?"Juiste plek":`Juiste plek: ${timelineDeck.indexOf(item)+1}`}</span>`:"";
+      return `<div class="${classes}" ${timelineChecked?"":"draggable=\"true\" ondragstart=\"startTimelineDrag(event,"+position+")\" ondragover=\"allowTimelineDrop(event)\" ondrop=\"dropTimelineItem(event,"+position+")\" ondragend=\"endTimelineDrag()\""}>
+        <span class="timeline-position">${position+1}</span>
+        <div class="timeline-content"><span class="badge">${escapeHtml(chapterLabel(item.chapter))}</span><b>${escapeHtml(item.concept)}</b><span>${escapeHtml(item.explanation)}</span>${result}</div>
+        <div class="timeline-actions">
+          <button type="button" class="btn" onclick="moveTimelineItem(${position},-1)" ${timelineChecked||position===0?"disabled":""} aria-label="Verplaats ${escapeHtml(item.concept)} omhoog" title="Omhoog">↑</button>
+          <button type="button" class="btn" onclick="moveTimelineItem(${position},1)" ${timelineChecked||position===timelineOrder.length-1?"disabled":""} aria-label="Verplaats ${escapeHtml(item.concept)} omlaag" title="Omlaag">↓</button>
+        </div>
+      </div>`;
+    }).join("")}
+  </div>`;
+}
+function startTimelineDrag(event,position){
+  if(timelineChecked)return;
+  timelineDragPosition=position;
+  event.dataTransfer.effectAllowed="move";
+  event.dataTransfer.setData("text/plain",String(position));
+}
+function allowTimelineDrop(event){
+  if(!timelineChecked){
+    event.preventDefault();
+    document.querySelectorAll(".timeline-item.is-drop-target").forEach(item=>item.classList.remove("is-drop-target"));
+    event.currentTarget.classList.add("is-drop-target");
+  }
+}
+function dropTimelineItem(event,position){
+  event.preventDefault();
+  const source=Number(event.dataTransfer.getData("text/plain"));
+  if(!timelineChecked&&Number.isInteger(source)&&source!==position){
+    const [moved]=timelineOrder.splice(source,1);
+    timelineOrder.splice(position,0,moved);
+  }
+  timelineDragPosition=null;
+  renderTimelineItems();
+}
+function endTimelineDrag(){
+  timelineDragPosition=null;
+  renderTimelineItems();
+}
+function moveTimelineItem(position,direction){
+  const destination=position+direction;
+  if(timelineChecked||destination<0||destination>=timelineOrder.length)return;
+  [timelineOrder[position],timelineOrder[destination]]=[timelineOrder[destination],timelineOrder[position]];
+  renderTimelineItems();
+}
+function checkTimeline(){
+  if(!timelineDeck.length||timelineChecked)return;
+  timelineChecked=true;
+  const correct=timelineOrder.reduce((score,deckIndex,position)=>score+(deckIndex===position?1:0),0);
+  document.getElementById("timelineResult").textContent=`${correct} van ${timelineDeck.length} onderwerpen staan op de juiste plek. Bekijk de juiste cursusvolgorde hieronder.`;
+  document.getElementById("timelineSolution").innerHTML=`<h3>Juiste volgorde</h3><ol class="timeline-solution">
+    ${timelineDeck.map(item=>`<li><b>${escapeHtml(chapterLabel(item.chapter))}:</b> ${escapeHtml(item.concept)}</li>`).join("")}
+  </ol>`;
+  document.getElementById("timelineCheck").classList.add("hidden");
+  document.getElementById("timelineAgain").classList.remove("hidden");
+  renderTimelineItems();
+}
 function quickExam(){
   showTab("exam");
   document.getElementById("examCount").value=60;
@@ -721,10 +1800,13 @@ function buildPool(customPool=null){
   if(diff!=="all")pool=pool.filter(q=>String(q.difficulty)===diff);
   if(typ!=="all")pool=pool.filter(q=>q.type===typ);
   if(avoid){
-    const wrongIds = Object.keys(progress.attempts).filter(id=>{
-      const a=progress.attempts[id]; return a.wrong>0 && a.correct<a.wrong+1;
+    pool=pool.filter(q=>{
+      const attemptKey=questionProgressKey(progress.attempts,q.id);
+      const attempt=progress.attempts[attemptKey];
+      const seenCorrect=progress.seenCorrect[questionProgressKey(progress.seenCorrect,q.id)];
+      const hasWrongAttempt=attempt && attempt.wrong>0 && attempt.correct<attempt.wrong+1;
+      return !seenCorrect || (includeWrong && hasWrongAttempt);
     });
-    pool=pool.filter(q=>!progress.seenCorrect[q.id] || (includeWrong && wrongIds.includes(q.id)));
   }
   return pool;
 }
@@ -734,12 +1816,15 @@ function startExam(customPool=null){
   if(pool.length<1){alert("Geen vragen gevonden met deze filters.");return}
   const chosen=sample(pool, Math.min(count,pool.length));
   const shuffleOpt=document.getElementById("shuffleOptions").checked;
+  document.getElementById("examSessionNote").textContent="";
   
   currentExam={
     id:"exam_"+Date.now(),
+    bank:currentBank,
     started:Date.now(),
     mode:document.getElementById("examMode").value,
     feedback:document.getElementById("feedbackMode").value,
+    confirmAnswers:settings.confirmAnswers,
     questions: chosen.map(q=>prepareQuestion(q,shuffleOpt)),
     answers:[],
     finished:false
@@ -770,23 +1855,37 @@ function startTimer(){
 }
 function renderQuestion(){
   const q=currentExam.questions[currentIndex];
-  const answered=currentExam.answers[currentIndex];
+  const answer=currentExam.answers[currentIndex];
+  const answered=answer?.submitted?answer:null;
+  const pending=answer&&!answer.submitted;
   document.getElementById("examProgressText").textContent=`Vraag ${currentIndex+1} van ${currentExam.questions.length}`;
   document.getElementById("examProgressBar").style.width=((currentIndex)/currentExam.questions.length*100)+"%";
   let html=`<div>
     <div>
-      <span class="badge">${escapeHtml(q.chapter)}</span>
+      <span class="badge">${escapeHtml(chapterLabel(q.chapter))}</span>
       <span class="badge">${escapeHtml(q.concept)}</span>
       <span class="badge">niveau ${q.difficulty}</span>
       <span class="badge">${q.type}</span>
     </div>
     <div class="question-title">${currentIndex+1}. ${escapeHtml(q.prompt)}</div>`;
+  if(currentExam.feedback==="instant"&&currentIndex>0){
+    const previousAnswer=currentExam.answers[currentIndex-1];
+    if(previousAnswer?.submitted){
+      const previousQuestion=currentExam.questions[currentIndex-1];
+      html+=`<details class="feedback-recap"><summary>Vraag ${currentIndex}: ${previousAnswer.correct?"goed":"fout"} · bekijk uitleg</summary>
+        <p><b>Jouw antwoord:</b> ${escapeHtml(previousQuestion.displayOptions[previousAnswer.selected].text)}<br>
+        <b>Juiste antwoord:</b> ${escapeHtml(previousQuestion.displayOptions[previousQuestion.displayCorrect].text)}</p>
+        ${feedbackHtml(previousQuestion,previousAnswer)}</details>`;
+    }
+  }
   q.displayOptions.forEach((o,di)=>{
     let cls="option";
     if(answered){
-      if(di===q.displayCorrect)cls+=" correct";
-      if(di===answered.selected && !answered.correct)cls+=" wrong";
+      if(currentExam.feedback==="instant"&&di===q.displayCorrect)cls+=" correct";
+      if(currentExam.feedback==="instant"&&di===answer.selected&&!answer.correct)cls+=" wrong";
+      if(currentExam.feedback!=="instant"&&di===answer.selected)cls+=" selected";
     }
+    if(pending&&di===answer.selected)cls+=" selected";
     html+=`<button class="${cls}" onclick="answerQuestion(${di})" ${answered?'disabled':''}>
       ${String.fromCharCode(65+di)}. ${escapeHtml(o.text)}
     </button>`;
@@ -794,24 +1893,40 @@ function renderQuestion(){
   if(answered && currentExam.feedback==="instant") html+=feedbackHtml(q,answered);
   html+=`<div class="controls">
     <button class="btn" onclick="prevQuestion()" ${currentIndex===0?'disabled':''}>Vorige</button>
-    <button class="btn primary" onclick="nextQuestion()">${currentIndex===currentExam.questions.length-1?'Afronden':'Volgende'}</button>
+    ${currentExam.confirmAnswers&&pending?`<button class="btn primary" onclick="confirmAndContinueExamAnswer()">${currentExam.feedback==="instant"?"Controleer & volgende": "Bevestig & volgende"}</button>`:""}
+    <button class="btn primary" onclick="nextQuestion()" ${currentExam.confirmAnswers&&pending?'disabled':''}>${currentIndex===currentExam.questions.length-1?'Afronden':'Volgende'}</button>
   </div></div>`;
   document.getElementById("questionArea").innerHTML=html;
 }
 function answerQuestion(di){
-  if(currentExam.answers[currentIndex])return;
+  const existing=currentExam.answers[currentIndex];
+  if(existing?.submitted)return;
   const q=currentExam.questions[currentIndex];
-  const correct=di===q.displayCorrect;
-  currentExam.answers[currentIndex]={selected:di,correct,actualIndex:q.displayOptions[di].i};
-  if(currentExam.feedback==="instant") renderQuestion();
-  else {
-    [...document.querySelectorAll(".option")].forEach((b,i)=>b.classList.toggle("selected",i===di));
-  }
+  currentExam.answers[currentIndex]={selected:di,actualIndex:q.displayOptions[di].i,submitted:false};
+  if(!currentExam.confirmAnswers)confirmExamAnswer();
+  renderQuestion();
+}
+function confirmExamAnswer(){
+  if(!currentExam)return;
+  const answer=currentExam.answers[currentIndex];
+  if(!answer||answer.submitted)return false;
+  const q=currentExam.questions[currentIndex];
+  answer.correct=answer.selected===q.displayCorrect;
+  answer.submitted=true;
+  return true;
+}
+function confirmAndContinueExamAnswer(){
+  if(confirmExamAnswer())nextQuestion();
 }
 function nextQuestion(){
-  if(!currentExam.answers[currentIndex]){
+  const answer=currentExam.answers[currentIndex];
+  if(answer&&!answer.submitted){
+    alert("Controleer of bevestig eerst je geselecteerde antwoord.");
+    return;
+  }
+  if(!answer){
     if(!confirm("Je hebt deze vraag nog niet beantwoord. Doorgaan?"))return;
-    currentExam.answers[currentIndex]={selected:null,correct:false,actualIndex:null,blank:true};
+    currentExam.answers[currentIndex]={selected:null,correct:false,actualIndex:null,blank:true,submitted:true};
   }
   if(currentIndex<currentExam.questions.length-1){currentIndex++;renderQuestion()}
   else finishExam();
@@ -833,12 +1948,27 @@ function finishExam(){
   const correct=currentExam.answers.filter(a=>a&&a.correct).length;
   currentExam.questions.forEach((q,i)=>{
     const a=currentExam.answers[i]||{correct:false,blank:true};
-    if(!progress.attempts[q.id])progress.attempts[q.id]={correct:0,wrong:0,chapter:q.chapter,concept:q.concept};
-    if(a.correct){progress.attempts[q.id].correct++;progress.seenCorrect[q.id]=true}
-    else progress.attempts[q.id].wrong++;
+    const attemptKey=questionProgressKey(progress.attempts,q.id,currentExam.bank);
+    const mistakeKey=questionProgressKey(progress.mistakes,q.id,currentExam.bank);
+    if(!progress.attempts[attemptKey])progress.attempts[attemptKey]={correct:0,wrong:0,chapter:q.chapter,concept:q.concept,bank:currentExam.bank};
+    const attempt=progress.attempts[attemptKey];
+    attempt.bank=currentExam.bank;
+    if(a.correct){
+      attempt.correct++;
+      progress.seenCorrect[questionProgressKey(progress.seenCorrect,q.id,currentExam.bank)]=Date.now();
+      delete progress.mistakes[mistakeKey];
+    } else {
+      attempt.wrong++;
+      delete progress.seenCorrect[questionProgressKey(progress.seenCorrect,q.id,currentExam.bank)];
+      const previous=progress.mistakes[mistakeKey];
+      progress.mistakes[mistakeKey]={
+        id:q.id,bank:currentExam.bank,chapter:q.chapter,concept:q.concept,
+        misses:(previous?.misses||0)+1,lastWrongAt:Date.now()
+      };
+    }
   });
   progress.history.push({
-    id:currentExam.id,date:new Date().toISOString(),total,correct,
+    id:currentExam.id,bank:currentExam.bank,date:new Date().toISOString(),total,correct,
     chapters:[...new Set(currentExam.questions.map(q=>q.chapter))]
   });
   saveProgress();
@@ -888,7 +2018,7 @@ function renderResult(correct,total){
 
 function aggregate(){
   const byConcept={}, byChapter={};
-  Object.values(progress.attempts).forEach(a=>{
+  Object.values(progress.attempts).filter(a=>(a.bank||"functieleren")===currentBank).forEach(a=>{
     for(const map of [[byConcept,a.concept],[byChapter,a.chapter]]){
       if(!map[0][map[1]])map[0][map[1]]={correct:0,wrong:0,total:0};
       map[0][map[1]].correct+=a.correct;
@@ -906,33 +2036,141 @@ function weakConcepts(){
 }
 function renderAnalysis(){
   const out=document.getElementById("analysisOut");
-  const {byConcept,byChapter}=aggregate();
-  const weak=weakConcepts();
-  const testedConcepts=new Set(Object.keys(byConcept));
-  const untested=concepts().filter(c=>!testedConcepts.has(c));
-  let html=`<div class="card"><h3>Score per hoofdstuk</h3>${tableStats(byChapter)}</div>`;
-  html+=`<div class="card"><h3>Zwakke concepten</h3>`;
-  if(!weak.length)html+=`<p>Geen duidelijke zwakke concepten bekend. Maak meer toetsen voor betrouwbaardere analyse.</p>`;
-  else html+=`<ul>`+weak.map(w=>`<li><b>${escapeHtml(w.concept)}</b>: ${Math.round(w.acc*100)}% (${w.correct}/${w.total})</li>`).join("")+`</ul>`;
-  html+=`</div>`;
-  html+=`<div class="card"><h3>Nog niet geteste concepten</h3><p>${untested.length?untested.map(escapeHtml).join(", "):"Alles in de huidige vraagbank is minimaal één keer getest."}</p></div>`;
-  html+=`<div class="card"><h3>Toetshistorie</h3>`;
-  if(!progress.history.length)html+=`<p>Nog geen toetsen gemaakt.</p>`;
-  else html+=`<table><tr><th>Datum</th><th>Score</th><th>Hoofdstukken</th></tr>`+
-    progress.history.slice().reverse().map(h=>`<tr><td>${new Date(h.date).toLocaleString()}</td><td>${h.correct}/${h.total} (${Math.round(h.correct/h.total*100)}%)</td><td>${h.chapters.map(escapeHtml).join(", ")}</td></tr>`).join("")+`</table>`;
-  html+=`</div>`;
+  const history=historyForCurrentBank().filter(item=>item.total>0&&Number.isFinite(item.correct)&&Number.isFinite(item.total));
+  const chapterStats=analysisChapterStats();
+  const practiced=questions.filter(question=>questionAttempt(question)).length;
+  const accuracyTotals=questions.reduce((totals,question)=>{
+    const attempt=questionAttempt(question);
+    if(attempt){totals.correct+=attempt.correct;totals.total+=attempt.correct+attempt.wrong}
+    return totals;
+  },{correct:0,total:0});
+  const accuracy=accuracyTotals.total?Math.round(accuracyTotals.correct/accuracyTotals.total*100):null;
+  const coverage=questions.length?Math.round(practiced/questions.length*100):0;
+  const mistakes=openMistakes();
+  const unresolvedByChapter=new Map();
+  mistakes.forEach(item=>unresolvedByChapter.set(item.chapter,(unresolvedByChapter.get(item.chapter)||0)+1));
+  const attention=chapterStats.filter(item=>item.practiced>=3&&item.attemptCount>=5&&item.accuracy<0.65)
+    .sort((a,b)=>a.accuracy-b.accuracy||b.attemptCount-a.attemptCount);
+  const unpracticedChapters=chapterStats.filter(item=>item.practiced===0);
+  const recent=history.slice().sort((a,b)=>new Date(a.date)-new Date(b.date)).slice(-8);
+  const best=history.length?Math.max(...history.map(item=>item.correct/item.total*100)):null;
+  const recentChange=recent.length>=2
+    ?Math.round((recent[recent.length-1].correct/recent[recent.length-1].total-recent[0].correct/recent[0].total)*100)
+    :null;
+  let html=`<div class="analysis-metrics">
+    ${analysisMetric("Toetsen gemaakt",history.length,"in deze vraagbank")}
+    ${analysisMetric("Unieke vragen geoefend",`${practiced}/${questions.length}`,`${coverage}% dekking`)}
+    ${analysisMetric("Totaal correct",accuracy===null?"—":`${accuracy}%`,"over beantwoorde vragen")}
+    ${analysisMetric("Open fouten",mistakes.length,"nog goed te herkansen")}
+  </div>
+  <div class="card">
+    <div class="analysis-section-heading"><div><h3>Resultaat over tijd</h3><p class="small">Toetsscores per sessie · laatste ${recent.length} toetsen</p></div>${recentChange===null?"":`<span class="analysis-trend ${recentChange>=0?"trend-up":"trend-down"}">${recentChange>0?"+":""}${recentChange} procentpunt</span>`}</div>
+    ${renderScoreTrend(recent)}
+    ${best===null?"":`<p class="small">Beste toetsscore: <b>${Math.round(best)}%</b>. Een toets met weinig vragen kan sterk schommelen; bekijk de trend samen met het aantal geoefende vragen.</p>`}
+  </div>
+  <div class="card">
+    <div class="analysis-section-heading"><div><h3>Beheersing per hoofdstuk</h3><p class="small">Dekking = unieke vragen geprobeerd. Score = correcte antwoorden over alle pogingen.</p></div></div>
+    ${renderAnalysisChapters(chapterStats,unresolvedByChapter)}
+  </div>
+  <div class="analysis-grid">
+    <div class="card">
+      <h3>Waar extra oefenen?</h3>
+      ${renderAttentionAreas(attention,unpracticedChapters)}
+    </div>
+    <div class="card">
+      <h3>Fouten om te herkansen</h3>
+      <p>${mistakes.length?`Je hebt <b>${mistakes.length}</b> open ${mistakes.length===1?"fout":"fouten"}${unresolvedByChapter.size?`, verspreid over ${unresolvedByChapter.size} ${unresolvedByChapter.size===1?"hoofdstuk":"hoofdstukken"}`:""}.`:"Geen open fouten voor deze vraagbank."}</p>
+      ${mistakes.length?`<button class="btn primary" onclick="showTab('dashboard');startMistakeReview()">Herhaal open fouten</button>`:""}
+    </div>
+  </div>
+  <details class="card analysis-history">
+    <summary><b>Toetshistorie</b><span class="small"> · ${history.length} ${history.length===1?"toets":"toetsen"}</span></summary>
+    ${renderExamHistory(history)}
+  </details>`;
   out.innerHTML=html;
 }
+function analysisMetric(label,value,note){
+  return `<div class="card analysis-metric"><span>${escapeHtml(label)}</span><b>${escapeHtml(value)}</b><small>${escapeHtml(note)}</small></div>`;
+}
+function analysisChapterStats(){
+  const grouped=new Map();
+  questions.forEach(question=>{
+    if(!grouped.has(question.chapter))grouped.set(question.chapter,{chapter:question.chapter,questionCount:0,practiced:0,correct:0,wrong:0,attemptCount:0});
+    const stat=grouped.get(question.chapter);
+    stat.questionCount++;
+    const attempt=questionAttempt(question);
+    if(attempt){
+      stat.practiced++;
+      stat.correct+=attempt.correct||0;
+      stat.wrong+=attempt.wrong||0;
+      stat.attemptCount+=(attempt.correct||0)+(attempt.wrong||0);
+    }
+  });
+  return [...grouped.values()].map(stat=>({...stat,accuracy:stat.attemptCount?stat.correct/stat.attemptCount:null}))
+    .sort((a,b)=>compareChapters(a.chapter,b.chapter));
+}
+function renderScoreTrend(history){
+  if(!history.length)return `<p class="analysis-empty">Maak een toets om hier de scoretrend te zien.</p>`;
+  const width=760,height=230,padding={left:48,right:18,top:18,bottom:48};
+  const chartWidth=width-padding.left-padding.right,chartHeight=height-padding.top-padding.bottom;
+  const x=index=>history.length===1?padding.left+chartWidth/2:padding.left+index*chartWidth/(history.length-1);
+  const y=score=>padding.top+(100-score)*chartHeight/100;
+  const points=history.map((item,index)=>`${x(index)},${y(item.correct/item.total*100)}`).join(" ");
+  const grid=[0,25,50,75,100].map(value=>`<g><line x1="${padding.left}" y1="${y(value)}" x2="${width-padding.right}" y2="${y(value)}" stroke="#e4eaf0"/><text x="${padding.left-9}" y="${y(value)+4}" text-anchor="end" fill="#738196" font-size="11">${value}%</text></g>`).join("");
+  const labels=history.map((item,index)=>`<text x="${x(index)}" y="${height-12}" text-anchor="middle" fill="#738196" font-size="11">${escapeHtml(new Date(item.date).toLocaleDateString(undefined,{day:"numeric",month:"short"}))}</text>`).join("");
+  const dots=history.map((item,index)=>`<circle cx="${x(index)}" cy="${y(item.correct/item.total*100)}" r="5" fill="#275c8c"><title>${escapeHtml(new Date(item.date).toLocaleString())}: ${item.correct}/${item.total} (${Math.round(item.correct/item.total*100)}%)</title></circle>`).join("");
+  const description=history.map((item,index)=>`Toets ${index+1}: ${item.correct} van ${item.total} goed op ${new Date(item.date).toLocaleDateString()}`).join(". ");
+  return `<div class="analysis-chart"><svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(description)}">${grid}<polyline points="${points}" fill="none" stroke="#275c8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>${dots}${labels}</svg></div>`;
+}
+function renderAnalysisChapters(stats,unresolvedByChapter){
+  if(!stats.length)return `<p class="analysis-empty">Geen hoofdstukken beschikbaar in deze vraagbank.</p>`;
+  return `<div class="analysis-chapters">${stats.map(stat=>{
+    const coverage=stat.questionCount?stat.practiced/stat.questionCount*100:0;
+    const percentage=stat.accuracy===null?"Nog niet geoefend":`${Math.round(stat.accuracy*100)}% correct`;
+    const status=stat.practiced===0?"Niet gestart":stat.practiced<3||stat.attemptCount<5?"Nog weinig data":stat.accuracy<0.65?"Extra oefenen":stat.accuracy<0.8?"In ontwikkeling":"Sterk";
+    const open=unresolvedByChapter.get(stat.chapter)||0;
+    const color=stat.accuracy===null?"#cbd5df":stat.accuracy<0.65?"#c44747":stat.accuracy<0.8?"#a96e12":"#16805d";
+    return `<div class="analysis-chapter">
+      <div class="analysis-chapter-head"><b>${escapeHtml(chapterLabel(stat.chapter))}</b><span class="small">${percentage} · ${status}</span></div>
+      <div class="analysis-bars"><span class="small">Dekking</span><div class="analysis-track"><i style="width:${coverage}%"></i></div><b>${stat.practiced}/${stat.questionCount}</b></div>
+      <div class="analysis-bars"><span class="small">Correct</span><div class="analysis-track"><i style="width:${stat.accuracy===null?0:stat.accuracy*100}%;background:${color}"></i></div><b>${stat.accuracy===null?"—":`${Math.round(stat.accuracy*100)}%`}</b></div>
+      ${open?`<span class="badge">${open} open ${open===1?"fout":"fouten"}</span>`:""}
+      ${stat.practiced?`<button class="btn analysis-practice" onclick="startChapterAnalysisReview('${escapeHtml(stat.chapter)}')">Oefen hoofdstuk</button>`:""}
+    </div>`;
+  }).join("")}</div><p class="small">Een scorelabel verschijnt pas na minimaal drie verschillende vragen én vijf beantwoorde vragen; kleine steekproeven worden niet als vaste beheersing gepresenteerd.</p>`;
+}
+function renderAttentionAreas(weakChapters,unpracticedChapters){
+  let html="";
+  if(weakChapters.length)html+=`<p><b>Lagere score met voldoende oefendata</b></p><ul>${weakChapters.slice(0,4).map(stat=>`<li>${escapeHtml(chapterLabel(stat.chapter))}: ${Math.round(stat.accuracy*100)}% over ${stat.attemptCount} antwoorden</li>`).join("")}</ul>`;
+  else html+=`<p class="small">Geen betrouwbaar zwak patroon vastgesteld. Er zijn minimaal drie verschillende geoefende vragen en vijf antwoorden per hoofdstuk nodig voor dit signaal.</p>`;
+  if(unpracticedChapters.length)html+=`<p><b>Nog niet gestart</b></p><p>${unpracticedChapters.slice(0,5).map(item=>escapeHtml(chapterLabel(item.chapter))).join(", ")}${unpracticedChapters.length>5?` en ${unpracticedChapters.length-5} meer`:""}</p>`;
+  return html;
+}
+function renderExamHistory(history){
+  if(!history.length)return `<p class="analysis-empty">Je gemaakte toetsen verschijnen hier.</p>`;
+  return `<div class="tablewrap"><table><tr><th>Datum</th><th>Score</th><th>Vragen</th><th>Hoofdstukken</th></tr>
+    ${history.slice().reverse().map(item=>`<tr><td>${escapeHtml(new Date(item.date).toLocaleString())}</td><td>${item.correct}/${item.total} (${Math.round(item.correct/item.total*100)}%)</td><td>${item.total}</td><td>${(item.chapters||[]).map(chapter=>escapeHtml(chapterLabel(chapter))).join(", ")||"—"}</td></tr>`).join("")}
+  </table></div>`;
+}
+function startChapterAnalysisReview(chapter){
+  const pool=questions.filter(question=>question.chapter===chapter);
+  if(!pool.length){alert("Geen vragen beschikbaar voor dit hoofdstuk.");return}
+  document.getElementById("examCount").value=Math.min(20,pool.length);
+  selectAllChapters(true);
+  showTab("exam");
+  startExam(pool);
+}
 function tableStats(obj){
-  const rows=Object.entries(obj).sort().map(([k,s])=>{
+  const rows=Object.entries(obj).sort(([a],[b])=>compareChapters(a,b)).map(([k,s])=>{
     const pct=s.total?Math.round(s.correct/s.total*100):0;
     const cls=pct>=80?"heat-good":pct>=60?"heat-mid":"heat-bad";
-    return `<tr><td>${escapeHtml(k)}</td><td>${s.correct}/${s.total}</td><td class="${cls}">${pct}%</td></tr>`;
+    return `<tr><td>${escapeHtml(chapterLabel(k))}</td><td>${s.correct}/${s.total}</td><td class="${cls}">${pct}%</td></tr>`;
   }).join("");
-  return rows?`<table><tr><th>Onderdeel</th><th>Correct</th><th>Score</th></tr>${rows}</table>`:"<p>Nog geen data.</p>";
+  return rows?`<div class="tablewrap"><table><tr><th>Onderdeel</th><th>Correct</th><th>Score</th></tr>${rows}</table></div>`:"<p>Nog geen data.</p>";
 }
 
 function startFlashcards(){
+  fcBank=currentBank;
   const ch=document.getElementById("fcChapter").value;
   const mode=document.getElementById("fcMode").value;
   const weak=new Set(weakConcepts().map(x=>x.concept));
@@ -942,10 +2180,10 @@ function startFlashcards(){
     if(mode==="weak" && !weak.has(q.concept))return false;
     if(mode==="mnemonics" && !(q.mnemonic||q.tip))return false;
     if(mode==="due"){
-      const p=progress.flashcards[q.id];
+      const p=progress.flashcards[questionProgressKey(progress.flashcards,q.id,fcBank)];
       if(p && p.nextDue && p.nextDue>now)return false;
     }
-    return q.flashcard || q.explanation || q.tip || q.mnemonic;
+    return hasFlashcardContent(q);
   });
   fcDeck=shuffle(fcDeck);
   fcIndex=0;fcFlipped=false;
@@ -953,9 +2191,12 @@ function startFlashcards(){
   document.getElementById("fcRun").classList.remove("hidden");
   renderFc();
 }
+function hasFlashcardContent(question){
+  return Boolean(question.flashcard||question.explanation||question.tip||question.mnemonic);
+}
 function renderFc(){
   const q=fcDeck[fcIndex];
-  document.getElementById("fcMeta").textContent=`${fcIndex+1}/${fcDeck.length} · ${q.chapter} · ${q.concept}`;
+  document.getElementById("fcMeta").textContent=`${fcIndex+1}/${fcDeck.length} · ${chapterLabel(q.chapter)} · ${q.concept}`;
   const front=q.flashcard?.front || q.concept;
   const back=q.flashcard?.back || `${q.explanation}${q.mnemonic? "\\n\\nEzelsbrug: "+q.mnemonic:""}${q.example? "\\n\\nVoorbeeld: "+q.example:""}`;
   document.getElementById("fcCard").textContent=fcFlipped?back:front;
@@ -963,10 +2204,11 @@ function renderFc(){
 function flipCard(){fcFlipped=!fcFlipped;renderFc()}
 function rateCard(score){
   const q=fcDeck[fcIndex];
-  const old=progress.flashcards[q.id]||{level:0};
+  const cardKey=questionProgressKey(progress.flashcards,q.id,fcBank);
+  const old=progress.flashcards[cardKey]||{level:0};
   const level=score===2?Math.min(6,old.level+1):score===1?Math.max(1,old.level):0;
   const days=[0,0.02,1,3,7,14,30][level];
-  progress.flashcards[q.id]={level,last:Date.now(),nextDue:Date.now()+days*86400000};
+  progress.flashcards[cardKey]={level,last:Date.now(),nextDue:Date.now()+days*86400000,bank:fcBank};
   saveProgress();
   fcIndex++;
   fcFlipped=false;
@@ -985,7 +2227,7 @@ function renderBank(){
     return (!s||hay.includes(s)) && (ch==="all"||q.chapter===ch) && (!c||q.concept.toLowerCase().includes(c));
   });
   let html=`<p><b>${list.length}</b> vragen gevonden.</p><table><tr><th>ID</th><th>Hoofdstuk</th><th>Concept</th><th>Niveau</th><th>Vraag</th></tr>`;
-  html+=list.map(q=>`<tr><td>${escapeHtml(q.id)}</td><td>${escapeHtml(q.chapter)}</td><td>${escapeHtml(q.concept)}</td><td>${q.difficulty}</td><td>${escapeHtml(q.prompt)}</td></tr>`).join("");
+  html+=list.map(q=>`<tr><td>${escapeHtml(q.id)}</td><td>${escapeHtml(chapterLabel(q.chapter))}</td><td>${escapeHtml(q.concept)}</td><td>${q.difficulty}</td><td>${escapeHtml(q.prompt)}</td></tr>`).join("");
   html+=`</table>`;
   document.getElementById("bankOut").innerHTML=html;
 }
@@ -1073,7 +2315,7 @@ function importProgress(){
 }
 function resetProgress(){
   if(confirm("Weet je zeker dat je alle voortgang wilt wissen?")){
-    progress={attempts:{},history:[],flashcards:{},seenCorrect:{}};
+    progress={attempts:{},history:[],flashcards:{},seenCorrect:{},mistakes:{}};
     saveProgress();renderAnalysis();renderDashboard();
   }
 }
@@ -1085,9 +2327,7 @@ function download(name,text){
 function escapeHtml(x){
   return String(x??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
 }
-loadQuestionsFromServer().then(() => {
-  init();
-});
+loadQuestionsFromServer().then(() => init());
 </script>
 </body>
 </html>
