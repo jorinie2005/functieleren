@@ -65,6 +65,15 @@ code{background:#eef2ff;border-radius:6px;padding:2px 5px}
 </header>
 
 <nav>
+  <div style="padding: 12px 16px; background: #fff; border-bottom: 1px solid var(--border);">
+    <label style="display: inline-block;">
+      <b>Vraagbank:</b>
+      <select id="bankSelector" onchange="switchBank()" style="padding: 6px; margin-left: 8px;">
+        <option value="functieleren">Functieleren (Standaard)</option>
+        <option value="geschiedenis">Geschiedenis van de Psychologie</option>
+      </select>
+    </label>
+  </div>
   <button data-tab="dashboard" class="active">Dashboard</button>
   <button data-tab="exam">Toets maken</button>
   <button data-tab="flashcards">Flashcards</button>
@@ -638,14 +647,47 @@ function concepts(){
   return [...new Set(questions.map(q=>q.concept))].sort();
 }
 function init(){
-  document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showTab(b.dataset.tab)));
+  loadQuestionsFromServer().then(() => {
+    document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showTab(b.dataset.tab)));
+    renderChapterChecks();
+    renderBankFilters();
+    renderFcFilters();
+    document.getElementById("settingDetailed").checked=settings.detailed;
+    document.getElementById("settingShowWhyWrong").checked=settings.showWhyWrong;
+    document.getElementById("settingShowTips").checked=settings.showTips;
+    document.getElementById("settingShuffleQuestions").checked=settings.shuffleQuestions;
+    renderDashboard();
+    renderBank();
+  });
+}
+let currentBank = "functieleren";  // Standaard bank
+
+async function switchBank(){
+  const selected = document.getElementById("bankSelector").value;
+  currentBank = selected;
+  
+  if(selected === "geschiedenis"){
+    try {
+      const response = await fetch("./geschiedenis_vragen.json", { cache: "no-store" });
+      if (!response.ok) throw new Error("Bestand niet gevonden");
+      const geschiedenisQuestions = await response.json();
+      questions = geschiedenisQuestions;
+      console.log("Geschiedenis-vraagbank geladen:", questions.length, "vragen");
+    } catch(error){
+      alert("Kon geschiedenis_vragen.json niet laden: " + error.message);
+      document.getElementById("bankSelector").value = "functieleren";
+      currentBank = "functieleren";
+      return;
+    }
+  } else {
+    // Terug naar standaard bank
+    await loadQuestionsFromServer();
+  }
+  
+  // Vernieuw de weergave
   renderChapterChecks();
   renderBankFilters();
   renderFcFilters();
-  document.getElementById("settingDetailed").checked=settings.detailed;
-  document.getElementById("settingShowWhyWrong").checked=settings.showWhyWrong;
-  document.getElementById("settingShowTips").checked=settings.showTips;
-  document.getElementById("settingShuffleQuestions").checked=settings.shuffleQuestions;
   renderDashboard();
   renderBank();
 }
@@ -1085,9 +1127,7 @@ function download(name,text){
 function escapeHtml(x){
   return String(x??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
 }
-loadQuestionsFromServer().then(() => {
-  init();
-});
+loadQuestionsFromServer().then(() => init());
 </script>
 </body>
 </html>
