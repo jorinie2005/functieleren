@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Functieleer Oefenomgeving</title>
+<title>Tentamen Oefenomgeving</title>
 <style>
 :root{
   --bg:#f5f7fb;--card:#fff;--text:#172033;--muted:#64748b;--primary:#2563eb;
@@ -60,12 +60,12 @@ code{background:#eef2ff;border-radius:6px;padding:2px 5px}
 </head>
 <body>
 <header>
-  <h1>Functieleer Oefenomgeving</h1>
+  <h1>Tentamen Oefenomgeving</h1>
   <div style="padding: 12px 16px; background: #fff; border-bottom: 1px solid var(--border);">
     <label style="display: inline-block;">
       <b>Vraagbank:</b>
       <select id="bankSelector" onchange="switchBank()" style="padding: 6px; margin-left: 8px;">
-        <option value="functieleren">Functieleren (Standaard)</option>
+        <option value="functieleren">Functieleer</option>
         <option value="geschiedenis">Geschiedenis van de Psychologie</option>
       </select>
     </label>
@@ -217,7 +217,7 @@ code{background:#eef2ff;border-radius:6px;padding:2px 5px}
 <section id="analysis" class="panel">
   <div class="card">
     <h2>Analyse</h2>
-    <p class="small">Analyse wordt opgebouwd over alle toetsen heen. Zwakke stof wordt bepaald op basis van score per concept, aantal pogingen en recente fouten.</p>
+    <p class="small">De analyse toont resultaten voor de geselecteerde vraagbank. Zwakke stof wordt bepaald op basis van score per concept en aantal pogingen.</p>
     <div class="controls">
       <button class="btn primary" onclick="renderAnalysis()">Ververs analyse</button>
       <button class="btn" onclick="makeWeakExam()">Toets zwakke stof</button>
@@ -577,6 +577,7 @@ let timerInterval = null;
 let fcDeck = [];
 let fcIndex = 0;
 let fcFlipped = false;
+let fcBank = "functieleren";
 
 async function loadQuestionsFromServer(){
   try {
@@ -663,6 +664,18 @@ function init(){
 }
 let currentBank = "functieleren";  // Standaard bank
 
+function questionProgressKey(map,id,bank=currentBank){
+  const scopedKey=`${bank}::${id}`;
+  if(Object.prototype.hasOwnProperty.call(map,scopedKey))return scopedKey;
+  if(bank==="functieleren" && Object.prototype.hasOwnProperty.call(map,id))return id;
+  return scopedKey;
+}
+function historyForCurrentBank(){
+  return progress.history.filter(h=>(h.bank||"functieleren")===currentBank);
+}
+function currentBankName(){
+  return document.querySelector("#bankSelector option:checked")?.textContent||currentBank;
+}
 async function switchBank(){
   const selected = document.getElementById("bankSelector").value;
   currentBank = selected;
@@ -691,6 +704,7 @@ async function switchBank(){
   renderFcFilters();
   renderDashboard();
   renderBank();
+  renderAnalysis();
 }
 function showTab(id){
   document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b.dataset.tab===id));
@@ -702,7 +716,7 @@ function showTab(id){
 function renderDashboard(){
   document.getElementById("dashQ").textContent=questions.length;
   document.getElementById("dashF").textContent=questions.filter(q=>q.flashcard || q.mnemonic || q.tip).length;
-  document.getElementById("dashT").textContent=progress.history.length;
+  document.getElementById("dashT").textContent=historyForCurrentBank().length;
 }
 function renderChapterChecks(){
   const box=document.getElementById("chapterChecks");
@@ -764,10 +778,13 @@ function buildPool(customPool=null){
   if(diff!=="all")pool=pool.filter(q=>String(q.difficulty)===diff);
   if(typ!=="all")pool=pool.filter(q=>q.type===typ);
   if(avoid){
-    const wrongIds = Object.keys(progress.attempts).filter(id=>{
-      const a=progress.attempts[id]; return a.wrong>0 && a.correct<a.wrong+1;
+    pool=pool.filter(q=>{
+      const attemptKey=questionProgressKey(progress.attempts,q.id);
+      const attempt=progress.attempts[attemptKey];
+      const seenCorrect=progress.seenCorrect[questionProgressKey(progress.seenCorrect,q.id)];
+      const hasWrongAttempt=attempt && attempt.wrong>0 && attempt.correct<attempt.wrong+1;
+      return !seenCorrect || (includeWrong && hasWrongAttempt);
     });
-    pool=pool.filter(q=>!progress.seenCorrect[q.id] || (includeWrong && wrongIds.includes(q.id)));
   }
   return pool;
 }
@@ -780,6 +797,7 @@ function startExam(customPool=null){
   
   currentExam={
     id:"exam_"+Date.now(),
+    bank:currentBank,
     started:Date.now(),
     mode:document.getElementById("examMode").value,
     feedback:document.getElementById("feedbackMode").value,
@@ -876,12 +894,17 @@ function finishExam(){
   const correct=currentExam.answers.filter(a=>a&&a.correct).length;
   currentExam.questions.forEach((q,i)=>{
     const a=currentExam.answers[i]||{correct:false,blank:true};
-    if(!progress.attempts[q.id])progress.attempts[q.id]={correct:0,wrong:0,chapter:q.chapter,concept:q.concept};
-    if(a.correct){progress.attempts[q.id].correct++;progress.seenCorrect[q.id]=true}
-    else progress.attempts[q.id].wrong++;
+    const attemptKey=questionProgressKey(progress.attempts,q.id,currentExam.bank);
+    if(!progress.attempts[attemptKey])progress.attempts[attemptKey]={correct:0,wrong:0,chapter:q.chapter,concept:q.concept,bank:currentExam.bank};
+    const attempt=progress.attempts[attemptKey];
+    attempt.bank=currentExam.bank;
+    if(a.correct){
+      attempt.correct++;
+      progress.seenCorrect[questionProgressKey(progress.seenCorrect,q.id,currentExam.bank)]=true;
+    } else attempt.wrong++;
   });
   progress.history.push({
-    id:currentExam.id,date:new Date().toISOString(),total,correct,
+    id:currentExam.id,bank:currentExam.bank,date:new Date().toISOString(),total,correct,
     chapters:[...new Set(currentExam.questions.map(q=>q.chapter))]
   });
   saveProgress();
@@ -931,7 +954,7 @@ function renderResult(correct,total){
 
 function aggregate(){
   const byConcept={}, byChapter={};
-  Object.values(progress.attempts).forEach(a=>{
+  Object.values(progress.attempts).filter(a=>(a.bank||"functieleren")===currentBank).forEach(a=>{
     for(const map of [[byConcept,a.concept],[byChapter,a.chapter]]){
       if(!map[0][map[1]])map[0][map[1]]={correct:0,wrong:0,total:0};
       map[0][map[1]].correct+=a.correct;
@@ -953,16 +976,18 @@ function renderAnalysis(){
   const weak=weakConcepts();
   const testedConcepts=new Set(Object.keys(byConcept));
   const untested=concepts().filter(c=>!testedConcepts.has(c));
-  let html=`<div class="card"><h3>Score per hoofdstuk</h3>${tableStats(byChapter)}</div>`;
+  const history=historyForCurrentBank();
+  let html=`<div class="card"><h3>Analyse: ${escapeHtml(currentBankName())}</h3><p class="small">Resultaten en voortgang van deze vraagbank.</p></div>`;
+  html+=`<div class="card"><h3>Score per hoofdstuk</h3>${tableStats(byChapter)}</div>`;
   html+=`<div class="card"><h3>Zwakke concepten</h3>`;
   if(!weak.length)html+=`<p>Geen duidelijke zwakke concepten bekend. Maak meer toetsen voor betrouwbaardere analyse.</p>`;
   else html+=`<ul>`+weak.map(w=>`<li><b>${escapeHtml(w.concept)}</b>: ${Math.round(w.acc*100)}% (${w.correct}/${w.total})</li>`).join("")+`</ul>`;
   html+=`</div>`;
   html+=`<div class="card"><h3>Nog niet geteste concepten</h3><p>${untested.length?untested.map(escapeHtml).join(", "):"Alles in de huidige vraagbank is minimaal één keer getest."}</p></div>`;
   html+=`<div class="card"><h3>Toetshistorie</h3>`;
-  if(!progress.history.length)html+=`<p>Nog geen toetsen gemaakt.</p>`;
+  if(!history.length)html+=`<p>Nog geen toetsen gemaakt voor deze vraagbank.</p>`;
   else html+=`<table><tr><th>Datum</th><th>Score</th><th>Hoofdstukken</th></tr>`+
-    progress.history.slice().reverse().map(h=>`<tr><td>${new Date(h.date).toLocaleString()}</td><td>${h.correct}/${h.total} (${Math.round(h.correct/h.total*100)}%)</td><td>${h.chapters.map(escapeHtml).join(", ")}</td></tr>`).join("")+`</table>`;
+    history.slice().reverse().map(h=>`<tr><td>${new Date(h.date).toLocaleString()}</td><td>${h.correct}/${h.total} (${Math.round(h.correct/h.total*100)}%)</td><td>${h.chapters.map(escapeHtml).join(", ")}</td></tr>`).join("")+`</table>`;
   html+=`</div>`;
   out.innerHTML=html;
 }
@@ -976,6 +1001,7 @@ function tableStats(obj){
 }
 
 function startFlashcards(){
+  fcBank=currentBank;
   const ch=document.getElementById("fcChapter").value;
   const mode=document.getElementById("fcMode").value;
   const weak=new Set(weakConcepts().map(x=>x.concept));
@@ -985,7 +1011,7 @@ function startFlashcards(){
     if(mode==="weak" && !weak.has(q.concept))return false;
     if(mode==="mnemonics" && !(q.mnemonic||q.tip))return false;
     if(mode==="due"){
-      const p=progress.flashcards[q.id];
+      const p=progress.flashcards[questionProgressKey(progress.flashcards,q.id,fcBank)];
       if(p && p.nextDue && p.nextDue>now)return false;
     }
     return q.flashcard || q.explanation || q.tip || q.mnemonic;
@@ -1006,10 +1032,11 @@ function renderFc(){
 function flipCard(){fcFlipped=!fcFlipped;renderFc()}
 function rateCard(score){
   const q=fcDeck[fcIndex];
-  const old=progress.flashcards[q.id]||{level:0};
+  const cardKey=questionProgressKey(progress.flashcards,q.id,fcBank);
+  const old=progress.flashcards[cardKey]||{level:0};
   const level=score===2?Math.min(6,old.level+1):score===1?Math.max(1,old.level):0;
   const days=[0,0.02,1,3,7,14,30][level];
-  progress.flashcards[q.id]={level,last:Date.now(),nextDue:Date.now()+days*86400000};
+  progress.flashcards[cardKey]={level,last:Date.now(),nextDue:Date.now()+days*86400000,bank:fcBank};
   saveProgress();
   fcIndex++;
   fcFlipped=false;
