@@ -1,1 +1,903 @@
+[
+  {
+    "id": "h1_001",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Psyche",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Welke omschrijving geeft het best weer waarom het Griekse begrip psyche belangrijk is voor het ontstaan van de psychologie?",
+    "options": [
+      "Psyche verwees naar het vermogen om logisch te redeneren en was daarom vanaf het begin gelijk aan intelligentie.",
+      "Psyche betekende oorspronkelijk adem of levensprincipe en markeerde het verschil tussen levende en dode wezens.",
+      "Psyche betekende oorspronkelijk persoonlijkheid en werd gebruikt om individuele verschillen te meten.",
+      "Psyche verwees naar hersenactiviteit en werd door Griekse artsen gebruikt als neurologisch begrip."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. In de Griekse traditie betekende psyche oorspronkelijk adem. Het verwees naar datgene wat aanwezig is in levende wezens en ontbreekt bij dode lichamen. Later werd psyche vertaald als ziel en vormde het de stam van het woord psychologie.",
+    "whyWrong": [
+      "A is fout omdat rationeel denken later wel belangrijk werd, maar niet de oorspronkelijke betekenis van psyche was.",
+      "B is juist omdat psyche oorspronkelijk adem of levensprincipe betekende.",
+      "C is fout omdat persoonlijkheidsmeting pas veel later in de psychologie centraal kwam te staan.",
+      "D is fout omdat psyche in deze vroege context niet gelijkstond aan hersenactiviteit."
+    ],
+    "tip": "Begin bij psyche altijd met leven versus dood, niet met moderne begrippen als brein of persoonlijkheid.",
+    "example": "Een levend mens ademt en heeft volgens deze vroege gedachte psyche; een dood lichaam mist die psyche.",
+    "mnemonic": "Psyche = adem = leven."
+  },
+  {
+    "id": "h1_002",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Hippocrates en humorale theorie",
+    "difficulty": 3,
+    "type": "persoon",
+    "prompt": "Wat maakt Hippocrates historisch belangrijk voor de psychologie?",
+    "options": [
+      "Hij verklaarde psychologische en lichamelijke problemen vanuit natuurlijke oorzaken in plaats van demonische oorzaken.",
+      "Hij ontwikkelde de eerste formele intelligentietest voor kinderen met onderwijsproblemen.",
+      "Hij introduceerde het begrip apperceptie als actieve interpretatie van waarneming.",
+      "Hij stelde dat alle kennis voortkomt uit aangeboren ideale vormen."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Hippocrates en zijn volgelingen beschouwden ziekten als natuurlijke fenomenen. Zijn humorale theorie verklaarde gezondheid en temperament vanuit een evenwicht of onevenwicht tussen vier lichaamssappen.",
+    "whyWrong": [
+      "A is juist omdat Hippocrates ziekten naturalistisch verklaarde.",
+      "B is fout omdat intelligentietesten bij Binet en Simon horen.",
+      "C is fout omdat apperceptie vooral bij Leibniz en later Wundt terugkomt.",
+      "D is fout omdat ideale vormen bij Plato horen."
+    ],
+    "tip": "Hippocrates staat voor de overgang van bovennatuurlijke naar natuurlijke verklaringen.",
+    "example": "Een melancholisch temperament werd gekoppeld aan een overheersing van zwarte gal.",
+    "mnemonic": "Hippocrates = humoren = lichaamssappen."
+  },
+  {
+    "id": "h1_003",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Humorale theorie",
+    "difficulty": 4,
+    "type": "toepassing",
+    "prompt": "Een arts verklaart iemands sombere temperament door een verstoring in lichamelijke vloeistoffen. Welke historische theorie past hierbij het best?",
+    "options": [
+      "De atoomtheorie van Democritus",
+      "De humorale theorie van Hippocrates",
+      "De vormenleer van Plato",
+      "De Aristotelische logica"
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. De humorale theorie stelde dat gezondheid, ziekte en temperament afhankelijk zijn van de balans tussen bloed, gele gal, zwarte gal en slijm.",
+    "whyWrong": [
+      "A is fout omdat de atoomtheorie over de materiële samenstelling van de werkelijkheid gaat.",
+      "B is juist omdat temperament hier lichamelijk-humoraal wordt verklaard.",
+      "C is fout omdat Plato’s vormenleer gaat over ideale vormen achter verschijningen.",
+      "D is fout omdat Aristotelische logica betrekking heeft op denken in categorieën."
+    ],
+    "tip": "Als gedrag of temperament via lichaamssappen wordt verklaard, denk aan Hippocrates.",
+    "example": "Sombere stemming werd historisch gekoppeld aan zwarte gal.",
+    "mnemonic": "Humor = humoren = vloeistoffen."
+  },
+  {
+    "id": "h1_004",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Socrates, Plato en Aristoteles",
+    "difficulty": 3,
+    "type": "persoon",
+    "prompt": "Welke volgorde van leermeester-leerlingrelaties is correct?",
+    "options": [
+      "Aristoteles → Socrates → Plato",
+      "Plato → Aristoteles → Socrates",
+      "Socrates → Plato → Aristoteles",
+      "Socrates → Aristoteles → Plato"
+    ],
+    "correct": 2,
+    "explanation": "Het juiste antwoord is C. Socrates was de leermeester van Plato, en Plato was de leermeester van Aristoteles.",
+    "whyWrong": [
+      "A is fout omdat Aristoteles niet de leermeester van Socrates was.",
+      "B is fout omdat Socrates vóór Plato komt.",
+      "C is juist volgens de klassieke filosofische lijn.",
+      "D is fout omdat Aristoteles leerling was van Plato, niet andersom."
+    ],
+    "tip": "Deze volgorde is basiskennis en helpt ook bij het onderscheiden van rationalisme en empirisme.",
+    "example": "Plato werkte Socrates’ dialogen uit; Aristoteles ontwikkelde zich vervolgens deels tegen Plato’s ideeën in.",
+    "mnemonic": "Socrates → Plato → Aristoteles."
+  },
+  {
+    "id": "h1_005",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Plato: nativisme en rationalisme",
+    "difficulty": 4,
+    "type": "concept",
+    "prompt": "Waarom passen nativisme en rationalisme goed bij Plato’s filosofie?",
+    "options": [
+      "Omdat Plato stelde dat alle kennis uitsluitend ontstaat door herhaalde zintuiglijke ervaring.",
+      "Omdat Plato aannam dat ware kennis voortkomt uit aangeboren capaciteiten en door de rede toegankelijk wordt.",
+      "Omdat Plato stelde dat mentale functies alleen verklaarbaar zijn via hersenschade.",
+      "Omdat Plato geloofde dat kennis ontstaat door beloning en straf."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Plato’s mentale filosofie combineerde nativisme en rationalisme: mensen beschikken over aangeboren capaciteiten, en ware kennis wordt bereikt door redenering in plaats van door zintuiglijke ervaring.",
+    "whyWrong": [
+      "A is fout omdat dit empirisme beschrijft, eerder passend bij Aristoteles of Locke.",
+      "B is juist omdat Plato aangeboren ideeën en rede centraal stelde.",
+      "C is fout omdat hersenlokalisatie pas veel later centraal werd.",
+      "D is fout omdat beloning en straf bij behaviorisme horen."
+    ],
+    "tip": "Plato vertrouwt de rede meer dan de zintuigen.",
+    "example": "Bij Plato kom je dichter bij waarheid door rationeel nadenken over het algemene idee achter concrete dingen.",
+    "mnemonic": "Plato kijkt omhoog naar ideeën, niet omlaag naar losse observaties."
+  },
+  {
+    "id": "h1_006",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Plato: verschijningen en ideale vormen",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een student zegt: ‘Een specifieke stoel kan kapotgaan, maar het algemene idee van wat een stoel is blijft bestaan.’ Welke Platonische tegenstelling wordt hier toegepast?",
+    "options": [
+      "Primaire versus secundaire kwaliteiten",
+      "Verschijningen versus ideale vormen",
+      "Vegetatieve versus sensitieve zielen",
+      "Materiële versus efficiënte oorzaken"
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Bij Plato zijn concrete objecten verschijningen, terwijl daarachter blijvende ideale vormen liggen. De stoel die je ziet is veranderlijk; het idee ‘stoel’ is fundamenteler.",
+    "whyWrong": [
+      "A is fout omdat primaire en secundaire kwaliteiten bij Locke en Galilei horen.",
+      "B is juist omdat het onderscheid tussen concrete stoel en algemeen stoelbegrip Plato’s vormenleer weergeeft.",
+      "C is fout omdat dit Aristoteles’ hiërarchie van zielen betreft.",
+      "D is fout omdat dit Aristoteles’ oorzakenleer betreft."
+    ],
+    "tip": "Bij Plato is wat je ziet nooit het diepste niveau van werkelijkheid.",
+    "example": "Een boom in het park is een verschijning; het algemene idee ‘boom’ is de ideale vorm.",
+    "mnemonic": "Verschijningen = wat verschijnt; ideale vormen = hoe het écht hoort te zijn."
+  },
+  {
+    "id": "h1_007",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Allegorie van de grot",
+    "difficulty": 4,
+    "type": "toepassing",
+    "prompt": "In Plato’s allegorie van de grot nemen gevangenen schaduwen op de wand voor de werkelijkheid. Wat symboliseren deze schaduwen het best?",
+    "options": [
+      "De ideale vormen zelf",
+      "De verschijningen die mensen zintuiglijk ervaren",
+      "De rationele ziel van de mens",
+      "De vier oorzaken van Aristoteles"
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. De schaduwen staan voor verschijningen: de wereld zoals mensen die zintuiglijk ervaren. De echte objecten achter de gevangenen verwijzen naar een fundamentelere werkelijkheid.",
+    "whyWrong": [
+      "A is fout omdat de ideale vormen juist fundamenteler zijn dan de schaduwen.",
+      "B is juist omdat schaduwen de beperkte zintuiglijke ervaring symboliseren.",
+      "C is fout omdat de rationele ziel onderdeel is van Plato’s psychemodel, niet specifiek de grotmetafoor.",
+      "D is fout omdat Aristoteles’ oorzakenleer hier niet centraal staat."
+    ],
+    "tip": "In de grot zijn schaduwen nooit de echte werkelijkheid.",
+    "example": "Net zoals een schaduw slechts een afgeleide is van een object, is zintuiglijke ervaring bij Plato slechts een afgeleide van ideale vormen.",
+    "mnemonic": "Grot = schaduw = verschijning."
+  },
+  {
+    "id": "h1_008",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Plato: driedeling van de psyche",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke driedeling van de psyche hoort bij Plato?",
+    "options": [
+      "Id, ego en superego",
+      "Lust, moed en rede",
+      "Vegetatief, sensitief en rationeel",
+      "Sensatie, perceptie en apperceptie"
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Plato onderscheidde in de psyche lust of begeerte, moed en rede.",
+    "whyWrong": [
+      "A is fout omdat id, ego en superego bij Freud horen.",
+      "B is juist omdat dit Plato’s driedeling van de psyche is.",
+      "C is fout omdat vegetatief, sensitief en rationeel bij Aristoteles horen.",
+      "D is fout omdat deze termen bij waarneming en latere bewustzijnstheorieën horen."
+    ],
+    "tip": "Verwar Plato’s psychemodel niet met Aristoteles’ zielenhiërarchie.",
+    "example": "Lust wil directe bevrediging, moed houdt stand tegen bedreiging, rede stuurt en ordent.",
+    "mnemonic": "Plato: Lust, Lef, Logica."
+  },
+  {
+    "id": "h1_009",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Aristoteles: empirisme en inductie",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak geeft het verschil tussen Plato en Aristoteles het best weer?",
+    "options": [
+      "Plato vertrok sterker vanuit aangeboren ideeën en deductie; Aristoteles sterker vanuit observatie, empirisme en inductie.",
+      "Plato verdedigde empirisme; Aristoteles verwierp observatie volledig.",
+      "Plato en Aristoteles verwierpen alle aangeboren categorieën.",
+      "Plato ontwikkelde de vier oorzaken; Aristoteles ontwikkelde de allegorie van de grot."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Plato wordt geassocieerd met nativisme, rationalisme en deductie, terwijl Aristoteles sterker de nadruk legde op observatie, empirisme en inductie.",
+    "whyWrong": [
+      "A is juist omdat dit het klassieke contrast correct weergeeft.",
+      "B is fout omdat de posities zijn omgedraaid.",
+      "C is fout omdat Plato juist aangeboren ideeën benadrukte en Aristoteles ook aangeboren categorieën erkende.",
+      "D is fout omdat de vier oorzaken bij Aristoteles horen en de grot bij Plato."
+    ],
+    "tip": "Plato redeneert vanuit ideeën; Aristoteles observeert de wereld.",
+    "example": "Plato zoekt de ideale vorm achter een boom; Aristoteles vergelijkt bomen en maakt categorieën.",
+    "mnemonic": "Plato = denken; Aristoteles = observeren."
+  },
+  {
+    "id": "h1_010",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Aristoteles: zielentypen",
+    "difficulty": 4,
+    "type": "toepassing",
+    "prompt": "Een organisme kan zich voeden en voortplanten, maar vertoont geen leren uit zintuiglijke ervaring. Welke ziel zou Aristoteles hieraan toeschrijven?",
+    "options": [
+      "Vegetatieve ziel",
+      "Sensitieve ziel",
+      "Rationele ziel",
+      "Opperste monade"
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. De vegetatieve ziel is volgens Aristoteles de laagste vorm van psyche en omvat voeding en voortplanting.",
+    "whyWrong": [
+      "A is juist omdat voeding en voortplanting bij de vegetatieve ziel horen.",
+      "B is fout omdat de sensitieve ziel leren via zintuiglijke ervaring mogelijk maakt.",
+      "C is fout omdat de rationele ziel redeneren, abstraheren en categoriseren mogelijk maakt.",
+      "D is fout omdat monaden bij Leibniz horen."
+    ],
+    "tip": "Let bij Aristoteles op de hiërarchie: plant, dier, mens.",
+    "example": "Een plant heeft volgens Aristoteles een vegetatieve ziel.",
+    "mnemonic": "Vegetatief = Voeden → Planten; Sensitief = Senses → Dieren; Rationeel = Redeneren → Mensen."
+  },
+  {
+    "id": "h1_011",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Aristotelische logica",
+    "difficulty": 4,
+    "type": "concept",
+    "prompt": "Waarom is Aristoteles’ categorieënleer relevant voor de geschiedenis van de psychologie?",
+    "options": [
+      "Omdat zij laat zien dat ervaring volgens hem pas betekenisvol wordt wanneer zij door mentale categorieën wordt geordend.",
+      "Omdat zij aantoont dat waarneming volledig losstaat van denken.",
+      "Omdat zij de eerste behavioristische stimulus-responswet formuleerde.",
+      "Omdat zij bewijst dat persoonlijkheid uitsluitend biologisch erfelijk is."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Aristoteles stelde dat de menselijke psyche ervaringen ordent volgens categorieën zoals substantie, kwaliteit, kwantiteit, plaats, tijd, relatie en activiteit. Daardoor kunnen mensen zinvolle uitspraken doen.",
+    "whyWrong": [
+      "A is juist omdat mentale ordening centraal staat in Aristoteles’ logica.",
+      "B is fout omdat waarneming en denken bij Aristoteles juist verbonden zijn via ordening.",
+      "C is fout omdat stimulus-responswetten veel later bij behavioristen ontstaan.",
+      "D is fout omdat erfelijkheid van persoonlijkheid geen kernpunt van Aristoteles’ categorieënleer is."
+    ],
+    "tip": "Aristoteles is niet alleen empirist; hij denkt ook na over hoe de geest ervaringen ordent.",
+    "example": "Je kunt over een object zeggen wat het is, waar het is en welke eigenschappen het heeft.",
+    "mnemonic": "Aristoteles ordent ervaring in vakjes."
+  },
+  {
+    "id": "h1_012",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Vier oorzaken van Aristoteles",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een onderzoeker analyseert een houten bureau. Zij vraagt: ‘Welk ontwerp of plan maakt dit object tot een bureau en niet tot een willekeurige stapel hout?’ Welke Aristotelische oorzaak bedoelt zij?",
+    "options": [
+      "Materiële oorzaak",
+      "Formele oorzaak",
+      "Efficiënte oorzaak",
+      "Uiteindelijke oorzaak"
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. De formele oorzaak verwijst naar de vorm, structuur of het ontwerp dat iets maakt tot wat het is.",
+    "whyWrong": [
+      "A is fout omdat de materiële oorzaak vraagt waaruit iets bestaat.",
+      "B is juist omdat het gaat om ontwerp of vorm.",
+      "C is fout omdat de efficiënte oorzaak verwijst naar de maker of handeling die iets tot stand brengt.",
+      "D is fout omdat de uiteindelijke oorzaak verwijst naar het doel."
+    ],
+    "tip": "Bij Aristoteles: materiaal, model, maker, motief.",
+    "example": "Bij een stoel: hout is materieel; ontwerp is formeel; meubelmaker is efficiënt; zitten is uiteindelijk.",
+    "mnemonic": "Materiaal – Model – Maker – Motief."
+  },
+  {
+    "id": "h1_013",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Democritus, Epicurus en atomisme",
+    "difficulty": 4,
+    "type": "persoon",
+    "prompt": "Waarom was Democritus’ atoomtheorie controversieel in de Griekse context?",
+    "options": [
+      "Omdat zij stelde dat materie uiteindelijk uit kleine ondeelbare deeltjes bestaat, wat botste met doelgerichte causaliteitsopvattingen.",
+      "Omdat zij beweerde dat alle kennis aangeboren is en via deductie wordt verkregen.",
+      "Omdat zij stelde dat taal in een specifiek hersengebied gelokaliseerd is.",
+      "Omdat zij psychologie reduceerde tot conditionering door beloning en straf."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Democritus stelde dat materiële objecten bestaan uit kleine ondeelbare deeltjes, atomen. Dit botste met de Griekse neiging om veroorzaakte gebeurtenissen als doelgericht te begrijpen.",
+    "whyWrong": [
+      "A is juist omdat het atomisme botste met teleologische verklaringen.",
+      "B is fout omdat dit eerder bij Plato’s rationalisme past.",
+      "C is fout omdat lokalisatie van taal pas veel later bij Broca en Wernicke hoort.",
+      "D is fout omdat conditionering bij behaviorisme hoort."
+    ],
+    "tip": "Democritus hoort bij atomen, Epicurus en Lucretius bij verdere verspreiding van deze gedachte.",
+    "example": "Volgens atomisme zijn objecten niet oneindig deelbaar, maar opgebouwd uit kleine deeltjes.",
+    "mnemonic": "Democritus = deeltjes."
+  },
+  {
+    "id": "h1_014",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Alhazen en optica",
+    "difficulty": 4,
+    "type": "persoon",
+    "prompt": "Welke bijdrage van Alhazen past het best bij de latere psychologie van waarneming?",
+    "options": [
+      "Hij verdedigde dat zien ontstaat doordat licht van objecten het oog binnengaat.",
+      "Hij verdedigde dat ogen actieve stralen uitzenden naar objecten.",
+      "Hij ontwikkelde het onderscheid tussen id, ego en superego.",
+      "Hij ontdekte dat geheugen verspreid in de cortex is georganiseerd."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Alhazen ondersteunde het idee dat licht van buiten naar binnen komt wanneer we zien. Zijn camera-obscura-observaties waren daarbij belangrijk.",
+    "whyWrong": [
+      "A is juist omdat Alhazen het intromissiemodel van zien verdedigde.",
+      "B is fout omdat dit de tegenovergestelde emissie-opvatting is.",
+      "C is fout omdat id, ego en superego bij Freud horen.",
+      "D is fout omdat verspreid geheugen bij Lashley hoort."
+    ],
+    "tip": "Bij Alhazen: licht komt het oog binnen.",
+    "example": "Een camera obscura projecteert de buitenwereld ondersteboven, net zoals beeldvorming op het netvlies.",
+    "mnemonic": "Alhazen = licht naar binnen halen."
+  },
+  {
+    "id": "h1_015",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Avicenna: externe en interne zintuigen",
+    "difficulty": 5,
+    "type": "concept",
+    "prompt": "Waarom kan Avicenna’s onderscheid tussen externe en interne zintuigen worden gezien als een vroege voorloper van informatieverwerkingstheorieën?",
+    "options": [
+      "Omdat hij stelde dat zintuiglijke informatie niet alleen wordt ontvangen, maar ook intern wordt verwerkt, geëvalueerd, gekopieerd en herinnerd.",
+      "Omdat hij beweerde dat alle zintuigen slechts één soort zenuwenergie gebruiken.",
+      "Omdat hij stelde dat leren uitsluitend via beloning en straf plaatsvindt.",
+      "Omdat hij mentale functies strikt aan schedelknobbels koppelde."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Avicenna onderscheidde externe zintuigen voor ontvangst van informatie en interne zintuigen voor verwerking, evaluatie, kopiëren en herinneren.",
+    "whyWrong": [
+      "A is juist omdat Avicenna meer beschreef dan passieve registratie.",
+      "B is fout omdat dit lijkt op de wet van specifieke zenuwenergieën.",
+      "C is fout omdat dit behavioristisch klinkt.",
+      "D is fout omdat schedelknobbels bij Gall en frenologie horen."
+    ],
+    "tip": "Avicenna is belangrijk omdat hij waarneming koppelt aan interne verwerking.",
+    "example": "Je ziet een hond, maar intern schat je ook gevaar in en herinner je eerdere ervaringen.",
+    "mnemonic": "Avicenna = buiten zien, binnen verwerken."
+  },
+  {
+    "id": "h1_016",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Floating Man gedachte-experiment",
+    "difficulty": 5,
+    "type": "kritische analyse",
+    "prompt": "Wat wilde Avicenna aantonen met het Floating Man gedachte-experiment?",
+    "options": [
+      "Dat zelfbewustzijn kan bestaan zonder directe zintuiglijke ervaring van het lichaam.",
+      "Dat alle kennis uitsluitend ontstaat via externe zintuigen.",
+      "Dat mensen geen bewustzijn kunnen hebben zonder aanraking.",
+      "Dat visuele waarneming afhankelijk is van lichtstralen die uit het oog komen."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. In het Floating Man gedachte-experiment stelt Avicenna zich een persoon voor die zweeft, zonder zintuiglijke input van lichaam of omgeving. Toch zou deze persoon volgens Avicenna zelfbewustzijn hebben.",
+    "whyWrong": [
+      "A is juist omdat het gedachte-experiment de onafhankelijkheid van zelfbewustzijn onderzoekt.",
+      "B is fout omdat Avicenna juist interne vermogens benadrukt.",
+      "C is fout omdat de Floating Man volgens Avicenna wel zelfbewust kan zijn zonder aanraking.",
+      "D is fout omdat dit niet over emissietheorie van zien gaat."
+    ],
+    "tip": "Floating Man gaat over zelfbewustzijn, niet over optica.",
+    "example": "Zelfs zonder iets te zien, horen of voelen zou de zwevende man volgens Avicenna weten dát hij bestaat.",
+    "mnemonic": "Floating Man = zwevend lichaam, blijvend zelf."
+  },
+  {
+    "id": "h2_001",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Descartes: rationalisme",
+    "difficulty": 4,
+    "type": "concept",
+    "prompt": "Welke uitspraak past het best bij Descartes’ rationalistische methode?",
+    "options": [
+      "Betrouwbare kennis ontstaat vooral via herhaalde zintuiglijke waarneming.",
+      "Betrouwbare kennis ontstaat door vanuit onbetwijfelbare axioma’s deductief te redeneren.",
+      "Betrouwbare kennis ontstaat door het vergelijken van schedelvormen.",
+      "Betrouwbare kennis ontstaat uitsluitend door statistische correlatie."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Descartes zocht naar onbetwijfelbare uitgangspunten, simple natures of axioma’s, waaruit verdere kennis deductief kan worden afgeleid.",
+    "whyWrong": [
+      "A is fout omdat dit empirisme beschrijft.",
+      "B is juist omdat Descartes rationalisme en deductie centraal stelde.",
+      "C is fout omdat dit frenologie bij Gall beschrijft.",
+      "D is fout omdat correlatie veel later bij Galton en Pearson belangrijk werd."
+    ],
+    "tip": "Descartes wantrouwt zintuigen en vertrouwt op rede.",
+    "example": "Optische illusies tonen voor Descartes aan dat zintuiglijke indrukken misleidend kunnen zijn.",
+    "mnemonic": "Descartes = denken vóór kijken."
+  },
+  {
+    "id": "h2_002",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Methodologische twijfel",
+    "difficulty": 4,
+    "type": "kritische analyse",
+    "prompt": "Wat is het doel van Descartes’ methodologische twijfel?",
+    "options": [
+      "Aantonen dat kennis onmogelijk is.",
+      "Alle zintuiglijke kennis definitief vervangen door geloof.",
+      "Alles betwijfelen wat betwijfeld kan worden om uiteindelijk een absoluut zeker fundament te vinden.",
+      "Bewijzen dat ervaring altijd betrouwbaarder is dan deductie."
+    ],
+    "correct": 2,
+    "explanation": "Het juiste antwoord is C. Descartes twijfelde niet om scepticisme als eindpunt te bereiken, maar om één absoluut zekere basis te vinden: het denkende zelf.",
+    "whyWrong": [
+      "A is fout omdat Descartes juist zekerheid wilde bereiken.",
+      "B is fout omdat zijn methode filosofisch-rationeel is, niet primair religieus.",
+      "C is juist omdat twijfel een methode is om zekerheid te vinden.",
+      "D is fout omdat Descartes deductie boven zintuiglijke ervaring stelde."
+    ],
+    "tip": "Twijfel is bij Descartes een instrument, geen eindconclusie.",
+    "example": "Zelfs als alles een droom zou zijn, blijft waar dat er een denkend subject is dat twijfelt.",
+    "mnemonic": "Twijfel → Cogito → zekerheid."
+  },
+  {
+    "id": "h2_003",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Cogito ergo sum",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Waarom is ‘Cogito ergo sum’ voor Descartes een onbetwijfelbaar uitgangspunt?",
+    "options": [
+      "Omdat het bewijst dat zintuiglijke waarneming altijd klopt.",
+      "Omdat het bestaan van een denkend subject geïmpliceerd is in de handeling van twijfelen.",
+      "Omdat het aantoont dat lichaam en geest identiek zijn.",
+      "Omdat het de eerste empirische wet van psychologie vormt."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Als iemand twijfelt, denkt diegene. En als iemand denkt, moet er een denkend subject bestaan. Daarom vormt het cogito het zekere fundament van Descartes.",
+    "whyWrong": [
+      "A is fout omdat Descartes zintuigen juist wantrouwde.",
+      "B is juist omdat twijfelen zelf het bestaan van een denkend subject bevestigt.",
+      "C is fout omdat Descartes juist dualist was.",
+      "D is fout omdat het geen empirische wet is."
+    ],
+    "tip": "Cogito gaat niet over het lichaam, maar over de zekerheid van het denken.",
+    "example": "Zelfs als je droomt of misleid wordt, is het feit dat je denkt niet weg te twijfelen.",
+    "mnemonic": "Ik twijfel, dus ik denk; ik denk, dus ik ben."
+  },
+  {
+    "id": "h2_004",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Simple natures",
+    "difficulty": 4,
+    "type": "concept",
+    "prompt": "Welke twee fysische eigenschappen zag Descartes als simple natures waarmee natuurkundige verschijnselen verklaard konden worden?",
+    "options": [
+      "Kleur en geur",
+      "Extensie en beweging",
+      "Warmte en ziel",
+      "Waarneming en apperceptie"
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Descartes concludeerde dat extensie, de ruimte die een object inneemt, en beweging fundamentele eigenschappen waren waarmee natuurkundige verschijnselen verklaard konden worden.",
+    "whyWrong": [
+      "A is fout omdat kleur en geur secundaire kwaliteiten zijn.",
+      "B is juist omdat extensie en beweging Descartes’ simple natures zijn.",
+      "C is fout omdat ziel geen fysische simple nature is.",
+      "D is fout omdat waarneming en apperceptie bij Leibniz en Wundt belangrijk zijn."
+    ],
+    "tip": "Bij Descartes’ fysica: objecten nemen ruimte in en bewegen.",
+    "example": "Een bal kan worden beschreven door zijn plaats in de ruimte en zijn beweging.",
+    "mnemonic": "Simple natures = ruimte en beweging."
+  },
+  {
+    "id": "h2_005",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Mechanistische fysiologie",
+    "difficulty": 4,
+    "type": "toepassing",
+    "prompt": "Welke casus past het best bij Descartes’ mechanistische verklaring van reflexen?",
+    "options": [
+      "Een kind leert een woord doordat het door volwassenen wordt beloond.",
+      "Een lichaam trekt automatisch een hand terug wanneer hitte via zenuwbuizen een reactie veroorzaakt.",
+      "Een patiënt projecteert eigen woede op een ander.",
+      "Een proefpersoon ziet een groep stippen als één geheel door nabijheid."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Descartes verklaarde veel lichamelijke reacties mechanistisch. Hij stelde zich zenuwen voor als holle buizen waar animal spirits doorheen stromen en reflexen veroorzaken.",
+    "whyWrong": [
+      "A is fout omdat dit operante of behavioristische taalverwerving suggereert.",
+      "B is juist omdat dit Descartes’ mechanistische reflexmodel beschrijft.",
+      "C is fout omdat projectie een Freudiaans verdedigingsmechanisme is.",
+      "D is fout omdat dit Gestaltwaarneming beschrijft."
+    ],
+    "tip": "Descartes vervangt vegetatieve en sensitieve zielen door mechanische verklaringen.",
+    "example": "Je trekt je hand weg van vuur zonder eerst bewust te redeneren.",
+    "mnemonic": "Descartes: dier en lichaam als machine."
+  },
+  {
+    "id": "h2_006",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Interactief dualisme",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Wat maakt Descartes’ dualisme specifiek ‘interactief’?",
+    "options": [
+      "Hij stelde dat lichaam en geest gescheiden zijn maar wel op elkaar inwerken.",
+      "Hij stelde dat lichaam en geest identiek zijn.",
+      "Hij stelde dat lichaam en geest parallel functioneren zonder causale beïnvloeding.",
+      "Hij stelde dat alleen het lichaam bestaat en de geest een illusie is."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Descartes maakte een scherp onderscheid tussen lichaam en geest, maar stelde dat beide elkaar beïnvloeden. Daarom heet zijn visie interactief dualisme.",
+    "whyWrong": [
+      "A is juist omdat interactie tussen twee gescheiden substanties centraal staat.",
+      "B is fout omdat dit monisme zou zijn.",
+      "C is fout omdat dit Leibniz’ parallellisme beschrijft.",
+      "D is fout omdat dit materialisme zou zijn."
+    ],
+    "tip": "Dualisme = twee; interactief = die twee beïnvloeden elkaar.",
+    "example": "Een mentale beslissing kan volgens Descartes lichamelijke beweging veroorzaken.",
+    "mnemonic": "Dua = twee; interactief = contact."
+  },
+  {
+    "id": "h2_007",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Elizabeth van Bohemen en interactieprobleem",
+    "difficulty": 5,
+    "type": "kritische analyse",
+    "prompt": "Waarom vormde Elizabeth van Bohemens kritiek een fundamenteel probleem voor Descartes?",
+    "options": [
+      "Omdat zij vroeg hoe een immateriële geest een materieel lichaam causaal kan beïnvloeden.",
+      "Omdat zij aantoonde dat Locke’s tabula rasa onmogelijk was.",
+      "Omdat zij bewees dat de pijnappelklier geen anatomisch hersenonderdeel is.",
+      "Omdat zij stelde dat alle dieren rationele zielen bezitten."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Elizabeth vroeg hoe iets immaterieels, de geest, invloed kan uitoefenen op iets materieels, het lichaam. Dit is het klassieke interactieprobleem binnen Descartes’ dualisme.",
+    "whyWrong": [
+      "A is juist omdat dit precies het interactieprobleem is.",
+      "B is fout omdat Locke hier niet centraal staat.",
+      "C is fout omdat het probleem niet primair anatomisch is.",
+      "D is fout omdat dit niet haar kritiek was."
+    ],
+    "tip": "De zwakke plek van dualisme is vaak de vraag: hoe raken lichaam en geest elkaar?",
+    "example": "Als je besluit je arm op te tillen, hoe veroorzaakt een immateriële wil dan spierbeweging?",
+    "mnemonic": "Elizabeth vraagt: hoe interacteert dua?"
+  },
+  {
+    "id": "h2_008",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Locke: tabula rasa",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Welke uitspraak beschrijft Locke’s tabula rasa het best?",
+    "options": [
+      "De geest bevat vanaf de geboorte volledige aangeboren kennis.",
+      "De geest begint als een blanco vel dat door ervaring wordt gevuld.",
+      "De geest bestaat uit monaden die zelfstandig functioneren.",
+      "De geest is een rationele ziel die losstaat van het lichaam."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Locke stelde dat de onervaren menselijke geest een tabula rasa is. Kennis ontstaat door ervaring, namelijk sensaties en reflecties.",
+    "whyWrong": [
+      "A is fout omdat Locke aangeboren ideeën juist afwees.",
+      "B is juist omdat dit de kern van tabula rasa is.",
+      "C is fout omdat monaden bij Leibniz horen.",
+      "D is fout omdat dit meer in de richting van Descartes’ rationalistische dualisme gaat."
+    ],
+    "tip": "Locke is de grote empirist van dit hoofdstuk.",
+    "example": "Een kind leert het idee ‘appel’ door kleur, vorm, smaak en aanraking te combineren.",
+    "mnemonic": "Tabula rasa = blanco lei."
+  },
+  {
+    "id": "h2_009",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Sensaties en reflecties",
+    "difficulty": 4,
+    "type": "concept",
+    "prompt": "Welke combinatie past bij Locke’s twee bronnen van ideeën?",
+    "options": [
+      "Sensaties uit objecten in de buitenwereld en reflecties op verrichtingen van de geest.",
+      "Aangeboren vormen en rationele monaden.",
+      "Stimuli en responsen zonder interne verwerking.",
+      "Droominhoud en verdrongen wensen."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Volgens Locke ontstaan ideeën door sensaties van objecten in de buitenwereld en reflecties op mentale activiteiten.",
+    "whyWrong": [
+      "A is juist omdat dit Locke’s twee ervaringsbronnen weergeeft.",
+      "B is fout omdat aangeboren vormen eerder bij Plato horen en monaden bij Leibniz.",
+      "C is fout omdat dit behavioristisch klinkt.",
+      "D is fout omdat dit Freudiaanse droomtheorie oproept."
+    ],
+    "tip": "Locke’s ervaring is niet alleen buitenwereld, maar ook reflectie op eigen mentale activiteiten.",
+    "example": "Je ziet rood als sensatie en merkt vervolgens dat je twijfelt of nadenkt als reflectie.",
+    "mnemonic": "Locke: buiten voelen, binnen overdenken."
+  },
+  {
+    "id": "h2_010",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Eenvoudige en complexe ideeën",
+    "difficulty": 4,
+    "type": "toepassing",
+    "prompt": "Een kind ervaart roodheid, rondheid, zoetheid en gladheid. Later combineert het deze kenmerken tot het idee ‘appel’. Hoe zou Locke dit beschrijven?",
+    "options": [
+      "Een complex idee ontstaat uit meerdere eenvoudige ideeën.",
+      "Een eenvoudige idee ontstaat uit meerdere complexe ideeën.",
+      "Een aangeboren idee wordt door deductie herinnerd.",
+      "Een monade ontwikkelt apperceptie."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Locke onderscheidde eenvoudige ideeën, zoals kleur of smaak, en complexe ideeën, die uit combinaties van eenvoudige ideeën ontstaan.",
+    "whyWrong": [
+      "A is juist omdat het idee appel uit meerdere eenvoudige indrukken wordt opgebouwd.",
+      "B is fout omdat de opbouwrichting omgekeerd is.",
+      "C is fout omdat Locke aangeboren ideeën afwees.",
+      "D is fout omdat dit bij Leibniz hoort."
+    ],
+    "tip": "Bij Locke bouwt ervaring van klein naar complex.",
+    "example": "Rood, rond en zoet vormen samen het complexe idee appel.",
+    "mnemonic": "Simpel plus simpel wordt complex."
+  },
+  {
+    "id": "h2_011",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Molyneux-probleem",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een vanaf geboorte blinde persoon kan een bol en kubus op tast onderscheiden. Na herstel van zicht herkent hij ze volgens Locke niet meteen visueel. Welke verklaring past hierbij?",
+    "options": [
+      "Hij mist nog de associatie tussen tastindrukken en visuele indrukken.",
+      "Hij mist aangeboren kennis van geometrische vormen.",
+      "Primaire kwaliteiten kunnen nooit visueel worden waargenomen.",
+      "Zijn rationele ziel is niet actief genoeg."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Het Molyneux-probleem illustreert dat complexe ideeën afhankelijk zijn van associaties tussen ervaringen. De persoon kent de objecten via tast, maar heeft visuele indrukken nog niet gekoppeld aan tastindrukken.",
+    "whyWrong": [
+      "A is juist omdat het draait om ontbrekende cross-modale associatie.",
+      "B is fout omdat Locke juist geen aangeboren ideeën veronderstelt.",
+      "C is fout omdat vorm juist een primaire kwaliteit is.",
+      "D is fout omdat dit niet Locke’s verklaring is."
+    ],
+    "tip": "Molyneux = match tussen voelen en zien ontbreekt.",
+    "example": "Je kunt een voorwerp geblinddoekt herkennen door tast, maar zou een onbekende visuele code eerst moeten leren koppelen.",
+    "mnemonic": "Molyneux = moet nog matchen."
+  },
+  {
+    "id": "h2_012",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Locke: kennisvormen",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke koppeling van Locke’s kennisvormen is correct?",
+    "options": [
+      "Intuïtief = directe zekerheid; demonstratief = stapsgewijs redeneren; sensitief = zintuiglijke ervaring.",
+      "Intuïtief = zintuiglijk; demonstratief = aangeboren; sensitief = logisch bewijs.",
+      "Intuïtief = conditionering; demonstratief = reflex; sensitief = bekrachtiging.",
+      "Intuïtief = monadisch; demonstratief = parallel; sensitief = apperceptief."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Locke onderscheidde intuïtieve kennis als directe zekerheid, demonstratieve kennis als redenering in stappen en sensitieve kennis als kennis via zintuiglijke ervaring.",
+    "whyWrong": [
+      "A is juist omdat alle drie correct zijn gekoppeld.",
+      "B is fout omdat de betekenissen verwisseld zijn.",
+      "C is fout omdat dit behavioristische termen zijn.",
+      "D is fout omdat dit Leibniziaanse termen oproept."
+    ],
+    "tip": "Locke’s driedeling wordt vaak letterlijk of in casussen getoetst.",
+    "example": "Zwart is niet wit = intuïtief; een bewijs volgen = demonstratief; een appel zien = sensitief.",
+    "mnemonic": "Ik Denk Scherp: Ik = intuïtief, Denk = demonstratief, Scherp = sensitief."
+  },
+  {
+    "id": "h2_013",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Associatiewetten",
+    "difficulty": 4,
+    "type": "toepassing",
+    "prompt": "Je hoort donder en ziet vrijwel tegelijk bliksem. Later roept donder onmiddellijk het beeld van bliksem op. Welke Lockeaanse associatiewet past hierbij het best?",
+    "options": [
+      "Associatie door contiguïteit",
+      "Associatie door gelijkenis",
+      "Associatie door verdringing",
+      "Associatie door apperceptie"
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Contiguïteit betekent dat ideeën met elkaar verbonden raken doordat zij gelijktijdig of dicht na elkaar worden ervaren.",
+    "whyWrong": [
+      "A is juist omdat donder en bliksem samen worden ervaren.",
+      "B is fout omdat gelijkenis gaat over overeenkomsten tussen ideeën.",
+      "C is fout omdat verdringing bij Freud hoort.",
+      "D is fout omdat apperceptie vooral bij Leibniz en Wundt hoort."
+    ],
+    "tip": "Contiguïteit = samen in tijd of ruimte.",
+    "example": "Een geur kan een herinnering oproepen omdat je die geur vaak samen met een bepaalde plek ervoer.",
+    "mnemonic": "Contiguïteit = contact in tijd."
+  },
+  {
+    "id": "h2_014",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Primaire en secundaire kwaliteiten",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Welke combinatie geeft Locke’s onderscheid tussen primaire en secundaire kwaliteiten correct weer?",
+    "options": [
+      "Primair: kleur, smaak en geur; secundair: vorm, beweging en hoeveelheid.",
+      "Primair: vorm, beweging en hoeveelheid; secundair: kleur, geur en smaak.",
+      "Primair: droominhoud; secundair: latente inhoud.",
+      "Primair: id; secundair: ego en superego."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Primaire kwaliteiten verwijzen naar eigenschappen zoals vorm, beweging en hoeveelheid. Secundaire kwaliteiten verwijzen naar eigenschappen zoals kleur, geur en smaak, die via perceptie tot ons komen.",
+    "whyWrong": [
+      "A is fout omdat primaire en secundaire kwaliteiten zijn omgedraaid.",
+      "B is juist omdat dit Locke’s onderscheid correct weergeeft.",
+      "C is fout omdat dit Freuds droomtheorie suggereert.",
+      "D is fout omdat dit Freuds metapsychologie betreft."
+    ],
+    "tip": "Primair klinkt objectiever; secundair hangt sterker samen met hoe iets wordt ervaren.",
+    "example": "De vorm van een appel is primair; de smaakervaring zoet is secundair.",
+    "mnemonic": "Primair = proporties; secundair = smaak/sensatie."
+  },
+  {
+    "id": "h2_015",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Leibniz: monaden",
+    "difficulty": 5,
+    "type": "concept",
+    "prompt": "Welke uitspraak beschrijft Leibniz’ monadisme het best?",
+    "options": [
+      "De wereld bestaat uit zelfstandige, dynamische eenheden die samen de basis vormen van werkelijkheid.",
+      "De wereld bestaat uitsluitend uit passieve zintuiglijke indrukken zonder interne activiteit.",
+      "De wereld bestaat uit reflexbanen die via animal spirits worden geactiveerd.",
+      "De wereld bestaat uit schedelknobbels die psychologische eigenschappen weerspiegelen."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Leibniz stelde dat de werkelijkheid bestaat uit monaden: zelfstandige, dynamische eenheden die energie en ziel belichamen.",
+    "whyWrong": [
+      "A is juist omdat monaden zelfstandige eenheden van de werkelijkheid zijn.",
+      "B is fout omdat Leibniz juist interne activiteit en apperceptie benadrukt.",
+      "C is fout omdat dit Descartes’ mechanistische fysiologie betreft.",
+      "D is fout omdat dit frenologie bij Gall beschrijft."
+    ],
+    "tip": "Leibniz ziet het universum meer als organisme dan als machine.",
+    "example": "Monaden zijn als afzonderlijke eenheden die samen de werkelijkheid vormen.",
+    "mnemonic": "Monaden als LEGO-blokjes: zelfstandig, samen werkelijkheid."
+  },
+  {
+    "id": "h2_016",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Vier typen monaden",
+    "difficulty": 5,
+    "type": "definitie",
+    "prompt": "Welke koppeling van Leibniz’ monaden is correct?",
+    "options": [
+      "Opperste monade = God; rationele monade = mensen; waarnemende monade = dieren; enkelvoudige monade = natuurlijke wereld.",
+      "Opperste monade = dieren; rationele monade = planten; waarnemende monade = mensen; enkelvoudige monade = God.",
+      "Opperste monade = mensen; rationele monade = dieren; waarnemende monade = planten; enkelvoudige monade = God.",
+      "Opperste monade = taal; rationele monade = geheugen; waarnemende monade = emotie; enkelvoudige monade = reflex."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Leibniz onderscheidde onder meer de opperste monade, gelijkgesteld aan God, rationele monaden bij mensen, waarnemende monaden bij dieren en enkelvoudige monaden als basis van de natuurlijke wereld.",
+    "whyWrong": [
+      "A is juist omdat alle typen correct gekoppeld zijn.",
+      "B is fout omdat de koppelingen door elkaar zijn gehaald.",
+      "C is fout omdat God niet de enkelvoudige monade is.",
+      "D is fout omdat deze termen niet tot Leibniz’ monadenleer behoren."
+    ],
+    "tip": "Gebruik de hiërarchie: God, mensen, dieren, natuur.",
+    "example": "Een mens beschikt volgens Leibniz over rationele monaden en kan apperceptie gebruiken.",
+    "mnemonic": "God bovenaan, mens denkt, dier neemt waar, natuur vormt basis."
+  },
+  {
+    "id": "h2_017",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Apperceptie",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Een persoon merkt niet alleen een idee op, maar denkt er actief over na en interpreteert het verder. Welke term van Leibniz past hierbij?",
+    "options": [
+      "Perceptie",
+      "Apperceptie",
+      "Contiguïteit",
+      "Extensie"
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Apperceptie betekent dat een idee niet alleen wordt geregistreerd, maar actief wordt geïnterpreteerd en bewust verwerkt.",
+    "whyWrong": [
+      "A is fout omdat perceptie eenvoudiger registratie of waarneming aanduidt.",
+      "B is juist omdat het gaat om actieve interpretatie.",
+      "C is fout omdat contiguïteit een associatiewet is.",
+      "D is fout omdat extensie bij Descartes’ fysica hoort."
+    ],
+    "tip": "Apperceptie is méér dan merken: het is bewust interpreteren.",
+    "example": "Je ziet niet alleen een schilderij, maar denkt na over symboliek, betekenis en compositie.",
+    "mnemonic": "Apperceptie = actief nadenken over perceptie."
+  },
+  {
+    "id": "h2_018",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Parallellisme",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak onderscheidt Leibniz’ parallellisme het duidelijkst van Descartes’ interactief dualisme?",
+    "options": [
+      "Leibniz stelde dat lichaam en geest elkaar direct beïnvloeden via de pijnappelklier.",
+      "Leibniz stelde dat lichaam en geest parallel functioneren zonder directe causale interactie.",
+      "Leibniz stelde dat alleen het lichaam bestaat en de geest een bijproduct is.",
+      "Leibniz stelde dat alle kennis ontstaat uit sensaties en reflecties."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Leibniz verwierp directe interactie tussen lichaam en geest. Zij functioneren volgens hem parallel, alsof twee processen synchroon lopen zonder elkaar causaal te beïnvloeden.",
+    "whyWrong": [
+      "A is fout omdat dit Descartes’ oplossing via de pijnappelklier beschrijft.",
+      "B is juist omdat parallellisme geen directe interactie veronderstelt.",
+      "C is fout omdat dit materialisme zou zijn.",
+      "D is fout omdat dit Locke’s empirisme beschrijft."
+    ],
+    "tip": "Descartes = interactie; Leibniz = parallel.",
+    "example": "Twee klokken kunnen gelijklopen zonder elkaar aan te sturen.",
+    "mnemonic": "Leibniz laat lichaam en geest naast elkaar lopen."
+  },
+  {
+    "id": "h2_019",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Voordelen en nadelen van dualisme",
+    "difficulty": 5,
+    "type": "kritische analyse",
+    "prompt": "Welke combinatie geeft een voordeel en een probleem van dualisme correct weer?",
+    "options": [
+      "Voordeel: het sluit aan bij alledaagse ervaring van vrije wil; probleem: het interactieprobleem blijft onopgelost.",
+      "Voordeel: het verklaart hersenschade volledig; probleem: het ontkent religieuze zielconcepten.",
+      "Voordeel: het maakt introspectie overbodig; probleem: het ondersteunt geen vrije wil.",
+      "Voordeel: het toont aan dat zintuigen altijd betrouwbaar zijn; probleem: het maakt deductie onmogelijk."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Dualisme sluit aan bij ervaringen waarin mensen zich vrij of mentaal onafhankelijk van hun lichaam voelen. Tegelijk blijft onduidelijk hoe een immateriële geest een materieel lichaam kan beïnvloeden.",
+    "whyWrong": [
+      "A is juist omdat het zowel een plausibel voordeel als het centrale probleem noemt.",
+      "B is fout omdat hersenschade juist een probleem vormt voor strikt dualisme.",
+      "C is fout omdat dualisme vrije wil juist vaak ondersteunt.",
+      "D is fout omdat dit niets wezenlijks met dualisme te maken heeft."
+    ],
+    "tip": "Bij dualisme moet je zowel aantrekkingskracht als kritiek kunnen uitleggen.",
+    "example": "Je kunt willen studeren terwijl je lichaam moe is; dat voelt dualistisch, maar hersenschade kan denken sterk veranderen.",
+    "mnemonic": "Dualisme voelt logisch, maar interactie blijft lastig."
+  },
+  {
+    "id": "h2_020",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Descartes, Locke en Leibniz vergelijken",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke combinatie van filosoof en kernidee is volledig correct?",
+    "options": [
+      "Descartes: tabula rasa; Locke: parallellisme; Leibniz: methodologische twijfel.",
+      "Descartes: interactief dualisme; Locke: empirisme en tabula rasa; Leibniz: monaden en parallellisme.",
+      "Descartes: atoomtheorie; Locke: ideale vormen; Leibniz: humorale theorie.",
+      "Descartes: sociale facilitatie; Locke: operante conditionering; Leibniz: cognitieve dissonantie."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Descartes hoort bij rationalisme en interactief dualisme, Locke bij empirisme en tabula rasa, en Leibniz bij monaden, apperceptie en parallellisme.",
+    "whyWrong": [
+      "A is fout omdat alle koppelingen onjuist zijn.",
+      "B is juist omdat de drie filosofen correct gekoppeld zijn aan hun kernideeën.",
+      "C is fout omdat deze termen bij andere historische figuren horen.",
+      "D is fout omdat deze begrippen uit veel latere psychologische stromingen komen."
+    ],
+    "tip": "Deze drie vormen samen een klassiek tentamencontrast: rede, ervaring en monaden/parallellisme.",
+    "example": "Bij een geest-lichaamvraag denk je aan Descartes of Leibniz; bij ervaringskennis aan Locke.",
+    "mnemonic": "Descartes denkt, Locke leert, Leibniz loopt parallel."
+  }
+]
 
