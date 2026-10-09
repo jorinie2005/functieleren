@@ -460,7 +460,7 @@ pre{max-width:100%;overflow:auto;padding:15px;border:1px solid var(--border);bor
 <section id="timeline" class="panel">
   <div class="card">
     <h2>Historische volgorde</h2>
-    <p class="small">Zet onderwerpen uit verschillende hoofdstukken in de volgorde waarin ze in de cursus aan bod komen. Je oefent de grote historische lijn, niet jaartallen.</p>
+    <p class="small">Zet historische mijlpalen op volgorde van jaartal. De jaartallen blijven verborgen totdat je de volgorde controleert.</p>
     <div class="grid two">
       <label>Aantal onderwerpen
         <select id="timelineCount">
@@ -468,13 +468,13 @@ pre{max-width:100%;overflow:auto;padding:15px;border:1px solid var(--border);bor
         <option value="8">8 onderwerpen</option>
         </select>
       </label>
-      <div class="timeline-instructions"><b>Zo werkt het</b><br>Sleep de kaarten naar de juiste plek. Op telefoon of tablet kun je ook de pijltjes gebruiken.</div>
+      <div class="timeline-instructions"><b>Zo werkt het</b><br>Sleep de mijlpalen chronologisch of gebruik de pijltjes. Hoofdstukken worden niet getoond; jaartallen zie je pas na controle.</div>
     </div>
     <div class="controls"><button class="btn primary" onclick="startTimeline()">Start volgorde-oefening</button></div>
   </div>
   <div id="timelineRun" class="card hidden">
     <p id="timelineMeta" class="small"></p>
-    <p class="timeline-instructions">Sleep een kaart omhoog of omlaag om de volgorde aan te passen. De pijltjes doen hetzelfde.</p>
+    <p class="timeline-instructions">Sleep een kaart omhoog of omlaag om de volgorde aan te passen. De pijltjes doen hetzelfde. Hoofdstukken en jaartallen blijven verborgen tot je controleert.</p>
     <div id="timelineItems"></div>
     <div class="controls">
       <button id="timelineCheck" class="btn primary" onclick="checkTimeline()">Controleer volgorde</button>
@@ -1619,6 +1619,31 @@ function matchingTile(side,index,text){
   const classes=["matching-tile",selected?"is-selected":"",matched?"is-matched":"",wrong?"is-wrong":""].filter(Boolean).join(" ");
   return `<button type="button" class="${classes}" onclick="selectMatchingTile('${side}',${index})" ${matched?"disabled":""} aria-pressed="${selected}">${escapeHtml(text)}</button>`;
 }
+const historicalTimelineMilestones=[
+  {year:-400,date:"ca. 400 v.Chr.",concept:"Hippocratische geneeskunde",explanation:"Ziekte en temperament worden verklaard vanuit natuurlijke oorzaken en het evenwicht van lichaamssappen."},
+  {year:-380,date:"ca. 380 v.Chr.",concept:"Plato's Politeia (De Staat)",explanation:"Plato werkt zijn ideeën uit over de psyche, rede en de verhouding tussen waarneembare wereld en vormen."},
+  {year:-350,date:"ca. 350 v.Chr.",concept:"Aristoteles' Over de ziel",explanation:"Aristoteles beschrijft waarneming, geheugen en andere vermogens van de ziel."},
+  {year:1025,date:"ca. 1025",concept:"Avicenna's Canon van de geneeskunde",explanation:"Dit invloedrijke medische werk bespreekt onder meer psychische functies en zintuiglijke waarneming."},
+  {year:1641,date:"1641",concept:"Descartes' Meditaties",explanation:"Descartes formuleert zijn onderscheid tussen denkende geest en uitgebreid lichaam."},
+  {year:1690,date:"1690",concept:"Lockes Essay concerning Human Understanding",explanation:"Locke werkt zijn empiristische visie uit op ervaring als bron van kennis."},
+  {year:1781,date:"1781",concept:"Kants Kritik der reinen Vernunft",explanation:"Kant onderzoekt hoe de geest ervaring ordent en welke grenzen menselijke kennis heeft."},
+  {year:1796,date:"ca. 1796",concept:"Galls vroege colleges over frenologie",explanation:"Gall verbindt mentale vermogens aan hersengebieden en de vorm van de schedel."},
+  {year:1824,date:"1824",concept:"Flourens publiceert onderzoek naar hersenlaesies",explanation:"Experimenteel onderzoek naar beschadiging van hersendelen draagt bij aan het debat over lokalisatie van functies."},
+  {year:1859,date:"1859",concept:"Darwins On the Origin of Species",explanation:"Darwins evolutietheorie beïnvloedt verklaringen van gedrag en individuele verschillen."},
+  {year:1860,date:"1860",concept:"Fechners Elemente der Psychophysik",explanation:"Fechner legt een experimentele basis voor het kwantitatief onderzoeken van relaties tussen prikkels en gewaarwordingen."},
+  {year:1879,date:"1879",concept:"Wundts laboratorium in Leipzig",explanation:"Wundt richt een laboratorium in dat vaak als institutioneel beginpunt van de experimentele psychologie wordt gezien."},
+  {year:1883,date:"1883",concept:"Halls psychologielaboratorium in Johns Hopkins",explanation:"G. Stanley Hall vestigt een vroeg Amerikaans laboratorium voor experimentele psychologie."},
+  {year:1890,date:"1890",concept:"James' The Principles of Psychology",explanation:"William James publiceert zijn invloedrijke werk over onder meer bewustzijn, gewoonte en functionalisme."},
+  {year:1895,date:"1895",concept:"Breuer en Freuds Studies on Hysteria",explanation:"Het werk beschrijft casussen en behandelingsideeën die een belangrijke voorloper van de psychoanalyse vormen."},
+  {year:1900,date:"1900",concept:"Freuds The Interpretation of Dreams",explanation:"Freud publiceert zijn invloedrijke uitwerking van droomduiding en onbewuste processen."},
+  {year:1905,date:"1905",concept:"Binet-Simon-intelligentietest",explanation:"Binet en Simon publiceren een schaal om kinderen te identificeren die extra onderwijsondersteuning nodig hebben."},
+  {year:1913,date:"1913",concept:"Watsons behavioristische manifest",explanation:"Watson bepleit een psychologie die zich richt op observeerbaar gedrag en objectieve methoden."},
+  {year:1938,date:"1938",concept:"Skinners The Behavior of Organisms",explanation:"Skinner werkt experimentele analyses van operant gedrag en bekrachtiging verder uit."},
+  {year:1951,date:"1951",concept:"Rogers' Client-Centered Therapy",explanation:"Rogers beschrijft zijn persoonsgerichte therapeutische benadering."},
+  {year:1952,date:"1952",concept:"Eerste editie van de DSM",explanation:"De American Psychiatric Association publiceert de eerste Diagnostic and Statistical Manual of Mental Disorders."},
+  {year:1967,date:"1967",concept:"Becks Depression: Clinical, Experimental, and Theoretical Aspects",explanation:"Beck werkt een cognitieve theorie en behandeling van depressie systematisch uit."},
+  {year:1977,date:"1977",concept:"Bandura's Social Learning Theory",explanation:"Bandura bundelt zijn theorie over leren door observatie en de wisselwerking tussen persoon, gedrag en omgeving."}
+];
 function updateMatchingProgress(){
   const completed=matchingRetryStage?matchingMatched.size:matchingMatched.size+matchingAttemptedWrong.size;
   const total=matchingRetryStage?matchingRoundIndices.length:matchingDeck.length;
@@ -1691,18 +1716,13 @@ function selectMatchingTile(side,index){
   renderMatchingBoard();
 }
 function startTimeline(){
-  const available=chapters().filter(chapter=>questions.some(question=>question.chapter===chapter&&question.concept&&question.explanation?.trim()));
-  const count=Math.min(Number(document.getElementById("timelineCount").value),available.length);
-  if(count<2){alert("Er zijn te weinig hoofdstukken met onderwerpen beschikbaar.");return}
-  const selectedChapters=sample(available,count).sort(compareChapters);
-  timelineDeck=selectedChapters.map(chapter=>{
-    const candidates=shuffle(questions.filter(question=>question.chapter===chapter&&question.concept&&question.explanation?.trim()));
-    const question=candidates[0];
-    return {chapter,concept:question.concept,explanation:question.explanation};
-  });
+  const count=Math.min(Number(document.getElementById("timelineCount").value),historicalTimelineMilestones.length);
+  if(count<2){alert("Er zijn te weinig historische mijlpalen beschikbaar.");return}
+  timelineDeck=sample(historicalTimelineMilestones,count).sort((a,b)=>a.year-b.year);
   timelineOrder=shuffle(timelineDeck.map((_,index)=>index));
   timelineChecked=false;
-  document.getElementById("timelineMeta").textContent=`${timelineDeck.length} onderwerpen · zet de brede ontwikkeling van het vak in volgorde`;
+  timelineDragPosition=null;
+  document.getElementById("timelineMeta").textContent=`${timelineDeck.length} historische mijlpalen · zet op volgorde van jaartal`;
   document.getElementById("timelineResult").textContent="";
   document.getElementById("timelineSolution").innerHTML="";
   document.getElementById("timelineCheck").classList.remove("hidden");
@@ -1716,10 +1736,10 @@ function renderTimelineItems(){
       const item=timelineDeck[deckIndex];
       const correct=timelineChecked&&deckIndex===position;
       const classes=["timeline-item",timelineChecked?(correct?"is-correct":"is-incorrect"):"",timelineDragPosition===position?"is-dragging":""].filter(Boolean).join(" ");
-      const result=timelineChecked?`<span class="badge">${correct?"Juiste plek":`Juiste plek: ${timelineDeck.indexOf(item)+1}`}</span>`:"";
+      const result=timelineChecked?`<span class="badge">${escapeHtml(item.date)} · ${correct?"juiste plek":`juiste plek ${timelineDeck.indexOf(item)+1}`}</span>`:"";
       return `<div class="${classes}" ${timelineChecked?"":"draggable=\"true\" ondragstart=\"startTimelineDrag(event,"+position+")\" ondragover=\"allowTimelineDrop(event)\" ondrop=\"dropTimelineItem(event,"+position+")\" ondragend=\"endTimelineDrag()\""}>
         <span class="timeline-position">${position+1}</span>
-        <div class="timeline-content"><span class="badge">${escapeHtml(chapterLabel(item.chapter))}</span><b>${escapeHtml(item.concept)}</b><span>${escapeHtml(item.explanation)}</span>${result}</div>
+        <div class="timeline-content"><b>${escapeHtml(item.concept)}</b><span>${escapeHtml(item.explanation)}</span>${result}</div>
         <div class="timeline-actions">
           <button type="button" class="btn" onclick="moveTimelineItem(${position},-1)" ${timelineChecked||position===0?"disabled":""} aria-label="Verplaats ${escapeHtml(item.concept)} omhoog" title="Omhoog">↑</button>
           <button type="button" class="btn" onclick="moveTimelineItem(${position},1)" ${timelineChecked||position===timelineOrder.length-1?"disabled":""} aria-label="Verplaats ${escapeHtml(item.concept)} omlaag" title="Omlaag">↓</button>
@@ -1764,10 +1784,10 @@ function moveTimelineItem(position,direction){
 function checkTimeline(){
   if(!timelineDeck.length||timelineChecked)return;
   timelineChecked=true;
-  const correct=timelineOrder.reduce((score,deckIndex,position)=>score+(deckIndex===position?1:0),0);
-  document.getElementById("timelineResult").textContent=`${correct} van ${timelineDeck.length} onderwerpen staan op de juiste plek. Bekijk de juiste cursusvolgorde hieronder.`;
+  const correct=timelineOrder.reduce((score,deckIndex,position)=>score+(timelineDeck[deckIndex].year===timelineDeck[position].year?1:0),0);
+  document.getElementById("timelineResult").textContent=`${correct} van ${timelineDeck.length} mijlpalen staan op de juiste plek op basis van jaartal.`;
   document.getElementById("timelineSolution").innerHTML=`<h3>Juiste volgorde</h3><ol class="timeline-solution">
-    ${timelineDeck.map(item=>`<li><b>${escapeHtml(chapterLabel(item.chapter))}:</b> ${escapeHtml(item.concept)}</li>`).join("")}
+    ${timelineDeck.map(item=>`<li><b>${escapeHtml(item.date)} · ${escapeHtml(item.concept)}</b><br>${escapeHtml(item.explanation)}</li>`).join("")}
   </ol>`;
   document.getElementById("timelineCheck").classList.add("hidden");
   document.getElementById("timelineAgain").classList.remove("hidden");
