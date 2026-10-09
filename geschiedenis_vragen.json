@@ -898,6 +898,631 @@
     "tip": "Deze drie vormen samen een klassiek tentamencontrast: rede, ervaring en monaden/parallellisme.",
     "example": "Bij een geest-lichaamvraag denk je aan Descartes of Leibniz; bij ervaringskennis aan Locke.",
     "mnemonic": "Descartes denkt, Locke leert, Leibniz loopt parallel."
+  },
+  {
+    "id": "h1_oudheid_001",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Psyche bij de Grieken",
+    "difficulty": 3,
+    "type": "concept",
+    "prompt": "Welke interpretatie van het begrip psyche sluit het best aan bij de vroege Griekse betekenis ervan en verklaart tegelijk waarom dit begrip belangrijk werd voor de psychologie?",
+    "options": [
+      "Psyche verwees oorspronkelijk naar rationeel denken en werd daarom vooral gekoppeld aan logica en abstract redeneren.",
+      "Psyche betekende oorspronkelijk adem of levensprincipe en markeerde het onderscheid tussen levende en dode wezens.",
+      "Psyche betekende oorspronkelijk persoonlijkheid en werd gebruikt om stabiele individuele verschillen te classificeren.",
+      "Psyche verwees oorspronkelijk naar hersenactiviteit en vormde daarom direct het begin van de neurowetenschap."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. In de Griekse traditie betekende psyche oorspronkelijk ‘adem’ en werd het gezien als iets dat aanwezig is in levende wezens en afwezig in dode wezens. Later werd psyche vertaald als ziel en vormt het de stam van het woord psychologie.",
+    "whyWrong": [
+      "A is fout omdat rationeel denken slechts één mogelijke functie van de psyche werd, vooral bij Plato en Aristoteles, maar niet de oorspronkelijke betekenis.",
+      "B is juist omdat psyche oorspronkelijk verwees naar adem of levensprincipe.",
+      "C is fout omdat persoonlijkheid als afzonderlijk psychologisch thema pas veel later centraal kwam te staan.",
+      "D is fout omdat vroege Griekse denkers psyche niet identificeerden met hersenactiviteit."
+    ],
+    "tip": "Koppel psyche altijd eerst aan leven versus dood, niet meteen aan modern bewustzijn of hersenen.",
+    "example": "Een levend mens ademt en bezit volgens de vroege Grieken psyche; een gestorven lichaam mist die psyche.",
+    "mnemonic": "Psyche = adem = leven."
+  },
+  {
+    "id": "h1_oudheid_002",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Hippocrates en humorale theorie",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Waarom is Hippocrates’ humorale theorie historisch relevant voor de psychologie, ondanks dat zij medisch van oorsprong was?",
+    "options": [
+      "Omdat zij stelde dat mentale stoornissen uitsluitend door bovennatuurlijke krachten werden veroorzaakt.",
+      "Omdat zij temperament en gedrag verklaarde vanuit een evenwicht of onevenwicht tussen lichaamssappen.",
+      "Omdat zij bewees dat de hersenen het enige orgaan zijn dat psychologische functies veroorzaakt.",
+      "Omdat zij het eerste experimentele model van conditionering bij mensen introduceerde."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Hippocrates en zijn volgelingen zagen ziekten als natuurlijke fenomenen en verklaarden gezondheid via het evenwicht tussen vier humoren: bloed, gele gal, zwarte gal en slijm. Deze gedachte werd later gebruikt om temperamentverschillen te verklaren.",
+    "whyWrong": [
+      "A is fout omdat Hippocrates juist afstand nam van demonische of bovennatuurlijke verklaringen.",
+      "B is juist omdat de humorale theorie lichaamssappen verbond aan gezondheid en temperament.",
+      "C is fout omdat Hippocrates’ theorie geen modern hersenlokalisatiemodel was.",
+      "D is fout omdat conditionering pas veel later bij Pavlov centraal kwam te staan."
+    ],
+    "tip": "Onthoud Hippocrates als overgang van bovennatuurlijk naar natuurlijk verklaren.",
+    "example": "Een persoon met een bepaald temperament zou volgens de humorale theorie verklaard kunnen worden door een overheersing van een bepaald lichaamssap.",
+    "mnemonic": "Hippocrates = humoren = lichaamssappen."
+  },
+  {
+    "id": "h1_oudheid_003",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Plato: verschijningen en ideale vormen",
+    "difficulty": 4,
+    "type": "toepassing",
+    "prompt": "Een student zegt: ‘Wat ik zie, is slechts een tijdelijke en onvolmaakte versie van een diepere, blijvende werkelijkheid.’ Welke Platonische gedachte past hierbij het best?",
+    "options": [
+      "Empirisme: ware kennis ontstaat door systematische observatie van afzonderlijke objecten.",
+      "Idealisme: zintuiglijke verschijningen verwijzen naar fundamentelere ideale vormen.",
+      "Atomisme: alle werkelijkheid bestaat uit ondeelbare materiële deeltjes.",
+      "Humorale theorie: waarneming wordt bepaald door lichamelijke vloeistoffen."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Plato maakte onderscheid tussen verschijningen, dat wat wij zintuiglijk ervaren, en ideale vormen, de blijvende en fundamentelere werkelijkheid achter die verschijningen. Dit is de kern van zijn idealisme.",
+    "whyWrong": [
+      "A is fout omdat empirisme eerder bij Aristoteles past dan bij Plato.",
+      "B is juist omdat Plato’s idealisme stelt dat achter veranderlijke verschijningen blijvende ideale vormen liggen.",
+      "C is fout omdat atomisme bij Democritus en Epicurus hoort, niet bij Plato’s vormenleer.",
+      "D is fout omdat de humorale theorie bij Hippocrates hoort en niet over ideale vormen gaat."
+    ],
+    "tip": "Verwar Plato’s idealisme niet met gewone fantasie: het gaat om een diepere werkelijkheid achter wat je ziet.",
+    "example": "Een specifieke boom kan vergaan, maar het algemene idee ‘boom’ blijft volgens Plato bestaan.",
+    "mnemonic": "Verschijningen = wat verschijnt; Ideale vormen = hoe het écht hoort te zijn."
+  },
+  {
+    "id": "h1_oudheid_004",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Aristoteles: empirisme en inductie",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak geeft het scherpste verschil weer tussen Plato en Aristoteles in hun visie op kennisverwerving?",
+    "options": [
+      "Plato benadrukte observatie en inductie, terwijl Aristoteles kennis vooral zag als herinnering aan aangeboren vormen.",
+      "Plato benadrukte rationalisme en aangeboren ideeën, terwijl Aristoteles sterker uitging van observatie en inductie.",
+      "Beiden verwierpen zintuiglijke ervaring volledig en vertrouwden uitsluitend op wiskundige deductie.",
+      "Beiden verklaarden kennis primair vanuit het evenwicht tussen lichaamssappen."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Plato wordt geassocieerd met nativisme, rationalisme en deductie; Aristoteles accepteerde wel aangeboren elementen, maar legde veel meer nadruk op empirisme, observatie en inductie.",
+    "whyWrong": [
+      "A is fout omdat de posities zijn omgedraaid.",
+      "B is juist omdat dit precies het klassieke contrast tussen Plato en Aristoteles weergeeft.",
+      "C is fout omdat Aristoteles zintuiglijke ervaring juist belangrijk vond.",
+      "D is fout omdat dit bij Hippocrates past, niet bij Plato en Aristoteles als kennistheoretisch contrast."
+    ],
+    "tip": "Let bij tentamenvragen op de richting van redeneren: Plato = deductie; Aristoteles = inductie.",
+    "example": "Plato redeneert vanuit algemene ideeën naar specifieke gevallen; Aristoteles observeert veel specifieke gevallen en vormt daaruit algemene conclusies.",
+    "mnemonic": "Socrates → Plato → Aristoteles; Plato kijkt omhoog naar vormen, Aristoteles kijkt om zich heen naar de wereld."
+  },
+  {
+    "id": "h1_oudheid_005",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Aristoteles: drie typen zielen",
+    "difficulty": 3,
+    "type": "definitie",
+    "prompt": "Welke koppeling tussen zielstype en organisme/functie is volgens Aristoteles correct?",
+    "options": [
+      "Vegetatieve ziel: dieren; leren van zintuiglijke ervaring.",
+      "Sensitieve ziel: planten; redeneren en abstraheren.",
+      "Rationele ziel: mensen; redeneren, abstraheren en categoriseren.",
+      "Rationele ziel: alle levende organismen; voeding en voortplanting."
+    ],
+    "correct": 2,
+    "explanation": "Het juiste antwoord is C. Aristoteles onderscheidde vegetatieve zielen bij planten, sensitieve zielen bij dieren en rationele zielen bij mensen. De rationele ziel maakt redeneren, abstraheren en categoriseren mogelijk.",
+    "whyWrong": [
+      "A is fout omdat vegetatief hoort bij planten en voeding/voortplanting.",
+      "B is fout omdat sensitief hoort bij dieren, niet bij planten, en niet primair bij redeneren.",
+      "C is juist omdat mensen volgens Aristoteles de rationele ziel bezitten.",
+      "D is fout omdat niet alle organismen een rationele ziel hebben."
+    ],
+    "tip": "Deze indeling is vaak tentamenstof omdat zij de vroege koppeling legt tussen levensvormen en mentale functies.",
+    "example": "Een plant groeit en plant zich voort; een dier leert via zintuigen; een mens kan abstract redeneren.",
+    "mnemonic": "Vegetatief = Voeden → Planten; Sensitief = Senses → Dieren; Rationeel = Redeneren → Mensen."
+  },
+  {
+    "id": "h1_oudheid_006",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Aristoteles: vier oorzaken",
+    "difficulty": 4,
+    "type": "toepassing",
+    "prompt": "Een onderzoeker analyseert een houten stoel en vraagt: ‘Met welk doel is dit object gemaakt?’ Op welke Aristotelische oorzaak richt deze vraag zich?",
+    "options": [
+      "Materiële oorzaak",
+      "Formele oorzaak",
+      "Efficiënte oorzaak",
+      "Uiteindelijke oorzaak"
+    ],
+    "correct": 3,
+    "explanation": "Het juiste antwoord is D. De uiteindelijke oorzaak verwijst naar het doel of de reden waarom iets bestaat. Bij een stoel is dat bijvoorbeeld: om op te zitten.",
+    "whyWrong": [
+      "A is fout omdat de materiële oorzaak vraagt waaruit iets gemaakt is.",
+      "B is fout omdat de formele oorzaak verwijst naar het ontwerp of de vorm.",
+      "C is fout omdat de efficiënte oorzaak verwijst naar wat of wie het object tot stand brengt.",
+      "D is juist omdat het gaat om het doel van het object."
+    ],
+    "tip": "Vraag jezelf bij Aristoteles telkens af: materiaal, vorm, maker of doel?",
+    "example": "Bij een stoel: hout is materieel, ontwerp is formeel, meubelmaker is efficiënt, zitten is uiteindelijk.",
+    "mnemonic": "Materiaal – Model – Maker – Motief."
+  },
+  {
+    "id": "h1_oudheid_007",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Alhazen en waarneming",
+    "difficulty": 4,
+    "type": "persoon",
+    "prompt": "Welke bijdrage van Alhazen was vooral belangrijk voor de latere studie van waarneming?",
+    "options": [
+      "Hij stelde dat zien ontstaat doordat licht van objecten het oog binnengaat en ondersteunde dit met camera-obscura-achtig bewijs.",
+      "Hij stelde dat zien ontstaat doordat de ogen actieve stralen naar objecten uitzenden.",
+      "Hij stelde dat visuele waarneming uitsluitend een product is van aangeboren ideale vormen.",
+      "Hij stelde dat waarneming volledig afhankelijk is van de balans tussen de vier humoren."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Alhazen verdedigde het idee dat licht van objecten in de ogen komt. Zijn camera-obscura-observaties ondersteunden dit doordat beelden omgekeerd werden geprojecteerd, vergelijkbaar met wat in het oog gebeurt.",
+    "whyWrong": [
+      "A is juist omdat Alhazen het intromissie-idee van zien verdedigde.",
+      "B is fout omdat dit juist de oudere emissie-opvatting is die hij verwierp.",
+      "C is fout omdat dit eerder bij Plato’s idealisme past.",
+      "D is fout omdat dit Hippocratisch en niet optisch is."
+    ],
+    "tip": "Alhazen hoort bij waarneming en licht dat het oog binnenkomt.",
+    "example": "Een camera obscura projecteert de buitenwereld omgekeerd in een donkere ruimte; Alhazen gebruikte dit als model voor het oog.",
+    "mnemonic": "Alhazen = licht gaat halen naar binnen."
+  },
+  {
+    "id": "h1_oudheid_008",
+    "chapter": "Hoofdstuk 1 - Ideeën uit de Oudheid",
+    "concept": "Avicenna: externe en interne zintuigen",
+    "difficulty": 4,
+    "type": "concept",
+    "prompt": "Waarom is Avicenna’s onderscheid tussen externe en interne zintuigen psychologisch relevant?",
+    "options": [
+      "Omdat hij daarmee stelde dat alle kennis rechtstreeks en onverwerkt uit de buitenwereld komt.",
+      "Omdat hij naast zintuiglijke ontvangst ook interne verwerking, evaluatie en herinnering onderscheidde.",
+      "Omdat hij bewees dat de hersenschors specifieke taalgebieden bevat.",
+      "Omdat hij het idee van operante conditionering filosofisch voorbereidde."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Avicenna maakte onderscheid tussen externe zintuigen zoals zicht, gehoor en tast, en interne zintuigen die informatie verwerken, evalueren, kopiëren en herinneren. Daarmee anticipeerde hij op latere psychologische ideeën over informatieverwerking.",
+    "whyWrong": [
+      "A is fout omdat Avicenna juist interne verwerking toevoegde aan zintuiglijke ontvangst.",
+      "B is juist omdat dit het kernonderscheid van Avicenna weergeeft.",
+      "C is fout omdat taalgebieden pas veel later bij Broca en Wernicke centraal stonden.",
+      "D is fout omdat operante conditionering bij Skinner hoort."
+    ],
+    "tip": "Avicenna is belangrijk omdat hij waarnemen niet beperkte tot passief registreren.",
+    "example": "Je ziet een hond extern, maar intern beoordeel je of hij gevaarlijk is en herinner je eerdere ervaringen met honden.",
+    "mnemonic": "Avicenna = buiten zien, binnen verwerken."
+  },
+  {
+    "id": "h2_descartes_001",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Descartes: methodologische twijfel",
+    "difficulty": 4,
+    "type": "concept",
+    "prompt": "Welke redenering past het best bij Descartes’ methodologische twijfel?",
+    "options": [
+      "Omdat zintuigen soms misleiden, moet alle kennis worden verworpen en kan geen zekerheid bestaan.",
+      "Omdat zintuigen soms misleiden, moet men zoeken naar onbetwijfelbare uitgangspunten waaruit verdere kennis deductief kan worden afgeleid.",
+      "Omdat ervaring de enige bron van kennis is, moet men alle aangeboren ideeën ontkennen.",
+      "Omdat lichaam en geest parallel lopen, is interactie tussen beide onmogelijk."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Descartes twijfelde methodisch aan alles wat betwijfeld kon worden, juist om een absoluut zeker fundament te vinden. Dat fundament vond hij in ‘ik denk, dus ik ben’, waarna hij via deductie verder wilde redeneren.",
+    "whyWrong": [
+      "A is fout omdat Descartes niet bij volledige sceptische stilstand wilde blijven; twijfel was een methode.",
+      "B is juist omdat methodologische twijfel bedoeld was om zekere axioma’s te vinden.",
+      "C is fout omdat dit Locke’s empirisme benadert, niet Descartes’ rationalisme.",
+      "D is fout omdat parallellisme bij Leibniz hoort."
+    ],
+    "tip": "Descartes twijfelt niet om niets te weten, maar om iets absoluut zekers te vinden.",
+    "example": "Optische illusies tonen dat zintuigen kunnen misleiden; daarom zoekt Descartes zekerheid in denken zelf.",
+    "mnemonic": "Descartes: twijfel → Cogito → deductie."
+  },
+  {
+    "id": "h2_descartes_002",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Interactief dualisme",
+    "difficulty": 4,
+    "type": "persoon",
+    "prompt": "Waarom vormde de vraag van prinses Elizabeth van Bohemen een fundamenteel probleem voor Descartes’ dualisme?",
+    "options": [
+      "Omdat zij liet zien dat Descartes geen onderscheid maakte tussen lichaam en geest.",
+      "Omdat zij vroeg hoe een immateriële geest causale invloed kan uitoefenen op een materieel lichaam.",
+      "Omdat zij bewees dat de pijnappelklier geen onderdeel van de hersenen is.",
+      "Omdat zij aantoonde dat alle reflexen uitsluitend aangeleerd zijn."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Descartes stelde dat lichaam en geest gescheiden substanties zijn, maar wel op elkaar inwerken. Elizabeth vroeg hoe zo’n interactie mogelijk is als de geest immaterieel en het lichaam materieel is. Dit werd het interactieprobleem.",
+    "whyWrong": [
+      "A is fout omdat Descartes juist een scherp onderscheid maakte tussen lichaam en geest.",
+      "B is juist omdat dit precies het interactieprobleem formuleert.",
+      "C is fout omdat de vraag niet ging over anatomische ligging van de pijnappelklier.",
+      "D is fout omdat Descartes zowel automatische als aangeleerde reflexen onderscheidde."
+    ],
+    "tip": "Bij dualisme is de zwakke plek meestal niet dát lichaam en geest verschillen, maar hóé ze kunnen interacteren.",
+    "example": "Als je geest besluit je arm op te tillen, hoe kan een niet-materiële beslissing dan een fysieke spierbeweging veroorzaken?",
+    "mnemonic": "Dualisme = twee; Elizabeth vraagt: hoe raken die twee elkaar?"
+  },
+  {
+    "id": "h2_locke_001",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Locke: tabula rasa",
+    "difficulty": 3,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak past het best bij Locke’s empirisme?",
+    "options": [
+      "De geest bevat aangeboren waarheden die door rationalisatie expliciet worden gemaakt.",
+      "De geest begint als een tabula rasa en wordt gevuld door sensaties en reflecties.",
+      "De geest bestaat uit monaden die vooraf harmonieus parallel lopen met het lichaam.",
+      "De geest is een reeks ideale vormen die zintuiglijke objecten vooraf structureren."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Locke beschouwde de geest bij geboorte als een tabula rasa, een blanco vel. Kennis ontstaat door ervaring, namelijk via sensaties uit de buitenwereld en reflecties op de eigen mentale activiteiten.",
+    "whyWrong": [
+      "A is fout omdat dit meer bij Plato, Descartes of Leibniz past.",
+      "B is juist omdat dit Locke’s empirisme kernachtig weergeeft.",
+      "C is fout omdat monaden en parallellisme bij Leibniz horen.",
+      "D is fout omdat ideale vormen bij Plato horen."
+    ],
+    "tip": "Locke = ervaring schrijft op het blanco vel.",
+    "example": "Een kind leert het idee ‘appel’ door kleur, vorm, smaak en tast samen te ervaren.",
+    "mnemonic": "Tabula rasa = blanco lei."
+  },
+  {
+    "id": "h2_locke_002",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Molyneux-probleem",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een persoon die vanaf geboorte blind is, kan door aanraking moeiteloos een kubus van een bol onderscheiden. Na herstel van zicht krijgt hij beide objecten te zien zonder ze aan te raken. Volgens Locke’s interpretatie van het Molyneux-probleem kan hij ze aanvankelijk niet visueel onderscheiden. Waarom niet?",
+    "options": [
+      "Omdat primaire kwaliteiten zoals vorm niet via het zicht kunnen worden waargenomen.",
+      "Omdat hij nog geen associatie heeft gevormd tussen visuele indrukken en tastindrukken.",
+      "Omdat eenvoudige ideeën volledig aangeboren zijn en dus niet door ervaring kunnen veranderen.",
+      "Omdat visuele kennis volgens Locke demonstratief en niet sensitief is."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Het Molyneux-probleem illustreert dat complexe ideeën ontstaan door associaties tussen ervaringen. De persoon kent de objecten via tast, maar heeft nog geen verband gelegd tussen tastvorm en visuele verschijning.",
+    "whyWrong": [
+      "A is fout omdat vorm juist een primaire kwaliteit is die via meerdere modaliteiten relevant kan zijn.",
+      "B is juist omdat Locke’s punt draait om associatie tussen modaliteiten.",
+      "C is fout omdat Locke aangeboren ideeën juist afwees.",
+      "D is fout omdat zicht bij Locke onder sensitieve kennis valt, niet onder demonstratieve kennis."
+    ],
+    "tip": "Bij Molyneux gaat het niet om intelligentie, maar om ontbrekende koppeling tussen zintuiglijke ervaringen.",
+    "example": "Je kunt een lied herkennen aan de melodie, maar niet meteen aan bladmuziek als je nooit hebt leren lezen.",
+    "mnemonic": "Molyneux = moet nog matchen: voelen ↔ zien."
+  },
+  {
+    "id": "h2_locke_003",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Locke: kennisvormen",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Welke combinatie van Locke’s kennisvormen is correct?",
+    "options": [
+      "Intuïtieve kennis is directe zekerheid; demonstratieve kennis is stapsgewijze redenering; sensitieve kennis berust op zintuiglijke ervaring.",
+      "Intuïtieve kennis is zintuiglijke waarneming; demonstratieve kennis is aangeboren herinnering; sensitieve kennis is logische deductie.",
+      "Intuïtieve kennis is introspectie; demonstratieve kennis is conditionering; sensitieve kennis is motorische respons.",
+      "Intuïtieve kennis is perceptie; demonstratieve kennis is apperceptie; sensitieve kennis is parallellisme."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Locke onderscheidde intuïtieve kennis als directe zekerheid, demonstratieve kennis als stapsgewijze logische redenering, en sensitieve of zintuiglijke kennis als kennis via patronen van zintuiglijke ervaring.",
+    "whyWrong": [
+      "A is juist omdat alle drie kennisvormen correct gekoppeld zijn.",
+      "B is fout omdat de begrippen door elkaar worden gehaald.",
+      "C is fout omdat conditionering en motorische respons niet bij Locke’s driedeling horen.",
+      "D is fout omdat perceptie, apperceptie en parallellisme vooral bij Leibniz en latere denkers relevant zijn."
+    ],
+    "tip": "Locke’s kennisvormen worden vaak in herkenningsvragen getoetst.",
+    "example": "Zwart is niet wit = intuïtief; een bewijs stap voor stap volgen = demonstratief; een appel zien = sensitief.",
+    "mnemonic": "Ik denk scherp: Ik = intuïtief, Denk = demonstratief, Scherp = sensitief."
+  },
+  {
+    "id": "h2_leibniz_001",
+    "chapter": "Hoofdstuk 2 - Descartes, Locke en Leibniz",
+    "concept": "Leibniz: monaden en parallellisme",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke uitspraak onderscheidt Leibniz het duidelijkst van Descartes in het geest-lichaamdebat?",
+    "options": [
+      "Leibniz stelde dat lichaam en geest via de pijnappelklier direct causaal op elkaar inwerken.",
+      "Leibniz stelde dat lichaam en geest geen causale interactie hebben, maar parallel functioneren binnen een geordend universum.",
+      "Leibniz ontkende elk onderscheid tussen lichaam en geest en verdedigde strikt materialisme.",
+      "Leibniz stelde dat alle kennis uitsluitend ontstaat uit sensaties en reflecties."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Descartes verdedigde interactief dualisme, waarbij lichaam en geest samenwerken. Leibniz verdedigde parallellisme: lichaam en geest beïnvloeden elkaar niet direct, maar lopen parallel als verschillende lagen van de werkelijkheid.",
+    "whyWrong": [
+      "A is fout omdat dit Descartes’ positie is, niet Leibniz’.",
+      "B is juist omdat Leibniz parallellisme verdedigde.",
+      "C is fout omdat Leibniz geen strikt materialist was; zijn werkelijkheid bestaat uit monaden.",
+      "D is fout omdat dit Locke’s empirisme beschrijft."
+    ],
+    "tip": "Descartes = interactie; Leibniz = parallel.",
+    "example": "Twee perfect gelijklopende klokken lijken elkaar te beïnvloeden, maar doen dat niet werkelijk.",
+    "mnemonic": "Monaden als LEGO-blokjes: zelfstandig, maar samen vormen ze de werkelijkheid."
+  },
+  {
+    "id": "h3_fysiologie_001",
+    "chapter": "Hoofdstuk 3 - Fysiologie van de Geest",
+    "concept": "Thomas Willis",
+    "difficulty": 3,
+    "type": "persoon",
+    "prompt": "Welke bijdrage wordt het best gekoppeld aan Thomas Willis in de geschiedenis van hersenonderzoek?",
+    "options": [
+      "Hij beschreef nauwkeurig hersenstructuren en onderscheidde witte en grijze stof.",
+      "Hij ontwikkelde de frenologie als methode om karakter uit schedelvorm af te lezen.",
+      "Hij ontdekte motorische afasie door onderzoek bij patiënt Tan.",
+      "Hij toonde via elektrische stimulatie de motorische strip aan."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Thomas Willis publiceerde een nauwkeurige beschrijving van hersenstructuren en besteedde aandacht aan witte en grijze stof. Daarmee droeg hij bij aan de latere opkomst van hersenonderzoek.",
+    "whyWrong": [
+      "A is juist omdat Willis gekoppeld wordt aan witte en grijze stof.",
+      "B is fout omdat frenologie bij Gall hoort.",
+      "C is fout omdat patiënt Tan bij Broca hoort.",
+      "D is fout omdat elektrische stimulatie van de motorische strip bij Fritsch en Hitzig hoort."
+    ],
+    "tip": "Bij namenvragen helpt Athena’s naam-ezelsbruggetje sterk.",
+    "example": "Willis onderzocht hersenstructuren voordat specifieke functies zoals taalgebieden overtuigend werden gelokaliseerd.",
+    "mnemonic": "Thomas Willis = Wit-llis = witte en grijze stof."
+  },
+  {
+    "id": "h3_fysiologie_002",
+    "chapter": "Hoofdstuk 3 - Fysiologie van de Geest",
+    "concept": "Gall en frenologie",
+    "difficulty": 4,
+    "type": "kritische analyse",
+    "prompt": "Wat was het fundamentele wetenschappelijke probleem met Galls frenologie?",
+    "options": [
+      "De frenologie ontkende dat psychologische functies enig verband met het brein konden hebben.",
+      "De frenologie gebruikte onbetrouwbare methoden en koppelde slecht gedefinieerde eigenschappen aan schedelvormen.",
+      "De frenologie stelde dat taal uitsluitend in de linker hemisfeer gelokaliseerd was.",
+      "De frenologie verwierp elke vorm van lokalisatie van mentale functies."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Gall stelde dat mentale eigenschappen gelokaliseerd waren in hersengebieden en afleesbaar waren aan schedelknobbels. De methode was echter slecht gecontroleerd, de eigenschappen waren problematisch gekozen en tegenbewijs werd vaak wegverklaard.",
+    "whyWrong": [
+      "A is fout omdat Gall juist sterk geloofde in lokalisatie in het brein.",
+      "B is juist omdat dit de methodologische kernkritiek op frenologie weergeeft.",
+      "C is fout omdat taal later bij Broca en Wernicke centraal kwam te staan.",
+      "D is fout omdat frenologie juist een extreme lokalisatieleer was."
+    ],
+    "tip": "Maak onderscheid tussen het goede idee ‘functies kunnen gelokaliseerd zijn’ en de slechte methode ‘schedelknobbels lezen’.",
+    "example": "Een vermeende ‘wiskundeknobbel’ op de schedel gebruiken om intelligentie te meten is frenologisch, maar niet wetenschappelijk valide.",
+    "mnemonic": "Gall = SchedALL = schedelknobbels."
+  },
+  {
+    "id": "h3_fysiologie_003",
+    "chapter": "Hoofdstuk 3 - Fysiologie van de Geest",
+    "concept": "Flourens en ablatie",
+    "difficulty": 4,
+    "type": "vergelijking",
+    "prompt": "Hoe verschilde Flourens’ benadering van die van Gall?",
+    "options": [
+      "Flourens baseerde zich op gecontroleerde ablatiestudies, terwijl Gall conclusies trok uit schedelvorm en gedragsinterpretaties.",
+      "Flourens verdedigde frenologie sterker dan Gall door functies aan schedelknobbels te koppelen.",
+      "Flourens ontkende dat het cerebellum betrokken was bij motoriek en stelde dat het seksuele liefde regelde.",
+      "Flourens onderzocht uitsluitend menselijke taalstoornissen en introduceerde sensorische afasie."
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. Flourens gebruikte ablatie: hij verwijderde delen van dierenhersenen en observeerde gedragsveranderingen. Daarmee testte hij Galls claims empirischer en toonde onder meer aan dat het cerebellum met bewegingscoördinatie te maken heeft.",
+    "whyWrong": [
+      "A is juist omdat dit het methodologische verschil tussen Flourens en Gall weergeeft.",
+      "B is fout omdat Flourens juist kritisch was op frenologie.",
+      "C is fout omdat Gall het cerebellum met amativiteit associeerde; Flourens vond motorische coördinatie.",
+      "D is fout omdat sensorische afasie bij Wernicke hoort."
+    ],
+    "tip": "Flourens is belangrijk omdat hij lokalisatieclaims experimenteel testte in plaats van schedels te lezen.",
+    "example": "Na verwijdering van het cerebellum liep een dier ongecoördineerd, wat tegen Galls interpretatie inging.",
+    "mnemonic": "Flourens = Floer eruit slopen = ablatie."
+  },
+  {
+    "id": "h3_fysiologie_004",
+    "chapter": "Hoofdstuk 3 - Fysiologie van de Geest",
+    "concept": "Broca, Wernicke en afasie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een patiënt spreekt vloeiend en grammaticaal redelijk correct, maar de inhoud is onsamenhangend en de patiënt begrijpt gesproken taal slecht. Welk gebied en welk type afasie passen hier het best bij?",
+    "options": [
+      "Broca’s gebied; motorische afasie.",
+      "Wernicke’s gebied; sensorische afasie.",
+      "Motorische strip; conductieafasie.",
+      "Cerebellum; motorische afasie."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Sensorische afasie, of Wernicke’s afasie, wordt gekenmerkt door vloeiende maar inhoudelijk onsamenhangende spraak en problemen met taalbegrip. Dit hangt samen met schade aan het gebied van Wernicke.",
+    "whyWrong": [
+      "A is fout omdat Broca’s afasie vooral niet-vloeiende spraak met relatief intact begrip inhoudt.",
+      "B is juist omdat de casus vloeiende maar betekenisloze spraak en slecht begrip beschrijft.",
+      "C is fout omdat conductieafasie vooral de verbinding tussen begrijpen en produceren betreft.",
+      "D is fout omdat het cerebellum vooral bewegingscoördinatie betreft."
+    ],
+    "tip": "Let bij afasievragen op twee dingen: vloeiendheid van spraak en taalbegrip.",
+    "example": "Iemand met Wernicke-afasie kan veel praten, maar wat gezegd wordt mist logische samenhang.",
+    "mnemonic": "Wernicke = Wacky woordenschat; Broca = BROken praten."
+  },
+  {
+    "id": "h3_fysiologie_005",
+    "chapter": "Hoofdstuk 3 - Fysiologie van de Geest",
+    "concept": "Lashley: equipotentialiteit en massa-actie",
+    "difficulty": 5,
+    "type": "concept",
+    "prompt": "Welke conclusie past het best bij Lashley’s onderzoek naar geheugen met doolhoftaken bij ratten?",
+    "options": [
+      "Geheugen is altijd exact op één klein corticaal punt gelokaliseerd.",
+      "Geheugenprestaties zijn onafhankelijk van de hoeveelheid hersenschade.",
+      "Geheugenfuncties lijken verspreid georganiseerd, maar grotere schade verlaagt de efficiëntie van complexe functies.",
+      "Geheugen bevindt zich uitsluitend in het cerebellum en niet in de cortex."
+    ],
+    "correct": 2,
+    "explanation": "Het juiste antwoord is C. Lashley vond geen strikt enkelvoudige geheugensporen. Zijn begrippen equipotentialiteit en massa-actie drukken uit dat intacte hersendelen functies kunnen overnemen, maar dat prestaties slechter worden naarmate de hoeveelheid schade groter is.",
+    "whyWrong": [
+      "A is fout omdat Lashley juist tegen strikte lokalisatie van geheugen inging.",
+      "B is fout omdat de wet van massa-actie stelt dat grotere schade wel degelijk efficiëntie vermindert.",
+      "C is juist omdat dit beide kernideeën combineert.",
+      "D is fout omdat Lashley vooral cortex en verspreide representatie onderzocht."
+    ],
+    "tip": "Lashley betekent niet ‘geen breinlocaties’, maar ‘geheugen is niet simpel één plek’.",
+    "example": "Een rat kan een doolhof nog deels herinneren na beperkte hersenschade, maar presteert slechter bij grotere schade.",
+    "mnemonic": "Lashley = verspreidde lashes = geheugen zit verspreid."
+  },
+  {
+    "id": "h3_fysiologie_006",
+    "chapter": "Hoofdstuk 3 - Fysiologie van de Geest",
+    "concept": "H.M., hippocampus en geheugensystemen",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Een patiënt kan een gesprek kort volgen en leert motorische vaardigheden langzaam bij, maar kan zich later niet herinneren dat hij geoefend heeft. Welke interpretatie sluit het best aan bij de casus H.M.?",
+    "options": [
+      "De hippocampus is noodzakelijk voor alle vormen van leren, inclusief procedureel leren.",
+      "Kortetermijngeheugen, langetermijnvorming en procedureel leren zijn onderscheidbare geheugensystemen.",
+      "Werkgeheugen en langetermijngeheugen zijn identiek zolang iemand bewust kan praten.",
+      "Declaratief geheugen blijft volledig intact na hippocampusschade."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. H.M. kon geen nieuwe declaratieve langetermijnherinneringen vormen, maar zijn werkgeheugen functioneerde relatief goed en procedureel leren bleef mogelijk. Dit liet zien dat geheugen uit meerdere systemen bestaat.",
+    "whyWrong": [
+      "A is fout omdat procedureel leren bij H.M. deels behouden bleef.",
+      "B is juist omdat H.M. aantoonde dat geheugensystemen dissocieerbaar zijn.",
+      "C is fout omdat werkgeheugen en langetermijngeheugen duidelijk gescheiden bleken.",
+      "D is fout omdat vooral declaratieve langetermijnvorming ernstig verstoord raakte."
+    ],
+    "tip": "H.M. komt vaak terug: hippocampus = nieuwe declaratieve herinneringen.",
+    "example": "H.M. kon een taak oefenen en verbeteren, maar wist later niet dat hij die taak eerder had gedaan.",
+    "mnemonic": "H.M. = Herinnert Minder; Scoville = Scoop-ville, scoopt hippocampus eruit."
+  },
+  {
+    "id": "h4_perceptie_001",
+    "chapter": "Hoofdstuk 4 - Sensatie en Perceptie",
+    "concept": "Kant: noumenale en fenomenale wereld",
+    "difficulty": 4,
+    "type": "concept",
+    "prompt": "Welke uitspraak geeft Kants onderscheid tussen noumenale en fenomenale wereld het best weer?",
+    "options": [
+      "De noumenale wereld is de wereld zoals wij die ervaren; de fenomenale wereld is de onkenbare werkelijkheid op zichzelf.",
+      "De noumenale wereld is de werkelijkheid op zichzelf; de fenomenale wereld is de werkelijkheid zoals gevormd door menselijke ervaring.",
+      "De noumenale wereld bestaat uit aangeleerde associaties; de fenomenale wereld bestaat uit reflexmatige reacties.",
+      "De noumenale wereld is objectieve hersenactiviteit; de fenomenale wereld is uitsluitend taal."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Kant stelde dat de noumenale wereld de wereld van dingen-op-zichzelf is, onafhankelijk van menselijke ervaring. Zodra deze via menselijke zintuigen en categorieën wordt ervaren, spreken we van de fenomenale wereld.",
+    "whyWrong": [
+      "A is fout omdat de begrippen zijn omgedraaid.",
+      "B is juist omdat dit Kants onderscheid correct weergeeft.",
+      "C is fout omdat dit eerder associatiepsychologie en reflexdenken suggereert.",
+      "D is fout omdat Kant dit onderscheid niet reduceerde tot hersenactiviteit of taal."
+    ],
+    "tip": "Kant: wij ervaren nooit de wereld puur, maar altijd door mentale structuren.",
+    "example": "Een boom-op-zichzelf is noumenaal; de boom zoals jij hem ziet, ruikt en begrijpt is fenomenaal.",
+    "mnemonic": "Noumenaal = niet rechtstreeks kenbaar; fenomenaal = verschijnt in ervaring."
+  },
+  {
+    "id": "h4_perceptie_002",
+    "chapter": "Hoofdstuk 4 - Sensatie en Perceptie",
+    "concept": "Helmholtz: fysiologisch mechanisme en unconscious inference",
+    "difficulty": 5,
+    "type": "vergelijking",
+    "prompt": "Welke combinatie beschrijft Helmholtz’ positie het best?",
+    "options": [
+      "Hij verdedigde vitalisme en stelde dat perceptie volledig passief is.",
+      "Hij verwierp vitalisme, verklaarde fysiologie via fysische en chemische principes en zag perceptie als mede gevormd door onbewuste gevolgtrekkingen.",
+      "Hij stelde dat kleurwaarneming uitsluitend ontstaat uit tegenprocessen en verwierp receptorverschillen volledig.",
+      "Hij stelde dat de geest wetenschappelijk niet onderzocht kan worden omdat mentale processen geen ruimtelijke dimensies hebben."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Helmholtz verwierp het vitalisme van Müller en verdedigde fysiologisch mechanisme. Daarnaast stelde hij dat perceptie niet louter passieve registratie is, maar mede ontstaat via onbewuste gevolgtrekkingen die de onvolledige zintuiglijke input aanvullen.",
+    "whyWrong": [
+      "A is fout omdat Helmholtz juist vitalisme verwierp.",
+      "B is juist omdat het fysiologisch mechanisme en unconscious inference combineert.",
+      "C is fout omdat tegenprocessen vooral bij Hering horen; Helmholtz is bekend van de trichromatische theorie.",
+      "D is fout omdat dit eerder Kants bezwaar tegen psychologie als wetenschap weergeeft."
+    ],
+    "tip": "Helmholtz combineert harde fysiologie met actieve perceptie.",
+    "example": "Bij een blinde vlek vullen je hersenen ontbrekende informatie aan, zodat je geen gat in je visuele veld ervaart.",
+    "mnemonic": "Helmholtz = hersenen helpen het beeld heel maken."
+  },
+  {
+    "id": "h4_perceptie_003",
+    "chapter": "Hoofdstuk 4 - Sensatie en Perceptie",
+    "concept": "Wet van specifieke zenuwenergieën",
+    "difficulty": 4,
+    "type": "definitie",
+    "prompt": "Wat stelt de wet van specifieke zenuwenergieën?",
+    "options": [
+      "Dat elke stimulus altijd dezelfde bewuste ervaring veroorzaakt, ongeacht welk zenuwpad geactiveerd wordt.",
+      "Dat de aard van een sensatie vooral afhangt van het specifieke zenuwtraject dat wordt geactiveerd.",
+      "Dat perceptie uitsluitend ontstaat door bewuste redenering over zintuiglijke informatie.",
+      "Dat alle zintuigen dezelfde soort informatie naar de hersenen sturen."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. De wet van specifieke zenuwenergieën stelt dat de kwaliteit van een sensatie niet simpelweg door de stimulus zelf wordt bepaald, maar door het type zenuw dat geactiveerd wordt.",
+    "whyWrong": [
+      "A is fout omdat hetzelfde fysieke prikkelen anders kan worden ervaren afhankelijk van het zenuwpad.",
+      "B is juist omdat het zenuwtraject bepalend is voor het type sensatie.",
+      "C is fout omdat de wet over fysiologische zintuigkanalen gaat, niet over bewuste redenering.",
+      "D is fout omdat zintuigen juist specifieke typen informatie doorgeven."
+    ],
+    "tip": "Bij deze wet moet je denken: welk kanaal is actief?",
+    "example": "Druk op het oog kan een visuele ervaring oproepen omdat het visuele systeem wordt geactiveerd.",
+    "mnemonic": "Specifieke zenuw = specifieke sensatie."
+  },
+  {
+    "id": "h4_perceptie_004",
+    "chapter": "Hoofdstuk 4 - Sensatie en Perceptie",
+    "concept": "Fechner, Weber en psychofysica",
+    "difficulty": 5,
+    "type": "toepassing",
+    "prompt": "Waarom is het verschil tussen een licht gewicht en een iets zwaarder gewicht makkelijker waar te nemen dan hetzelfde absolute verschil bij twee zeer zware gewichten?",
+    "options": [
+      "Omdat de absolute drempel stijgt zodra stimuli bewuster worden verwerkt.",
+      "Omdat volgens Weber en Fechner waargenomen verschil afhangt van de verhouding tot de oorspronkelijke stimulusintensiteit.",
+      "Omdat alle sensorische systemen uitsluitend lineair reageren op fysieke intensiteit.",
+      "Omdat Gestaltprincipes stellen dat nabijheid sterker werkt bij lichte objecten."
+    ],
+    "correct": 1,
+    "explanation": "Het juiste antwoord is B. Weber en Fechner lieten zien dat waargenomen verschillen niet simpelweg afhangen van absolute verschillen, maar van de verhouding tussen verandering en uitgangsintensiteit. Daarom valt hetzelfde extra gewicht minder op bij een zwaar object.",
+    "whyWrong": [
+      "A is fout omdat de absolute drempel gaat over minimale detecteerbare stimulusintensiteit, niet precies over proportionele verschilwaarneming.",
+      "B is juist omdat dit de kern van Weber-Fechner weergeeft.",
+      "C is fout omdat Fechner juist een niet-lineaire relatie formuleerde.",
+      "D is fout omdat Gestaltprincipes niet verklaren waarom gewichtsverschillen proportioneel worden waargenomen."
+    ],
+    "tip": "Bij Weber-Fechner gaat het om verhouding, niet alleen om absoluut verschil.",
+    "example": "Een klein extra gewicht voel je sneller bij een lichte rugzak dan bij een extreem zware koffer.",
+    "mnemonic": "Weber-Fechner = verschil voelen via verhouding."
+  },
+  {
+    "id": "h4_perceptie_005",
+    "chapter": "Hoofdstuk 4 - Sensatie en Perceptie",
+    "concept": "Gestaltpsychologie",
+    "difficulty": 4,
+    "type": "toepassing",
+    "prompt": "Je ziet losse stippen die dicht bij elkaar staan als groepjes, hoewel er geen lijnen omheen staan. Welk Gestaltprincipe verklaart dit het best?",
+    "options": [
+      "Wet van nabijheid",
+      "Wet van specifieke zenuwenergieën",
+      "Wet van massa-actie",
+      "Wet van het effect"
+    ],
+    "correct": 0,
+    "explanation": "Het juiste antwoord is A. De wet van nabijheid stelt dat elementen die dicht bij elkaar liggen als een eenheid of groep worden waargenomen. Dit illustreert de actieve organisatie van waarneming door de geest.",
+    "whyWrong": [
+      "A is juist omdat dicht bij elkaar geplaatste elementen als groep worden gezien.",
+      "B is fout omdat die wet over zintuigzenuwen en sensatiekwaliteit gaat.",
+      "C is fout omdat massa-actie bij Lashley en hersenschade hoort.",
+      "D is fout omdat de wet van het effect bij Thorndike en leren hoort."
+    ],
+    "tip": "Bij Gestaltvragen moet je de visuele ordeningsregel herkennen.",
+    "example": "In een patroon van stippen zie je kolommen als de verticale afstanden kleiner zijn dan de horizontale.",
+    "mnemonic": "Gestalt = geheel groter dan de som der delen."
   }
 ]
 
