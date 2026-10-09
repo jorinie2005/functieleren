@@ -29,9 +29,6 @@ header p{margin:0;color:#e1ebf4;max-width:680px}
 .sync-control .btn:hover{background:#edf4f9}
 .sync-status{min-width:0;overflow-wrap:anywhere;font-size:13px;font-weight:650}
 .sync-control.is-signed-in{background:rgba(10,81,61,.35)}
-.cloud-setup{margin-top:18px;padding:15px;border:1px solid var(--border);border-radius:11px;background:#f8fafc}
-.cloud-setup summary{font-weight:700}
-.cloud-setup textarea{min-height:105px}
 nav{position:sticky;top:0;z-index:20;padding:8px max(var(--page-gutter),calc((100% - var(--content-width))/2));border-bottom:1px solid var(--border);background:rgba(255,255,255,.97);backdrop-filter:blur(12px)}
 nav button,.btn{min-height:44px;border:1px solid transparent;background:transparent;color:#46566a;padding:9px 13px;border-radius:9px;cursor:pointer;font:inherit;font-size:14px;font-weight:650;transition:background .15s,border-color .15s,color .15s,transform .15s;touch-action:manipulation}
 nav button:hover,.btn:hover{background:var(--soft);color:var(--primary);border-color:var(--border)}
@@ -557,26 +554,6 @@ pre{max-width:100%;overflow:auto;padding:15px;border:1px solid var(--border);bor
     <label><input id="settingShuffleQuestions" type="checkbox" checked/> Vraagvolgorde randomiseren</label>
     <label><input id="settingConfirmAnswers" type="checkbox" checked/> Antwoord pas controleren na klikken op ‘Controleer & volgende’</label>
     <button class="btn primary" onclick="saveSettings()">Instellingen opslaan</button>
-  </div>
-  <div class="card">
-    <h2>Voortgang synchroniseren</h2>
-    <p class="small">Log in met hetzelfde Google-account op elk apparaat. Je toetsresultaten, open fouten, flashcardplanning en instellingen worden dan in je eigen Firebase-account bewaard.</p>
-    <details class="cloud-setup">
-      <summary>Eenmalig Firebase instellen</summary>
-      <ol class="small">
-        <li>Maak in Firebase een project en voeg een webapp toe.</li>
-        <li>Schakel Google in bij Authentication en maak een Firestore-database.</li>
-        <li>Voeg het domein van deze website toe bij de toegestane domeinen van Authentication.</li>
-        <li>De publieke Firebase-configuratie van jouw webapp staat hieronder al ingevuld.</li>
-        <li>Publiceer de regels uit <code>firestore.rules</code> in Firestore Rules.</li>
-      </ol>
-      <label for="firebaseConfigInput">Firebase webconfiguratie (JSON)</label>
-      <textarea id="firebaseConfigInput" spellcheck="false" placeholder='{"apiKey":"...","authDomain":"...","projectId":"...","appId":"..."}'></textarea>
-      <div class="controls">
-        <button class="btn primary" type="button" onclick="saveFirebaseConfig()">Configuratie opslaan en verbinden</button>
-      </div>
-      <p class="small">De webconfiguratie is geen wachtwoord. Je voortgang wordt per ingelogde Google-gebruiker afgeschermd door de Firestore-regels. Pas deze waarden alleen aan als je een ander Firebase-project gebruikt.</p>
-    </details>
   </div>
 </section>
 
@@ -1131,14 +1108,7 @@ async function writeCloudState(){
   }
 }
 async function startGoogleSignIn(){
-  if(!await initializeCloudSync()){
-    if(!localStorage.getItem(STORAGE_KEYS.firebaseConfig)){
-      showTab("settings");
-      document.querySelector(".cloud-setup").open=true;
-      setCloudStatus("Stel eerst Firebase in bij Instellingen");
-    }
-    return;
-  }
+  if(!await initializeCloudSync())return;
   try{
     const sdk=await loadFirebaseModules();
     await sdk.signInWithPopup(firebaseAuth,new sdk.GoogleAuthProvider());
@@ -1156,22 +1126,6 @@ async function signOutOfCloud(){
     setCloudStatus(`Uitloggen mislukt: ${error.message}`,true);
   }
 }
-async function saveFirebaseConfig(){
-  const input=document.getElementById("firebaseConfigInput").value.trim();
-  try{
-    const config=JSON.parse(input);
-    if(!config.apiKey||!config.authDomain||!config.projectId||!config.appId){
-      throw new Error("Vul minimaal apiKey, authDomain, projectId en appId in.");
-    }
-    localStorage.setItem(STORAGE_KEYS.firebaseConfig,JSON.stringify(config));
-    cloudInitPromise=null;
-    setCloudStatus("Firebase verbinden…");
-    await initializeCloudSync();
-  }catch(error){
-    setCloudStatus(`Configuratie niet opgeslagen: ${error.message}`);
-  }
-}
-
 function chapters(){
   return [...new Set(questions.map(q=>q.chapter))].sort(compareChapters);
 }
@@ -1234,7 +1188,6 @@ function init(){
     document.getElementById("settingShowTips").checked=settings.showTips;
     document.getElementById("settingShuffleQuestions").checked=settings.shuffleQuestions;
     document.getElementById("settingConfirmAnswers").checked=settings.confirmAnswers;
-    document.getElementById("firebaseConfigInput").value=localStorage.getItem(STORAGE_KEYS.firebaseConfig)||JSON.stringify(DEFAULT_FIREBASE_CONFIG,null,2);
     renderDashboard();
     renderBank();
     initializeCloudSync();
