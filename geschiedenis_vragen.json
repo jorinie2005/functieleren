@@ -15376,5 +15376,3447 @@
       "Een patroonovereenkomst op enkele items is geen zelfstandige, sluitende individuele diagnose; interpretatie vraagt aanvullende informatie.",
       "Empirisch geselecteerde items kunnen wel degelijk diagnostisch relevante informatie bevatten; de beperking is dat een profiel niet zelfstandig oorzaak of diagnose vaststelt."
     ]
+  },
+  {
+    "id": "pers_001",
+    "chapter": "Belangrijke personen",
+    "concept": "Humorale theorie",
+    "difficulty": 2,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan een natuurlijke verklaring van ziekte via de balans tussen vier lichaamssappen?",
+    "options": ["Hippocrates", "Plato", "Democritus", "Leibniz"],
+    "correct": 0,
+    "explanation": "Hippocrates wordt gekoppeld aan de humorale theorie en het idee dat ziekte natuurlijk verklaard kan worden.",
+    "whyWrong": [
+      "Niet fout: Hippocrates hoort bij lichaamssappen en natuurlijke geneeskunde.",
+      "Plato hoort bij idealisme, nativisme en ideale vormen.",
+      "Democritus hoort bij atoomtheorie.",
+      "Leibniz hoort bij monaden, apperceptie en parallellisme."
+    ],
+    "tip": "Denk bij deze persoon aan geneeskunde en humoren.",
+    "example": "Ziekte ontstaat door een verstoring in bloed, slijm, gele gal en zwarte gal.",
+    "mnemonic": "Hippocrates = humoren."
+  },
+  {
+    "id": "pers_002",
+    "chapter": "Belangrijke personen",
+    "concept": "Ideale vormen",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie past het best bij rationalisme, nativisme, de allegorie van de grot en een hogere werkelijkheid achter de zintuiglijke wereld?",
+    "options": ["Socrates", "Plato", "Aristoteles", "John Locke"],
+    "correct": 1,
+    "explanation": "Plato hoort bij ideale vormen, rationalisme, nativisme en de allegorie van de grot.",
+    "whyWrong": [
+      "Socrates is belangrijk als leermeester, maar niet de hoofdfiguur bij de vormenleer.",
+      "Niet fout: Plato hoort bij ideale vormen en de grot.",
+      "Aristoteles legt meer nadruk op observatie en empirisme.",
+      "John Locke hoort bij empirisme en tabula rasa."
+    ],
+    "tip": "Bij deze persoon kijk je voorbij de zichtbare werkelijkheid.",
+    "example": "Een zichtbare stoel is slechts een onvolmaakte verschijning van het idee stoel.",
+    "mnemonic": "Plato = perfecte plannen."
+  },
+  {
+    "id": "pers_003",
+    "chapter": "Belangrijke personen",
+    "concept": "Empirisme en vier oorzaken",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie past het best bij observatie, inductie, drie soorten ziel en de vier oorzaken?",
+    "options": ["Aristoteles", "Plato", "Descartes", "Galton"],
+    "correct": 0,
+    "explanation": "Aristoteles wordt gekoppeld aan empirische observatie, inductie, de vegetatieve/sensitieve/rationele ziel en de vier oorzaken.",
+    "whyWrong": [
+      "Niet fout: Aristoteles hoort bij observatie, inductie en oorzaken.",
+      "Plato hoort juist sterker bij rationalisme en ideale vormen.",
+      "Descartes hoort bij methodologische twijfel en dualisme.",
+      "Galton hoort bij individuele verschillen en erfelijkheid."
+    ],
+    "tip": "Deze persoon ordent en verklaart verschijnselen via oorzaken.",
+    "example": "Bij een stoel kun je vragen waar hij van gemaakt is, wie hem maakte en waarvoor hij dient.",
+    "mnemonic": "Aristoteles analyseert alles."
+  },
+  {
+    "id": "pers_004",
+    "chapter": "Belangrijke personen",
+    "concept": "Atoomtheorie",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie wordt vooral gekoppeld aan het idee dat materie bestaat uit ondeelbare deeltjes?",
+    "options": ["Epicurus", "Democritus", "Lucretius", "Pythagoras"],
+    "correct": 1,
+    "explanation": "Democritus wordt gekoppeld aan de atoomtheorie: materie bestaat uit ondeelbare deeltjes.",
+    "whyWrong": [
+      "Epicurus bouwde voort op atomistische ideeën, maar is niet de eerste hoofdnaam hierbij.",
+      "Niet fout: Democritus hoort bij atomen.",
+      "Lucretius schreef De Rerum Natura, waarin atomistische ideeën werden uitgewerkt.",
+      "Pythagoras hoort bij wiskundige regelmatigheden."
+    ],
+    "tip": "Denk aan materie die uit kleine bouwstenen bestaat.",
+    "example": "Alles om je heen is opgebouwd uit kleine deeltjes.",
+    "mnemonic": "Democritus deelt de wereld in atomen."
+  },
+  {
+    "id": "pers_005",
+    "chapter": "Belangrijke personen",
+    "concept": "De Rerum Natura",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie schreef een lang werk waarin de Epicurische filosofie en atoomtheorie werden uiteengezet?",
+    "options": ["Lucretius", "Epicurus", "Democritus", "Aristoteles"],
+    "correct": 0,
+    "explanation": "Lucretius schreef De Rerum Natura, waarin hij atomistische en Epicurische ideeën uiteenzette.",
+    "whyWrong": [
+      "Niet fout: Lucretius hoort bij De Rerum Natura.",
+      "Epicurus ontwikkelde een filosofie rond atomistische ideeën, maar schreef dit werk niet.",
+      "Democritus hoort bij de atoomtheorie zelf.",
+      "Aristoteles hoort bij empirisme en de vier oorzaken."
+    ],
+    "tip": "Let op het onderscheid tussen bedenker, uitbouwer en schrijver.",
+    "example": "Een filosofisch gedicht legt uit hoe natuur en materie werken.",
+    "mnemonic": "Lucretius legt het op schrift."
+  },
+  {
+    "id": "pers_006",
+    "chapter": "Belangrijke personen",
+    "concept": "Relativisme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie hoort bij de gedachte dat de mens de maat van alle dingen is?",
+    "options": ["Pythagoras", "Heraclitus", "Zeno", "Protagoras"],
+    "correct": 3,
+    "explanation": "Protagoras wordt gekoppeld aan relativisme en de uitspraak dat de mens de maat van alle dingen is.",
+    "whyWrong": [
+      "Pythagoras hoort bij wiskundige regelmatigheden.",
+      "Heraclitus hoort bij verandering en stabiliteit.",
+      "Zeno hoort bij paradoxen en oneindigheid.",
+      "Niet fout: Protagoras hoort bij relativisme."
+    ],
+    "tip": "Denk aan subjectieve maatstaven en relativiteit van waarheid.",
+    "example": "Wat waar lijkt, kan afhangen van de menselijke waarnemer.",
+    "mnemonic": "Protagoras relativeert."
+  },
+  {
+    "id": "pers_007",
+    "chapter": "Belangrijke personen",
+    "concept": "Camera obscura",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan onderzoek naar zien, licht dat het oog binnenkomt en de camera obscura?",
+    "options": ["Al-Kindi", "Alhazen", "Avicenna", "Van Leeuwenhoek"],
+    "correct": 1,
+    "explanation": "Alhazen wordt gekoppeld aan visuele waarneming, licht in het oog en de camera obscura.",
+    "whyWrong": [
+      "Al-Kindi wordt gekoppeld aan Indo-Arabische nummering.",
+      "Niet fout: Alhazen hoort bij zien en camera obscura.",
+      "Avicenna hoort bij externe/interne zintuigen en de Floating Man.",
+      "Van Leeuwenhoek hoort bij de microscoop."
+    ],
+    "tip": "Bij deze persoon gaat het vooral over zien.",
+    "example": "Licht van objecten komt het oog binnen en maakt waarneming mogelijk.",
+    "mnemonic": "Alhazen helpt zien."
+  },
+  {
+    "id": "pers_008",
+    "chapter": "Belangrijke personen",
+    "concept": "Methodologische twijfel",
+    "difficulty": 3,
+    "type": "casus",
+    "prompt": "Een denker twijfelt aan alles, behalve aan het feit dat hij denkt. Hij ziet lichaam en geest als gescheiden, maar interactief. Wie is dit?",
+    "options": ["John Locke", "René Descartes", "Gottfried Leibniz", "Immanuel Kant"],
+    "correct": 1,
+    "explanation": "René Descartes hoort bij methodologische twijfel, Cogito ergo sum en interactief dualisme.",
+    "whyWrong": [
+      "Locke hoort bij empirisme en tabula rasa.",
+      "Niet fout: Descartes hoort bij twijfel, denken en dualisme.",
+      "Leibniz hoort bij monaden en parallellisme.",
+      "Kant hoort bij noumenale en fenomenale wereld."
+    ],
+    "tip": "Denk aan: ik denk, dus ik ben.",
+    "example": "De geest stuurt volgens hem het lichaam via interactie.",
+    "mnemonic": "Descartes deelt lichaam en geest."
+  },
+  {
+    "id": "pers_009",
+    "chapter": "Belangrijke personen",
+    "concept": "Kritiek op dualisme",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie stelde de vraag hoe een immateriële geest invloed kan hebben op een materieel lichaam?",
+    "options": ["Elizabeth van Bohemen", "Mary Calkins", "Margaret Floy Washburn", "Anna Freud"],
+    "correct": 0,
+    "explanation": "Elizabeth van Bohemen formuleerde scherpe kritiek op het interactieprobleem binnen Descartes' dualisme.",
+    "whyWrong": [
+      "Niet fout: Elizabeth van Bohemen hoort bij kritiek op interactief dualisme.",
+      "Mary Calkins hoort bij zelfpsychologie en paired associates.",
+      "Margaret Floy Washburn hoort bij vroege experimentele psychologie.",
+      "Anna Freud hoort bij verdedigingsmechanismen."
+    ],
+    "tip": "Deze persoon stelde vooral een probleemvraag.",
+    "example": "Hoe kan iets zonder lichamelijke substantie een fysieke beweging veroorzaken?",
+    "mnemonic": "Elizabeth vraagt: hoe werkt die interactie?"
+  },
+  {
+    "id": "pers_010",
+    "chapter": "Belangrijke personen",
+    "concept": "Tabula rasa",
+    "difficulty": 3,
+    "type": "casus",
+    "prompt": "Een theorie stelt dat kennis ontstaat door ervaring en associaties, alsof de geest bij geboorte een blanco lei is. Wie past hierbij?",
+    "options": ["John Locke", "Plato", "Descartes", "Leibniz"],
+    "correct": 0,
+    "explanation": "John Locke hoort bij empirisme, tabula rasa en kennis via ervaring.",
+    "whyWrong": [
+      "Niet fout: Locke hoort bij tabula rasa.",
+      "Plato hoort bij aangeboren kennis en ideale vormen.",
+      "Descartes hoort bij rationalisme en dualisme.",
+      "Leibniz verdedigde juist aangeboren capaciteiten van de geest."
+    ],
+    "tip": "Blanco lei = ervaring schrijft erop.",
+    "example": "Een kind leert door zintuiglijke ervaringen en reflectie.",
+    "mnemonic": "Locke locked niets in bij geboorte."
+  },
+  {
+    "id": "pers_011",
+    "chapter": "Belangrijke personen",
+    "concept": "Monaden en parallellisme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie verdedigde een visie waarin lichaam en geest parallel verlopen zonder directe causale interactie?",
+    "options": ["Spinoza", "Gottfried Leibniz", "Van Leeuwenhoek", "René Descartes"],
+    "correct": 1,
+    "explanation": "Leibniz wordt gekoppeld aan monaden, apperceptie en parallellisme tussen lichaam en geest.",
+    "whyWrong": [
+      "Spinoza hoort bij pantheïsme.",
+      "Niet fout: Leibniz hoort bij monaden en parallellisme.",
+      "Van Leeuwenhoek hoort bij de microscoop.",
+      "Descartes verdedigde juist interactief dualisme."
+    ],
+    "tip": "Niet interactie, maar parallel verloop.",
+    "example": "Lichaam en geest lopen synchroon als twee klokken.",
+    "mnemonic": "Leibniz laat lijnen parallel lopen."
+  },
+  {
+    "id": "pers_012",
+    "chapter": "Belangrijke personen",
+    "concept": "Frenologie",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie dacht dat mentale vermogens gelokaliseerd waren en zichtbaar konden worden in schedelknobbels?",
+    "options": ["Thomas Willis", "Franz Joseph Gall", "Johann Lavater", "Pierre Flourens"],
+    "correct": 1,
+    "explanation": "Franz Joseph Gall wordt gekoppeld aan frenologie en het idee dat schedelvorm mentale vermogens weerspiegelt.",
+    "whyWrong": [
+      "Willis hoort bij witte en grijze stof.",
+      "Niet fout: Gall hoort bij frenologie.",
+      "Lavater hoort bij fysiognomie.",
+      "Flourens bekritiseerde strikte lokalisatie via ablatiestudies."
+    ],
+    "tip": "Schedelknobbels = frenologie.",
+    "example": "Een knobbel op de schedel zou volgens deze visie iets zeggen over karakter.",
+    "mnemonic": "Gall = schedelknal."
+  },
+  {
+    "id": "pers_013",
+    "chapter": "Belangrijke personen",
+    "concept": "Ablatie en plasticiteit",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie bestreed een sterke vorm van schedel- en functielokalisatie met ablatiestudies bij dieren?",
+    "options": ["Franz Joseph Gall", "Pierre Flourens", "Paul Broca", "Carl Wernicke"],
+    "correct": 1,
+    "explanation": "Pierre Flourens gebruikte ablatie om Galls frenologische lokalisatie te bekritiseren en vond aanwijzingen voor plasticiteit.",
+    "whyWrong": [
+      "Gall verdedigde juist frenologische lokalisatie.",
+      "Niet fout: Flourens hoort bij ablatie en kritiek op Gall.",
+      "Broca hoort bij motorische afasie.",
+      "Wernicke hoort bij sensorische afasie."
+    ],
+    "tip": "Deze persoon verwijderde hersendelen om functies te onderzoeken.",
+    "example": "Na hersenbeschadiging kunnen intacte gebieden soms functies overnemen.",
+    "mnemonic": "Flourens sloopt stukjes eruit."
+  },
+  {
+    "id": "pers_014",
+    "chapter": "Belangrijke personen",
+    "concept": "Motorische afasie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan een taalstoornis waarbij iemand taal begrijpt, maar niet goed kan spreken?",
+    "options": ["Jean-Baptiste Bouillaud", "Aubertin", "Paul Broca", "Carl Wernicke"],
+    "correct": 2,
+    "explanation": "Paul Broca wordt gekoppeld aan motorische afasie en schade in een linker frontaal taalgebied.",
+    "whyWrong": [
+      "Bouillaud koppelde spraak al aan de frontale kwab, maar is niet de hoofdnaam van deze afasie.",
+      "Aubertin leverde een ondersteunende casus.",
+      "Niet fout: Broca hoort bij motorische afasie.",
+      "Wernicke hoort bij sensorische afasie."
+    ],
+    "tip": "Begrijpen kan nog, spreken lukt slecht.",
+    "example": "Een patiënt weet wat hij wil zeggen, maar krijgt de woorden niet goed uitgesproken.",
+    "mnemonic": "Broca = broken speech."
+  },
+  {
+    "id": "pers_015",
+    "chapter": "Belangrijke personen",
+    "concept": "Sensorische afasie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan grammaticaal vloeiende maar inhoudelijk onsamenhangende spraak?",
+    "options": ["Fritsch", "Hitzig", "David Ferrier", "Carl Wernicke"],
+    "correct": 3,
+    "explanation": "Carl Wernicke wordt gekoppeld aan sensorische afasie, waarbij spraak vloeiend maar betekenisloos kan zijn.",
+    "whyWrong": [
+      "Fritsch hoort bij elektrische stimulatie van de motorische cortex.",
+      "Hitzig hoort samen met Fritsch bij motorische cortexstimulatie.",
+      "Ferrier onderzocht onder andere sensorische en visuele/auditieve hersengebieden.",
+      "Niet fout: Wernicke hoort bij sensorische afasie."
+    ],
+    "tip": "Vloeiende taal zonder logische inhoud.",
+    "example": "Iemand spreekt lange zinnen, maar de betekenis klopt niet.",
+    "mnemonic": "Wernicke = wacky words."
+  },
+  {
+    "id": "pers_016",
+    "chapter": "Belangrijke personen",
+    "concept": "Geheugen en hippocampus",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Wie is de beroemde patiënt die na verwijdering van delen rond de hippocampus geen nieuwe langetermijnherinneringen meer kon vormen?",
+    "options": ["H.M.", "Wilder Penfield", "Karl Lashley", "Donald Hebb"],
+    "correct": 0,
+    "explanation": "H.M. liet zien dat de hippocampus cruciaal is voor het vormen van nieuwe declaratieve langetermijnherinneringen.",
+    "whyWrong": [
+      "Niet fout: H.M. is de beroemde geheugencasus.",
+      "Penfield stimuleerde hersenen bij bewuste patiënten.",
+      "Lashley onderzocht geheugen via ablatie en equipotentialiteit.",
+      "Hebb hoort bij leren, netwerken en verbindingen tussen neuronen."
+    ],
+    "tip": "Deze casus is belangrijker dan een theorie alleen.",
+    "example": "De patiënt kon vaardigheden oefenen zonder zich de oefening bewust te herinneren.",
+    "mnemonic": "H.M. = Herinnert Minder."
+  },
+  {
+    "id": "pers_017",
+    "chapter": "Belangrijke personen",
+    "concept": "Causaliteit en fenomenale wereld",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie maakte onderscheid tussen de wereld-op-zichzelf en de wereld zoals mensen die ervaren?",
+    "options": ["David Hume", "Immanuel Kant", "Hermann Helmholtz", "Johannes Müller"],
+    "correct": 1,
+    "explanation": "Immanuel Kant maakte onderscheid tussen de noumenale wereld en de fenomenale wereld.",
+    "whyWrong": [
+      "Hume trok causaliteit als objectieve eigenschap in twijfel.",
+      "Niet fout: Kant hoort bij noumenaal versus fenomenaal.",
+      "Helmholtz hoort bij mechanisme, reactietijd en perceptie.",
+      "Müller hoort bij specifieke zenuwenergie."
+    ],
+    "tip": "Deze persoon zegt dat de geest ervaring structureert.",
+    "example": "Wij kennen niet de boom-op-zich, maar de boom zoals die aan ons verschijnt.",
+    "mnemonic": "Kant kent de kern niet direct."
+  },
+  {
+    "id": "pers_018",
+    "chapter": "Belangrijke personen",
+    "concept": "Specifieke zenuwenergie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie werkte het idee uit dat verschillen in waarneming afhangen van zenuwstructuren en niet alleen van externe prikkels?",
+    "options": ["Charles Bell", "Johannes Müller", "Hermann Helmholtz", "Emil du Bois-Reymond"],
+    "correct": 1,
+    "explanation": "Johannes Müller werkte de wet van specifieke zenuwenergie verder uit.",
+    "whyWrong": [
+      "Bell formuleerde een vroege versie van het idee.",
+      "Niet fout: Müller hoort bij de uitgewerkte wet van specifieke zenuwenergie.",
+      "Helmholtz verwierp vitalisme en onderzocht reactietijd en energiebehoud.",
+      "Du Bois-Reymond hoort bij elektrische en chemische zenuwsignalen."
+    ],
+    "tip": "Welke zenuw actief is, bepaalt de soort ervaring.",
+    "example": "Prikkeling van een visuele zenuw leidt tot visuele ervaring.",
+    "mnemonic": "Müller maakt zenuwen modaliteitsspecifiek."
+  },
+  {
+    "id": "pers_019",
+    "chapter": "Belangrijke personen",
+    "concept": "Psychofysica",
+    "difficulty": 5,
+    "type": "koppeling",
+    "prompt": "Wie legde de basis voor een mathematische relatie tussen fysieke prikkels en bewuste gewaarwording?",
+    "options": ["Ernst Weber", "Gustav Fechner", "Ewald Hering", "Max Wertheimer"],
+    "correct": 1,
+    "explanation": "Gustav Fechner wordt gekoppeld aan psychofysica en de wet van Fechner.",
+    "whyWrong": [
+      "Weber hoort bij de just noticeable difference.",
+      "Niet fout: Fechner hoort bij psychofysica.",
+      "Hering hoort bij opponente kleurprocessen en nabeelden.",
+      "Wertheimer hoort bij het phi-fenomeen en Gestaltpsychologie."
+    ],
+    "tip": "Deze persoon verbindt binnenwereld en buitenwereld met formules.",
+    "example": "Meer fysieke intensiteit leidt niet lineair tot meer ervaren sensatie.",
+    "mnemonic": "Fechner formuleert gevoel."
+  },
+  {
+    "id": "pers_020",
+    "chapter": "Belangrijke personen",
+    "concept": "Experimentele psychologie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gezien als grondlegger van de experimentele psychologie en werkte ook aan Völkerpsychologie?",
+    "options": ["Wilhelm Wundt", "F.C. Donders", "James McKeen Cattell", "Ludwig Lange"],
+    "correct": 0,
+    "explanation": "Wilhelm Wundt wordt gekoppeld aan experimentele psychologie, mentale chronometrie en Völkerpsychologie.",
+    "whyWrong": [
+      "Niet fout: Wundt hoort bij experimentele psychologie en Völkerpsychologie.",
+      "Donders ontwikkelde de subtractieve methode.",
+      "Cattell voerde veel reactietijdonderzoek uit.",
+      "Lange onderzocht wilstijd versus motorische tijd."
+    ],
+    "tip": "Deze persoon is een kernnaam bij het ontstaan van psychologie als wetenschap.",
+    "example": "Reactietijd wordt gebruikt om mentale processen te onderzoeken.",
+    "mnemonic": "Wundt werkt in het laboratorium."
+  },
+  {
+    "id": "pers_021",
+    "chapter": "Belangrijke personen",
+    "concept": "Structuralisme",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie gebruikte introspectie om de structuur van bewuste ervaring te analyseren?",
+    "options": ["Edward Titchener", "Margaret Floy Washburn", "Oswald Külpe", "Hermann Ebbinghaus"],
+    "correct": 0,
+    "explanation": "Edward Titchener verdedigde het structuralisme en wilde bewuste ervaring analyseren in elementen.",
+    "whyWrong": [
+      "Niet fout: Titchener hoort bij structuralisme.",
+      "Washburn was een belangrijke vrouwelijke student in de vroege psychologie.",
+      "Külpe hoort bij beeldloze gedachten.",
+      "Ebbinghaus hoort bij geheugenonderzoek en de vergeetcurve."
+    ],
+    "tip": "Structuralisme zoekt de bouwstenen van bewustzijn.",
+    "example": "Een emotie wordt ontleed in gewaarwordingen en gevoelens.",
+    "mnemonic": "Titchener telt de structuur."
+  },
+  {
+    "id": "pers_022",
+    "chapter": "Belangrijke personen",
+    "concept": "Uniformitarianisme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie beïnvloedde evolutionair denken met het idee dat geologische verandering langzaam en geleidelijk verloopt?",
+    "options": ["John Henslow", "Charles Lyell", "James Ussher", "William Paley"],
+    "correct": 1,
+    "explanation": "Charles Lyell beïnvloedde Darwin met uniformitarianisme: geleidelijke processen vormen de aarde over lange tijd.",
+    "whyWrong": [
+      "Henslow hielp Darwin op de Beagle terechtkomen.",
+      "Niet fout: Lyell hoort bij uniformitarianisme.",
+      "Ussher hoort bij de schatting van een jonge aarde.",
+      "Paley hoort bij het argument van ontwerp."
+    ],
+    "tip": "Geleidelijke aarde = geleidelijke verandering.",
+    "example": "Landschappen ontstaan door processen die lang blijven doorwerken.",
+    "mnemonic": "Lyell = langzaam landschap."
+  },
+  {
+    "id": "pers_023",
+    "chapter": "Belangrijke personen",
+    "concept": "Overerving van verworven kenmerken",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie dacht dat eigenschappen die tijdens het leven worden verworven aan nakomelingen kunnen worden doorgegeven?",
+    "options": ["William Paley", "Jean-Baptiste Lamarck", "Thomas Malthus", "Alfred Wallace"],
+    "correct": 1,
+    "explanation": "Jean-Baptiste Lamarck hoort bij de overerving van verworven kenmerken.",
+    "whyWrong": [
+      "Paley hoort bij het argument van ontwerp.",
+      "Niet fout: Lamarck hoort bij verworven kenmerken.",
+      "Malthus beïnvloedde Darwin via strijd om hulpbronnen.",
+      "Wallace kwam onafhankelijk tot een theorie van natuurlijke selectie."
+    ],
+    "tip": "Verwar dit niet met natuurlijke selectie.",
+    "example": "Een dier rekt zijn nek en geeft volgens deze visie een langere nek door.",
+    "mnemonic": "Lamarck leert tijdens leven."
+  },
+  {
+    "id": "pers_024",
+    "chapter": "Belangrijke personen",
+    "concept": "Sociaal-darwinisme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan sociaal-darwinisme en de uitspraak survival of the fittest?",
+    "options": ["Ernst Haeckel", "Herbert Spencer", "George Romanes", "Edward Wilson"],
+    "correct": 1,
+    "explanation": "Herbert Spencer ontwikkelde sociaal-darwinisme en populariseerde survival of the fittest.",
+    "whyWrong": [
+      "Haeckel hoort bij ontogenie en fylogenie.",
+      "Niet fout: Spencer hoort bij sociaal-darwinisme.",
+      "Romanes hoort bij vergelijkende psychologie.",
+      "Wilson hoort bij sociobiologie."
+    ],
+    "tip": "Dit is een maatschappelijke toepassing van evolutionair denken.",
+    "example": "Concurrentie tussen mensen zou volgens deze visie maatschappelijke vooruitgang brengen.",
+    "mnemonic": "Spencer = survival slogan."
+  },
+  {
+    "id": "pers_025",
+    "chapter": "Belangrijke personen",
+    "concept": "Eugenetica en individuele verschillen",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan erfelijkheid, individuele verschillen, eugenetica, correlatie en regressie naar het gemiddelde?",
+    "options": ["Francis Galton", "Adolphe Quetelet", "Alphonse de Candolle", "Karl Pearson"],
+    "correct": 0,
+    "explanation": "Francis Galton onderzocht erfelijkheid, individuele verschillen, eugenetica, correlatie en regressie.",
+    "whyWrong": [
+      "Niet fout: Galton hoort bij deze cluster.",
+      "Quetelet hoort bij normale verdeling.",
+      "De Candolle benadrukte omgevingsfactoren.",
+      "Pearson formaliseerde de correlatiecoëfficiënt."
+    ],
+    "tip": "Deze persoon meet verschillen tussen mensen.",
+    "example": "Lengte van ouders en kinderen wordt in een scatterplot vergeleken.",
+    "mnemonic": "Galton gaat grafieken maken."
+  },
+  {
+    "id": "pers_026",
+    "chapter": "Belangrijke personen",
+    "concept": "Tweelingonderzoek",
+    "difficulty": 5,
+    "type": "contrast",
+    "prompt": "Wie bekritiseerde omstreden erfelijkheidsclaims over intelligentie op basis van twijfelachtige tweelingdata?",
+    "options": ["Newman", "Cyril Burt", "Arthur Jensen", "Leon Kamin"],
+    "correct": 3,
+    "explanation": "Leon Kamin bekritiseerde de twijfelachtige gegevens van Cyril Burt over intelligentie en erfelijkheid.",
+    "whyWrong": [
+      "Newman deed onderzoek naar gescheiden tweelingen.",
+      "Burt leverde juist de later omstreden tweelingdata.",
+      "Jensen nam later afstand van Burts twijfelachtige data.",
+      "Niet fout: Kamin hoort bij kritiek op Burts data."
+    ],
+    "tip": "Let op wie onderzoek deed, wie vervalste/omstreden data had en wie kritiek leverde.",
+    "example": "Een hoge erfelijkheidsclaim wordt betwijfeld omdat de data niet betrouwbaar blijken.",
+    "mnemonic": "Kamin kraakt de claims."
+  },
+  {
+    "id": "pers_027",
+    "chapter": "Belangrijke personen",
+    "concept": "Functionalisme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie past bij pragmatisme, functionalisme, gewoonte, stream of consciousness en een theorie waarin lichamelijke reactie voorafgaat aan emotie?",
+    "options": ["William James", "Charles Renouvier", "Alexander Bain", "Carl Lange"],
+    "correct": 0,
+    "explanation": "William James wordt gekoppeld aan pragmatisme, functionalisme, stroom van bewustzijn, gewoonte en de James-Lange-theorie.",
+    "whyWrong": [
+      "Niet fout: James hoort bij deze begrippen.",
+      "Renouvier beïnvloedde James met ideeën over vrije wil.",
+      "Bain beïnvloedde James met ideeën over gewoonte.",
+      "Lange formuleerde een vergelijkbare emotietheorie, maar is niet de hoofdfiguur bij deze hele cluster."
+    ],
+    "tip": "Deze persoon vraagt vooral naar de functie van bewustzijn.",
+    "example": "Je voelt angst nadat je lichaam al reageert op gevaar.",
+    "mnemonic": "James: eerst lijf, dan gevoel."
+  },
+  {
+    "id": "pers_028",
+    "chapter": "Belangrijke personen",
+    "concept": "Wet van effect",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie onderzocht leren met een puzzeldoos en formuleerde dat gedrag sterker wordt wanneer het prettige gevolgen heeft?",
+    "options": ["G. Stanley Hall", "Mary Whiton Calkins", "Edward Thorndike", "Robert Woodworth"],
+    "correct": 2,
+    "explanation": "Edward Thorndike onderzocht trial-and-error learning met puzzeldozen en formuleerde de wet van effect.",
+    "whyWrong": [
+      "Hall hoort bij APA en recapitulationisme.",
+      "Calkins hoort bij zelfpsychologie en paired associates.",
+      "Niet fout: Thorndike hoort bij puzzeldoos en wet van effect.",
+      "Woodworth hoort bij transfer van training."
+    ],
+    "tip": "Beloning versterkt gedrag.",
+    "example": "Een kat ontsnapt sneller uit een doos wanneer een pedaal voedsel oplevert.",
+    "mnemonic": "Thorndike = effect versterkt."
+  },
+  {
+    "id": "pers_029",
+    "chapter": "Belangrijke personen",
+    "concept": "Klassieke conditionering",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Wie wordt gekoppeld aan honden die leren kwijlen bij een bel die eerst neutraal was?",
+    "options": ["Ivan Pavlov", "John Watson", "Rosalie Rayner", "Mary Jones"],
+    "correct": 0,
+    "explanation": "Ivan Pavlov wordt gekoppeld aan klassieke conditionering via geconditioneerde reflexen bij honden.",
+    "whyWrong": [
+      "Niet fout: Pavlov hoort bij klassieke conditionering.",
+      "Watson paste conditionering toe in het Little Albert-experiment.",
+      "Rayner werkte met Watson aan Little Albert.",
+      "Mary Jones paste systematische desensitisatie toe bij Little Peter."
+    ],
+    "tip": "Bel + eten → kwijlen.",
+    "example": "Een neutrale stimulus krijgt door herhaalde koppeling een respons.",
+    "mnemonic": "Pavlov = honden en bel."
+  },
+  {
+    "id": "pers_030",
+    "chapter": "Belangrijke personen",
+    "concept": "Operante conditionering",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie ontwikkelde een leerbenadering waarin gedrag wordt gevormd door bekrachtiging, straf, extinctie en schema's van beloning?",
+    "options": ["Edward Tolman", "Clark Hull", "B.F. Skinner", "Noam Chomsky"],
+    "correct": 2,
+    "explanation": "B.F. Skinner ontwikkelde operante conditionering en gebruikte de Skinnerbox.",
+    "whyWrong": [
+      "Tolman hoort bij latent leren en purposief behaviorisme.",
+      "Hull hoort bij mechanistisch behaviorisme en voorspellende formules.",
+      "Niet fout: Skinner hoort bij operante conditionering.",
+      "Chomsky bekritiseerde Skinners verklaring van taal."
+    ],
+    "tip": "Gedrag verandert door gevolgen.",
+    "example": "Een rat drukt vaker op een hendel als dat voedsel oplevert.",
+    "mnemonic": "Skinner stuurt met consequenties."
+  },
+  {
+    "id": "pers_031",
+    "chapter": "Belangrijke personen",
+    "concept": "Dierlijk magnetisme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie gebruikte een naturalistische kracht, groepsbehandelingen en een baquet om patiënten in crisistoestanden te brengen?",
+    "options": ["Joseph Gassner", "Franz Mesmer", "Markies de Puységur", "Jose de Faria"],
+    "correct": 1,
+    "explanation": "Franz Mesmer wordt gekoppeld aan dierlijk magnetisme, mesmerisme en de baquet.",
+    "whyWrong": [
+      "Gassner hoort bij exorcisme.",
+      "Niet fout: Mesmer hoort bij dierlijk magnetisme en de baquet.",
+      "Puységur ontwikkelde kunstmatig somnambulisme.",
+      "De Faria benadrukte individuele gevoeligheid voor suggestie."
+    ],
+    "tip": "Magnetisme en sociale beïnvloeding horen hierbij.",
+    "example": "Groepen patiënten reageren op elkaars emoties tijdens een behandeling.",
+    "mnemonic": "Mesmer magnetiseert."
+  },
+  {
+    "id": "pers_032",
+    "chapter": "Belangrijke personen",
+    "concept": "Suggestibiliteit",
+    "difficulty": 5,
+    "type": "contrast",
+    "prompt": "Wie stelde dat suggestibiliteit een algemene eigenschap is waarop mensen verschillen?",
+    "options": ["Jose de Faria", "James Esdaile", "James Braid", "Hippolyte Bernheim"],
+    "correct": 3,
+    "explanation": "Hippolyte Bernheim zag suggestibiliteit als een algemene menselijke eigenschap.",
+    "whyWrong": [
+      "De Faria benadrukte dat gevoeligheid bij de cliënt ligt.",
+      "Esdaile gebruikte hypnose bij operaties.",
+      "Braid introduceerde de term hypnose.",
+      "Niet fout: Bernheim hoort bij algemene suggestibiliteit."
+    ],
+    "tip": "Deze visie won het uiteindelijk van de gedachte dat hypnose alleen bij hysterie hoort.",
+    "example": "Mensen verschillen in hoe makkelijk zij ideeën omzetten in gedrag.",
+    "mnemonic": "Bernheim = breed suggestibel."
+  },
+  {
+    "id": "pers_033",
+    "chapter": "Belangrijke personen",
+    "concept": "Onbedoelde suggestie",
+    "difficulty": 5,
+    "type": "casus",
+    "prompt": "Bij een demonstratie vertoont een patiënt symptomen nadat een arts die symptomen vooraf aan anderen heeft beschreven. Wie bekritiseerde de logica van zulke experimenten?",
+    "options": ["Jean-Martin Charcot", "Blanche Wittmann", "Alfred Binet", "Joseph Delboeuf"],
+    "correct": 3,
+    "explanation": "Joseph Delboeuf bekritiseerde Charcots experimenten en wees op onbedoelde suggestie.",
+    "whyWrong": [
+      "Charcot voerde de demonstraties uit.",
+      "Wittmann was de bekende patiënt in Charcots demonstraties.",
+      "Binet merkte onbedoelde suggestie op, maar Delboeuf bekritiseerde de experimentele logica sterker.",
+      "Niet fout: Delboeuf hoort bij kritiek op suggestie-effecten."
+    ],
+    "tip": "Deze persoon twijfelde aan wat de demonstraties echt bewezen.",
+    "example": "Een proefpersoon gaat doen wat de onderzoeker onbewust suggereert.",
+    "mnemonic": "Delboeuf doet de twijfel."
+  },
+  {
+    "id": "pers_034",
+    "chapter": "Belangrijke personen",
+    "concept": "Gehoorzaamheid",
+    "difficulty": 5,
+    "type": "koppeling",
+    "prompt": "Wie onderzocht hoe ver mensen gaan in het opvolgen van bevelen van een autoriteit, zelfs wanneer dit schadelijk lijkt?",
+    "options": ["Solomon Asch", "Leon Festinger", "Stanley Milgram", "Philip Zimbardo"],
+    "correct": 2,
+    "explanation": "Stanley Milgram onderzocht gehoorzaamheid aan autoriteit via zijn schokexperimenten.",
+    "whyWrong": [
+      "Asch hoort bij conformiteit.",
+      "Festinger hoort bij cognitieve dissonantie.",
+      "Niet fout: Milgram hoort bij gehoorzaamheid.",
+      "Zimbardo hoort bij rollen en het Stanford Prison Experiment."
+    ],
+    "tip": "Autoriteit staat centraal.",
+    "example": "Een deelnemer blijft doorgaan omdat de onderzoeker zegt dat hij moet doorgaan.",
+    "mnemonic": "Milgram = machtige instructies."
+  },
+  {
+    "id": "pers_035",
+    "chapter": "Belangrijke personen",
+    "concept": "Cathartische methode",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie behandelde een bekende hysteriepatiënt met een methode waarbij emotioneel geladen herinneringen bewust werden gemaakt?",
+    "options": ["Franz Brentano", "Josef Breuer", "Sigmund Freud", "Bertha Pappenheim"],
+    "correct": 1,
+    "explanation": "Josef Breuer behandelde Bertha Pappenheim met de cathartische methode.",
+    "whyWrong": [
+      "Brentano hoort bij intentionaliteit en handelingspsychologie.",
+      "Niet fout: Breuer hoort bij de cathartische methode.",
+      "Freud ontwikkelde later vrije associatie en psychoanalyse.",
+      "Pappenheim was de patiënt, niet de behandelaar."
+    ],
+    "tip": "Deze persoon vormt de brug naar Freuds psychoanalyse.",
+    "example": "Een symptoom neemt af nadat een verdrongen emotionele herinnering wordt uitgesproken.",
+    "mnemonic": "Breuer brengt catharsis."
+  },
+  {
+    "id": "pers_036",
+    "chapter": "Belangrijke personen",
+    "concept": "Verdedigingsmechanismen",
+    "difficulty": 5,
+    "type": "koppeling",
+    "prompt": "Wie werkte de theorie van afweermechanismen binnen de psychoanalytische traditie verder uit?",
+    "options": ["Anna Freud", "Melanie Klein", "W.R.D. Fairbairn", "D.W. Winnicott"],
+    "correct": 0,
+    "explanation": "Anna Freud werkte verdedigingsmechanismen verder uit binnen de psychoanalyse.",
+    "whyWrong": [
+      "Niet fout: Anna Freud hoort bij verdedigingsmechanismen.",
+      "Klein hoort bij objectrelaties.",
+      "Fairbairn hoort bij objectrelatietheorie.",
+      "Winnicott hoort ook bij objectrelaties en vroege relaties."
+    ],
+    "tip": "Denk aan ego, afweer en psychoanalyse na Freud.",
+    "example": "Projectie, ontkenning en rationalisatie beschermen het ego tegen conflict.",
+    "mnemonic": "Anna verdedigt het ego."
+  },
+  {
+    "id": "pers_037",
+    "chapter": "Belangrijke personen",
+    "concept": "Persoonlijkheidstrekken",
+    "difficulty": 5,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan persoonlijkheidspsychologie, traits, functionele autonomie en het onderscheid tussen idiografische en nomothetische benaderingen?",
+    "options": ["Gordon Allport", "Floyd Allport", "Hugo Münsterberg", "William Stern"],
+    "correct": 0,
+    "explanation": "Gordon Allport wordt gekoppeld aan persoonlijkheidstrekken, functionele autonomie en persoonlijkheidspsychologie.",
+    "whyWrong": [
+      "Niet fout: Gordon Allport hoort bij persoonlijkheid en traits.",
+      "Floyd Allport hoort vooral bij sociale psychologie.",
+      "Münsterberg hoort bij toegepaste psychologie en objectieve/subjectieve psychologie.",
+      "Stern hoort bij personalistische psychologie en IQ."
+    ],
+    "tip": "Let op het verschil tussen Gordon en Floyd.",
+    "example": "Iemand wordt beschreven aan de hand van stabiele trekken, maar ook als uniek individu.",
+    "mnemonic": "Gordon gaat over persoonlijkheid."
+  },
+  {
+    "id": "pers_038",
+    "chapter": "Belangrijke personen",
+    "concept": "Big Five",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie wordt gekoppeld aan het OCEAN-model van persoonlijkheid?",
+    "options": ["Raymond Cattell", "Hans Eysenck", "Goldberg", "Walter Mischel"],
+    "correct": 2,
+    "explanation": "Goldberg wordt gekoppeld aan de Big Five, ook bekend als OCEAN.",
+    "whyWrong": [
+      "Cattell hoort bij factoranalyse en 16 PFQ.",
+      "Eysenck hoort bij het PEN-model.",
+      "Niet fout: Goldberg hoort bij Big Five/OCEAN.",
+      "Mischel hoort bij de persoon-situatiecontroverse."
+    ],
+    "tip": "OCEAN = vijf brede persoonlijkheidsfactoren.",
+    "example": "Openheid, consciëntieusheid, extraversie, vriendelijkheid en neuroticisme.",
+    "mnemonic": "Goldberg geeft vijf grote golven."
+  },
+  {
+    "id": "pers_039",
+    "chapter": "Belangrijke personen",
+    "concept": "Behoeftehiërarchie",
+    "difficulty": 5,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een humanistische theorie waarin behoeften oplopen van fysiologische behoeften tot zelfactualisatie?",
+    "options": ["Henry Murray", "David McClelland", "Abraham Maslow", "Carl Rogers"],
+    "correct": 2,
+    "explanation": "Abraham Maslow ontwikkelde de behoeftehiërarchie en legde nadruk op zelfactualisatie.",
+    "whyWrong": [
+      "Murray hoort bij TAT en psychogene behoeften.",
+      "McClelland maakte behoefteonderzoek bekender met scoring.",
+      "Niet fout: Maslow hoort bij de behoeftehiërarchie.",
+      "Rogers hoort bij cliëntgerichte therapie."
+    ],
+    "tip": "Denk aan de piramide.",
+    "example": "Zelfactualisatie komt pas centraal te staan nadat basisbehoeften voldoende vervuld zijn.",
+    "mnemonic": "Maslow klimt de piramide op."
+  },
+  {
+    "id": "pers_040",
+    "chapter": "Belangrijke personen",
+    "concept": "Algemene intelligentie",
+    "difficulty": 5,
+    "type": "contrast",
+    "prompt": "Wie stelde dat prestaties op verschillende taken deels worden verklaard door één algemene intelligentiefactor?",
+    "options": ["Alfred Binet", "Théodore Simon", "Charles Spearman", "William Stern"],
+    "correct": 2,
+    "explanation": "Charles Spearman ontwikkelde de twee-factor-theorie met algemene intelligentie g en specifieke vaardigheden s.",
+    "whyWrong": [
+      "Binet ontwikkelde met Simon een praktische intelligentietest voor onderwijsplaatsing.",
+      "Simon werkte samen met Binet aan de Binet-Simon-test.",
+      "Niet fout: Spearman hoort bij g en s.",
+      "Stern introduceerde het intelligentiequotiënt."
+    ],
+    "tip": "g = algemene factor.",
+    "example": "Een persoon die goed scoort op meerdere taken heeft volgens deze theorie een hoge algemene factor.",
+    "mnemonic": "Spearman spreekt van g."
+  },
+  {
+    "id": "pers_041",
+    "chapter": "Belangrijke personen",
+    "concept": "Cognitieve ontwikkeling",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een kind denkt dat een koekje in drie stukken meer koek is dan hetzelfde koekje in één stuk. Wie hoort bij de theorie die dit verklaart?",
+    "options": ["Jean Piaget", "Jerome Bruner", "Lev Vygotsky", "Charles Spearman"],
+    "correct": 0,
+    "explanation": "Jean Piaget verklaart dit met de pre-operationele fase, waarin behoud van hoeveelheid nog niet ontwikkeld is.",
+    "whyWrong": [
+      "Niet fout: Piaget hoort bij cognitieve ontwikkelingsstadia.",
+      "Bruner hoort bij representatiewijzen.",
+      "Vygotsky hoort bij de zone van proximale ontwikkeling.",
+      "Spearman hoort bij algemene intelligentie."
+    ],
+    "tip": "Denk aan ontwikkelingsfasen en conservatie.",
+    "example": "Water lijkt meer in een smal hoog glas, ook al is de hoeveelheid gelijk.",
+    "mnemonic": "Piaget = per fase denken."
+  },
+  {
+    "id": "pers_042",
+    "chapter": "Belangrijke personen",
+    "concept": "Forensische en toegepaste psychologie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie paste psychologie toe in de rechtszaal en bij personeelsselectie?",
+    "options": ["Hugo Münsterberg", "William Marston", "Frederick Taylor", "Walter Scott"],
+    "correct": 0,
+    "explanation": "Hugo Münsterberg paste psychologie toe in de rechtszaal, bij getuigen en in personeelsselectie.",
+    "whyWrong": [
+      "Niet fout: Münsterberg hoort bij toegepaste en forensische psychologie.",
+      "Marston hoort bij een vroege leugendetector.",
+      "Taylor hoort bij wetenschappelijk management.",
+      "Scott hoort bij assessment en selectie."
+    ],
+    "tip": "Deze persoon bracht psychologie naar praktische maatschappelijke domeinen.",
+    "example": "Reacties op beladen woorden worden gebruikt in een poging schuld te beoordelen.",
+    "mnemonic": "Münsterberg maakt psychologie maatschappelijk."
+  },
+  {
+    "id": "pers_043",
+    "chapter": "Belangrijke personen",
+    "concept": "Therbligs",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie analyseerden basale handbewegingen om werk efficiënter en prettiger te maken?",
+    "options": ["Frank en Lillian Gilbreth", "Frederick Taylor", "Elton Mayo", "Walter Scott"],
+    "correct": 0,
+    "explanation": "Frank en Lillian Gilbreth ontwikkelden bewegingsstudies en identificeerden therbligs.",
+    "whyWrong": [
+      "Niet fout: de Gilbreths horen bij therbligs en bewegingsstudies.",
+      "Taylor hoort bij wetenschappelijk management en stukloon.",
+      "Mayo hoort bij human relations en sociale factoren op werk.",
+      "Scott hoort bij assessment."
+    ],
+    "tip": "Therblig lijkt op Gilbreth achterstevoren.",
+    "example": "Een taak wordt opgesplitst in basisbewegingen om verspilling te verminderen.",
+    "mnemonic": "Gilbreth = therblig."
+  },
+  {
+    "id": "pers_044",
+    "chapter": "Belangrijke personen",
+    "concept": "Kritische psychologie",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Wie onderzocht en weerlegde beweringen dat vrouwen door hun cyclus cognitief slechter functioneren?",
+    "options": ["Leta Hollingworth", "Mary Calkins", "Margaret Floy Washburn", "Molly Harrower"],
+    "correct": 0,
+    "explanation": "Leta Hollingworth weerlegde mythes over vrouwen, waaronder functionele periodiciteit en de variabiliteitshypothese.",
+    "whyWrong": [
+      "Niet fout: Hollingworth hoort bij onderzoek naar genderstereotypen.",
+      "Calkins hoort bij zelfpsychologie en paired associates.",
+      "Washburn was een vroege vrouwelijke psycholoog in de experimentele traditie.",
+      "Harrower hoort bij klinische psychologie en Rorschach-diagnostiek."
+    ],
+    "tip": "Deze persoon gebruikte onderzoek tegen maatschappelijke vooroordelen.",
+    "example": "Er wordt geen bewijs gevonden dat prestaties tijdens de cyclus slechter zijn.",
+    "mnemonic": "Hollingworth haalt mythes onderuit."
+  },
+  {
+    "id": "pers_045",
+    "chapter": "Belangrijke personen",
+    "concept": "Scientist-practitioner-model",
+    "difficulty": 5,
+    "type": "contrast",
+    "prompt": "Wie verdedigde een klinisch opleidingsmodel waarin wetenschappelijk onderzoek en praktische behandeling gecombineerd worden?",
+    "options": ["Hermann Rorschach", "Molly Harrower", "David Shakow", "George Albee"],
+    "correct": 2,
+    "explanation": "David Shakow verdedigde het scientist-practitioner-model voor klinische psychologie.",
+    "whyWrong": [
+      "Rorschach ontwikkelde de inktvlektest.",
+      "Harrower gebruikte de Rorschach-test diagnostisch.",
+      "Niet fout: Shakow hoort bij scientist-practitioner.",
+      "Albee bekritiseerde het medische model en promootte gemeenschapspsychologie."
+    ],
+    "tip": "Wetenschapper én behandelaar.",
+    "example": "Een klinisch psycholoog leert zowel onderzoek doen als therapie geven.",
+    "mnemonic": "Shakow schakelt science en practice samen."
+  },
+  {
+    "id": "pers_046",
+    "chapter": "Belangrijke personen",
+    "concept": "ABC-model",
+    "difficulty": 5,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde rationeel-emotietherapie en stelde dat gevolgen vooral worden beïnvloed door overtuigingen over gebeurtenissen?",
+    "options": ["Carl Rogers", "Joseph Wolpe", "Aaron Beck", "Albert Ellis"],
+    "correct": 3,
+    "explanation": "Albert Ellis ontwikkelde RET en het ABC-model, waarin overtuigingen bemiddelen tussen gebeurtenis en gevolg.",
+    "whyWrong": [
+      "Rogers hoort bij cliëntgerichte therapie.",
+      "Wolpe hoort bij gedragstherapie en systematische desensitisatie.",
+      "Beck hoort bij cognitieve therapie en de cognitieve triade.",
+      "Niet fout: Ellis hoort bij RET en het ABC-model."
+    ],
+    "tip": "A leidt niet direct tot C; B zit ertussen.",
+    "example": "Niet de gebeurtenis zelf, maar de overtuiging erover veroorzaakt de emotionele reactie.",
+    "mnemonic": "Ellis = ABC."
+  },
+  {
+    "id": "aanv_pers_001",
+    "chapter": "Belangrijke personen",
+    "concept": "Primaire en secundaire kwaliteiten",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het basale onderscheid tussen eigenschappen zoals vorm, hoeveelheid en beweging enerzijds, en zintuiglijke eigenschappen zoals kleur, geur en geluid anderzijds?",
+    "options": ["Thomas Hobbes", "Galileo Galilei", "George Berkeley", "John Mill"],
+    "correct": 1,
+    "explanation": "Galileo Galilei wordt gekoppeld aan het onderscheid tussen primaire kwaliteiten, zoals vorm, hoeveelheid en beweging, en secundaire kwaliteiten, zoals kleur, geur, geluid en gevoel.",
+    "whyWrong": [
+      "Thomas Hobbes wordt genoemd als beïnvloed door empiristisch denken, maar hoort niet bij dit onderscheid.",
+      "Niet fout: Galileo Galilei hoort bij dit onderscheid.",
+      "George Berkeley hoort bij latere empiristische discussies over waarneming, maar is hier niet de juiste koppeling.",
+      "John Mill wordt gekoppeld aan omgeving en opvoeding, niet aan primaire en secundaire kwaliteiten."
+    ],
+    "tip": "Denk bij primaire kwaliteiten aan meetbare eigenschappen van objecten.",
+    "example": "Een bal heeft vorm en beweging als primaire kwaliteiten; de kleur rood is secundair.",
+    "mnemonic": "Galileo = geometrische eigenschappen."
+  },
+  {
+    "id": "aanv_pers_002",
+    "chapter": "Belangrijke personen",
+    "concept": "Invloed van empirisme",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Welke denker wordt genoemd als iemand die beïnvloed werd door een empiristische visie waarin ervaring centraal staat?",
+    "options": ["René Descartes", "Thomas Hobbes", "Gottfried Leibniz", "Plato"],
+    "correct": 1,
+    "explanation": "Thomas Hobbes wordt genoemd als een figuur die beïnvloed werd door de empiristische lijn waarin ervaring en interactie met de wereld belangrijk zijn.",
+    "whyWrong": [
+      "Descartes past vooral bij rationalisme en interactief dualisme.",
+      "Niet fout: Thomas Hobbes wordt genoemd als beïnvloed door empiristisch denken.",
+      "Leibniz bekritiseerde Locke juist en verdedigde aangeboren capaciteiten van de geest.",
+      "Plato past bij rationalisme, nativisme en ideale vormen."
+    ],
+    "tip": "Let op: deze vraag gaat niet over wie het empirisme bedacht, maar wie ermee in verband wordt gebracht.",
+    "example": "Een empiristische visie stelt dat kennis voortkomt uit ervaring.",
+    "mnemonic": "Hobbes hoort hier in de empiristische lijn."
+  },
+  {
+    "id": "aanv_pers_003",
+    "chapter": "Belangrijke personen",
+    "concept": "Empirisme en perceptie",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Welke latere denker wordt genoemd in verband met invloed van het idee dat kennis via ervaring tot stand komt?",
+    "options": ["Immanuel Kant", "Pythagoras", "George Berkeley", "Franz Joseph Gall"],
+    "correct": 2,
+    "explanation": "George Berkeley wordt genoemd als een denker die beïnvloed werd door de empiristische traditie waarin waarneming en ervaring belangrijk zijn.",
+    "whyWrong": [
+      "Kant reageerde vooral op Hume en maakte onderscheid tussen de fenomenale en noumenale wereld.",
+      "Pythagoras hoort bij wiskundige regelmatigheden in de oudheid.",
+      "Niet fout: George Berkeley hoort bij de latere empiristische lijn.",
+      "Gall hoort bij frenologie en hersenlokalisatie."
+    ],
+    "tip": "Berkeley hoort bij filosofische discussies over waarneming en ervaring.",
+    "example": "De vraag hoe objecten bestaan wanneer ze niet worden waargenomen past bij deze empiristische traditie.",
+    "mnemonic": "Berkeley = being perceived."
+  },
+  {
+    "id": "aanv_pers_004",
+    "chapter": "Belangrijke personen",
+    "concept": "Omgeving en opvoeding",
+    "difficulty": 3,
+    "type": "casus",
+    "prompt": "Een denker stelt dat gedachten, daden en persoonlijkheid vooral voortkomen uit interacties met de omgeving en dat opvoeding daarom zeer belangrijk is. Wie past hierbij?",
+    "options": ["William Molyneux", "John Mill", "Benedict Spinoza", "Galileo Galilei"],
+    "correct": 1,
+    "explanation": "John Mill wordt gekoppeld aan het idee dat mensen het product zijn van hun omgeving en dat opvoeding daardoor een grote rol speelt.",
+    "whyWrong": [
+      "Molyneux hoort bij het probleem over tast, zicht en aangeleerde associaties.",
+      "Niet fout: John Mill past bij omgeving, opvoeding en interacties.",
+      "Spinoza hoort bij pantheïsme en beïnvloedde Leibniz.",
+      "Galileo hoort bij primaire en secundaire kwaliteiten."
+    ],
+    "tip": "Bij John Mill: denk aan opvoeding en omgevingsinvloed.",
+    "example": "Als gedrag voortkomt uit ervaring, dan kan opvoeding iemands ontwikkeling sterk vormen.",
+    "mnemonic": "Mill = milieu."
+  },
+  {
+    "id": "aanv_pers_005",
+    "chapter": "Belangrijke personen",
+    "concept": "Ablatie en geheugen",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie werkte samen met een onderzoeker die later bekend werd door het idee dat herinneringen niet strikt op één specifieke plek in de cortex gelokaliseerd zijn?",
+    "options": ["Thomas Young", "Charles Bell", "Shepherd Franz", "Ewald Hering"],
+    "correct": 2,
+    "explanation": "Shepherd Franz werkte samen met Karl Lashley aan ablatieonderzoek naar aangeleerd gedrag en geheugen.",
+    "whyWrong": [
+      "Thomas Young hoort bij kleurwaarneming en de trichromatische theorie.",
+      "Charles Bell hoort bij specifieke zenuwenergieën en zenuwbanen.",
+      "Niet fout: Shepherd Franz hoort bij de vroege onderzoekslijn van Lashley.",
+      "Ewald Hering hoort bij nabeelden en opponente kleurprocessen."
+    ],
+    "tip": "Franz en Lashley horen bij ablatie, leren en geheugen.",
+    "example": "Ratten leren een doolhof, waarna hersengebieden worden verwijderd om geheugenlokalisatie te onderzoeken.",
+    "mnemonic": "Franz vindt geheugen niet simpel vastgepind."
+  },
+  {
+    "id": "aanv_pers_006",
+    "chapter": "Belangrijke personen",
+    "concept": "Trichromatische kleurentheorie",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Welke naam hoort bij de theorie dat kleurwaarneming gebaseerd is op drie typen receptoren voor primaire lichtkleuren?",
+    "options": ["Gustav Fechner", "Thomas Young", "Ewald Hering", "Ernst Weber"],
+    "correct": 1,
+    "explanation": "Thomas Young hoort bij de trichromatische kleurentheorie, later vaak gekoppeld aan Helmholtz.",
+    "whyWrong": [
+      "Fechner hoort bij psychofysica en de wet van Fechner.",
+      "Niet fout: Thomas Young hoort bij de driekleurentheorie.",
+      "Hering bekritiseerde deze theorie met opponente processen en nabeelden.",
+      "Weber hoort bij de JND en de wet van Weber."
+    ],
+    "tip": "Young = drie typen kleurreceptoren.",
+    "example": "Kleurervaring ontstaat uit combinaties van drie basale receptorreacties.",
+    "mnemonic": "Young ziet kleur in drie."
+  },
+  {
+    "id": "aanv_pers_007",
+    "chapter": "Belangrijke personen",
+    "concept": "Pragmatisme",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie bedacht de term voor de filosofische benadering waarin ideeën worden beoordeeld op hun praktische nut?",
+    "options": ["William James", "G. Stanley Hall", "Charles Peirce", "Edward Thorndike"],
+    "correct": 2,
+    "explanation": "Charles Peirce bedacht de term pragmatisme. William James nam deze benadering later over en maakte haar bekender.",
+    "whyWrong": [
+      "William James maakte pragmatisme bekend, maar bedacht de term niet.",
+      "G. Stanley Hall hoort bij APA en recapitulatietheorie.",
+      "Niet fout: Charles Peirce bedacht de term pragmatisme.",
+      "Thorndike hoort bij trial-and-error learning en de wet van effect."
+    ],
+    "tip": "Maak onderscheid tussen bedenken en populariseren.",
+    "example": "Een idee is waardevol als het praktisch werkt in concrete situaties.",
+    "mnemonic": "Peirce produceert de term; James gebruikt hem."
+  },
+  {
+    "id": "aanv_pers_008",
+    "chapter": "Belangrijke personen",
+    "concept": "Mentale set",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het idee dat een voorbereidende oriëntatie in een experiment associatieve processen in een bepaalde richting kan sturen?",
+    "options": ["Oswald Külpe", "Narciss Ach", "Wilhelm Wundt", "Hermann Ebbinghaus"],
+    "correct": 1,
+    "explanation": "Narciss Ach wordt gekoppeld aan mentale set: een voorbereidende instelling die bepaalt hoe iemand stimuli verwerkt.",
+    "whyWrong": [
+      "Külpe hoort bij beeldloos denken en kritiek op Wundt.",
+      "Niet fout: Narciss Ach hoort bij mentale set.",
+      "Wundt hoort bij voluntaristische psychologie, apperceptie en het laboratorium.",
+      "Ebbinghaus hoort bij geheugenonderzoek met nonsenslettergrepen."
+    ],
+    "tip": "Mentale set = voorbereid zijn om op een bepaalde manier te reageren.",
+    "example": "Als je verwacht woorden te beoordelen op betekenis, verwerk je ze anders dan wanneer je op klank let.",
+    "mnemonic": "Ach activeert een aandachtshouding."
+  },
+  {
+    "id": "aanv_pers_009",
+    "chapter": "Belangrijke personen",
+    "concept": "The Kallikak Family",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie schreef een later in diskrediet geraakt werk waarin zwakzinnigheid ten onrechte als erfelijk gevolg van één gen werd voorgesteld?",
+    "options": ["Francis Galton", "Karl Pearson", "Henry Goddard", "Cyril Burt"],
+    "correct": 2,
+    "explanation": "Henry Goddard schreef The Kallikak Family en zag feeblemindedness ten onrechte als erfelijk gevolg van één gen.",
+    "whyWrong": [
+      "Galton hoort bij erfelijkheid, individuele verschillen, correlatie en eugenetica, maar niet bij The Kallikak Family.",
+      "Pearson formaliseerde de correlatiecoëfficiënt.",
+      "Niet fout: Henry Goddard hoort bij The Kallikak Family.",
+      "Cyril Burt hoort bij omstreden tweelingdata over intelligentie."
+    ],
+    "tip": "Kallikak = Goddard.",
+    "example": "Een familiegeschiedenis werd misbruikt als bewijs voor erfelijke zwakzinnigheid.",
+    "mnemonic": "Goddard gaf de Kallikaks een genetisch verhaal."
+  },
+  {
+    "id": "aanv_pers_010",
+    "chapter": "Belangrijke personen",
+    "concept": "Moron",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie introduceerde een denigrerende term voor intellectuele subnormaliteit, afgeleid van een Grieks woord voor dof of dwaas?",
+    "options": ["Alfred Binet", "Lewis Terman", "David Wechsler", "Henry Goddard"],
+    "correct": 3,
+    "explanation": "Henry Goddard introduceerde de term moron, afgeleid van het Griekse moros.",
+    "whyWrong": [
+      "Binet ontwikkelde met Simon een intelligentietest voor onderwijsplaatsing.",
+      "Terman paste Sterns IQ-formule praktisch aan door met 100 te vermenigvuldigen.",
+      "Wechsler ontwikkelde de WAIS en gebruikte deviatie-IQ.",
+      "Niet fout: Henry Goddard hoort bij de term moron."
+    ],
+    "tip": "Goddard komt vaak terug bij eugenetica, feeblemindedness en problematische intelligentiegeschiedenis.",
+    "example": "Een classificatie voor intellectuele subnormaliteit werd gebruikt in een stigmatiserende context.",
+    "mnemonic": "Goddard gaf de harde term."
+  },
+  {
+    "id": "aanv_pers_011",
+    "chapter": "Belangrijke personen",
+    "concept": "Guiding fictions",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie gebruikte een term voor vaak onjuiste ideeën over het zelf die gedrag bewust of onbewust richting geven?",
+    "options": ["Carl Jung", "Alfred Adler", "Sigmund Freud", "Erik Erikson"],
+    "correct": 1,
+    "explanation": "Alfred Adler gebruikte de term guiding fictions voor ideeën over het zelf die gedrag richting geven.",
+    "whyWrong": [
+      "Jung hoort bij analytische psychologie, archetypen en collectief onbewuste.",
+      "Niet fout: Alfred Adler hoort bij guiding fictions.",
+      "Freud hoort bij psychoanalyse, verdringing, droomarbeid en overdracht.",
+      "Erikson hoort bij psychosociale ontwikkelingsstadia."
+    ],
+    "tip": "Adler is een uitdager van Freud.",
+    "example": "Iemand gedraagt zich alsof hij altijd moet bewijzen dat hij sterk is, ook als dat zelfbeeld niet klopt.",
+    "mnemonic": "Adler stuurt gedrag met ficties."
+  },
+  {
+    "id": "aanv_pers_012",
+    "chapter": "Belangrijke personen",
+    "concept": "Overdracht",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een gepubliceerde psychoanalytische casus liet vooral zien hoe gevoelens tegenover belangrijke personen uit het verleden op de therapeut kunnen worden overgedragen. Wie was de patiënt achter deze casus?",
+    "options": ["Bertha Pappenheim", "Blanche Wittmann", "Ida Bauer", "Anna Freud"],
+    "correct": 2,
+    "explanation": "Ida Bauer was de patiënt achter de casus die bekend werd als Dora. Freud koppelde deze casus aan het belang van overdracht.",
+    "whyWrong": [
+      "Bertha Pappenheim hoort bij Breuer, hysterie en de cathartische methode.",
+      "Blanche Wittmann hoort bij Charcots hysterie-demonstraties.",
+      "Niet fout: Ida Bauer is de patiënt achter de casus Dora.",
+      "Anna Freud werkte verdedigingsmechanismen verder uit."
+    ],
+    "tip": "Dora = Ida Bauer = overdracht.",
+    "example": "Gevoelens tegenover ouders worden in therapie op de therapeut geprojecteerd.",
+    "mnemonic": "Dora draagt gevoelens over."
+  },
+  {
+    "id": "aanv_pers_013",
+    "chapter": "Belangrijke personen",
+    "concept": "Collectief onbewuste",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie brak met de klassieke psychoanalyse en ontwikkelde een visie met universele beelden, archetypen en een gedeeld dieper onbewuste?",
+    "options": ["Alfred Adler", "Josef Breuer", "Carl Jung", "Franz Brentano"],
+    "correct": 2,
+    "explanation": "Carl Jung ontwikkelde de analytische psychologie met het collectief onbewuste en archetypen.",
+    "whyWrong": [
+      "Adler hoort bij guiding fictions en individuele psychologie.",
+      "Breuer hoort bij de cathartische methode en Bertha Pappenheim.",
+      "Niet fout: Carl Jung hoort bij archetypen en collectief onbewuste.",
+      "Brentano hoort bij intentionaliteit en handelingspsychologie."
+    ],
+    "tip": "Jung = collectief onbewuste.",
+    "example": "Universele figuren zoals de held of de schaduw zijn voorbeelden van archetypische thema's.",
+    "mnemonic": "Jung gaat dieper dan persoonlijk onbewust."
+  },
+  {
+    "id": "aanv_pers_014",
+    "chapter": "Belangrijke personen",
+    "concept": "Woordassociatietest",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een test waarbij respondenten hun eerste associatie geven bij een standaardlijst van woorden om psychisch conflict te onthullen?",
+    "options": ["Hermann Rorschach", "Henry Murray", "Carl Jung", "Alfred Binet"],
+    "correct": 2,
+    "explanation": "Carl Jung ontwikkelde de woordassociatietest om psychische conflicten zichtbaar te maken.",
+    "whyWrong": [
+      "Rorschach hoort bij de inktvlektest.",
+      "Murray hoort bij de Thematic Apperception Test.",
+      "Niet fout: Carl Jung hoort bij de woordassociatietest.",
+      "Binet hoort bij intelligentietesten en individuele psychologie."
+    ],
+    "tip": "Woordassociatie = Jung.",
+    "example": "Bij het woord 'moeder' reageert iemand opvallend langzaam of emotioneel.",
+    "mnemonic": "Jung jumpt naar het eerste woord."
+  },
+  {
+    "id": "aanv_pers_015",
+    "chapter": "Belangrijke personen",
+    "concept": "Levensruimte",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie introduceerde het idee dat gedrag wordt beïnvloed door een psychologische ruimte van interne en externe krachten?",
+    "options": ["Gordon Allport", "Kurt Lewin", "William Stern", "Walter Mischel"],
+    "correct": 1,
+    "explanation": "Kurt Lewin introduceerde het concept levensruimte: gedrag wordt bepaald door de psychologische situatie met interne en externe krachten.",
+    "whyWrong": [
+      "Gordon Allport hoort bij persoonlijkheidstrekken, idiografische en nomothetische methoden.",
+      "Niet fout: Kurt Lewin hoort bij levensruimte.",
+      "William Stern hoort bij personalistische psychologie en IQ.",
+      "Walter Mischel hoort bij de persoon-situatiecontroverse."
+    ],
+    "tip": "Lewin = veldtheorie en levensruimte.",
+    "example": "Gedrag wordt bepaald door doelen, barrières, sociale druk en persoonlijke behoeften in de situatie.",
+    "mnemonic": "Lewin leeft in een levensruimte."
+  },
+  {
+    "id": "aanv_pers_016",
+    "chapter": "Belangrijke personen",
+    "concept": "Creativiteit en kunstmatige intelligentie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het idee dat computers bekende ideeën of componenten volgens vaste regels in nieuwe combinaties kunnen samenstellen?",
+    "options": ["John Searle", "Jean Piaget", "Margaret Boden", "Jerome Bruner"],
+    "correct": 2,
+    "explanation": "Margaret Boden wordt gekoppeld aan improbabilistische creativiteit: computers kunnen bestaande ideeën volgens regels op nieuwe manieren combineren.",
+    "whyWrong": [
+      "Searle hoort bij sterke en zwakke AI.",
+      "Piaget hoort bij genetische epistemologie en cognitieve ontwikkelingsfasen.",
+      "Niet fout: Margaret Boden hoort bij creativiteit en AI.",
+      "Bruner hoort bij representatiewijzen."
+    ],
+    "tip": "Boden = creativiteit door nieuwe combinaties.",
+    "example": "Een programma combineert bekende muzikale patronen tot een nieuw muziekstuk.",
+    "mnemonic": "Boden bouwt nieuwe combinaties."
+  },
+  {
+    "id": "aanv_pers_017",
+    "chapter": "Belangrijke personen",
+    "concept": "Sterke en zwakke AI",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie maakte onderscheid tussen computerintelligentie die alleen probleemoplossend lijkt te denken en computerintelligentie die ook bewustzijn en intentionaliteit zou hebben?",
+    "options": ["Margaret Boden", "Alan Turing", "John Searle", "Charles Spearman"],
+    "correct": 2,
+    "explanation": "John Searle maakte onderscheid tussen zwakke AI en sterke AI. Zwakke AI lost problemen op zonder bewustzijn; sterke AI zou intentionaliteit en bewustzijn hebben.",
+    "whyWrong": [
+      "Boden hoort bij creativiteit en AI, niet bij dit onderscheid.",
+      "Turing hoort bij de vraag of machines intelligent gedrag kunnen vertonen, maar niet bij deze begrippen in de lijst.",
+      "Niet fout: John Searle hoort bij sterke en zwakke AI.",
+      "Spearman hoort bij algemene intelligentie en specifieke vaardigheden."
+    ],
+    "tip": "Searle = sterke versus zwakke AI.",
+    "example": "Een chatbot kan antwoorden geven zonder noodzakelijk bewustzijn te hebben.",
+    "mnemonic": "Searle scheidt sterke en zwakke AI."
+  },
+  {
+    "id": "aanv_pers_018",
+    "chapter": "Belangrijke personen",
+    "concept": "Operation Head Start",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie bestudeerde compenserende onderwijsprogramma's voor achtergestelde kinderen en concludeerde dat deze minimale effecten hadden op intelligentie?",
+    "options": ["Arthur Jensen", "Cyril Burt", "Leon Kamin", "Lewis Terman"],
+    "correct": 0,
+    "explanation": "Arthur Jensen bestudeerde Operation Head Start en concludeerde dat deze programma's weinig effect hadden op intelligentie.",
+    "whyWrong": [
+      "Niet fout: Arthur Jensen hoort bij Operation Head Start.",
+      "Cyril Burt hoort bij omstreden tweelingonderzoek naar erfelijkheid van intelligentie.",
+      "Leon Kamin bekritiseerde Burts gegevens en erfelijkheidsclaims.",
+      "Lewis Terman paste de IQ-formule aan en werkte met de Binet-Simon-schaal."
+    ],
+    "tip": "Jensen komt vaak terug in debatten over erfelijkheid, omgeving en onderwijs.",
+    "example": "Een onderwijsprogramma probeert achterstanden te compenseren, maar de gemeten IQ-effecten blijken beperkt.",
+    "mnemonic": "Jensen judged Head Start."
+  },
+  {
+    "id": "aanv_pers_019",
+    "chapter": "Belangrijke personen",
+    "concept": "Individuele psychologie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie werkte samen met een Franse onderzoeker aan een programma om korte tests te ontwikkelen die diepgaande informatie over individuele verschillen moesten opleveren?",
+    "options": ["Charles Spearman", "Victor Henri", "Théodore Simon", "William Stern"],
+    "correct": 1,
+    "explanation": "Victor Henri werkte samen met Binet aan individuele psychologie: een poging om via korte tests veel informatie over personen te verzamelen.",
+    "whyWrong": [
+      "Spearman hoort bij de twee-factor-theorie van intelligentie.",
+      "Niet fout: Victor Henri hoort bij Binets programma van individuele psychologie.",
+      "Simon werkte met Binet aan de intelligentietest voor onderwijsplaatsing.",
+      "Stern introduceerde het intelligentiequotiënt."
+    ],
+    "tip": "Henri hoort bij individuele psychologie; Simon bij de latere intelligentietest.",
+    "example": "Korte tests zouden inzicht moeten geven in geheugen, aandacht en andere individuele verschillen.",
+    "mnemonic": "Henri helpt bij individuele psychologie."
+  },
+  {
+    "id": "aanv_pers_020",
+    "chapter": "Belangrijke personen",
+    "concept": "Binet-dochters",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Welke persoon werd in een onderzoeksproject rond intelligentie gekarakteriseerd als de verbeelder?",
+    "options": ["Madeleine Binet", "Christiana Morgan", "Alice Binet", "Leta Hollingworth"],
+    "correct": 2,
+    "explanation": "Alice Binet werd door haar vader gekarakteriseerd als l’imaginatif, de verbeelder.",
+    "whyWrong": [
+      "Madeleine Binet werd gekarakteriseerd als l’observateur, de waarnemer.",
+      "Christiana Morgan hoort bij de TAT met Henry Murray.",
+      "Niet fout: Alice Binet hoort bij l’imaginatif.",
+      "Leta Hollingworth hoort bij onderzoek naar mythes over vrouwen."
+    ],
+    "tip": "Alice = imaginatif.",
+    "example": "De ene dochter werd gezien als verbeeldend, de andere als observerend.",
+    "mnemonic": "Alice imagineert."
+  },
+  {
+    "id": "aanv_pers_021",
+    "chapter": "Belangrijke personen",
+    "concept": "Binet-dochters",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Welke persoon werd in een onderzoeksproject rond intelligentie gekarakteriseerd als de waarnemer?",
+    "options": ["Mary Calkins", "Madeleine Binet", "Alice Binet", "Margaret Floy Washburn"],
+    "correct": 1,
+    "explanation": "Madeleine Binet werd door haar vader gekarakteriseerd als l’observateur, de waarnemer.",
+    "whyWrong": [
+      "Mary Calkins hoort bij zelfpsychologie en paired associates.",
+      "Niet fout: Madeleine Binet hoort bij l’observateur.",
+      "Alice Binet werd gekarakteriseerd als l’imaginatif, de verbeelder.",
+      "Margaret Floy Washburn hoort bij de vroege experimentele psychologie en Titchener."
+    ],
+    "tip": "Madeleine = observeren.",
+    "example": "In Binets studies met zijn dochters werden verschillende intellectuele stijlen zichtbaar.",
+    "mnemonic": "Madeleine merkt dingen op."
+  },
+  {
+    "id": "aanv_pers_022",
+    "chapter": "Belangrijke personen",
+    "concept": "Binet-Simon-test",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie werkte samen met een Franse onderzoeker aan een test om kinderen te identificeren die speciaal onderwijs nodig hadden?",
+    "options": ["Victor Henri", "David Wechsler", "Théodore Simon", "Charles Spearman"],
+    "correct": 2,
+    "explanation": "Théodore Simon werkte met Binet aan de eerste praktische intelligentietest om kinderen te identificeren die speciaal onderwijs nodig hadden.",
+    "whyWrong": [
+      "Victor Henri werkte met Binet aan individuele psychologie, niet aan de Binet-Simon-test.",
+      "Wechsler ontwikkelde later de WAIS.",
+      "Niet fout: Théodore Simon hoort bij de Binet-Simon-test.",
+      "Spearman hoort bij g en s, niet bij deze testontwikkeling."
+    ],
+    "tip": "Binet-Simon = onderwijsplaatsing.",
+    "example": "Kinderen werden getest om te bepalen of zij regulier onderwijs konden volgen.",
+    "mnemonic": "Simon staat naast Binet in Binet-Simon."
+  },
+  {
+    "id": "aanv_pers_023",
+    "chapter": "Belangrijke personen",
+    "concept": "MMPI",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie was medeontwikkelaar van een statistisch persoonlijkheidsinstrument voor psychopathologie dat gebruikmaakt van de criteriumgroep-methode?",
+    "options": ["Meehl", "McKinley", "Shakow", "Harrower"],
+    "correct": 1,
+    "explanation": "McKinley was samen met Hathaway medeontwikkelaar van de MMPI, een statistisch persoonlijkheidsinstrument voor psychopathologie.",
+    "whyWrong": [
+      "Meehl hoort bij klinisch versus statistisch oordeel.",
+      "Niet fout: McKinley hoort bij de MMPI.",
+      "Shakow hoort bij het scientist-practitioner-model.",
+      "Harrower gebruikte de Rorschach-test diagnostisch."
+    ],
+    "tip": "MMPI = Hathaway en McKinley.",
+    "example": "Items worden geselecteerd omdat ze klinische en niet-klinische groepen statistisch onderscheiden.",
+    "mnemonic": "McKinley meet met MMPI."
+  },
+  {
+    "id": "aanv_pers_024",
+    "chapter": "Belangrijke personen",
+    "concept": "Human relations-beweging",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Welke naam hoort het best bij de verschuiving naar sociale en psychologische factoren in werkprestaties als gevolg van fabrieksstudies naar productiviteit?",
+    "options": ["Frederick Taylor", "Elton Mayo", "Hugo Münsterberg", "Walter Scott"],
+    "correct": 1,
+    "explanation": "Elton Mayo wordt vaak gekoppeld aan de human relations-beweging en de nadruk op sociale en psychologische factoren in werkprestaties.",
+    "whyWrong": [
+      "Taylor hoort bij wetenschappelijk management, stukloon en de-skilling.",
+      "Niet fout: Elton Mayo hoort bij de human relations-benadering rond werk.",
+      "Münsterberg hoort bij toegepaste psychologie, rechtszaal en personeelsselectie.",
+      "Scott hoort bij assessment en selectie, onder andere in militaire context."
+    ],
+    "tip": "Human relations = sociale factoren op de werkvloer.",
+    "example": "Werknemers presteren anders doordat ze aandacht krijgen of zich geobserveerd voelen.",
+    "mnemonic": "Mayo maakt werk menselijker."
+  },
+  {
+    "id": "aanv_pers_025",
+    "chapter": "Belangrijke personen",
+    "concept": "Psychotechniek en assessment",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie paste psychologische beoordeling toe om mensen in militaire context te beoordelen op intelligentie en vaardigheden?",
+    "options": ["William Marston", "Frederick Taylor", "Walter Scott", "Frank Gilbreth"],
+    "correct": 2,
+    "explanation": "Walter Scott paste psychologische beoordeling toe in selectie en assessment, onder andere voor het leger.",
+    "whyWrong": [
+      "Marston hoort bij de vroege leugendetector.",
+      "Taylor hoort bij wetenschappelijk management.",
+      "Niet fout: Walter Scott hoort bij assessment van intelligentie en vaardigheden.",
+      "Frank Gilbreth hoort bij bewegingsstudies en therbligs."
+    ],
+    "tip": "Scott = selectie en assessment.",
+    "example": "Kandidaten worden getest op vaardigheden om passende functies te bepalen.",
+    "mnemonic": "Scott selecteert soldaten."
+  },
+  {
+    "id": "aanv_pers_026",
+    "chapter": "Belangrijke personen",
+    "concept": "Leugendetector",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een vroege methode om lichamelijke reacties te gebruiken bij het opsporen van leugens?",
+    "options": ["Hugo Münsterberg", "Paul Meehl", "William Marston", "David Shakow"],
+    "correct": 2,
+    "explanation": "William Marston ontwikkelde een vroege leugendetector en bouwde voort op toegepaste psychologie in de rechtszaal.",
+    "whyWrong": [
+      "Münsterberg paste psychologie toe in de rechtszaal, maar Marston wordt gekoppeld aan de leugendetector.",
+      "Meehl hoort bij klinisch versus statistisch oordeel.",
+      "Niet fout: William Marston hoort bij de vroege leugendetector.",
+      "Shakow hoort bij het scientist-practitioner-model."
+    ],
+    "tip": "Marston = meten van lichamelijke reacties bij liegen.",
+    "example": "Een verdachte krijgt vragen terwijl lichamelijke reacties worden geregistreerd.",
+    "mnemonic": "Marston meet misleiding."
+  },
+  {
+    "id": "extra_pers_001",
+    "chapter": "Belangrijke personen",
+    "concept": "Nativisme",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie wordt gezien als een vroege voorstander van het idee dat kennis of waarheid al in de geest aanwezig kan zijn en door vragen naar boven komt?",
+    "options": ["Socrates", "Epicurus", "Pythagoras", "Heraclitus"],
+    "correct": 0,
+    "explanation": "Socrates wordt gekoppeld aan nativisme en het idee dat kennis door ondervraging naar boven kan worden gehaald.",
+    "whyWrong": [
+      "Niet fout: Socrates past bij nativisme en de socratische methode.",
+      "Epicurus hoort bij een filosofie rond atomisme.",
+      "Pythagoras hoort bij wiskundige regelmatigheden.",
+      "Heraclitus hoort bij verandering en stabiliteit."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_002",
+    "chapter": "Belangrijke personen",
+    "concept": "Epicurische filosofie",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie bouwde voort op atomistische ideeën en ontwikkelde daar een bredere filosofie omheen?",
+    "options": ["Lucretius", "Epicurus", "Democritus", "Aristoteles"],
+    "correct": 1,
+    "explanation": "Epicurus bouwde voort op het atomisme en ontwikkelde daar een filosofische levensleer omheen.",
+    "whyWrong": [
+      "Lucretius schreef over deze ideeën, maar is niet de hoofdfiguur van de filosofische school.",
+      "Niet fout: Epicurus hoort bij Epicurische filosofie en atomisme.",
+      "Democritus hoort bij de oorspronkelijke atoomtheorie.",
+      "Aristoteles hoort bij empirisme, oorzaken en zielstypen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_003",
+    "chapter": "Belangrijke personen",
+    "concept": "Wiskundige orde",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het idee dat wiskundige verhoudingen fundamenteel zijn voor het begrijpen van de wereld?",
+    "options": ["Zeno", "Protagoras", "Pythagoras", "Heraclitus"],
+    "correct": 2,
+    "explanation": "Pythagoras wordt gekoppeld aan wiskundige regelmatigheden en het idee dat getalsverhoudingen belangrijk zijn in de werkelijkheid.",
+    "whyWrong": [
+      "Zeno hoort bij paradoxen en oneindigheid.",
+      "Protagoras hoort bij relativisme.",
+      "Niet fout: Pythagoras hoort bij wiskundige orde.",
+      "Heraclitus hoort bij verandering."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_004",
+    "chapter": "Belangrijke personen",
+    "concept": "Verandering",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het idee dat werkelijkheid voortdurend in beweging en verandering is?",
+    "options": ["Heraclitus", "Pythagoras", "Zeno", "Socrates"],
+    "correct": 0,
+    "explanation": "Heraclitus wordt gekoppeld aan verandering en het idee dat stabiliteit en verandering samen begrepen moeten worden.",
+    "whyWrong": [
+      "Niet fout: Heraclitus hoort bij voortdurende verandering.",
+      "Pythagoras hoort bij wiskundige verhoudingen.",
+      "Zeno hoort bij paradoxen over beweging en oneindigheid.",
+      "Socrates hoort bij nativisme en de socratische methode."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_005",
+    "chapter": "Belangrijke personen",
+    "concept": "Paradoxen en oneindigheid",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan redeneringen waarin beweging en oneindigheid problematisch lijken te worden?",
+    "options": ["Protagoras", "Zeno", "Epicurus", "Lucretius"],
+    "correct": 1,
+    "explanation": "Zeno wordt gekoppeld aan paradoxen over beweging, afstand en oneindigheid.",
+    "whyWrong": [
+      "Protagoras hoort bij relativisme.",
+      "Niet fout: Zeno hoort bij paradoxen en oneindigheid.",
+      "Epicurus hoort bij Epicurische filosofie.",
+      "Lucretius hoort bij De Rerum Natura."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_006",
+    "chapter": "Belangrijke personen",
+    "concept": "Indo-Arabische nummering",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan de overdracht of introductie van Indo-Arabische nummering in de intellectuele traditie?",
+    "options": ["Alhazen", "Avicenna", "Al-Kindi", "Averroes"],
+    "correct": 2,
+    "explanation": "Al-Kindi wordt gekoppeld aan Indo-Arabische nummering.",
+    "whyWrong": [
+      "Alhazen hoort bij visuele waarneming en camera obscura.",
+      "Avicenna hoort bij interne en externe zintuigen en de Floating Man.",
+      "Niet fout: Al-Kindi hoort bij Indo-Arabische nummering.",
+      "Averroes is hier niet de juiste koppeling."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_007",
+    "chapter": "Belangrijke personen",
+    "concept": "Floating Man",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan een gedachte-experiment over zelfbewustzijn zonder zintuiglijke input?",
+    "options": ["Avicenna", "Alhazen", "Al-Kindi", "Descartes"],
+    "correct": 0,
+    "explanation": "Avicenna wordt gekoppeld aan het Floating Man-gedachte-experiment en aan interne en externe zintuigen.",
+    "whyWrong": [
+      "Niet fout: Avicenna hoort bij Floating Man.",
+      "Alhazen hoort bij licht, zien en camera obscura.",
+      "Al-Kindi hoort bij Indo-Arabische nummering.",
+      "Descartes hoort bij Cogito en dualisme, maar niet bij dit gedachte-experiment."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_008",
+    "chapter": "Belangrijke personen",
+    "concept": "Pantheïsme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan de opvatting dat God niet losstaat van het universum, maar ermee samenvalt?",
+    "options": ["Leibniz", "Spinoza", "Locke", "Descartes"],
+    "correct": 1,
+    "explanation": "Spinoza wordt gekoppeld aan pantheïsme: het idee dat God en het universum niet gescheiden zijn.",
+    "whyWrong": [
+      "Leibniz hoort bij monaden en parallellisme.",
+      "Niet fout: Spinoza hoort bij pantheïsme.",
+      "Locke hoort bij empirisme en tabula rasa.",
+      "Descartes hoort bij interactief dualisme."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_009",
+    "chapter": "Belangrijke personen",
+    "concept": "Microscoop",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan microscopisch onderzoek dat ideeën over kleine levende eenheden beïnvloedde?",
+    "options": ["Van Leeuwenhoek", "Spinoza", "Leibniz", "Willis"],
+    "correct": 0,
+    "explanation": "Van Leeuwenhoek wordt gekoppeld aan de microscoop en waarneming van kleine levende structuren.",
+    "whyWrong": [
+      "Niet fout: Van Leeuwenhoek hoort bij microscopie.",
+      "Spinoza hoort bij pantheïsme.",
+      "Leibniz hoort bij monaden.",
+      "Willis hoort bij hersenanatomie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_010",
+    "chapter": "Belangrijke personen",
+    "concept": "Hersenanatomie",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan vroege beschrijvingen van witte en grijze stof in de hersenen?",
+    "options": ["Thomas Willis", "Franz Joseph Gall", "Pierre Flourens", "Paul Broca"],
+    "correct": 0,
+    "explanation": "Thomas Willis wordt gekoppeld aan hersenanatomie en het onderscheid tussen witte en grijze stof.",
+    "whyWrong": [
+      "Niet fout: Willis hoort bij witte en grijze stof.",
+      "Gall hoort bij frenologie.",
+      "Flourens hoort bij ablatiestudies.",
+      "Broca hoort bij motorische afasie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_011",
+    "chapter": "Belangrijke personen",
+    "concept": "Fysiognomie",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het idee dat iemands uiterlijk of gezicht iets zou zeggen over karakter?",
+    "options": ["Franz Joseph Gall", "Johann Lavater", "Thomas Willis", "Paul Broca"],
+    "correct": 1,
+    "explanation": "Johann Lavater wordt gekoppeld aan fysiognomie, het idee dat uiterlijk karakter zou weerspiegelen.",
+    "whyWrong": [
+      "Gall hoort bij frenologie en schedelknobbels.",
+      "Niet fout: Lavater hoort bij fysiognomie.",
+      "Willis hoort bij hersenanatomie.",
+      "Broca hoort bij motorische afasie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_012",
+    "chapter": "Belangrijke personen",
+    "concept": "Spraak en frontale kwab",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie stelde vroeg dat spraakfuncties samenhangen met de frontale kwab?",
+    "options": ["Paul Broca", "Carl Wernicke", "Jean-Baptiste Bouillaud", "David Ferrier"],
+    "correct": 2,
+    "explanation": "Jean-Baptiste Bouillaud koppelde spraakstoornissen aan de frontale kwab.",
+    "whyWrong": [
+      "Broca leverde later sterk bewijs voor motorische afasie.",
+      "Wernicke hoort bij sensorische afasie.",
+      "Niet fout: Bouillaud hoort bij de vroege frontale spraaklokalisatie.",
+      "Ferrier onderzocht sensorische en motorische hersengebieden."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_013",
+    "chapter": "Belangrijke personen",
+    "concept": "Casus voor spraaklokalisatie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie leverde een belangrijke ondersteunende casus voor het idee dat spraak aan de frontale hersengebieden gekoppeld is?",
+    "options": ["Aubertin", "Bouillaud", "Broca", "Wernicke"],
+    "correct": 0,
+    "explanation": "Aubertin leverde een ondersteunende casus voor de koppeling tussen spraak en frontale hersengebieden.",
+    "whyWrong": [
+      "Niet fout: Aubertin hoort bij deze ondersteunende casus.",
+      "Bouillaud formuleerde eerder het idee van frontale spraaklokalisatie.",
+      "Broca vond later sterk bewijs via motorische afasie.",
+      "Wernicke hoort bij sensorische afasie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_014",
+    "chapter": "Belangrijke personen",
+    "concept": "Motorische cortex",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt samen met een collega gekoppeld aan elektrische stimulatie van de motorische cortex?",
+    "options": ["Fritsch", "Ferrier", "Wernicke", "Flourens"],
+    "correct": 0,
+    "explanation": "Fritsch wordt samen met Hitzig gekoppeld aan elektrische stimulatie van de motorische cortex.",
+    "whyWrong": [
+      "Niet fout: Fritsch hoort bij stimulatie van de motorische cortex.",
+      "Ferrier onderzocht verschillende sensorische en motorische gebieden.",
+      "Wernicke hoort bij sensorische afasie.",
+      "Flourens hoort bij ablatie en plasticiteit."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_015",
+    "chapter": "Belangrijke personen",
+    "concept": "Motorische cortex",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt samen met een collega gekoppeld aan het aantonen van motorische reacties door elektrische stimulatie van hersengebied?",
+    "options": ["Hitzig", "Broca", "Bouillaud", "Lashley"],
+    "correct": 0,
+    "explanation": "Hitzig wordt samen met Fritsch gekoppeld aan elektrische stimulatie van de motorische cortex.",
+    "whyWrong": [
+      "Niet fout: Hitzig hoort bij motorische cortexstimulatie.",
+      "Broca hoort bij motorische afasie.",
+      "Bouillaud hoort bij vroege spraaklokalisatie.",
+      "Lashley hoort bij geheugenonderzoek en equipotentialiteit."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_016",
+    "chapter": "Belangrijke personen",
+    "concept": "Sensorische hersengebieden",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie onderzocht functies van motorische, visuele, auditieve en sensorische hersengebieden?",
+    "options": ["David Ferrier", "Carl Wernicke", "Thomas Willis", "Johann Lavater"],
+    "correct": 0,
+    "explanation": "David Ferrier wordt gekoppeld aan onderzoek naar sensorische en motorische hersengebieden.",
+    "whyWrong": [
+      "Niet fout: Ferrier hoort bij hersengebieden voor waarneming en beweging.",
+      "Wernicke hoort bij sensorische afasie.",
+      "Willis hoort bij hersenanatomie.",
+      "Lavater hoort bij fysiognomie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_017",
+    "chapter": "Belangrijke personen",
+    "concept": "Equipotentialiteit",
+    "difficulty": 5,
+    "type": "koppeling",
+    "prompt": "Wie concludeerde op basis van hersenlaesies dat geheugen niet eenvoudig op één plek in de cortex zit?",
+    "options": ["Karl Lashley", "Wilder Penfield", "Donald Hebb", "Brenda Milner"],
+    "correct": 0,
+    "explanation": "Karl Lashley wordt gekoppeld aan equipotentialiteit, massa-actie en geheugenonderzoek met ablatie.",
+    "whyWrong": [
+      "Niet fout: Lashley hoort bij equipotentialiteit.",
+      "Penfield hoort bij hersenstimulatie bij bewuste patiënten.",
+      "Hebb hoort bij celassemblages en leren.",
+      "Milner onderzocht patiënt H.M."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_018",
+    "chapter": "Belangrijke personen",
+    "concept": "Hersenstimulatie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie stimuleerde hersengebieden bij bewuste patiënten om functies en herinneringservaringen te onderzoeken?",
+    "options": ["Wilder Penfield", "Karl Lashley", "William Scoville", "Donald Hebb"],
+    "correct": 0,
+    "explanation": "Wilder Penfield gebruikte elektrische stimulatie bij bewuste patiënten om hersenfuncties te onderzoeken.",
+    "whyWrong": [
+      "Niet fout: Penfield hoort bij hersenstimulatie.",
+      "Lashley hoort bij ablatie en geheugen.",
+      "Scoville opereerde patiënt H.M.",
+      "Hebb hoort bij neurale netwerken en leren."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_019",
+    "chapter": "Belangrijke personen",
+    "concept": "Patiënt H.M.",
+    "difficulty": 5,
+    "type": "koppeling",
+    "prompt": "Wie onderzocht een beroemde geheugencasus en liet zien dat verschillende geheugensystemen van elkaar kunnen verschillen?",
+    "options": ["Brenda Milner", "William Scoville", "Karl Lashley", "Wilder Penfield"],
+    "correct": 0,
+    "explanation": "Brenda Milner onderzocht patiënt H.M. en droeg bij aan het onderscheid tussen verschillende geheugensystemen.",
+    "whyWrong": [
+      "Niet fout: Milner hoort bij onderzoek naar H.M.",
+      "Scoville voerde de operatie uit, maar onderzocht de geheugenprocessen niet als hoofdfiguur.",
+      "Lashley hoort bij equipotentialiteit.",
+      "Penfield hoort bij hersenstimulatie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_020",
+    "chapter": "Belangrijke personen",
+    "concept": "Hebbiaans leren",
+    "difficulty": 5,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het idee dat neuronen die samen actief zijn, sterker met elkaar verbonden raken?",
+    "options": ["Donald Hebb", "Karl Lashley", "Wilder Penfield", "William Scoville"],
+    "correct": 0,
+    "explanation": "Donald Hebb wordt gekoppeld aan Hebbiaans leren en celassemblages.",
+    "whyWrong": [
+      "Niet fout: Hebb hoort bij neurale verbindingen en leren.",
+      "Lashley hoort bij equipotentialiteit.",
+      "Penfield hoort bij elektrische hersenstimulatie.",
+      "Scoville hoort bij de operatie van H.M."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_021",
+    "chapter": "Belangrijke personen",
+    "concept": "Operatie van H.M.",
+    "difficulty": 5,
+    "type": "koppeling",
+    "prompt": "Wie voerde de operatie uit waardoor een beroemde patiënt ernstige problemen kreeg met het vormen van nieuwe herinneringen?",
+    "options": ["William Scoville", "Brenda Milner", "Donald Hebb", "Karl Lashley"],
+    "correct": 0,
+    "explanation": "William Scoville voerde de operatie uit waarbij delen rond de hippocampus van H.M. werden verwijderd.",
+    "whyWrong": [
+      "Niet fout: Scoville hoort bij de operatie van H.M.",
+      "Milner onderzocht H.M. daarna uitgebreid.",
+      "Hebb hoort bij leren en neurale verbindingen.",
+      "Lashley hoort bij ablatieonderzoek en geheugenlokalisatie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_022",
+    "chapter": "Belangrijke personen",
+    "concept": "Causaliteit",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie stelde causaliteit als objectieve eigenschap ter discussie en zag het eerder als een verwachting op basis van herhaling?",
+    "options": ["David Hume", "Immanuel Kant", "Hermann Helmholtz", "Johannes Müller"],
+    "correct": 0,
+    "explanation": "David Hume stelde causaliteit ter discussie en zag oorzaak-gevolgrelaties als iets dat de geest uit regelmaat afleidt.",
+    "whyWrong": [
+      "Niet fout: Hume hoort bij kritiek op causaliteit.",
+      "Kant reageerde op Hume met zijn onderscheid tussen fenomenaal en noumenaal.",
+      "Helmholtz hoort bij perceptie en mechanisme.",
+      "Müller hoort bij specifieke zenuwenergie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_023",
+    "chapter": "Belangrijke personen",
+    "concept": "Specifieke zenuwenergie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie formuleerde een vroege basis voor het idee dat zenuwbanen specifieke soorten ervaringen ondersteunen?",
+    "options": ["Charles Bell", "Johannes Müller", "Hermann Helmholtz", "Emil du Bois-Reymond"],
+    "correct": 0,
+    "explanation": "Charles Bell formuleerde een vroege versie van het idee van specifieke zenuwenergie.",
+    "whyWrong": [
+      "Niet fout: Bell hoort bij de vroege specifieke zenuwenergie.",
+      "Müller werkte dit idee verder uit.",
+      "Helmholtz hoort bij reactietijd, energiebehoud en perceptie.",
+      "Du Bois-Reymond hoort bij elektrische en chemische zenuwsignalen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_024",
+    "chapter": "Belangrijke personen",
+    "concept": "Mechanisme en reactietijd",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie verwierp vitalisme en onderzocht onder andere reactietijd, energiebehoud en waarneming?",
+    "options": ["Hermann Helmholtz", "Johannes Müller", "Ewald Hering", "Gustav Fechner"],
+    "correct": 0,
+    "explanation": "Hermann Helmholtz wordt gekoppeld aan mechanisme, energiebehoud, reactietijd en perceptie.",
+    "whyWrong": [
+      "Niet fout: Helmholtz hoort bij mechanistische fysiologie en perceptie.",
+      "Müller hoort bij specifieke zenuwenergie.",
+      "Hering hoort bij opponente kleurprocessen.",
+      "Fechner hoort bij psychofysica."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_025",
+    "chapter": "Belangrijke personen",
+    "concept": "Zenuwsignalen",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan onderzoek naar elektrische en chemische communicatie in zenuwen?",
+    "options": ["Emil du Bois-Reymond", "Hermann Helmholtz", "Charles Bell", "Ernst Weber"],
+    "correct": 0,
+    "explanation": "Emil du Bois-Reymond wordt gekoppeld aan elektrische en chemische zenuwsignalen.",
+    "whyWrong": [
+      "Niet fout: Du Bois-Reymond hoort bij zenuwsignalen.",
+      "Helmholtz hoort bij reactietijd en energiebehoud.",
+      "Bell hoort bij specifieke zenuwenergie.",
+      "Weber hoort bij JND."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_026",
+    "chapter": "Belangrijke personen",
+    "concept": "Opponente kleurprocessen",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie bekritiseerde de driekleurentheorie met verschijnselen zoals nabeelden?",
+    "options": ["Thomas Young", "Ewald Hering", "Gustav Fechner", "Eleanor Gibson"],
+    "correct": 1,
+    "explanation": "Ewald Hering wordt gekoppeld aan opponente kleurprocessen en nabeelden.",
+    "whyWrong": [
+      "Young hoort bij de trichromatische theorie.",
+      "Niet fout: Hering hoort bij nabeelden en opponente processen.",
+      "Fechner hoort bij psychofysica.",
+      "Gibson hoort bij de visual cliff."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_027",
+    "chapter": "Belangrijke personen",
+    "concept": "Visual cliff",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan een opstelling waarmee diepteperceptie bij jonge kinderen en dieren werd onderzocht?",
+    "options": ["Eleanor Gibson", "Ewald Hering", "Max Wertheimer", "Kurt Koffka"],
+    "correct": 0,
+    "explanation": "Eleanor Gibson wordt gekoppeld aan de visual cliff, waarmee diepteperceptie onderzocht werd.",
+    "whyWrong": [
+      "Niet fout: Gibson hoort bij visual cliff.",
+      "Hering hoort bij kleurwaarneming en nabeelden.",
+      "Wertheimer hoort bij het phi-fenomeen.",
+      "Koffka hoort bij Gestaltpsychologie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_028",
+    "chapter": "Belangrijke personen",
+    "concept": "Just noticeable difference",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het minimale waarneembare verschil tussen twee prikkels?",
+    "options": ["Ernst Weber", "Gustav Fechner", "Hermann Helmholtz", "Ewald Hering"],
+    "correct": 0,
+    "explanation": "Ernst Weber wordt gekoppeld aan de just noticeable difference en de wet van Weber.",
+    "whyWrong": [
+      "Niet fout: Weber hoort bij JND.",
+      "Fechner bouwde voort op Weber en ontwikkelde psychofysica.",
+      "Helmholtz hoort bij reactietijd en perceptie.",
+      "Hering hoort bij opponente kleurprocessen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_029",
+    "chapter": "Belangrijke personen",
+    "concept": "Phi-fenomeen",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan schijnbare beweging en het begin van de Gestaltpsychologie?",
+    "options": ["Max Wertheimer", "Kurt Koffka", "Wolfgang Köhler", "Gustav Fechner"],
+    "correct": 0,
+    "explanation": "Max Wertheimer wordt gekoppeld aan het phi-fenomeen en de start van de Gestaltpsychologie.",
+    "whyWrong": [
+      "Niet fout: Wertheimer hoort bij het phi-fenomeen.",
+      "Koffka verspreidde Gestaltideeën, maar is niet de hoofdnaam bij het phi-fenomeen.",
+      "Köhler hoort bij inzichtleren.",
+      "Fechner hoort bij psychofysica."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_030",
+    "chapter": "Belangrijke personen",
+    "concept": "Gestaltpsychologie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het bekendmaken en uitleggen van Gestaltpsychologie, vooral in Engelstalige context?",
+    "options": ["Kurt Koffka", "Max Wertheimer", "Wolfgang Köhler", "Edward Titchener"],
+    "correct": 0,
+    "explanation": "Kurt Koffka wordt gekoppeld aan het verspreiden en uitleggen van Gestaltpsychologie.",
+    "whyWrong": [
+      "Niet fout: Koffka hoort bij Gestaltpsychologie.",
+      "Wertheimer hoort vooral bij het phi-fenomeen.",
+      "Köhler hoort bij inzichtleren.",
+      "Titchener hoort bij structuralisme."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_031",
+    "chapter": "Belangrijke personen",
+    "concept": "Inzichtleren",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan leren door plotseling inzicht, vaak onderzocht bij apen?",
+    "options": ["Wolfgang Köhler", "Max Wertheimer", "Kurt Koffka", "Edward Thorndike"],
+    "correct": 0,
+    "explanation": "Wolfgang Köhler wordt gekoppeld aan inzichtleren binnen de Gestaltpsychologie.",
+    "whyWrong": [
+      "Niet fout: Köhler hoort bij inzichtleren.",
+      "Wertheimer hoort bij het phi-fenomeen.",
+      "Koffka hoort bij Gestaltpsychologie als bredere stroming.",
+      "Thorndike hoort bij trial-and-error learning."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_032",
+    "chapter": "Belangrijke personen",
+    "concept": "Subtractieve methode",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een methode waarbij reactietijden van eenvoudige en complexere taken worden vergeleken?",
+    "options": ["F.C. Donders", "Wilhelm Wundt", "James McKeen Cattell", "Ludwig Lange"],
+    "correct": 0,
+    "explanation": "F.C. Donders ontwikkelde de subtractieve methode om mentale verwerkingstijd te schatten.",
+    "whyWrong": [
+      "Niet fout: Donders hoort bij de subtractieve methode.",
+      "Wundt gebruikte reactietijd binnen experimentele psychologie.",
+      "Cattell deed veel reactietijdonderzoek.",
+      "Lange onderzocht wilstijd en motorische tijd."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_033",
+    "chapter": "Belangrijke personen",
+    "concept": "Reactietijd en woordherkenning",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie voerde veel reactietijdexperimenten uit en concludeerde dat woorden als geheel worden herkend?",
+    "options": ["James McKeen Cattell", "F.C. Donders", "Wilhelm Wundt", "Oswald Külpe"],
+    "correct": 0,
+    "explanation": "James McKeen Cattell deed reactietijdonderzoek en stelde dat woorden als geheel worden waargenomen.",
+    "whyWrong": [
+      "Niet fout: Cattell hoort bij reactietijd en woordherkenning.",
+      "Donders ontwikkelde de subtractieve methode.",
+      "Wundt hoort bij experimentele psychologie.",
+      "Külpe hoort bij beeldloze gedachten."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_034",
+    "chapter": "Belangrijke personen",
+    "concept": "Wilstijd",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie onderzocht het verschil tussen mentale voorbereiding en puur motorische reactietijd?",
+    "options": ["Ludwig Lange", "James McKeen Cattell", "F.C. Donders", "Edward Titchener"],
+    "correct": 0,
+    "explanation": "Ludwig Lange wordt gekoppeld aan wilstijd tegenover motorische tijd.",
+    "whyWrong": [
+      "Niet fout: Lange hoort bij wilstijd.",
+      "Cattell deed reactietijd- en woordherkenningsonderzoek.",
+      "Donders ontwikkelde de subtractieve methode.",
+      "Titchener hoort bij structuralisme."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_035",
+    "chapter": "Belangrijke personen",
+    "concept": "Vroege vrouwelijke psycholoog",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie was een belangrijke vroege vrouwelijke psycholoog en student binnen de structuralistische traditie?",
+    "options": ["Margaret Floy Washburn", "Mary Whiton Calkins", "Leta Hollingworth", "Molly Harrower"],
+    "correct": 0,
+    "explanation": "Margaret Floy Washburn was een belangrijke vroege vrouwelijke psycholoog en student van Titchener.",
+    "whyWrong": [
+      "Niet fout: Washburn hoort bij de vroege experimentele psychologie.",
+      "Calkins hoort bij zelfpsychologie en paired associates.",
+      "Hollingworth hoort bij kritiek op genderstereotypen.",
+      "Harrower hoort bij Rorschach-diagnostiek."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_036",
+    "chapter": "Belangrijke personen",
+    "concept": "Beeldloze gedachten",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie stelde dat sommige gedachten kunnen plaatsvinden zonder duidelijke zintuiglijke beelden?",
+    "options": ["Oswald Külpe", "Edward Titchener", "Wilhelm Wundt", "Hermann Ebbinghaus"],
+    "correct": 0,
+    "explanation": "Oswald Külpe wordt gekoppeld aan beeldloze gedachten en kritiek op Wundt.",
+    "whyWrong": [
+      "Niet fout: Külpe hoort bij beeldloze gedachten.",
+      "Titchener hoort bij structuralisme.",
+      "Wundt was het niet eens met het idee van beeldloze gedachten.",
+      "Ebbinghaus hoort bij geheugenonderzoek."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_037",
+    "chapter": "Belangrijke personen",
+    "concept": "Vergeetcurve",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie onderzocht geheugen experimenteel met nonsenslettergrepen en ontdekte een systematisch patroon van vergeten?",
+    "options": ["Hermann Ebbinghaus", "Oswald Külpe", "Edward Titchener", "Wilhelm Wundt"],
+    "correct": 0,
+    "explanation": "Hermann Ebbinghaus onderzocht geheugen met nonsenslettergrepen en ontwikkelde de vergeetcurve.",
+    "whyWrong": [
+      "Niet fout: Ebbinghaus hoort bij nonsenslettergrepen en de vergeetcurve.",
+      "Külpe hoort bij beeldloze gedachten.",
+      "Titchener hoort bij structuralisme.",
+      "Wundt hoort bij experimentele psychologie en Völkerpsychologie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_038",
+    "chapter": "Belangrijke personen",
+    "concept": "Natuurlijke selectie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde de evolutietheorie waarin gunstige eigenschappen door overleving en voortplanting vaker voorkomen?",
+    "options": ["Charles Darwin", "Alfred Wallace", "Jean-Baptiste Lamarck", "Thomas Malthus"],
+    "correct": 0,
+    "explanation": "Charles Darwin ontwikkelde de theorie van evolutie door natuurlijke selectie.",
+    "whyWrong": [
+      "Niet fout: Darwin hoort bij natuurlijke selectie.",
+      "Wallace kwam onafhankelijk tot een vergelijkbaar idee.",
+      "Lamarck hoort bij overerving van verworven kenmerken.",
+      "Malthus beïnvloedde Darwin met ideeën over strijd om hulpbronnen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_039",
+    "chapter": "Belangrijke personen",
+    "concept": "Beagle",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie hielp een jonge natuuronderzoeker aan een plek op een beroemd onderzoeksschip?",
+    "options": ["John Henslow", "Charles Lyell", "James Ussher", "William Paley"],
+    "correct": 0,
+    "explanation": "John Henslow hielp Darwin aan zijn plek op de H.M.S. Beagle.",
+    "whyWrong": [
+      "Niet fout: Henslow hoort bij Darwins reis op de Beagle.",
+      "Lyell beïnvloedde Darwin met uniformitarianisme.",
+      "Ussher hoort bij de jonge-aarde-berekening.",
+      "Paley hoort bij het argument van ontwerp."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_040",
+    "chapter": "Belangrijke personen",
+    "concept": "Jonge aarde",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan de berekening dat de aarde slechts ongeveer 6000 jaar oud zou zijn?",
+    "options": ["James Ussher", "Charles Lyell", "William Paley", "Thomas Malthus"],
+    "correct": 0,
+    "explanation": "James Ussher wordt gekoppeld aan de traditionele berekening van een jonge aarde.",
+    "whyWrong": [
+      "Niet fout: Ussher hoort bij de jonge-aarde-berekening.",
+      "Lyell hoort bij uniformitarianisme.",
+      "Paley hoort bij het argument van ontwerp.",
+      "Malthus hoort bij bevolkingsdruk en hulpbronnen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_041",
+    "chapter": "Belangrijke personen",
+    "concept": "Argument van ontwerp",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie verdedigde het idee dat complexe organen zo perfect lijken dat ze door een ontwerper gemaakt moeten zijn?",
+    "options": ["William Paley", "Charles Darwin", "Charles Lyell", "Alfred Wallace"],
+    "correct": 0,
+    "explanation": "William Paley wordt gekoppeld aan het argument van ontwerp.",
+    "whyWrong": [
+      "Niet fout: Paley hoort bij het ontwerp-argument.",
+      "Darwin ontwikkelde natuurlijke selectie.",
+      "Lyell hoort bij uniformitarianisme.",
+      "Wallace kwam onafhankelijk tot natuurlijke selectie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_042",
+    "chapter": "Belangrijke personen",
+    "concept": "Strijd om hulpbronnen",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie beïnvloedde evolutionair denken met het idee dat bevolkingsgroei leidt tot concurrentie om beperkte middelen?",
+    "options": ["Thomas Malthus", "Jean-Baptiste Lamarck", "William Paley", "Ernst Haeckel"],
+    "correct": 0,
+    "explanation": "Thomas Malthus beïnvloedde Darwin met het idee van strijd om beperkte hulpbronnen.",
+    "whyWrong": [
+      "Niet fout: Malthus hoort bij bevolkingsdruk en hulpbronnen.",
+      "Lamarck hoort bij overerving van verworven kenmerken.",
+      "Paley hoort bij het argument van ontwerp.",
+      "Haeckel hoort bij ontogenie en fylogenie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_043",
+    "chapter": "Belangrijke personen",
+    "concept": "Onafhankelijke evolutietheorie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie kwam onafhankelijk tot een theorie die sterk leek op evolutie door natuurlijke selectie?",
+    "options": ["Alfred Wallace", "Charles Lyell", "Thomas Malthus", "Herbert Spencer"],
+    "correct": 0,
+    "explanation": "Alfred Wallace kwam onafhankelijk tot een vergelijkbaar idee over natuurlijke selectie.",
+    "whyWrong": [
+      "Niet fout: Wallace hoort bij onafhankelijke ontdekking van natuurlijke selectie.",
+      "Lyell hoort bij uniformitarianisme.",
+      "Malthus hoort bij strijd om hulpbronnen.",
+      "Spencer hoort bij sociaal-darwinisme."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_044",
+    "chapter": "Belangrijke personen",
+    "concept": "Ontogenie en fylogenie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het idee dat individuele ontwikkeling iets zegt over de ontwikkeling van de soort?",
+    "options": ["Ernst Haeckel", "George Romanes", "Edward Wilson", "G. Stanley Hall"],
+    "correct": 0,
+    "explanation": "Ernst Haeckel wordt gekoppeld aan ontogenie en fylogenie.",
+    "whyWrong": [
+      "Niet fout: Haeckel hoort bij ontogenie en fylogenie.",
+      "Romanes hoort bij vergelijkende psychologie.",
+      "Wilson hoort bij sociobiologie.",
+      "Hall gebruikte recapitulationistische ideeën in ontwikkelingspsychologie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_045",
+    "chapter": "Belangrijke personen",
+    "concept": "Vergelijkende psychologie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie gebruikte de mens-diervergelijkende methode om gedrag evolutionair te begrijpen?",
+    "options": ["George Romanes", "Edward Wilson", "Herbert Spencer", "Ernst Haeckel"],
+    "correct": 0,
+    "explanation": "George Romanes ontwikkelde de vergelijkende psychologie door menselijk en dierlijk gedrag te vergelijken.",
+    "whyWrong": [
+      "Niet fout: Romanes hoort bij vergelijkende psychologie.",
+      "Wilson hoort bij sociobiologie.",
+      "Spencer hoort bij sociaal-darwinisme.",
+      "Haeckel hoort bij ontogenie en fylogenie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_046",
+    "chapter": "Belangrijke personen",
+    "concept": "Sociobiologie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie introduceerde een onderzoeksrichting naar de evolutionaire oorsprong van sociaal gedrag?",
+    "options": ["Edward Wilson", "George Romanes", "Herbert Spencer", "Charles Darwin"],
+    "correct": 0,
+    "explanation": "Edward Wilson introduceerde de term sociobiologie.",
+    "whyWrong": [
+      "Niet fout: Wilson hoort bij sociobiologie.",
+      "Romanes hoort bij vergelijkende psychologie.",
+      "Spencer hoort bij sociaal-darwinisme.",
+      "Darwin hoort bij natuurlijke selectie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_047",
+    "chapter": "Belangrijke personen",
+    "concept": "Normale verdeling",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het idee dat veel menselijke kenmerken rond een gemiddelde verdeeld zijn?",
+    "options": ["Adolphe Quetelet", "Francis Galton", "Karl Pearson", "Alphonse de Candolle"],
+    "correct": 0,
+    "explanation": "Adolphe Quetelet wordt gekoppeld aan normale verdeling van menselijke kenmerken.",
+    "whyWrong": [
+      "Niet fout: Quetelet hoort bij normale verdeling.",
+      "Galton paste verdelingen en correlaties toe op individuele verschillen.",
+      "Pearson formaliseerde correlatie.",
+      "De Candolle benadrukte omgevingsfactoren."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_048",
+    "chapter": "Belangrijke personen",
+    "concept": "Omgevingsfactoren",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie benadrukte tegenover erfelijkheidsverklaringen het belang van gunstige omgevingsfactoren bij wetenschappelijk succes?",
+    "options": ["Alphonse de Candolle", "Francis Galton", "Adolphe Quetelet", "Karl Pearson"],
+    "correct": 0,
+    "explanation": "Alphonse de Candolle benadrukte omgevingsfactoren bij het verklaren van wetenschappelijk succes.",
+    "whyWrong": [
+      "Niet fout: De Candolle hoort bij omgevingsfactoren.",
+      "Galton legde sterker nadruk op erfelijkheid.",
+      "Quetelet hoort bij normale verdeling.",
+      "Pearson hoort bij correlatiecoëfficiënt."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_049",
+    "chapter": "Belangrijke personen",
+    "concept": "Correlatiecoëfficiënt",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie formaliseerde een getal tussen -1 en 1 om de sterkte van samenhang tussen variabelen uit te drukken?",
+    "options": ["Karl Pearson", "Francis Galton", "Adolphe Quetelet", "Cyril Burt"],
+    "correct": 0,
+    "explanation": "Karl Pearson formaliseerde de correlatiecoëfficiënt.",
+    "whyWrong": [
+      "Niet fout: Pearson hoort bij de correlatiecoëfficiënt.",
+      "Galton ontdekte en gebruikte correlatie, maar Pearson formaliseerde de coëfficiënt.",
+      "Quetelet hoort bij normale verdeling.",
+      "Burt hoort bij omstreden tweelingonderzoek."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_050",
+    "chapter": "Belangrijke personen",
+    "concept": "Recapitulationisme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie richtte een belangrijke Amerikaanse psychologische organisatie op en paste recapitulationistische ideeën toe op ontwikkeling?",
+    "options": ["G. Stanley Hall", "William James", "Edward Thorndike", "Mary Whiton Calkins"],
+    "correct": 0,
+    "explanation": "G. Stanley Hall richtte de APA op en koppelde ontwikkeling aan recapitulationisme.",
+    "whyWrong": [
+      "Niet fout: Hall hoort bij APA en recapitulationisme.",
+      "James hoort bij pragmatisme en functionalisme.",
+      "Thorndike hoort bij puzzeldoos en wet van effect.",
+      "Calkins hoort bij zelfpsychologie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_051",
+    "chapter": "Belangrijke personen",
+    "concept": "Zelfpsychologie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een benadering waarin het zelf centraal staat als actief, sturend en doelgericht?",
+    "options": ["Mary Whiton Calkins", "Margaret Floy Washburn", "Leta Hollingworth", "Anna Freud"],
+    "correct": 0,
+    "explanation": "Mary Whiton Calkins ontwikkelde zelfpsychologie en werkte met paired associates.",
+    "whyWrong": [
+      "Niet fout: Calkins hoort bij zelfpsychologie.",
+      "Washburn hoort bij vroege experimentele psychologie.",
+      "Hollingworth hoort bij kritiek op genderstereotypen.",
+      "Anna Freud hoort bij verdedigingsmechanismen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_052",
+    "chapter": "Belangrijke personen",
+    "concept": "Latent leren",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie liet zien dat leren kan plaatsvinden zonder directe beloning en pas later zichtbaar wordt?",
+    "options": ["Edward Tolman", "Clark Hull", "B.F. Skinner", "John Watson"],
+    "correct": 0,
+    "explanation": "Edward Tolman wordt gekoppeld aan latent leren en purposief behaviorisme.",
+    "whyWrong": [
+      "Niet fout: Tolman hoort bij latent leren.",
+      "Hull hoort bij mechanistisch behaviorisme en formules.",
+      "Skinner hoort bij operante conditionering.",
+      "Watson hoort bij radicaal behaviorisme en Little Albert."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_053",
+    "chapter": "Belangrijke personen",
+    "concept": "Mechanistisch behaviorisme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie probeerde gedrag met voorspellende formules mechanistisch te verklaren?",
+    "options": ["Clark Hull", "Edward Tolman", "John Watson", "Noam Chomsky"],
+    "correct": 0,
+    "explanation": "Clark Hull wordt gekoppeld aan mechanistisch behaviorisme en formules om gedrag te voorspellen.",
+    "whyWrong": [
+      "Niet fout: Hull hoort bij mechanistische voorspelling van gedrag.",
+      "Tolman hoort bij latent leren en doelgericht gedrag.",
+      "Watson hoort bij radicaal environmentalisme.",
+      "Chomsky bekritiseerde behavioristische taalverklaringen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_054",
+    "chapter": "Belangrijke personen",
+    "concept": "Radicaal environmentalisme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie stelde dat psychologie zich als wetenschap moet richten op observeerbaar gedrag en dat omgeving gedrag sterk vormt?",
+    "options": ["John Watson", "Ivan Pavlov", "B.F. Skinner", "Edward Tolman"],
+    "correct": 0,
+    "explanation": "John Watson wordt gekoppeld aan behaviorisme, observeerbaar gedrag en radicaal environmentalisme.",
+    "whyWrong": [
+      "Niet fout: Watson hoort bij radicaal environmentalisme.",
+      "Pavlov hoort bij klassieke conditionering.",
+      "Skinner hoort bij operante conditionering.",
+      "Tolman hoort bij latent leren."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_055",
+    "chapter": "Belangrijke personen",
+    "concept": "Little Albert",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie werkte mee aan een beroemd experiment waarin angst voor een wit dier werd aangeleerd?",
+    "options": ["Rosalie Rayner", "Mary Jones", "Mary Calkins", "Leta Hollingworth"],
+    "correct": 0,
+    "explanation": "Rosalie Rayner werkte met Watson mee aan het Little Albert-experiment.",
+    "whyWrong": [
+      "Niet fout: Rayner hoort bij Little Albert.",
+      "Mary Jones hoort bij Little Peter en desensitisatie.",
+      "Calkins hoort bij zelfpsychologie.",
+      "Hollingworth hoort bij onderzoek naar genderstereotypen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_056",
+    "chapter": "Belangrijke personen",
+    "concept": "Systematische desensitisatie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie behandelde een angstig kind door een gevreesde stimulus te koppelen aan iets positiefs?",
+    "options": ["Mary Jones", "Rosalie Rayner", "Anna Freud", "Melanie Klein"],
+    "correct": 0,
+    "explanation": "Mary Jones behandelde Little Peter en wordt gekoppeld aan systematische desensitisatie.",
+    "whyWrong": [
+      "Niet fout: Mary Jones hoort bij Little Peter.",
+      "Rayner hoort bij Little Albert.",
+      "Anna Freud hoort bij afweermechanismen.",
+      "Klein hoort bij objectrelaties."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_057",
+    "chapter": "Belangrijke personen",
+    "concept": "Universele grammatica",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie bekritiseerde de gedachte dat taal volledig via bekrachtiging en straf kan worden geleerd?",
+    "options": ["Noam Chomsky", "B.F. Skinner", "Edward Tolman", "Clark Hull"],
+    "correct": 0,
+    "explanation": "Noam Chomsky bekritiseerde Skinners behavioristische verklaring van taal en wees op universele grammatica.",
+    "whyWrong": [
+      "Niet fout: Chomsky hoort bij kritiek op Skinner over taal.",
+      "Skinner verdedigde juist een behavioristische verklaring van taal.",
+      "Tolman hoort bij latent leren.",
+      "Hull hoort bij mechanistisch behaviorisme."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_058",
+    "chapter": "Belangrijke personen",
+    "concept": "Exorcisme",
+    "difficulty": 3,
+    "type": "koppeling",
+    "prompt": "Wie beweerde ziekten te kunnen genezen door demonen uit het lichaam te verdrijven?",
+    "options": ["Joseph Gassner", "Franz Mesmer", "James Braid", "Hippolyte Bernheim"],
+    "correct": 0,
+    "explanation": "Joseph Gassner wordt gekoppeld aan exorcisme als behandelmethode.",
+    "whyWrong": [
+      "Niet fout: Gassner hoort bij exorcisme.",
+      "Mesmer hoort bij dierlijk magnetisme.",
+      "Braid introduceerde de term hypnose.",
+      "Bernheim hoort bij suggestibiliteit."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_059",
+    "chapter": "Belangrijke personen",
+    "concept": "Kunstmatig somnambulisme",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie verving de crisisachtige toestand van magnetische behandelingen door een kalme tranceachtige toestand?",
+    "options": ["Markies de Puységur", "Franz Mesmer", "Jose de Faria", "James Esdaile"],
+    "correct": 0,
+    "explanation": "Markies de Puységur ontwikkelde kunstmatig somnambulisme.",
+    "whyWrong": [
+      "Niet fout: Puységur hoort bij kunstmatig somnambulisme.",
+      "Mesmer hoort bij dierlijk magnetisme en de baquet.",
+      "De Faria benadrukte gevoeligheid van de cliënt.",
+      "Esdaile gebruikte hypnose bij operaties."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_060",
+    "chapter": "Belangrijke personen",
+    "concept": "Suggestiegevoeligheid",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie stelde dat het effect van trance vooral afhangt van de gevoeligheid van de cliënt?",
+    "options": ["Jose de Faria", "James Esdaile", "James Braid", "Jean-Martin Charcot"],
+    "correct": 0,
+    "explanation": "Jose de Faria benadrukte dat gevoeligheid voor suggestie bij de cliënt ligt.",
+    "whyWrong": [
+      "Niet fout: De Faria hoort bij individuele suggestiegevoeligheid.",
+      "Esdaile hoort bij hypnose bij operaties.",
+      "Braid introduceerde de term hypnose.",
+      "Charcot koppelde hypnose aan hysterie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_061",
+    "chapter": "Belangrijke personen",
+    "concept": "Hypnose bij operaties",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie gebruikte hypnotische technieken bij chirurgische ingrepen en rapporteerde minder sterfte?",
+    "options": ["James Esdaile", "Jose de Faria", "James Braid", "Hippolyte Bernheim"],
+    "correct": 0,
+    "explanation": "James Esdaile gebruikte hypnose bij operaties.",
+    "whyWrong": [
+      "Niet fout: Esdaile hoort bij hypnose bij operaties.",
+      "De Faria hoort bij suggestiegevoeligheid van de cliënt.",
+      "Braid introduceerde de term hypnose.",
+      "Bernheim hoort bij algemene suggestibiliteit."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_062",
+    "chapter": "Belangrijke personen",
+    "concept": "Hypnose",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie gaf een meer wetenschappelijke naam aan verschijnselen die eerder met magnetisme werden verklaard?",
+    "options": ["James Braid", "Franz Mesmer", "Markies de Puységur", "Joseph Gassner"],
+    "correct": 0,
+    "explanation": "James Braid introduceerde de term hypnose.",
+    "whyWrong": [
+      "Niet fout: Braid hoort bij de term hypnose.",
+      "Mesmer hoort bij dierlijk magnetisme.",
+      "Puységur hoort bij kunstmatig somnambulisme.",
+      "Gassner hoort bij exorcisme."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_063",
+    "chapter": "Belangrijke personen",
+    "concept": "Hysterie en hypnose",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie zag hypnose vooral als iets dat sterk verbonden was met hysterie?",
+    "options": ["Jean-Martin Charcot", "Hippolyte Bernheim", "Joseph Delboeuf", "Norman Triplett"],
+    "correct": 0,
+    "explanation": "Jean-Martin Charcot koppelde hypnose sterk aan hysterie.",
+    "whyWrong": [
+      "Niet fout: Charcot hoort bij hysterie en hypnose.",
+      "Bernheim zag suggestibiliteit als algemene eigenschap.",
+      "Delboeuf bekritiseerde Charcots experimenten.",
+      "Triplett hoort bij sociale facilitatie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_064",
+    "chapter": "Belangrijke personen",
+    "concept": "Menigtepsychologie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie schreef over gedrag in menigten en het verlies van individualiteit in groepen?",
+    "options": ["Gustav Le Bon", "Floyd Allport", "Solomon Asch", "Leon Festinger"],
+    "correct": 0,
+    "explanation": "Gustav Le Bon schreef over menigten, sociale besmetting en de collectieve geest.",
+    "whyWrong": [
+      "Niet fout: Le Bon hoort bij menigtepsychologie.",
+      "Floyd Allport bekritiseerde het idee van een groepsgeest.",
+      "Asch hoort bij conformiteit.",
+      "Festinger hoort bij cognitieve dissonantie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_065",
+    "chapter": "Belangrijke personen",
+    "concept": "Sociale facilitatie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie onderzocht dat aanwezigheid van anderen prestaties op eenvoudige taken kan verbeteren en op moeilijke taken kan verslechteren?",
+    "options": ["Norman Triplett", "Gustav Le Bon", "Floyd Allport", "Solomon Asch"],
+    "correct": 0,
+    "explanation": "Norman Triplett wordt gekoppeld aan sociale facilitatie en sociale inhibitie.",
+    "whyWrong": [
+      "Niet fout: Triplett hoort bij sociale facilitatie.",
+      "Le Bon hoort bij menigtepsychologie.",
+      "Floyd Allport hoort bij sociale psychologie en group fallacy.",
+      "Asch hoort bij conformiteit."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_066",
+    "chapter": "Belangrijke personen",
+    "concept": "Group fallacy",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie bekritiseerde het idee dat groepen een aparte groepsgeest hebben los van individuen?",
+    "options": ["Floyd Allport", "Gustav Le Bon", "Solomon Asch", "Philip Zimbardo"],
+    "correct": 0,
+    "explanation": "Floyd Allport beschreef de group fallacy en bracht sociale psychologie verder als discipline.",
+    "whyWrong": [
+      "Niet fout: Floyd Allport hoort bij group fallacy.",
+      "Le Bon verdedigde juist ideeën over menigtegeest.",
+      "Asch hoort bij conformiteit.",
+      "Zimbardo hoort bij rollen en het Stanford Prison Experiment."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_067",
+    "chapter": "Belangrijke personen",
+    "concept": "Conformiteit",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie liet zien dat mensen zich kunnen aanpassen aan een duidelijk fout groepsantwoord?",
+    "options": ["Solomon Asch", "Stanley Milgram", "Leon Festinger", "Elizabeth Loftus"],
+    "correct": 0,
+    "explanation": "Solomon Asch onderzocht sociale conformiteit met lijnexperimenten.",
+    "whyWrong": [
+      "Niet fout: Asch hoort bij conformiteit.",
+      "Milgram hoort bij gehoorzaamheid.",
+      "Festinger hoort bij cognitieve dissonantie.",
+      "Loftus hoort bij valse herinneringen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_068",
+    "chapter": "Belangrijke personen",
+    "concept": "Cognitieve dissonantie",
+    "difficulty": 4,
+    "type": "casus",
+    "prompt": "Een groep blijft sterker geloven in een voorspelling nadat die voorspelling niet uitkomt, om spanning tussen overtuiging en werkelijkheid te verminderen. Wie hoort hierbij?",
+    "options": ["Leon Festinger", "Solomon Asch", "Stanley Milgram", "Philip Zimbardo"],
+    "correct": 0,
+    "explanation": "Leon Festinger ontwikkelde de theorie van cognitieve dissonantie.",
+    "whyWrong": [
+      "Niet fout: Festinger hoort bij cognitieve dissonantie.",
+      "Asch hoort bij conformiteit.",
+      "Milgram hoort bij gehoorzaamheid.",
+      "Zimbardo hoort bij rollen en gevangenissituaties."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_069",
+    "chapter": "Belangrijke personen",
+    "concept": "Rollen en situaties",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie onderzocht hoe toegewezen sociale rollen extreem gedrag kunnen oproepen in een gevangenisachtige setting?",
+    "options": ["Philip Zimbardo", "Stanley Milgram", "Solomon Asch", "Leon Festinger"],
+    "correct": 0,
+    "explanation": "Philip Zimbardo wordt gekoppeld aan het Stanford Prison Experiment.",
+    "whyWrong": [
+      "Niet fout: Zimbardo hoort bij het Stanford Prison Experiment.",
+      "Milgram hoort bij gehoorzaamheid aan autoriteit.",
+      "Asch hoort bij conformiteit.",
+      "Festinger hoort bij cognitieve dissonantie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_070",
+    "chapter": "Belangrijke personen",
+    "concept": "Valse herinneringen",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie onderzocht hoe mensen herinneringen kunnen ontwikkelen aan gebeurtenissen die nooit hebben plaatsgevonden?",
+    "options": ["Elizabeth Loftus", "Brenda Milner", "Mary Calkins", "Molly Harrower"],
+    "correct": 0,
+    "explanation": "Elizabeth Loftus onderzocht valse herinneringen.",
+    "whyWrong": [
+      "Niet fout: Loftus hoort bij valse herinneringen.",
+      "Milner hoort bij patiënt H.M. en geheugen.",
+      "Calkins hoort bij paired associates en zelfpsychologie.",
+      "Harrower hoort bij Rorschach-diagnostiek."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_071",
+    "chapter": "Belangrijke personen",
+    "concept": "Psychoanalyse",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een theorie rond verdringing, vrije associatie, droomwerk, overdracht en intrapsychisch conflict?",
+    "options": ["Sigmund Freud", "Josef Breuer", "Franz Brentano", "Carl Jung"],
+    "correct": 0,
+    "explanation": "Sigmund Freud ontwikkelde de psychoanalyse met begrippen als verdringing, vrije associatie, droomwerk en overdracht.",
+    "whyWrong": [
+      "Niet fout: Freud hoort bij psychoanalyse.",
+      "Breuer hoort bij de cathartische methode.",
+      "Brentano beïnvloedde Freud met intentionaliteit.",
+      "Jung brak later met Freud en ontwikkelde analytische psychologie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_072",
+    "chapter": "Belangrijke personen",
+    "concept": "Intentionaliteit",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie stelde dat mentale handelingen altijd ergens op gericht zijn?",
+    "options": ["Franz Brentano", "Sigmund Freud", "Josef Breuer", "Alfred Adler"],
+    "correct": 0,
+    "explanation": "Franz Brentano wordt gekoppeld aan intentionaliteit en handelingspsychologie.",
+    "whyWrong": [
+      "Niet fout: Brentano hoort bij intentionaliteit.",
+      "Freud ontwikkelde psychoanalyse.",
+      "Breuer hoort bij catharsis.",
+      "Adler hoort bij guiding fictions."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_073",
+    "chapter": "Belangrijke personen",
+    "concept": "Cathartische casus",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie was de beroemde patiënt bij wie een behandeling rond emotioneel geladen herinneringen werd toegepast?",
+    "options": ["Bertha Pappenheim", "Ida Bauer", "Blanche Wittmann", "Anna Freud"],
+    "correct": 0,
+    "explanation": "Bertha Pappenheim was Breuers bekende patiënt bij de cathartische methode.",
+    "whyWrong": [
+      "Niet fout: Pappenheim hoort bij Breuer en catharsis.",
+      "Ida Bauer hoort bij Dora en overdracht.",
+      "Blanche Wittmann hoort bij Charcots hysterie-demonstraties.",
+      "Anna Freud hoort bij verdedigingsmechanismen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_074",
+    "chapter": "Belangrijke personen",
+    "concept": "Objectrelaties",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie legde binnen de psychoanalyse sterk de nadruk op vroege kindrelaties en objectrelaties?",
+    "options": ["Melanie Klein", "Anna Freud", "Erik Erikson", "Carl Rogers"],
+    "correct": 0,
+    "explanation": "Melanie Klein wordt gekoppeld aan objectrelatietheorie en vroege kindrelaties.",
+    "whyWrong": [
+      "Niet fout: Klein hoort bij objectrelaties.",
+      "Anna Freud hoort bij verdedigingsmechanismen.",
+      "Erikson hoort bij psychosociale stadia.",
+      "Rogers hoort bij cliëntgerichte therapie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_075",
+    "chapter": "Belangrijke personen",
+    "concept": "Objectrelatietheorie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie verfijnde een psychoanalytische richting waarin relaties met belangrijke objecten centraler werden dan instincten?",
+    "options": ["W.R.D. Fairbairn", "Joseph Wolpe", "Aaron Beck", "Hans Eysenck"],
+    "correct": 0,
+    "explanation": "W.R.D. Fairbairn verfijnde de objectrelatietheorie.",
+    "whyWrong": [
+      "Niet fout: Fairbairn hoort bij objectrelaties.",
+      "Wolpe hoort bij gedragstherapie.",
+      "Beck hoort bij cognitieve therapie.",
+      "Eysenck hoort bij het PEN-model en therapiekritiek."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_076",
+    "chapter": "Belangrijke personen",
+    "concept": "Vroege relaties",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt binnen de objectrelatietraditie gekoppeld aan het belang van vroege relaties en omgeving?",
+    "options": ["D.W. Winnicott", "W.R.D. Fairbairn", "Melanie Klein", "Anna Freud"],
+    "correct": 0,
+    "explanation": "D.W. Winnicott hoort bij de objectrelatietraditie en het belang van vroege relaties.",
+    "whyWrong": [
+      "Niet fout: Winnicott hoort bij objectrelaties.",
+      "Fairbairn hoort ook bij objectrelaties, maar deze vraag verwijst naar de specifieke naam Winnicott.",
+      "Klein hoort bij vroege objectrelaties.",
+      "Anna Freud hoort bij verdedigingsmechanismen."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_077",
+    "chapter": "Belangrijke personen",
+    "concept": "Psychosociale stadia",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een ontwikkelingsmodel waarin sociale conflicten en levensfasen centraal staan?",
+    "options": ["Erik Erikson", "Sigmund Freud", "Jean Piaget", "Lev Vygotsky"],
+    "correct": 0,
+    "explanation": "Erik Erikson ontwikkelde de theorie van psychosociale stadia.",
+    "whyWrong": [
+      "Niet fout: Erikson hoort bij psychosociale stadia.",
+      "Freud hoort bij psychoseksuele ontwikkeling en psychoanalyse.",
+      "Piaget hoort bij cognitieve ontwikkelingsstadia.",
+      "Vygotsky hoort bij de zone van proximale ontwikkeling."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_078",
+    "chapter": "Belangrijke personen",
+    "concept": "Cliëntgerichte therapie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een therapievorm waarin de cliënt centraal staat en de therapeut vooral reflecteert?",
+    "options": ["Carl Rogers", "Joseph Wolpe", "Aaron Beck", "Albert Ellis"],
+    "correct": 0,
+    "explanation": "Carl Rogers ontwikkelde cliëntgerichte therapie.",
+    "whyWrong": [
+      "Niet fout: Rogers hoort bij cliëntgerichte therapie.",
+      "Wolpe hoort bij systematische desensitisatie.",
+      "Beck hoort bij cognitieve therapie.",
+      "Ellis hoort bij RET en het ABC-model."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_079",
+    "chapter": "Belangrijke personen",
+    "concept": "Gedragstherapie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een therapievorm gericht op symptoombestrijding en het afleren van angstreacties?",
+    "options": ["Joseph Wolpe", "Carl Rogers", "Aaron Beck", "George Albee"],
+    "correct": 0,
+    "explanation": "Joseph Wolpe ontwikkelde gedragstherapie en systematische desensitisatie.",
+    "whyWrong": [
+      "Niet fout: Wolpe hoort bij gedragstherapie en desensitisatie.",
+      "Rogers hoort bij cliëntgerichte therapie.",
+      "Beck hoort bij cognitieve therapie.",
+      "Albee hoort bij gemeenschapspsychologie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_080",
+    "chapter": "Belangrijke personen",
+    "concept": "Cognitieve therapie",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een therapie gericht op het herkennen en corrigeren van negatieve of vervormde gedachten?",
+    "options": ["Aaron Beck", "Albert Ellis", "Carl Rogers", "Joseph Wolpe"],
+    "correct": 0,
+    "explanation": "Aaron Beck ontwikkelde cognitieve therapie en de cognitieve theorie van depressie.",
+    "whyWrong": [
+      "Niet fout: Beck hoort bij cognitieve therapie.",
+      "Ellis hoort bij RET en het ABC-model.",
+      "Rogers hoort bij cliëntgerichte therapie.",
+      "Wolpe hoort bij gedragstherapie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_081",
+    "chapter": "Belangrijke personen",
+    "concept": "16 PFQ",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie gebruikte factoranalyse om persoonlijkheid terug te brengen tot zestien factoren?",
+    "options": ["Raymond Cattell", "Hans Eysenck", "Goldberg", "Walter Mischel"],
+    "correct": 0,
+    "explanation": "Raymond Cattell ontwikkelde de 16 PFQ op basis van factoranalyse.",
+    "whyWrong": [
+      "Niet fout: Raymond Cattell hoort bij 16 PFQ.",
+      "Eysenck hoort bij het PEN-model.",
+      "Goldberg hoort bij de Big Five.",
+      "Mischel hoort bij de persoon-situatiecontroverse."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_082",
+    "chapter": "Belangrijke personen",
+    "concept": "PEN-model",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie bracht persoonlijkheid terug tot psychoticisme, extraversie en neuroticisme?",
+    "options": ["Hans Eysenck", "Raymond Cattell", "Goldberg", "Gordon Allport"],
+    "correct": 0,
+    "explanation": "Hans Eysenck ontwikkelde het PEN-model.",
+    "whyWrong": [
+      "Niet fout: Eysenck hoort bij het PEN-model.",
+      "Raymond Cattell hoort bij 16 PFQ.",
+      "Goldberg hoort bij Big Five/OCEAN.",
+      "Gordon Allport hoort bij traits en functionele autonomie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_083",
+    "chapter": "Belangrijke personen",
+    "concept": "Persoon-situatiecontroverse",
+    "difficulty": 4,
+    "type": "contrast",
+    "prompt": "Wie stelde dat situaties vaak belangrijker zijn dan stabiele persoonlijkheidstrekken bij het voorspellen van gedrag?",
+    "options": ["Walter Mischel", "Gordon Allport", "Hans Eysenck", "Raymond Cattell"],
+    "correct": 0,
+    "explanation": "Walter Mischel wordt gekoppeld aan de persoon-situatiecontroverse.",
+    "whyWrong": [
+      "Niet fout: Mischel hoort bij de persoon-situatiecontroverse.",
+      "Gordon Allport hoort bij persoonlijkheidstrekken.",
+      "Eysenck hoort bij het PEN-model.",
+      "Cattell hoort bij factoranalyse en 16 PFQ."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_084",
+    "chapter": "Belangrijke personen",
+    "concept": "Thematic Apperception Test",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie werkte mee aan een projectieve test waarbij mensen verhalen vertellen bij dubbelzinnige afbeeldingen?",
+    "options": ["Christiana Morgan", "Mary Calkins", "Leta Hollingworth", "Molly Harrower"],
+    "correct": 0,
+    "explanation": "Christiana Morgan ontwikkelde samen met Henry Murray de Thematic Apperception Test.",
+    "whyWrong": [
+      "Niet fout: Morgan hoort bij de TAT.",
+      "Calkins hoort bij paired associates.",
+      "Hollingworth hoort bij onderzoek naar genderstereotypen.",
+      "Harrower hoort bij de Rorschach-test."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_085",
+    "chapter": "Belangrijke personen",
+    "concept": "Psychogene behoeften",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een projectieve persoonlijkheidstest en beschreef een lijst van psychogene behoeften?",
+    "options": ["Henry Murray", "Christiana Morgan", "David McClelland", "Abraham Maslow"],
+    "correct": 0,
+    "explanation": "Henry Murray ontwikkelde samen met Morgan de TAT en beschreef psychogene behoeften.",
+    "whyWrong": [
+      "Niet fout: Murray hoort bij TAT en psychogene behoeften.",
+      "Morgan werkte mee aan de TAT, maar is minder de hoofdnaam bij de behoefte-lijst.",
+      "McClelland maakte behoefteonderzoek later bekender met scoring.",
+      "Maslow hoort bij de behoeftehiërarchie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_086",
+    "chapter": "Belangrijke personen",
+    "concept": "Behoeftescoring",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie maakte onderzoek naar prestatie-, macht- en affiliatiebehoeften bekender met een scoresysteem?",
+    "options": ["David McClelland", "Henry Murray", "Abraham Maslow", "Carl Rogers"],
+    "correct": 0,
+    "explanation": "David McClelland maakte behoefteonderzoek bekender en ontwikkelde scoring voor motieven.",
+    "whyWrong": [
+      "Niet fout: McClelland hoort bij behoeftescoring.",
+      "Murray hoort bij TAT en psychogene behoeften.",
+      "Maslow hoort bij de behoeftehiërarchie.",
+      "Rogers hoort bij cliëntgerichte therapie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_087",
+    "chapter": "Belangrijke personen",
+    "concept": "Intelligentietest",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een praktische test om kinderen te identificeren die speciaal onderwijs nodig hadden en zag intelligentie als veranderbaar?",
+    "options": ["Alfred Binet", "Charles Spearman", "William Stern", "Lewis Terman"],
+    "correct": 0,
+    "explanation": "Alfred Binet ontwikkelde met Simon de eerste praktische intelligentietest voor onderwijsplaatsing en zag intelligentie niet als vast.",
+    "whyWrong": [
+      "Niet fout: Binet hoort bij de eerste praktische intelligentietest.",
+      "Spearman hoort bij g en s.",
+      "Stern introduceerde het IQ als verhouding.",
+      "Terman paste de IQ-formule aan."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_088",
+    "chapter": "Belangrijke personen",
+    "concept": "Intelligentiequotiënt",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie stelde voor mentale leeftijd door chronologische leeftijd te delen om intelligentie uit te drukken?",
+    "options": ["William Stern", "Alfred Binet", "Lewis Terman", "David Wechsler"],
+    "correct": 0,
+    "explanation": "William Stern introduceerde het intelligentiequotiënt als verhouding tussen mentale en chronologische leeftijd.",
+    "whyWrong": [
+      "Niet fout: Stern hoort bij het IQ als verhouding.",
+      "Binet werkte met mentale leeftijd en onderwijsplaatsing.",
+      "Terman vermenigvuldigde de uitkomst later met 100.",
+      "Wechsler ontwikkelde de WAIS."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_089",
+    "chapter": "Belangrijke personen",
+    "concept": "IQ-score",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie maakte de IQ-formule praktischer door de verhouding met 100 te vermenigvuldigen?",
+    "options": ["Lewis Terman", "William Stern", "Charles Spearman", "David Wechsler"],
+    "correct": 0,
+    "explanation": "Lewis Terman paste Sterns IQ-formule aan door met 100 te vermenigvuldigen.",
+    "whyWrong": [
+      "Niet fout: Terman hoort bij IQ × 100.",
+      "Stern introduceerde de verhouding.",
+      "Spearman hoort bij algemene intelligentie.",
+      "Wechsler ontwikkelde de WAIS."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_090",
+    "chapter": "Belangrijke personen",
+    "concept": "WAIS",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een veelgebruikte intelligentieschaal voor volwassenen?",
+    "options": ["David Wechsler", "Alfred Binet", "Lewis Terman", "Charles Spearman"],
+    "correct": 0,
+    "explanation": "David Wechsler ontwikkelde de WAIS.",
+    "whyWrong": [
+      "Niet fout: Wechsler hoort bij WAIS.",
+      "Binet ontwikkelde de eerste praktische intelligentietest voor kinderen.",
+      "Terman paste het IQ praktisch aan.",
+      "Spearman ontwikkelde de twee-factor-theorie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_091",
+    "chapter": "Belangrijke personen",
+    "concept": "Representatiewijzen",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een theorie waarin kinderen informatie enactief, iconisch en symbolisch representeren?",
+    "options": ["Jerome Bruner", "Jean Piaget", "Lev Vygotsky", "Alfred Binet"],
+    "correct": 0,
+    "explanation": "Jerome Bruner ontwikkelde de theorie van representatiewijzen: enactief, iconisch en symbolisch.",
+    "whyWrong": [
+      "Niet fout: Bruner hoort bij representatiewijzen.",
+      "Piaget hoort bij cognitieve ontwikkelingsstadia.",
+      "Vygotsky hoort bij de zone van proximale ontwikkeling.",
+      "Binet hoort bij intelligentietesten."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_092",
+    "chapter": "Belangrijke personen",
+    "concept": "Zone van proximale ontwikkeling",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie wordt gekoppeld aan het verschil tussen wat een kind alleen kan en wat het met hulp kan?",
+    "options": ["Lev Vygotsky", "Jean Piaget", "Jerome Bruner", "William Stern"],
+    "correct": 0,
+    "explanation": "Lev Vygotsky ontwikkelde het concept zone van proximale ontwikkeling.",
+    "whyWrong": [
+      "Niet fout: Vygotsky hoort bij zone van proximale ontwikkeling.",
+      "Piaget hoort bij cognitieve ontwikkelingsfasen.",
+      "Bruner hoort bij representatiewijzen.",
+      "Stern hoort bij het intelligentiequotiënt."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_093",
+    "chapter": "Belangrijke personen",
+    "concept": "Wetenschappelijk management",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een managementbenadering gericht op efficiëntie, stukloon en het opdelen van arbeid in eenvoudige taken?",
+    "options": ["Frederick Taylor", "Hugo Münsterberg", "Walter Scott", "Frank Gilbreth"],
+    "correct": 0,
+    "explanation": "Frederick Taylor ontwikkelde wetenschappelijk management, differentieel stukloon en de-skilling.",
+    "whyWrong": [
+      "Niet fout: Taylor hoort bij wetenschappelijk management.",
+      "Münsterberg hoort bij toegepaste psychologie en rechtszaal.",
+      "Scott hoort bij assessment.",
+      "Frank Gilbreth hoort bij bewegingsstudies."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_094",
+    "chapter": "Belangrijke personen",
+    "concept": "Bewegingsstudies",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie analyseerde handbewegingen om arbeid efficiënter te maken en ontwikkelde samen met een partner het idee van therbligs?",
+    "options": ["Frank Gilbreth", "Frederick Taylor", "Walter Scott", "Elton Mayo"],
+    "correct": 0,
+    "explanation": "Frank Gilbreth ontwikkelde met Lillian Gilbreth bewegingsstudies en therbligs.",
+    "whyWrong": [
+      "Niet fout: Frank Gilbreth hoort bij bewegingsstudies.",
+      "Taylor hoort bij wetenschappelijk management.",
+      "Scott hoort bij assessment.",
+      "Mayo hoort bij human relations."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_095",
+    "chapter": "Belangrijke personen",
+    "concept": "Werk en welzijn",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie koppelde efficiëntie op het werk ook aan welzijn van werknemers en werkte aan bewegingsstudies?",
+    "options": ["Lillian Gilbreth", "Frederick Taylor", "William Marston", "Hugo Münsterberg"],
+    "correct": 0,
+    "explanation": "Lillian Gilbreth werkte met Frank Gilbreth aan bewegingsstudies en legde nadruk op efficiëntie en welzijn.",
+    "whyWrong": [
+      "Niet fout: Lillian Gilbreth hoort bij bewegingsstudies en welzijn.",
+      "Taylor hoort bij wetenschappelijk management en de-skilling.",
+      "Marston hoort bij de leugendetector.",
+      "Münsterberg hoort bij toegepaste en forensische psychologie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_096",
+    "chapter": "Belangrijke personen",
+    "concept": "Inktvlektest",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde een projectieve test waarbij interpretaties van inktvlekken worden gebruikt?",
+    "options": ["Hermann Rorschach", "Molly Harrower", "Starke Hathaway", "Paul Meehl"],
+    "correct": 0,
+    "explanation": "Hermann Rorschach ontwikkelde de Rorschach-inktvlektest.",
+    "whyWrong": [
+      "Niet fout: Rorschach hoort bij de inktvlektest.",
+      "Harrower gebruikte de Rorschach-test diagnostisch.",
+      "Hathaway ontwikkelde de MMPI mee.",
+      "Meehl hoort bij klinisch versus statistisch oordeel."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_097",
+    "chapter": "Belangrijke personen",
+    "concept": "Rorschach-diagnostiek",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie gebruikte een bekende projectieve inktvlektest als diagnostisch instrument?",
+    "options": ["Molly Harrower", "Hermann Rorschach", "David Shakow", "George Albee"],
+    "correct": 0,
+    "explanation": "Molly Harrower gebruikte de Rorschach-test diagnostisch.",
+    "whyWrong": [
+      "Niet fout: Harrower hoort bij diagnostisch gebruik van Rorschach.",
+      "Rorschach ontwikkelde de test zelf.",
+      "Shakow hoort bij scientist-practitioner.",
+      "Albee hoort bij gemeenschapspsychologie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_098",
+    "chapter": "Belangrijke personen",
+    "concept": "Gemeenschapspsychologie",
+    "difficulty": 5,
+    "type": "contrast",
+    "prompt": "Wie bekritiseerde het medische model en legde nadruk op preventie en maatschappelijke factoren?",
+    "options": ["George Albee", "David Shakow", "Hans Eysenck", "Paul Meehl"],
+    "correct": 0,
+    "explanation": "George Albee bekritiseerde het medische model en promootte gemeenschapspsychologie.",
+    "whyWrong": [
+      "Niet fout: Albee hoort bij gemeenschapspsychologie.",
+      "Shakow hoort bij scientist-practitioner.",
+      "Eysenck bekritiseerde psychotherapie.",
+      "Meehl hoort bij klinisch versus statistisch oordeel."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_099",
+    "chapter": "Belangrijke personen",
+    "concept": "MMPI",
+    "difficulty": 4,
+    "type": "koppeling",
+    "prompt": "Wie ontwikkelde samen met een collega een statistisch persoonlijkheidsinstrument voor psychopathologie?",
+    "options": ["Starke Hathaway", "Paul Meehl", "Hermann Rorschach", "David Shakow"],
+    "correct": 0,
+    "explanation": "Starke Hathaway ontwikkelde samen met McKinley de MMPI.",
+    "whyWrong": [
+      "Niet fout: Hathaway hoort bij de MMPI.",
+      "Meehl hoort bij klinisch versus statistisch oordeel.",
+      "Rorschach hoort bij de inktvlektest.",
+      "Shakow hoort bij scientist-practitioner."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
+  },
+  {
+    "id": "extra_pers_100",
+    "chapter": "Belangrijke personen",
+    "concept": "Klinisch versus statistisch oordeel",
+    "difficulty": 5,
+    "type": "contrast",
+    "prompt": "Wie onderzocht of voorspellingen beter zijn op basis van klinische intuïtie of statistische regels?",
+    "options": ["Paul Meehl", "Starke Hathaway", "George Albee", "Hans Eysenck"],
+    "correct": 0,
+    "explanation": "Paul Meehl wordt gekoppeld aan het debat over klinisch versus statistisch oordeel.",
+    "whyWrong": [
+      "Niet fout: Meehl hoort bij klinisch versus statistisch oordeel.",
+      "Hathaway hoort bij de MMPI.",
+      "Albee hoort bij gemeenschapspsychologie.",
+      "Eysenck bekritiseerde psychotherapie."
+    ],
+    "tip": "",
+    "example": "",
+    "mnemonic": ""
   }
+]
+
 ]
