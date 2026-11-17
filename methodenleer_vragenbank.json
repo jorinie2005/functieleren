@@ -127,10 +127,10 @@
     "type": "toepassing",
     "prompt": "Een tijdschrift beoordeelt een analyse op de kwaliteit van de argumenten, ook al is die afkomstig van een onbekende student. Welke norm wordt toegepast?",
     "options": [
-      "Gemeenschappelijkheid: bevindingen behoren tot de gedeelde wetenschappelijke kennis.",
-      "Universalisme: beoordeel claims op bewijs, niet op status.",
-      "Belangeloosheid: de onderzoeker laat persoonlijke belangen de conclusie niet sturen.",
-      "Georganiseerde scepsis: claims worden kritisch getoetst aan bewijs."
+      "Gemeenschappelijkheid",
+      "Universalisme",
+      "Belangeloosheid",
+      "Georganiseerde scepsis"
     ],
     "correct": 1,
     "explanation": "Mertons vier normen zijn universalisme, gemeenschappelijkheid, belangeloosheid en georganiseerde scepsis.",
@@ -173,12 +173,12 @@
     "concept": "Fundamenteel, toegepast en translationeel onderzoek",
     "difficulty": 4,
     "type": "vergelijking",
-    "prompt": "Een team ontdekt eerst een algemeen mechanisme van stressregulatie, vertaalt de bevinding daarna naar een programma voor verpleegkundigen en test ten slotte een oplossing voor een concrete klinische behoefte. Welke koppeling is juist?",
+    "prompt": "Een team ontdekt eerst een algemeen mechanisme van stressregulatie, vertaalt de bevinding daarna naar een programma voor verpleegkundigen en test ten slotte een oplossing voor een concrete klinische behoefte. Welke volgorde van onderzoeksdoelen beschrijft deze stappen?",
     "options": [
-      "Het mechanisme is toegepast; het programma is fundamenteel; de klinische oplossing is translationeel.",
-      "Fundamenteel: basismechanisme; translationeel: praktijkvertaling; toegepast: concrete oplossing.",
-      "Het mechanisme is translationeel; het programma is toegepast; de klinische oplossing is fundamenteel.",
-      "Alle drie zijn fundamenteel omdat ze door onderzoekers worden uitgevoerd."
+      "Toegepast -> fundamenteel -> translationeel",
+      "Fundamenteel -> translationeel -> toegepast",
+      "Translationeel -> toegepast -> fundamenteel",
+      "Fundamenteel voor alle drie"
     ],
     "correct": 1,
     "explanation": "Fundamenteel onderzoek richt zich op basiskennis, toegepast onderzoek op praktische problemen en translationeel onderzoek op de brug tussen beide.",
@@ -247,10 +247,10 @@
     "type": "vergelijking",
     "prompt": "Een studie telt het aantal keren dat studenten om hulp vragen; een andere interviewt hen over waarom hulp vragen ongemakkelijk voelt. Welke indeling past?",
     "options": [
-      "Kwantitatief: cijfers; kwalitatief: beschrijvingen en reflexiviteit.",
-      "De eerste is kwalitatief omdat gedrag wordt waargenomen; de tweede kwantitatief omdat er vragen zijn gesteld.",
-      "Beide zijn kwantitatief omdat beide systematische gegevens verzamelen.",
-      "Beide zijn kwalitatief omdat het om studentenervaringen gaat."
+      "Kwantitatief; kwalitatief",
+      "Kwalitatief; kwantitatief",
+      "Kwantitatief; kwantitatief",
+      "Kwalitatief; kwalitatief"
     ],
     "correct": 0,
     "explanation": "Kwantitatieve methoden drukken observaties uit in cijfers; kwalitatieve methoden gebruiken beschrijvingen en vragen om reflectie op de rol van de onderzoeker.",
@@ -271,10 +271,10 @@
     "type": "casus",
     "prompt": "Een sponsor verwacht een positief resultaat, maar de onderzoeker rapporteert ook de nulbevindingen en laat de data de conclusie bepalen. Welke norm van Merton staat hier centraal?",
     "options": [
-      "Universalisme: een claim beoordelen op bewijs in plaats van op de reputatie van de onderzoeker.",
-      "Gemeenschappelijkheid: onderzoeksbevindingen delen met de wetenschappelijke gemeenschap.",
-      "Georganiseerde scepsis: bestaande verklaringen kritisch blijven toetsen aan nieuw bewijs.",
-      "Belangeloosheid: conclusies onafhankelijk van eigen en externe belangen."
+      "Universalisme",
+      "Gemeenschappelijkheid",
+      "Georganiseerde scepsis",
+      "Belangeloosheid"
     ],
     "correct": 3,
     "explanation": "Belangeloosheid houdt in dat onderzoekers de uitkomst niet verdraaien voor overtuigingen, politiek of winstbejag.",
@@ -1879,10 +1879,10 @@
     "type": "toepassing",
     "prompt": "Na een veelbesproken treinongeval denkt iemand dat reizen per trein uitzonderlijk gevaarlijk is, hoewel hij geen frequentiecijfers heeft gezien. Welk denkproces speelt mee?",
     "options": [
-      "Beschikbaarheidsheuristiek: levendige voorbeelden wegen te zwaar.",
-      "Present/present bias: alleen positieve uitkomsten van een behandeling tellen mee.",
-      "Confirmation bias: tegenbewijs wordt doelbewust uit de analyse verwijderd.",
-      "Bias blind spot: iemand denkt dat anderen meer bevooroordeeld zijn dan hijzelf."
+      "Beschikbaarheidsheuristiek",
+      "Present/present bias",
+      "Confirmation bias",
+      "Bias blind spot"
     ],
     "correct": 0,
     "explanation": "Beschikbaarheid beïnvloedt vooral hoe vaak of waarschijnlijk iets lijkt op basis van hoe makkelijk voorbeelden opkomen.",
@@ -2047,10 +2047,10 @@
     "type": "casus",
     "prompt": "Een peiling rapporteert een nauwkeurig percentage voor studenten aan één universiteit. De onderzoeker wil die uitkomst toepassen op alle jongeren in Nederland. Welke vraag staat dan centraal?",
     "options": [
-      "De constructvaliditeit: of de conclusie statistisch significant is.",
-      "Externe validiteit: generaliseerbaarheid naar andere populaties.",
-      "De interne validiteit: of de meting op herhaling dezelfde score geeft.",
-      "De statistische validiteit: of alle Nederlandse jongeren willekeurig aan condities zijn toegewezen."
+      "Constructvaliditeit",
+      "Externe validiteit",
+      "Interne validiteit",
+      "Statistische validiteit"
     ],
     "correct": 1,
     "explanation": "Construct = meting; statistisch = sterkte en precisie; extern = generaliseren; intern = alternatieve causale verklaringen.",
@@ -3031,10 +3031,10 @@
     "type": "casus",
     "prompt": "Een onderzoeker legt doel, procedure, voorzienbare risico's en vrijwillige deelname uit voordat deelnemers beslissen. Welk ethisch kernprincipe staat hier het meest centraal?",
     "options": [
-      "Respect voor personen, waaronder autonomie en geïnformeerde toestemming.",
-      "Rechtvaardigheid, omdat deelnemers eerlijk over groepen zijn verdeeld.",
-      "Weldoen, omdat de onderzoeker mogelijke schade probeert te beperken.",
-      "Georganiseerde scepsis, omdat deelnemers de hypothese mogen betwisten."
+      "Respect voor personen",
+      "Rechtvaardigheid",
+      "Weldoen",
+      "Georganiseerde scepsis"
     ],
     "correct": 0,
     "explanation": "De Belmont/TCPS-principes zijn respect voor personen, weldoen en rechtvaardigheid.",
@@ -3055,10 +3055,10 @@
     "type": "vergelijking",
     "prompt": "Een commissie vraagt of de baten opwegen tegen mogelijke schade en of de risico's niet onevenredig bij een kwetsbare groep terechtkomen. Welke principes worden afgewogen?",
     "options": [
-      "Respect en weldoen, omdat alle ethische vragen over toestemming gaan.",
-      "Rechtvaardigheid en georganiseerde scepsis, omdat risico's vooraf worden getest.",
-      "Weldoen weegt baten tegen schade; rechtvaardigheid verdeelt lasten en baten.",
-      "Alleen respect voor personen, omdat deelnemers het onderzoek kunnen verlaten."
+      "Respect voor personen en weldoen",
+      "Rechtvaardigheid en georganiseerde scepsis",
+      "Weldoen en rechtvaardigheid",
+      "Respect voor personen en universalisme"
     ],
     "correct": 2,
     "explanation": "Ethiek vraagt zowel naar de omvang van schade en baten als naar wie die draagt of ontvangt.",
@@ -3103,10 +3103,10 @@
     "type": "vergelijking",
     "prompt": "Een enquête verzamelt e-mailadressen om deelnemers later opnieuw uit te nodigen, maar publiceert geen identificeerbare antwoorden. Hoe wordt de gegevensbescherming omschreven?",
     "options": [
-      "Anoniem, omdat de namen niet in het artikel staan en dus niet met scores worden gedeeld.",
-      "Openbaar, omdat deelnemers later opnieuw kunnen worden benaderd voor een vervolgstudie.",
-      "Niet vertrouwelijk, omdat een koppelsleutel bestaat, ook als die apart en veilig wordt bewaard.",
-      "Vertrouwelijk: identiteit is bekend, maar antwoorden zijn afgeschermd."
+      "Anoniem",
+      "Openbaar",
+      "Niet vertrouwelijk",
+      "Vertrouwelijk"
     ],
     "correct": 3,
     "explanation": "Anoniem betekent dat deelnemers niet identificeerbaar worden vastgelegd; vertrouwelijk betekent dat identificerende gegevens worden beschermd.",
@@ -3223,10 +3223,10 @@
     "type": "toepassing",
     "prompt": "Een groep stelt geanonimiseerde data en materialen beschikbaar zodat anderen de analyses kunnen controleren. Welke Merton-norm wordt hiermee direct ondersteund?",
     "options": [
-      "Gemeenschappelijkheid vraagt delen van bevindingen en middelen.",
-      "Universalisme: resultaten worden beoordeeld ongeacht de status van de onderzoeker.",
-      "Belangeloosheid: onderzoekers doen afstand van alle persoonlijke doelen.",
-      "Georganiseerde scepsis: iedere claim wordt zonder gegevens verworpen."
+      "Gemeenschappelijkheid",
+      "Universalisme",
+      "Belangeloosheid",
+      "Georganiseerde scepsis"
     ],
     "correct": 0,
     "explanation": "Open wetenschap bevordert controleerbaarheid en gedeeld gebruik van kennis.",
@@ -3271,10 +3271,10 @@
     "type": "casus",
     "prompt": "Een auteur neemt eerder gepubliceerde eigen tekst opnieuw op en presenteert die als volledig nieuw werk. Welke vorm van wangedrag past het best?",
     "options": [
-      "Fabricatie, omdat de auteur gegevens verzint om een publicatie te ondersteunen.",
-      "Falsificatie, omdat de auteur waarnemingen selectief aanpast aan de hypothese.",
-      "Plagiaat van andermans werk, omdat ideeën van een collega zonder bron worden gebruikt.",
-      "Zelfplagiaat, omdat eerder gepubliceerd eigen materiaal als nieuw wordt gepresenteerd."
+      "Fabricatie",
+      "Falsificatie",
+      "Plagiaat",
+      "Zelfplagiaat"
     ],
     "correct": 3,
     "explanation": "Zelfplagiaat is het hergebruiken van eerder gepubliceerd eigen materiaal alsof het nieuw is.",
@@ -3293,20 +3293,20 @@
     "concept": "De drie V's voor dieronderzoek",
     "difficulty": 4,
     "type": "vergelijking",
-    "prompt": "Welke koppeling beschrijft de drie V's voor verantwoord dieronderzoek correct?",
+    "prompt": "Een onderzoeker vervangt een dierproef door een celkweekmethode om dezelfde onderzoeksvraag te beantwoorden. Welk van de drie V's past hierbij?",
     "options": [
-      "Vervanging: alternatief; verfijning: minder leed; vermindering: minder dieren.",
-      "Vervanging beperkt leed, verfijning verlaagt het aantal dieren en vermindering zoekt alternatieve methoden.",
-      "Vervanging verlaagt het aantal dieren, verfijning zoekt alternatieven en vermindering beperkt pijn.",
-      "Vervanging verbetert meetvaliditeit, verfijning vergroot generalisatie en vermindering verhoogt power."
+      "Vervanging",
+      "Verfijning",
+      "Vermindering",
+      "Weldoen"
     ],
     "correct": 0,
     "explanation": "De drie V's zijn vervanging door alternatieven, verfijning van procedures om leed te verminderen en vermindering van het aantal gebruikte dieren.",
     "whyWrong": [
       "",
-      "Deze optie verwisselt vervanging met verfijning en vermindering.",
-      "Deze optie verschuift de definities van alle drie de principes.",
-      "De drie V's richten zich op alternatieven, dierenwelzijn en aantallen, niet op validiteit of power."
+      "Verfijning vermindert leed aan een dierproef; een alternatief vervangt de proef.",
+      "Vermindering verlaagt het aantal gebruikte dieren; vervanging kiest een alternatief.",
+      "Weldoen is een breder ethisch principe, geen van de drie V's."
     ],
     "tip": "Vervang waar mogelijk, verfijn om leed te beperken en verminder het aantal dieren.",
     "example": "Een alternatief model vervangt een dierproef; betere huisvesting verfijnt de zorg."
@@ -3919,10 +3919,10 @@
     "type": "toepassing",
     "prompt": "Een dataset codeert de gekozen studierichting als 1, 2 of 3; de nummers zijn alleen labels. Wat is het meetniveau?",
     "options": [
-      "Ordinaal, omdat 3 groter is dan 2 en daarom een hogere hoeveelheid betekent.",
-      "Interval, omdat de categorieën met gelijke getallen zijn gecodeerd.",
-      "Nominaal: de codes labelen categorieën, geen hoeveelheden.",
-      "Ratio, omdat er een nulpunt en drie mogelijke waarden zijn."
+      "Ordinaal",
+      "Interval",
+      "Nominaal",
+      "Ratio"
     ],
     "correct": 2,
     "explanation": "Bij nominale variabelen staan getallen eventueel alleen voor categorieën.",
@@ -4015,10 +4015,10 @@
     "type": "toepassing",
     "prompt": "Twee getrainde codeurs beoordelen onafhankelijk dezelfde video's van ouder-kindinteracties. Welke vraag toetsen hun overeenkomstige scores?",
     "options": [
-      "Interne consistentie: of de deelnemers op verschillende items hetzelfde antwoorden.",
-      "Test-hertestbetrouwbaarheid: of gedrag op een later moment onveranderd blijft.",
-      "Criteriumvaliditeit: of de codeurs een toekomstige uitkomst voorspellen.",
-      "Interbeoordelaarsbetrouwbaarheid: komen codeurs onafhankelijk overeen?"
+      "Interne consistentie",
+      "Test-hertestbetrouwbaarheid",
+      "Criteriumvaliditeit",
+      "Interbeoordelaarsbetrouwbaarheid"
     ],
     "correct": 3,
     "explanation": "Interbeoordelaarsbetrouwbaarheid is vooral relevant bij observaties en coderingen.",
@@ -4039,10 +4039,10 @@
     "type": "toepassing",
     "prompt": "Een vragenlijst met acht items over levensvoldoening bevat twee items die vrijwel geen verband met de overige items hebben. Welk bewijs is direct relevant?",
     "options": [
-      "Test-hertestbetrouwbaarheid, omdat de vragenlijst meerdere items bevat.",
-      "Interne consistentie, bijvoorbeeld de samenhang tussen items of Cronbachs alfa.",
-      "Interbeoordelaarsbetrouwbaarheid, omdat meerdere vragen worden beoordeeld.",
-      "Externe validiteit, omdat deelnemers de vragen op verschillende manieren begrijpen."
+      "Test-hertestbetrouwbaarheid",
+      "Interne consistentie",
+      "Interbeoordelaarsbetrouwbaarheid",
+      "Externe validiteit"
     ],
     "correct": 1,
     "explanation": "Interne consistentie beoordeelt of meerdere items die hetzelfde construct moeten meten een samenhangend patroon vormen.",
@@ -4085,18 +4085,18 @@
     "concept": "Gezichts-, inhouds- en criteriumvaliditeit",
     "difficulty": 4,
     "type": "vergelijking",
-    "prompt": "Een nieuwe selectieproef lijkt op het eerste gezicht werkgerelateerd; experts controleren of alle belangrijke taken zijn opgenomen en latere prestaties worden ermee vergeleken. Welke koppeling is juist?",
+    "prompt": "Een selectieproef lijkt op het eerste gezicht werkgerelateerd. Experts controleren of alle belangrijke taken van de functie zijn opgenomen. Welke validiteitsvorm beoordelen zij daarmee?",
     "options": [
-      "Experts die items beoordelen tonen criteriumvaliditeit; prestaties achteraf tonen gezichtsvaliditeit.",
-      "Een volledige taakdekking toont convergente validiteit; prestaties achteraf tonen discriminante validiteit.",
-      "Gezicht: plausibel; inhoud: taken gedekt; criterium: samenhang met prestatie.",
-      "De drie bevindingen zijn alle vormen van interne validiteit."
+      "Gezichtsvaliditeit",
+      "Criteriumvaliditeit",
+      "Inhoudsvaliditeit",
+      "Interne validiteit"
     ],
     "correct": 2,
     "explanation": "Face = lijkt passend; content = dekt het construct; criterion = voorspelt of hangt samen met een relevante uitkomst.",
     "whyWrong": [
-      "De validiteiten zijn verwisseld: criteriumvaliditeit vergelijkt met een relevante uitkomst.",
-      "Convergente en discriminante validiteit betreffen relaties met vergelijkbare en verschillende constructen.",
+      "Gezichtsvaliditeit gaat over een plausibele uitstraling, niet over volledige taakdekking.",
+      "Criteriumvaliditeit gaat om samenhang met een relevante uitkomst, niet om dekkingsgraad.",
       "",
       "Interne validiteit betreft alternatieve verklaringen voor causale conclusies."
     ],
@@ -6607,10 +6607,10 @@
     "type": "toepassing",
     "prompt": "Een deelnemer antwoordt ‘helemaal mee eens’ op zowel ‘ik voel me vaak energiek’ als ‘ik voel me vaak uitgeput’. Welke antwoordstijl kan dit signaleren?",
     "options": [
-      "Fence-sitting: steeds het midden van een schaal kiezen.",
-      "Social desirability: antwoorden kiezen die een positief beeld geven.",
-      "Observer reactivity: gedrag veranderen omdat iemand meekijkt.",
-      "Acquiescence: instemmen met items ongeacht hun inhoud."
+      "Fence-sitting",
+      "Sociale wenselijkheid",
+      "Observer reactivity",
+      "Acquiescence"
     ],
     "correct": 3,
     "explanation": "Omgekeerd geformuleerde items kunnen helpen instemmingstendensen op te sporen, mits ze begrijpelijk zijn.",
@@ -6631,10 +6631,10 @@
     "type": "casus",
     "prompt": "Bij een gevoelig onderwerp kiest een respondent steeds de neutrale categorie, hoewel hij in een nagesprek aangeeft een duidelijke mening te hebben. Wat past het best?",
     "options": [
-      "Acquiescence, omdat de respondent instemt met elke bewering.",
-      "Faking good, omdat de respondent zichzelf gunstig presenteert.",
-      "Fence-sitting: de neutrale categorie kiezen ondanks een duidelijke mening.",
-      "Zelfselectie, omdat de respondent vrijwillig aan de enquête meedoet."
+      "Acquiescence",
+      "Faking good",
+      "Fence-sitting",
+      "Zelfselectie"
     ],
     "correct": 2,
     "explanation": "Een neutrale optie kan echte onzekerheid weerspiegelen, maar ook ontwijking; het verwijderen ervan heeft eigen nadelen.",
@@ -6655,10 +6655,10 @@
     "type": "toepassing",
     "prompt": "In een niet-anonieme vragenlijst rapporteren deelnemers minder vaak gedrag dat als ongewenst wordt gezien. Welke verklaring ligt voor de hand?",
     "options": [
-      "Sociale wenselijkheid: antwoorden worden aangepast om gunstiger over te komen.",
-      "Faking bad, omdat deelnemers hun problemen overdrijven.",
-      "Present/present bias, omdat alleen zichtbare uitkomsten worden geteld.",
-      "Interbeoordelaarsfout, omdat verschillende onderzoekers de vragen lezen."
+      "Sociale wenselijkheid",
+      "Faking bad",
+      "Present/present bias",
+      "Interbeoordelaarsfout"
     ],
     "correct": 0,
     "explanation": "Anonimiteit kan de druk om sociaal wenselijk te antwoorden verkleinen, maar garandeert geen eerlijke antwoorden.",
@@ -6775,10 +6775,10 @@
     "type": "vergelijking",
     "prompt": "Een onderzoeker verdeelt de populatie in leeftijdsgroepen en trekt binnen elke groep willekeurig deelnemers in verhouding tot hun aandeel. Welke techniek gebruikt zij?",
     "options": [
-      "Stratified random sampling: trek willekeurig uit vooraf bepaalde subgroepen.",
-      "Quota sampling, waarbij binnen elke leeftijdsgroep de makkelijkst bereikbare mensen worden geworven.",
-      "Cluster sampling, waarbij complete leeftijdsgroepen worden geselecteerd en iedereen meedoet.",
-      "Purposive sampling, waarbij alleen één vooraf gekozen leeftijdsgroep deelneemt."
+      "Stratified random sampling",
+      "Quota sampling",
+      "Cluster sampling",
+      "Purposive sampling"
     ],
     "correct": 0,
     "explanation": "Stratified sampling selecteert willekeurig individuen uit vooraf bepaalde subgroepen; quota sampling hoeft niet willekeurig te zijn.",
@@ -6823,10 +6823,10 @@
     "type": "vergelijking",
     "prompt": "Een experiment gebruikt vrijwilligers en verdeelt hen daarna willekeurig over behandeling en controle. Wat verbetert deze willekeurige toewijzing vooral?",
     "options": [
-      "Externe validiteit, omdat de vrijwilligers nu de volledige populatie vertegenwoordigen.",
-      "Constructvaliditeit, omdat de onafhankelijke variabele automatisch goed gemeten is.",
-      "Statistische power, omdat toewijzing de steekproef groter maakt.",
-      "Willekeurige toewijzing beperkt systematische groepsverschillen."
+      "Externe validiteit",
+      "Constructvaliditeit",
+      "Statistische power",
+      "Willekeurige toewijzing"
     ],
     "correct": 3,
     "explanation": "Random sampling gaat over wie wordt geselecteerd; random assignment gaat over welke conditie deelnemers krijgen.",
@@ -6871,10 +6871,10 @@
     "type": "toepassing",
     "prompt": "Een onderzoeker kiest willekeurig een startpunt op een deelnemerslijst en nodigt daarna iedere twintigste persoon uit. Welke steekproefmethode is dit?",
     "options": [
-      "Systematic sampling: na een willekeurige start wordt elk n-de lid geselecteerd.",
-      "Simple random sampling, waarbij ieder individu afzonderlijk wordt geloot.",
-      "Stratified sampling, waarbij binnen elke demografische groep wordt geloot.",
-      "Convenience sampling, waarbij alleen makkelijk bereikbare personen worden gekozen."
+      "Systematic sampling",
+      "Simple random sampling",
+      "Stratified sampling",
+      "Convenience sampling"
     ],
     "correct": 0,
     "explanation": "Systematic sampling kiest elke n-de persoon na een willekeurig gekozen start.",
@@ -6893,12 +6893,12 @@
     "concept": "Cluster- en multistage sampling",
     "difficulty": 4,
     "type": "vergelijking",
-    "prompt": "Een onderzoeker loot willekeurig scholen en onderzoekt vervolgens alle leerlingen op die scholen. Hoe verschilt dit van multistage sampling?",
+    "prompt": "Een onderzoeker loot willekeurig scholen en onderzoekt alle leerlingen op die scholen. Welke steekproefmethode gebruikt zij?",
     "options": [
-      "Cluster: complete groepen; multistage: daarna ook individuen trekken.",
-      "Dit is multistage sampling omdat er meerdere scholen zijn; cluster sampling selecteert individuele leerlingen.",
-      "Dit is stratified sampling omdat scholen vergelijkbare leerlingen bevatten.",
-      "Dit is convenience sampling omdat scholen makkelijker bereikbaar zijn dan leerlingen."
+      "Cluster sampling",
+      "Multistage sampling",
+      "Stratified sampling",
+      "Convenience sampling"
     ],
     "correct": 0,
     "explanation": "Cluster sampling selecteert groepen; multistage sampling trekt daarna vaak een tweede random steekproef binnen de geselecteerde clusters.",
@@ -6919,10 +6919,10 @@
     "type": "vergelijking",
     "prompt": "Een onderzoek naar een moeilijk bereikbare groep start met enkele deelnemers, die vervolgens bekenden voordragen. Welke techniek past?",
     "options": [
-      "Quota sampling, waarbij respondenten willekeurig uit bevolkingscategorieën worden getrokken.",
-      "Simple random sampling, waarbij iedere persoon uit de doelgroep een bekende kans heeft.",
-      "Convenience sampling, waarbij de onderzoeker uitsluitend de eerste beschikbare personen kiest.",
-      "Snowball sampling: deelnemers helpen nieuwe deelnemers uit hun netwerk te werven."
+      "Quota sampling",
+      "Simple random sampling",
+      "Convenience sampling",
+      "Snowball sampling"
     ],
     "correct": 3,
     "explanation": "Convenience gebruikt bereikbaarheid, purposive kiest gericht bepaalde typen deelnemers, snowball gebruikt doorverwijzingen en quota vult niet-willekeurig aantallen.",
@@ -6943,10 +6943,10 @@
     "type": "toepassing",
     "prompt": "Een minderheid vormt een klein deel van de bevolking. Onderzoekers trekken bewust relatief veel deelnemers uit die groep en wegen de resultaten later naar bevolkingsaandeel. Wat doen zij?",
     "options": [
-      "Quota sampling, omdat deelnemers zonder willekeur worden gekozen totdat aantallen vol zijn.",
-      "Cluster sampling, omdat een volledige minderheid als één groep wordt onderzocht.",
-      "Zelfselectie, omdat deelnemers zelf besluiten of zij reageren.",
-      "Oversampling, vaak als aanvulling op gestratificeerde kanssteekproeven."
+      "Quota sampling",
+      "Cluster sampling",
+      "Zelfselectie",
+      "Oversampling"
     ],
     "correct": 3,
     "explanation": "Oversampling zorgt dat kleine subgroepen groot genoeg zijn voor analyse; weging kan de populatieverhoudingen herstellen.",
@@ -7207,10 +7207,10 @@
     "type": "vergelijking",
     "prompt": "Een respondent kiest bij uiteenlopende stellingen steeds de eerste antwoordoptie, waaronder zowel positieve als negatieve uitspraken. Welke responsstijl is aannemelijk?",
     "options": [
-      "Steeds dezelfde antwoordpositie kiezen, ongeacht de stelling.",
-      "Sociale wenselijkheid: antwoorden aanpassen aan wat goed staat.",
-      "Acquiescence: steeds instemmen met de stellingen.",
-      "Fence-sitting: vaak de neutrale middenoptie kiezen."
+      "Antwoordset (response set)",
+      "Sociale wenselijkheid",
+      "Acquiescence",
+      "Fence-sitting"
     ],
     "correct": 0,
     "explanation": "Een vaste positie kiezen ongeacht de inhoud verschilt van instemmen met stellingen.",
@@ -7279,10 +7279,10 @@
     "type": "vergelijking",
     "prompt": "Een observator registreert gesprekken vaker als ‘agressief’ wanneer hij weet dat deelnemers een behandeling kregen. Welke bedreiging past het best?",
     "options": [
-      "Reactiviteit: deelnemers passen gedrag aan door observatie.",
-      "Non-responsbias: deelnemers verschillen van niet-respondenten.",
-      "Selectie-effect: groepen verschilden al vóór de interventie.",
-      "Waarnemersbias: codeurs beoordelen gedrag volgens verwachtingen."
+      "Reactiviteit",
+      "Non-responsbias",
+      "Selectie-effect",
+      "Waarnemersbias"
     ],
     "correct": 3,
     "explanation": "De verwachting van de codeur kan de interpretatie van dubbelzinnig gedrag kleuren.",
@@ -8071,10 +8071,10 @@
     "type": "toepassing",
     "prompt": "In een scatterplot gaan hogere waarden van schermtijd samen met lagere waarden van slaapduur; de punten liggen dicht rond een dalende lijn. Welke beschrijving past?",
     "options": [
-      "Een sterke negatieve associatie: hogere schermtijd gaat samen met lagere slaapduur.",
-      "Een zwakke positieve associatie omdat beide variabelen veranderen.",
-      "Een sterke positieve associatie omdat de punten dicht bij een lijn liggen.",
-      "Een nulcorrelatie omdat de variabelen verschillende eenheden hebben."
+      "Sterke negatieve associatie",
+      "Zwakke positieve associatie",
+      "Sterke positieve associatie",
+      "Nulcorrelatie"
     ],
     "correct": 0,
     "explanation": "Correlatie r loopt van -1 tot +1; teken beschrijft richting en absolute grootte beschrijft sterkte.",
@@ -8239,10 +8239,10 @@
     "type": "casus",
     "prompt": "Een eenmalige enquête vindt dat deelnemers met minder stress ook vaker sporten, maar vraagt niet wanneer hun sportgedrag begon. Welke causale voorwaarde is hiermee niet vastgesteld?",
     "options": [
-      "Temporele voorrang: de vermeende oorzaak moet voorafgaan aan de uitkomst.",
-      "Covariatie, omdat de twee gemeten variabelen niet tegelijk zijn verzameld.",
-      "Externe validiteit, omdat de deelnemers niet willekeurig zijn toegewezen.",
-      "Constructvaliditeit, omdat stress een abstract begrip is."
+      "Temporele voorrang",
+      "Covariatie",
+      "Externe validiteit",
+      "Constructvaliditeit"
     ],
     "correct": 0,
     "explanation": "Voor causaliteit moet de oorzaak in de tijd voorafgaan aan het effect; een cross-sectionele correlatie laat dat vaak open.",
@@ -9007,10 +9007,10 @@
     "type": "vergelijking",
     "prompt": "Een within-groups experiment vraagt minder deelnemers en kan meer power hebben, maar dezelfde personen doen achtereenvolgens meerdere taken. Welke bedreiging verdient extra aandacht?",
     "options": [
-      "Selectie-effecten tussen de condities, omdat deelnemers willekeurig verdeeld worden.",
-      "Let op volgorde- en overdrachtseffecten tussen condities.",
-      "Random sampling, omdat deelnemers voor elke conditie anders worden geworven.",
-      "Criteriumvaliditeit, omdat uitkomsten na een taak worden gemeten."
+      "Selectie-effecten",
+      "Volgorde- en overdrachtseffecten",
+      "Random sampling",
+      "Criteriumvaliditeit"
     ],
     "correct": 1,
     "explanation": "Within-groups vermindert persoonsverschillen tussen groepen, maar kan volgorde, oefening, vermoeidheid en carryover introduceren.",
@@ -9055,10 +9055,10 @@
     "type": "vergelijking",
     "prompt": "Een experiment heeft zes condities. Het team gebruikt niet alle 720 mogelijke volgordes, maar een zorgvuldig gekozen subset waarin condities gebalanceerd voorkomen. Wat is dit?",
     "options": [
-      "Volledige counterbalancing, omdat iedere conditie op een andere plek voorkomt.",
-      "Random assignment, omdat de volgorde per deelnemer verschilt.",
-      "Matched-pairs design, omdat deelnemers dezelfde zes condities doen.",
-      "Partiële counterbalancing gebruikt een subset; een Latijns vierkant is één methode."
+      "Volledige counterbalancing",
+      "Random assignment",
+      "Matched-pairs design",
+      "Partiële counterbalancing"
     ],
     "correct": 3,
     "explanation": "Full counterbalancing gebruikt alle ordeningen; partial counterbalancing kiest er een systematische subset uit.",
@@ -9079,10 +9079,10 @@
     "type": "toepassing",
     "prompt": "Een onderzoeker wil voorkomen dat deelnemers een taakvolgorde kunnen vergelijken. Bij elke trial kiest iemand tussen twee stimuli, en elke trial bevat een andere combinatie. Welk ontwerp past?",
     "options": [
-      "Een pretest-posttest design, omdat elke trial een volgende meting is.",
-      "Een independent-groups design, omdat iedere keuze één antwoord oplevert.",
-      "Concurrent-measures: deelnemers kiezen gelijktijdig tussen condities.",
-      "Een quasi-experiment, omdat stimuluskeuze niet kan worden gemanipuleerd."
+      "Pretest-posttest design",
+      "Independent-groups design",
+      "Concurrent-measures design",
+      "Quasi-experiment"
     ],
     "correct": 2,
     "explanation": "Concurrent measures kunnen volgorde- en vraagkenmerken beperken door alternatieven tegelijk te laten beoordelen.",
@@ -9103,10 +9103,10 @@
     "type": "casus",
     "prompt": "Een experiment toont dat toegewezen muziekconditie samenhangt met toetsscore, en muziek werd vóór de toets afgespeeld. Welke causale voorwaarde blijft vooral afhankelijk van goede controle van alternatieven?",
     "options": [
-      "Covariatie, omdat de condities niet van elkaar kunnen verschillen.",
-      "Temporele voorrang, omdat de toets vóór de muziek werd afgenomen.",
-      "Beperk alternatieve verklaringen om interne validiteit te ondersteunen.",
-      "Externe validiteit, omdat randomisatie de representativiteit van de steekproef verzekert."
+      "Covariatie",
+      "Temporele voorrang",
+      "Interne validiteit",
+      "Externe validiteit"
     ],
     "correct": 2,
     "explanation": "Causaliteit vraagt covariatie, temporele voorrang en interne validiteit.",
@@ -11479,10 +11479,10 @@
     "type": "casus",
     "prompt": "Alleen de behandelgroep krijgt tijdens de studie een reorganisatie op het werk; bovendien vallen juist daar veel ontevreden deelnemers uit. Welke combinatie is plausibel?",
     "options": [
-      "Testing en instrumentation threats, omdat deelnemers een toets maken en de meting later opnieuw plaatsvindt.",
-      "History treft één groep; selectieve uitval kan attrition veroorzaken.",
-      "Placebo en observer bias, omdat verwachtingen rond behandeling de beoordelaars kunnen sturen.",
-      "Maturation en demand characteristics, omdat werknemers veranderen en de studiedoelen kunnen raden."
+      "Testing- en instrumentation threats",
+      "History en attrition",
+      "Placebo- en waarnemersbias",
+      "Maturatie- en demand-characteristics"
     ],
     "correct": 1,
     "explanation": "Een gebeurtenis die maar één groep treft kan met selectie interacteren; ongelijk verdeelde uitval kan ook vertekenen.",
@@ -12151,10 +12151,10 @@
     "type": "casus",
     "prompt": "In groep A is de instructie langer dan in groep B en deelnemers reageren ook verschillend op lange teksten. Welke term past?",
     "options": [
-      "Een design confound koppelt extra verschillen aan de conditie.",
-      "Een maturatie-effect ontstaat door natuurlijke tijdsverandering.",
-      "Non-responsbias ontstaat door selectieve deelname.",
-      "Design confound: instructielengte verschilt per conditie."
+      "Design confound",
+      "Maturatie-effect",
+      "Non-responsbias",
+      "Waarnemersbias"
     ],
     "correct": 3,
     "explanation": "De instructielengte is met de experimentele conditie verweven en kan het effect verklaren.",
@@ -12559,10 +12559,10 @@
     "type": "vergelijking",
     "prompt": "In een 2 × 2 studie wordt leeftijd gemeten als jong/oud; iedere bestuurder voert zowel een telefoontaak als een controletaak uit. Welk design past?",
     "options": [
-      "Mixed design: leeftijd between-subjects, taak within-subjects.",
-      "Een volledig within-groups design omdat iedereen de rijtaak uitvoert.",
-      "Een volledig between-groups design omdat er twee leeftijdsgroepen zijn.",
-      "Een quasi-experiment zonder factoriële structuur omdat leeftijd gemeten is."
+      "Mixed design",
+      "Within-groups design",
+      "Between-groups design",
+      "Quasi-experiment"
     ],
     "correct": 0,
     "explanation": "Mixed designs combineren minstens één between-subjects factor met minstens één within-subjects factor.",
@@ -12607,10 +12607,10 @@
     "type": "toepassing",
     "prompt": "De interactie tussen taaksoort en geluid is sterk bij jongere deelnemers maar vrijwel afwezig bij oudere deelnemers. Welke conclusie past?",
     "options": [
-      "Drieweginteractie: de taak-geluidinteractie verschilt per leeftijd.",
-      "Alleen een hoofdeffect van leeftijd omdat deelnemers in groepen zijn verdeeld.",
-      "Een tweeweginteractie tussen leeftijd en geluid, onafhankelijk van taaksoort.",
-      "Een mediatie-effect omdat leeftijd tussen geluid en taaksoort ligt."
+      "Drieweginteractie",
+      "Hoofdeffect van leeftijd",
+      "Tweeweginteractie",
+      "Mediatie-effect"
     ],
     "correct": 0,
     "explanation": "Een drieweginteractie betekent dat een tweeweginteractie afhankelijk is van het niveau van een derde factor.",
@@ -13015,10 +13015,10 @@
     "type": "toepassing",
     "prompt": "Studenten uit bestaande jaargroepen doen zowel een stille als een lawaaiige taak. Welke structuur is dit?",
     "options": [
-      "Mixed: leeftijd tussen, geluid binnen",
-      "Beide factoren binnen proefpersonen",
-      "Beide factoren tussen proefpersonen",
-      "Quasi-experiment zonder geluidsfactor"
+      "Mixed design",
+      "Within-subjects design",
+      "Between-subjects design",
+      "Quasi-experiment"
     ],
     "correct": 0,
     "explanation": "Jaargroep varieert tussen deelnemers; iedere student ervaart beide geluidscondities.",
@@ -13711,10 +13711,10 @@
     "type": "toepassing",
     "prompt": "Bij een interventiestudie start één groep direct en een tweede groep later; uiteindelijk krijgt iedereen de interventie. Welk design past?",
     "options": [
-      "Wait-list: de controlegroep krijgt de interventie later alsnog.",
-      "Een stable-baseline design, omdat iedereen op meerdere momenten wordt gemeten.",
-      "Een posttest-only gerandomiseerd experiment, omdat beide groepen behandeling ontvangen.",
-      "Een ABAB reversal design, omdat behandeling op verschillende momenten wordt gegeven."
+      "Wait-list design",
+      "Stable-baseline design",
+      "Posttest-only randomized experiment",
+      "ABAB-reversal design"
     ],
     "correct": 0,
     "explanation": "Een wachtlijst stelt de behandeling voor één groep uit zodat de perioden vergeleken kunnen worden.",
@@ -13831,10 +13831,10 @@
     "type": "toepassing",
     "prompt": "Een school met uitzonderlijk lage scores krijgt een programma; een jaar later liggen de scores dichter bij het gemiddelde. Wat is een belangrijke alternatieve verklaring?",
     "options": [
-      "Interbeoordelaarsbetrouwbaarheid, omdat meerdere klassen dezelfde toets maken.",
-      "Selectie op een extreme voormeting maakt regressie naar het gemiddelde aannemelijk.",
-      "Crossover-interactie, omdat de schoolgroep verandert.",
-      "Gemeenschappelijkheid, omdat schooldata mogelijk gedeeld worden."
+      "Interbeoordelaarsbetrouwbaarheid",
+      "Regressie naar het gemiddelde",
+      "Crossover-interactie",
+      "Gemeenschappelijkheid"
     ],
     "correct": 1,
     "explanation": "Bij selectie op extreme scores kan een volgende meting vanzelf minder extreem zijn.",
@@ -15199,10 +15199,10 @@
     "type": "vergelijking",
     "prompt": "Een team stelt zowel de ruwe dataset als de exacte vragenlijst en instructies beschikbaar. Welke transparante praktijken zijn dat?",
     "options": [
-      "Preregistratie en directe replicatie, omdat bestanden online staan.",
-      "Open data en materialen ondersteunen controle en herhaling.",
-      "Meta-analyse en open access, omdat meerdere bestanden worden gepubliceerd.",
-      "HARKing en p-hacking, omdat de analyse reproduceerbaar wordt."
+      "Preregistratie en directe replicatie",
+      "Open data en materialen",
+      "Meta-analyse en open access",
+      "HARKing en p-hacking"
     ],
     "correct": 1,
     "explanation": "Open data ondersteunen heranalyse; open materialen ondersteunen inspectie en herhaling van procedures.",
@@ -15295,10 +15295,10 @@
     "type": "casus",
     "prompt": "Een onderzoeker stelt dat een effect voor vrijwel iedereen op dezelfde manier zou moeten optreden, ook als zij met een beperkte steekproef begint. Welke aanname gebruikt zij?",
     "options": [
-      "Een random-samplingaanname: iedereen had aantoonbaar dezelfde kans om geselecteerd te worden.",
-      "Een nuleffectaanname: de onafhankelijke variabele heeft geen invloed.",
-      "Een selectiebiasaanname: de steekproef vertegenwoordigt vanzelf de populatie.",
-      "Universaliteitsaanname: mensen reageren ongeveer gelijk op dezelfde situatie."
+      "Random-samplingaanname",
+      "Nuleffectaanname",
+      "Selectiebiasaanname",
+      "Universaliteitsaanname"
     ],
     "correct": 3,
     "explanation": "Een theoretische universaliteitsaanname stelt dat een effect niet sterk van deelnemerskenmerken afhangt.",
@@ -16039,10 +16039,10 @@
     "type": "toepassing",
     "prompt": "Een onderzoeker accepteert een significante uitkomst zonder alternatieve verklaringen te controleren, maar schrijft een niet-significante uitkomst volledig toe aan toeval. Welke valkuil past?",
     "options": [
-      "Een juiste interpretatie omdat alleen niet-significante bevindingen door toeval ontstaan.",
-      "Een transparante analyse omdat elke uitkomst anders wordt verklaard.",
-      "Dubbele moraal: significantie accepteren maar nulresultaten aan toeval toeschrijven.",
-      "Een directe replicatie omdat dezelfde hypothese opnieuw wordt bekeken."
+      "Juiste interpretatie",
+      "Transparante analyse",
+      "Dubbele moraal",
+      "Directe replicatie"
     ],
     "correct": 2,
     "explanation": "Confirmation bias en hindsight bias kunnen achteraf selectieve verklaringen bevorderen; kritische normen moeten voor alle uitkomsten gelden.",
