@@ -250,6 +250,7 @@ pre{max-width:100%;overflow:auto;padding:15px;border:1px solid var(--border);bor
         <select id="bankSelector" onchange="switchBank()">
           <option value="functieleren">Functieleer</option>
           <option value="geschiedenis">Geschiedenis van de Psychologie</option>
+          <option value="methodenleer">Methodenleer</option>
         </select>
       </label>
       <div id="syncControl" class="sync-control" aria-live="polite">
@@ -1227,19 +1228,23 @@ function currentBankName(){
 async function switchBank(){
   const selected = document.getElementById("bankSelector").value;
   currentBank = selected;
-  
-  if(selected === "geschiedenis"){
+
+  if(selected === "geschiedenis" || selected === "methodenleer"){
+    const file = selected === "geschiedenis"
+      ? "geschiedenis_vragen.json"
+      : "methodenleer_vragenbank.json";
     try {
-      const response = await fetch("./geschiedenis_vragen.json", { cache: "no-store" });
-      if (!response.ok) throw new Error("Bestand niet gevonden");
-      const geschiedenisQuestions = await response.json();
-      questions = geschiedenisQuestions;
-      console.log("Geschiedenis-vraagbank geladen:", questions.length, "vragen");
+      const response = await fetch(`./${file}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`${file} niet gevonden of niet bereikbaar.`);
+      const bankQuestions = await response.json();
+      if (!Array.isArray(bankQuestions)) throw new Error(`${file} moet een JSON-array zijn.`);
+      questions = bankQuestions;
+      console.log(`${selected}-vraagbank geladen:`, questions.length, "vragen");
     } catch(error){
-      alert("Kon geschiedenis_vragen.json niet laden: " + error.message);
+      alert(`Kon de ${currentBankName()}-vraagbank niet laden: ${error.message}`);
       document.getElementById("bankSelector").value = "functieleren";
       currentBank = "functieleren";
-      return;
+      await loadQuestionsFromServer();
     }
   } else {
     // Terug naar standaard bank
