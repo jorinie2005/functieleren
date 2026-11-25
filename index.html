@@ -251,6 +251,7 @@ pre{max-width:100%;overflow:auto;padding:15px;border:1px solid var(--border);bor
           <option value="functieleren">Functieleer</option>
           <option value="geschiedenis">Geschiedenis van de Psychologie</option>
           <option value="methodenleer">Methodenleer</option>
+          <option value="persoonlijkheidspsychologie">Persoonlijkheidspsychologie</option>
         </select>
       </label>
       <div id="syncControl" class="sync-control" aria-live="polite">
@@ -551,7 +552,7 @@ pre{max-width:100%;overflow:auto;padding:15px;border:1px solid var(--border);bor
     <h2>Instellingen</h2>
     <label><input id="settingDetailed" type="checkbox" checked/> Uitgebreide uitleg tonen</label>
     <label><input id="settingShowWhyWrong" type="checkbox" checked/> Per fout alternatief uitleg tonen</label>
-    <label><input id="settingShowTips" type="checkbox" checked/> Tips, voorbeelden en ezelsbruggetjes tonen</label>
+    <label><input id="settingShowTips" type="checkbox" checked/> Voorbeelden en ezelsbruggetjes tonen</label>
     <label><input id="settingShuffleQuestions" type="checkbox" checked/> Vraagvolgorde randomiseren</label>
     <label><input id="settingConfirmAnswers" type="checkbox" checked/> Antwoord pas controleren na klikken op ‘Controleer & volgende’</label>
     <button class="btn primary" onclick="saveSettings()">Instellingen opslaan</button>
@@ -1229,10 +1230,13 @@ async function switchBank(){
   const selected = document.getElementById("bankSelector").value;
   currentBank = selected;
 
-  if(selected === "geschiedenis" || selected === "methodenleer"){
-    const file = selected === "geschiedenis"
-      ? "geschiedenis_vragen.json"
-      : "methodenleer_vragenbank.json";
+  const bankFiles = {
+    geschiedenis:"geschiedenis_vragen.json",
+    methodenleer:"methodenleer_vragenbank.json",
+    persoonlijkheidspsychologie:"persoonlijkheidspsychologie_vragenbank.json"
+  };
+  if(Object.prototype.hasOwnProperty.call(bankFiles,selected)){
+    const file = bankFiles[selected];
     try {
       const response = await fetch(`./${file}`, { cache: "no-store" });
       if (!response.ok) throw new Error(`${file} niet gevonden of niet bereikbaar.`);
@@ -1970,7 +1974,6 @@ function feedbackHtml(q,a){
     html+=`</ul>`;
   }
   if(settings.showTips){
-    if(q.tip)html+=`<p><b>Athena-tip:</b> ${escapeHtml(q.tip)}</p>`;
     if(q.example)html+=`<p><b>Voorbeeld:</b> ${escapeHtml(q.example)}</p>`;
     if(q.mnemonic)html+=`<p><b>Ezelsbruggetje:</b> ${escapeHtml(q.mnemonic)}</p>`;
   }
